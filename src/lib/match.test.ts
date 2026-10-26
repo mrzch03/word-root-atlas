@@ -1,8 +1,9 @@
 import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import prompts from '../../illustration-prompts.json';
-import { roots } from '../data';
+import { roots, rootsByHue } from '../data';
 import { rootColor, rootColors } from '../data/rootColors';
+import { originStory } from '../data/stories';
 import { inflections, lookup, normalize } from './match';
 
 describe('dataset', () => {
@@ -37,8 +38,18 @@ describe('dataset', () => {
       expect(color.accent).toMatch(/^#[0-9A-F]{6}$/);
       expect(color.deep).not.toBe(color.accent);
       expect(color.steps).toHaveLength(12);
+      expect(color.steps[8]).toBe(color.accent);
+      expect(color.steps[10]).toBe(color.deep);
       expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(true);
+      expect(existsSync(`public/thumbs/${root.id}.webp`)).toBe(true);
+      expect(originStory(root.id)?.originStory.length).toBeGreaterThan(40);
+      expect(originStory(root.id)?.sources.length).toBeGreaterThan(0);
       expect(existsSync(`public/depth/${root.id}.webp`)).toBe(true);
+    const hues = rootsByHue().map((root) => rootColor(root.id).hue);
+    for (let i = 0; i < hues.length; i += 1) {
+      const gap = (hues[(i + 1) % hues.length] - hues[i] + 360) % 360;
+      expect(gap).toBeGreaterThanOrEqual(4.5);
+    }
       for (const layer of [0, 1, 2, 3]) {
         expect(existsSync(`public/layers/${root.id}/${layer}.webp`)).toBe(true);
       }

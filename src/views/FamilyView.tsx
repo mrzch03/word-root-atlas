@@ -3,7 +3,9 @@ import { specimenNo } from '../data';
 import { rootColor } from '../data/rootColors';
 import type { Lexeme, RootEntry } from '../data/types';
 import { useCollection } from '../lib/collection';
+import { CardTitle } from '../components/CardTitle';
 import { Picture } from '../components/Picture';
+import { originStory, sourceLabel } from '../data/stories';
 import { hasScene } from '../three/registry';
 
 const DioramaCard = lazy(() => import('../components/DioramaCard'));
@@ -62,6 +64,7 @@ export function FamilyView({
   const freshWord = pending;
   const held = (word: string) => bag.has(word) && !(freshWord === word && !landed);
   const found = root.words.filter((w) => held(w.word)).length;
+  const origin = originStory(root.id);
 
   useEffect(() => {
     setLanded(ceremony !== 'B');
@@ -137,6 +140,7 @@ export function FamilyView({
         <div className={ceremony === 'A' ? 'slot intro' : 'slot'}>
           <div className={webgl ? 'plate ready' : ceremony === 'A' ? 'plate intro' : 'plate'}>
             <Picture src={`${base}illustrations/${root.id}.webp`} alt={root.artAlt} />
+            <CardTitle root={root.root} meaning={root.titleEn} />
             {!reduced && hasScene(root.id) && (
               <QuietBoundary fallback={null}>
                 <Suspense fallback={null}>
@@ -201,9 +205,26 @@ export function FamilyView({
             ))}
           </p>
         )}
-        <p className="story" lang="zh-CN">
-          {root.story}
-        </p>
+        {origin ? (
+          <section className="origin" lang="zh-CN">
+            <h2>词源故事</h2>
+            <p className="essay">{origin.originStory}</p>
+            {origin.uncertainty ? <p className="hedge">{origin.uncertainty}</p> : null}
+            <ul className="sources">
+              {origin.sources.map((url) => (
+                <li key={url}>
+                  <a href={url} target="_blank" rel="noreferrer">
+                    {sourceLabel(url)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : (
+          <p className="story" lang="zh-CN">
+            {root.story}
+          </p>
+        )}
         {lexeme && (
           <figure className="example">
             <blockquote>{lexeme.example}</blockquote>

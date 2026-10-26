@@ -4,6 +4,7 @@ import { roots, rootsByHue } from '../data';
 import { rootColor } from '../data/rootColors';
 import type { RootEntry } from '../data/types';
 import { useCollection } from '../lib/collection';
+import { CardTitle } from '../components/CardTitle';
 import { Picture } from '../components/Picture';
 
 type Sort = 'hue' | 'latin' | 'greek' | 'recent';
@@ -147,7 +148,8 @@ function AlbumCard({ root, reduced }: { root: RootEntry; reduced: boolean }) {
       onPointerLeave={leave}
     >
       <div className="thumb">
-        <Picture src={`${import.meta.env.BASE_URL}illustrations/${root.id}.webp`} alt={root.artAlt} />
+        <Picture src={`${import.meta.env.BASE_URL}thumbs/${root.id}.webp`} alt={root.artAlt} />
+        <CardTitle root={root.root} meaning={root.titleEn} />
         <span className="sheen" />
       </div>
       <span className="album-word">{latest.word}</span>

@@ -1,10 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { hasScene } from '../registry';
+import { PROCEDURAL_SCENES, hasScene } from '../registry';
 import { portScene } from './port';
 
 describe('port diorama', () => {
-  it('is a real scene, and the other roots are not yet', () => {
-    expect(hasScene('port')).toBe(true);
+  it('keeps the procedural kit in the repo, and off the card', () => {
+    expect(PROCEDURAL_SCENES).toBe(false);
+    expect(hasScene('port')).toBe(false);
     expect(hasScene('bio')).toBe(false);
     expect(portScene.pieces.map((p) => p.kind)).toEqual(
       expect.arrayContaining(['plinth', 'water', 'building', 'boat', 'dock', 'palm', 'amphora', 'figure', 'rock']),

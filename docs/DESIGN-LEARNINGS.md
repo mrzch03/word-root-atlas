@@ -79,8 +79,16 @@ Real geometry beats faking it. Depth displacement smears. Layered parallax still
 
 The camera orbits a full turn. Pitch stays between 15° and 55°. It damps, zooms within a clamp, and idles in a slow spin that stops while you drag. A phone can nudge it from the gyroscope. Light is a soft key plus a hemisphere, with PCF soft shadows and a contact blob under the plinth. Tone mapping is ACES. Colours are the port teal and the sail orange, pushed so they stay vivid. On a new root the plinth rises, then the water, the buildings, and the boat last, each springing in and developing from grey. The illustration remains the album thumbnail, and the fallback when motion is reduced or WebGL fails. three.js stays out of the first bundle.
 
-## v6 — stop the procedural kit
+## v6 — the illustration is the card
 
-A polish pass on the same `port` miniature, and then a stop. The hemisphere came down. A warmer key sits upper left, with a cool fill, a tighter PCF soft shadow, baked ambient occlusion on the boxes, and a contact blob where a building, jar, dock, or figure meets the deck. The red-orange-yellow bands became four low-chroma earth strata (stone grey-beige, muted terracotta, ochre, a thin sand cream) with pebbles on the cut. Pieces are rounded boxes: window recesses, an awning, stairs, mooring posts, a rope coil, thicker palm fronds. Buildings are smaller so the water and the boat hold the middle. Water is a shader — a transmission material on a clear canvas samples black — with a depth gradient, a moving ripple, and a specular glint. The boat bobs. The word chips are lighter and sit outside the card.
+The product is the illustration. Procedural three.js stays in the repo behind `PROCEDURAL_SCENES` and is off. Image-based 3D, when it comes back, will be a baked GLB, not another displacement of a photograph.
 
-The owner judged this look far below the illustration. Do not author the other forty-one roots as procedural kits. The orbit, the ceremonies, and the illustration fallback can stay. The next solid card should be a baked asset, from Blender or an image-to-3D GLB, not more hand-placed primitives.
+A scene must tell the root's origin story. The audit found `port` drawn as a harbour, which is the portus confusion: the ship was the hero, and the carrying disappeared. The new card is porters and amphorae. The dock is only the stage.
+
+One signature colour in a clear area per card. `accents.json` is measured from that area. Each hue is snapped onto the same OKLCH bands as before: wash at step 3, the fill at step 9, text at step 11. Yellow hues (70–115°) use a lighter fill so they do not turn olive. The title is no longer baked into the picture. It is Newsreader, top-left in the cream margin: the root large, the meaning in small caps under it, in the step-11 text colour. The same overlay sits on the album thumbnail.
+
+Avoid hue collisions in a hue-sorted album. Neighbours are eased apart until the hue gap is at least 5°, which is a minimum OKLab distance of about 0.009 between the snapped fills. The pictures themselves were separated further (neighbour ΔE at least 0.043). The album sort follows these hues.
+
+Fake 3D from one image failed. Real 3D needs real geometry. Depth displacement smeared. Layered parallax left a ghost in the hole. A hand-built miniature still did not match the illustration, so it is parked.
+
+Before and after, in hue order: [v6-before.jpg](screens/v6-before.jpg), [v6-after.jpg](screens/v6-after.jpg).
