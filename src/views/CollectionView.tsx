@@ -133,7 +133,6 @@ function AlbumCard({ root, reduced }: { root: RootEntry; reduced: boolean }) {
       <div className="tilt-card blank" style={style}>
         <div className="thumb ghost">
           <span>{root.root}</span>
-          <i />
         </div>
       </div>
     );

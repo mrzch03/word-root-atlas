@@ -14,13 +14,15 @@ An offline vocabulary atlas. Type an English word and keep the root. A new root 
 
 ![第一次打开](docs/screens/v2-discover-empty.png)
 
-![transport 的立体卡片](docs/screens/v2-discover.png)
+![transport 的立体卡片](docs/screens/v3-family.png)
 
-![把卡片转开](docs/screens/v2-rotate.png)
+![把卡片转开](docs/screens/v3-turned.png)
 
-![图鉴](docs/screens/v2-collection.png)
+![深度](docs/screens/v3-depth.png)
 
-![手机上的卡片](docs/screens/v2-discover-mobile.png)
+![图鉴](docs/screens/v3-album.png)
+
+![手机上的词族](docs/screens/v3-mobile.png)
 
 ## 屏幕
 

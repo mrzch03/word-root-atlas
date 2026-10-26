@@ -135,13 +135,11 @@ def blur_f32(values: np.ndarray, radius: float) -> np.ndarray:
     return np.asarray(img.filter(ImageFilter.GaussianBlur(radius)), np.float32) / 255.0
 
 
-def clamp_slope(depth: np.ndarray, feather: np.ndarray) -> np.ndarray:
-    for _ in range(8):
-        gy, gx = np.gradient(depth)
-        if float(np.hypot(gx, gy).max()) <= MAX_SLOPE:
-            break
-        depth = blur_f32(depth, 1.15) * (feather > 0.02)
-    return np.clip(depth, 0, 1)
+def erode_mask(mask: np.ndarray, px: int) -> np.ndarray:
+    """Shrink the silhouette so the cream fringe is not part of the object."""
+    size = max(1, px) * 2 + 1
+    img = Image.fromarray((mask.astype(np.uint8) * 255), mode="L")
+    return np.asarray(img.filter(ImageFilter.MinFilter(size))) > 127
 
 
 def relief_fallback(mask: np.ndarray) -> np.ndarray:
@@ -192,17 +190,45 @@ def infer_depth(session, image: Image.Image) -> np.ndarray:
 
 
 def shape_depth(raw: np.ndarray, obj: np.ndarray) -> np.ndarray:
+    """Keep the model's near/far contrast. A wide blur here made the card look flat."""
     vals = raw[obj]
     if vals.size < 10:
         return relief_fallback(obj)
-    lo, hi = np.percentile(vals, [6, 94])
+    lo, hi = np.percentile(vals, [4, 96])
     span = float(hi - lo) if hi > lo else 1.0
     shaped = np.clip((raw - lo) / span, 0, 1)
-    # A low plinth so the whole miniature has thickness, plus the model's relief.
-    shaped = 0.22 + 0.78 * shaped
-    feather = blur_f32(obj.astype(np.float32), 2.4)
-    shaped = shaped * feather
-    return clamp_slope(shaped, feather)
+    # Push the back wall back and leave boats / buildings forward.
+    shaped = np.power(shaped, 1.45)
+    # Taper only the last few pixels, so the silhouette has no cliff and the
+    # interior relief survives.
+    core = erode_mask(obj, 3)
+    edge = blur_f32(core.astype(np.float32), 1.1)
+    shaped = shaped * edge
+    shaped *= obj.astype(np.float32)
+    # One light pass kills single-pixel spikes without washing the relief out.
+    soft = blur_f32(shaped, 0.6)
+    soft *= obj.astype(np.float32)
+    gy, gx = np.gradient(soft)
+    steep = np.hypot(gx, gy) > MAX_SLOPE
+    soft[steep] = np.minimum(soft[steep], blur_f32(soft, 1.0)[steep])
+    return np.clip(fade_borders(soft), 0, 1)
+
+
+def fade_borders(field: np.ndarray, px: int = 14) -> np.ndarray:
+    """Scenes that touch the frame would otherwise turn as a hard rectangle."""
+    h, w = field.shape
+    y = np.minimum(np.arange(h), np.arange(h)[::-1]).astype(np.float32)
+    x = np.minimum(np.arange(w), np.arange(w)[::-1]).astype(np.float32)
+    return field * np.clip(y / px, 0, 1)[:, None] * np.clip(x / px, 0, 1)[None, :]
+
+
+def make_alpha(obj: np.ndarray) -> np.ndarray:
+    """Erode 2px to drop the light rim, then feather 2–4px. No cream halo."""
+    core = erode_mask(obj, 2)
+    soft = blur_f32(core.astype(np.float32), 1.35)
+    soft *= obj.astype(np.float32)
+    soft[: int(obj.shape[0] * 0.085), :] = 0
+    return np.clip(fade_borders(soft), 0, 1)
 
 
 def build(src: str, dst: str, session) -> str:
@@ -215,8 +241,7 @@ def build(src: str, dst: str, session) -> str:
     else:
         depth = shape_depth(infer_depth(session, full), obj)
         how = "depth-anything-v2"
-    alpha = blur_f32(obj.astype(np.float32), 0.8)
-    alpha[: int(H * 0.085), :] = 0
+    alpha = make_alpha(obj)
     rgba = np.zeros((H, W, 4), np.uint8)
     d = (np.clip(depth, 0, 1) * 255).astype(np.uint8)
     rgba[..., 0] = d

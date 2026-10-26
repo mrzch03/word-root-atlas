@@ -51,36 +51,67 @@ export function FamilyView({
   const [landed, setLanded] = useState(ceremony !== 'B');
   const [webgl, setWebgl] = useState(false);
   const base = import.meta.env.BASE_URL;
-  const found = root.words.filter((w) => bag.has(w.word)).length;
   const parts = lexeme ? splitWord(lexeme.word, root) : null;
   const freshWord = ceremony === 'B' ? lexeme?.word : null;
+  const debugDepth =
+    typeof window !== 'undefined' &&
+    new URLSearchParams(window.location.hash.split('?')[1] ?? '').get('debug') === 'depth';
+  const held = (word: string) => bag.has(word) && !(freshWord === word && !landed);
+  const found = root.words.filter((w) => held(w.word)).length;
 
   useEffect(() => {
     setLanded(ceremony !== 'B');
     if (ceremony !== 'B') return;
-    const t = window.setTimeout(() => setLanded(true), reduced ? 0 : 460);
+    const t = window.setTimeout(() => setLanded(true), reduced ? 0 : 650);
     return () => window.clearTimeout(t);
   }, [ceremony, lexeme?.word, reduced]);
 
   useEffect(() => {
-    if (ceremony !== 'B' || reduced) return;
+    if (ceremony !== 'B' || reduced || !lexeme) return;
     const input = document.getElementById('word-search');
-    const slot = document.querySelector(`[data-slot="${CSS.escape(lexeme?.word ?? '')}"]`);
-    if (!input || !slot || !lexeme) return;
+    const slot = document.querySelector(`[data-slot="${CSS.escape(lexeme.word)}"]`);
+    if (!(input instanceof HTMLInputElement) || !(slot instanceof HTMLElement)) return;
     const from = input.getBoundingClientRect();
     const to = slot.getBoundingClientRect();
+    const inputCss = getComputedStyle(input);
+    const padL = Number.parseFloat(inputCss.paddingLeft) || 0;
+    const startSize = Number.parseFloat(inputCss.fontSize) || 18;
+    const endSize = 15;
+    const scale = endSize / startSize;
     const fly = document.createElement('span');
     fly.className = 'fly';
+    fly.dataset.fly = lexeme.word;
     fly.textContent = lexeme.word;
-    fly.style.left = `${from.left + from.width / 2}px`;
-    fly.style.top = `${from.top + from.height / 2}px`;
+    fly.style.fontSize = `${startSize}px`;
+    fly.style.fontFamily = inputCss.fontFamily;
     fly.style.color = color.deep;
     document.body.appendChild(fly);
-    // Flush the start position so the left/top transition actually runs.
-    fly.getBoundingClientRect();
-    fly.style.left = `${to.left + to.width / 2}px`;
-    fly.style.top = `${to.top + to.height / 2}px`;
-    const done = window.setTimeout(() => fly.remove(), 520);
+    const wordWidth = fly.offsetWidth;
+    const wordHeight = fly.offsetHeight;
+    const sx = from.left + padL;
+    const sy = from.top + (from.height - wordHeight) / 2;
+    const ex = to.left + (to.width - wordWidth * scale) / 2;
+    const ey = to.top + (to.height - wordHeight * scale) / 2;
+    const dx = ex - sx;
+    const dy = ey - sy;
+    const arc = Math.min(28, Math.max(16, Math.abs(dy) * 0.22));
+    const over = 0.03;
+    fly.animate(
+      [
+        { transform: `translate(${sx}px, ${sy}px) scale(1)`, offset: 0 },
+        {
+          transform: `translate(${sx + dx * 0.55}px, ${sy + dy * 0.48 - arc}px) scale(${1 + (scale - 1) * 0.55})`,
+          offset: 0.58,
+        },
+        {
+          transform: `translate(${ex + dx * over}px, ${ey + dy * over}px) scale(${scale * 1.03})`,
+          offset: 0.86,
+        },
+        { transform: `translate(${ex}px, ${ey}px) scale(${scale})`, offset: 1 },
+      ],
+      { duration: 650, easing: 'linear', fill: 'forwards' },
+    );
+    const done = window.setTimeout(() => fly.remove(), 660);
     return () => {
       window.clearTimeout(done);
       fly.remove();
@@ -109,19 +140,16 @@ export function FamilyView({
                     src={`${base}illustrations/${root.id}.webp`}
                     depth={`${base}depth/${root.id}.webp`}
                     intro={ceremony === 'A'}
+                    debugDepth={debugDepth}
                   />
                 </Suspense>
               </QuietBoundary>
             )}
-            <p className={webgl ? 'plate-kicker show' : 'plate-kicker'}>
-              {root.root} · {root.titleEn}
-            </p>
           </div>
         </div>
         {root.words.map((word, i) => {
-          const on = bag.has(word.word);
           const arriving = freshWord === word.word;
-          const shown = on && (!arriving || landed);
+          const shown = held(word.word);
           const n = root.words.length;
           const angle = (i / n) * Math.PI * 2 - Math.PI / 2;
           return (
@@ -131,7 +159,7 @@ export function FamilyView({
               data-slot={word.word}
               className={shown ? (arriving ? 'tag on land' : 'tag on') : 'tag'}
               aria-current={lexeme?.word === word.word ? 'true' : undefined}
-              style={{ left: `${50 + Math.cos(angle) * 42}%`, top: `${50 + Math.sin(angle) * 40}%` }}
+              style={{ left: `${50 + Math.cos(angle) * 32}%`, top: `${50 + Math.sin(angle) * 36}%` }}
               onClick={() => onPick(word.word)}
             >
               {word.word}
@@ -141,6 +169,9 @@ export function FamilyView({
       </div>
       <div className={ceremony === 'A' && !reduced ? 'reading settle' : 'reading'}>
         <p className="eyebrow">{root.origin === 'Latin' ? '拉丁语词根' : '希腊语词根'}</p>
+        <p className={ceremony === 'A' && !reduced ? 'root-kicker settle' : 'root-kicker'}>
+          {root.root} · {root.titleEn}
+        </p>
         <h1 className="word" id="specimen-word">
           {parts ? (
             <>
@@ -178,10 +209,12 @@ export function FamilyView({
           <p className="belongs">
             <span className="pip-row" aria-hidden="true">
               {root.words.map((w) => (
-                <i key={w.word} className={bag.has(w.word) && w.word !== freshWord || (w.word === freshWord && landed) ? 'on' : ''} />
+                <i key={w.word} className={held(w.word) ? 'on' : ''} />
               ))}
             </span>
-            {found}/{root.words.length}
+            <span className={ceremony === 'B' && landed ? 'count tick' : 'count'}>
+              {found}/{root.words.length}
+            </span>
             <span className="belongs-line">
               属于词根 <em>{root.root}</em> · {root.meaningZh}
             </span>

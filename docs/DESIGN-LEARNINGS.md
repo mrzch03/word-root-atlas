@@ -42,3 +42,19 @@ Depth is made offline by [`scripts/depth_maps.py`](../scripts/depth_maps.py). De
 The opened card is a subdivided plane displaced by that map. It is lazy-loaded, and three.js is not in the first bundle. Dragging rotates the scene about ±25° in yaw and ±10° in pitch. It keeps a little inertia, then springs back to rest. A phone can steer the same rotation with the device orientation. A soft sheen drifts across the surface. On the first discovery the object rises and makes one slow sway of about 20° while the grey develops into color.
 
 The album never starts WebGL. `prefers-reduced-motion` keeps the still photograph and a fade. If the context fails, the same still is the fallback.
+
+## v3 — a tilted picture is not a diorama
+
+The first turning card still read as a photograph leaned back. Depth Anything's relief had been blurred until the boats and the back wall sat on one plane, so a drag only skewed a flat cut-out. A CSS drop-shadow drew a square around the canvas, and the matte kept a light rim. The new-word tag popped to full size in about a frame and landed on a chip that was already filled. On a wide screen the miniature was about a third of the ring, and `port · to carry` sat up against a tag. On a phone the words stacked in a column. Locked album cards were solid grey slabs.
+
+What this pass changed:
+
+- The depth map keeps the model's near/far contrast. A power curve pushes the back wall back; only the last few pixels of the silhouette are tapered. Blurring the whole relief is what made the turn look flat.
+- The opened card is a displaced mesh in a 35° camera. Dragging rotates that mesh, about ±25° yaw and ±10° pitch, and a small parallax shift slides nearer texels farther than the wall. `?debug=depth` draws the relief itself, so a turn can be checked as geometry rather than as a hunch.
+- The contact shadow is a soft ellipse on the page, under the miniature, and it slides with the yaw. The canvas has no box-shadow and no drop-shadow. The mask is eroded a couple of pixels, feathered, and faded at the frame so the cream ground is not a hard rectangle.
+- A new word's slot stays an outline until the tag lands. The flying word is the input's own glyphs, at the input's size. It arcs for 650ms and settles within a few percent. The slot then fills, a small ripple plays, and the count ticks. The collected style is not painted on the first frame.
+- The miniature is 48% of the ring, and the words sit in closer. `port · to carry` is the eyebrow above the root title, in the reading column.
+- On a narrow screen the words wrap as chips under the card, in a few rows, not a vertical list.
+- A locked album cell is blank cream, a dashed hairline, and the root in faint serif. A collected cell shows the picture.
+
+The develop from grey to colour belongs to the mesh. Showing the rectangular photograph first, then swapping in a grey model, read as a glitch. The still stays hidden until the mesh is up, and the rise, the sway, and the develop start together.

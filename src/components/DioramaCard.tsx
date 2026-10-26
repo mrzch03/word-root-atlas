@@ -11,7 +11,8 @@ const VERT = /* glsl */ `
   void main() {
     vUv = uv;
     vec4 d = texture2D(uDepth, uv);
-    vec3 p = position + normal * d.r * d.a * uAmp;
+    float dep = d.r * smoothstep(0.12, 0.5, d.a);
+    vec3 p = position + normal * dep * uAmp;
     gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);
   }
 `;
@@ -22,16 +23,49 @@ const FRAG = /* glsl */ `
   uniform sampler2D uDepth;
   uniform float uDevelop;
   uniform float uSheen;
+  uniform float uDebug;
+  uniform vec2 uTilt;
   void main() {
     float a = texture2D(uDepth, vUv).a;
-    if (a < 0.06) discard;
-    vec3 col = texture2D(uColor, vUv).rgb;
+    if (a < 0.42) discard;
+    float alpha = smoothstep(0.42, 0.78, a);
+    float dep = texture2D(uDepth, vUv).r;
+    if (uDebug > 0.5) {
+      gl_FragColor = vec4(vec3(dep), 1.0);
+      return;
+    }
+    // Parallax: nearer texels slide farther than the back wall.
+    vec2 uv = vUv - uTilt * (dep - 0.15) * 0.22;
+    uv = clamp(uv, vec2(0.002), vec2(0.998));
+    // Step inside the matte so the cream rim is not sampled.
+    uv = mix(uv, vec2(0.5), (1.0 - smoothstep(0.55, 1.0, a)) * 0.012);
+    vec3 col = texture2D(uColor, uv).rgb;
     float g = dot(col, vec3(0.299, 0.587, 0.114));
     vec3 grey = mix(vec3(0.78), vec3(g), 0.5);
     vec3 rgb = mix(grey, col, clamp(uDevelop, 0.0, 1.0));
     float band = smoothstep(0.16, 0.0, abs(vUv.x - uSheen));
-    rgb += band * 0.10 * clamp(uDevelop, 0.0, 1.0);
-    gl_FragColor = vec4(rgb, smoothstep(0.06, 0.28, a));
+    rgb += band * 0.08 * clamp(uDevelop, 0.0, 1.0);
+    gl_FragColor = vec4(rgb, alpha);
+  }
+`;
+
+const SHADOW_VERT = /* glsl */ `
+  varying vec2 vUv;
+  void main() {
+    vUv = uv;
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+  }
+`;
+
+const SHADOW_FRAG = /* glsl */ `
+  varying vec2 vUv;
+  void main() {
+    // A soft ellipse on the page, under the miniature. Not a copy of the silhouette.
+    vec2 p = (vUv - vec2(0.5, 0.58)) * vec2(1.35, 3.1);
+    float e = length(p);
+    float a = smoothstep(0.55, 0.08, e);
+    if (a < 0.02) discard;
+    gl_FragColor = vec4(0.11, 0.09, 0.07, a * 0.42);
   }
 `;
 
@@ -40,17 +74,19 @@ function clamp(v: number, a: number, b: number) {
 }
 
 /**
- * The opened card: a displaced plane you can turn ±25° / ±10°.
- * Cream ground is masked out so the miniature reads as an object.
+ * Opened card: a displaced plane, turned ±25° / ±10°.
+ * The contact shadow sits on the page and slides as the mesh turns.
  */
 export default function DioramaCard({
   src,
   depth,
   intro,
+  debugDepth = false,
 }: {
   src: string;
   depth: string;
   intro: boolean;
+  debugDepth?: boolean;
 }) {
   const host = useRef<HTMLDivElement>(null);
 
@@ -71,10 +107,11 @@ export default function DioramaCard({
     const mobile = el.clientWidth < 700;
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile ? 1.25 : 1.75));
     el.appendChild(renderer.domElement);
+    renderer.domElement.style.background = 'transparent';
 
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(28, 0.75, 0.1, 20);
-    camera.position.z = 4.4;
+    const camera = new THREE.PerspectiveCamera(35, 0.75, 0.05, 40);
+    camera.position.z = 5.35;
 
     const blank = new THREE.DataTexture(new Uint8Array([0, 0, 0, 0]), 1, 1);
     blank.needsUpdate = true;
@@ -84,14 +121,18 @@ export default function DioramaCard({
       uDevelop: { value: number };
       uAmp: { value: number };
       uSheen: { value: number };
+      uDebug: { value: number };
+      uTilt: { value: THREE.Vector2 };
     } = {
       uColor: { value: blank },
       uDepth: { value: blank },
       uDevelop: { value: intro ? 0 : 1 },
-      uAmp: { value: 0.26 },
+      uAmp: { value: 1.45 },
       uSheen: { value: 0.35 },
+      uDebug: { value: debugDepth ? 1 : 0 },
+      uTilt: { value: new THREE.Vector2() },
     };
-    const geo = new THREE.PlaneGeometry(1.5, 2, 64, 86);
+    const geo = new THREE.PlaneGeometry(1.5, 2, 80, 106);
     const mat = new THREE.ShaderMaterial({
       uniforms,
       vertexShader: VERT,
@@ -100,6 +141,20 @@ export default function DioramaCard({
       depthWrite: false,
     });
     const mesh = new THREE.Mesh(geo, mat);
+    mesh.renderOrder = 2;
+
+    const shadowGeo = new THREE.PlaneGeometry(1.85, 2.25);
+    const shadowMat = new THREE.ShaderMaterial({
+      vertexShader: SHADOW_VERT,
+      fragmentShader: SHADOW_FRAG,
+      transparent: true,
+      depthWrite: false,
+    });
+    const shadow = new THREE.Mesh(shadowGeo, shadowMat);
+    shadow.position.z = -0.55;
+    shadow.position.y = -0.95;
+    shadow.renderOrder = 1;
+    scene.add(shadow);
     scene.add(mesh);
 
     const loader = new THREE.TextureLoader();
@@ -117,9 +172,13 @@ export default function DioramaCard({
         tex.generateMipmaps = false;
         tex.minFilter = THREE.LinearFilter;
         tex.magFilter = THREE.LinearFilter;
+        tex.wrapS = THREE.ClampToEdgeWrapping;
+        tex.wrapT = THREE.ClampToEdgeWrapping;
         uniforms.uDepth.value = tex;
         depthTex = tex;
       } else {
+        tex.wrapS = THREE.ClampToEdgeWrapping;
+        tex.wrapT = THREE.ClampToEdgeWrapping;
         uniforms.uColor.value = tex;
         colorTex = tex;
       }
@@ -140,6 +199,7 @@ export default function DioramaCard({
     let ori = false;
     let oriYaw = 0;
     let oriPitch = 0;
+    const allowOri = window.matchMedia('(pointer: coarse)').matches;
 
     const resize = () => {
       const w = el.clientWidth || 1;
@@ -159,6 +219,7 @@ export default function DioramaCard({
       py = e.clientY;
       vy = 0;
       vp = 0;
+      el.setPointerCapture?.(e.pointerId);
       const DeviceOri = DeviceOrientationEvent as unknown as { requestPermission?: () => Promise<string> };
       DeviceOri.requestPermission?.().catch(() => undefined);
     };
@@ -187,6 +248,7 @@ export default function DioramaCard({
     window.addEventListener('pointerup', onUp);
 
     const onOri = (e: DeviceOrientationEvent) => {
+      if (!allowOri || (e.gamma == null && e.beta == null)) return;
       ori = true;
       oriYaw = clamp((e.gamma ?? 0) / 38, -1, 1) * MAX_YAW;
       oriPitch = clamp(((e.beta ?? 40) - 40) / 48, -1, 1) * MAX_PITCH;
@@ -203,7 +265,8 @@ export default function DioramaCard({
       last = now;
       frame = requestAnimationFrame(loop);
       if (intro && introT < 1.6) {
-        introT += dt;
+        const shown = pending.color && pending.depth && getComputedStyle(el).opacity === '1';
+        if (shown) introT += dt;
         const u = Math.min(1, introT / 1.6);
         const s = Math.sin(u * Math.PI);
         yaw = s * THREE.MathUtils.degToRad(20);
@@ -223,8 +286,11 @@ export default function DioramaCard({
         uniforms.uDevelop.value = 1;
       }
       uniforms.uSheen.value = 0.5 + Math.sin(now * 0.0014) * 0.08 + (yaw / MAX_YAW) * 0.28;
+      uniforms.uTilt.value.set(Math.sin(yaw), -Math.sin(pitch));
       mesh.rotation.y = yaw;
       mesh.rotation.x = pitch;
+      shadow.position.x = Math.sin(yaw) * 0.85;
+      shadow.position.y = -0.95 - Math.sin(pitch) * 0.2;
       renderer.render(scene, camera);
     };
     frame = requestAnimationFrame(loop);
@@ -239,6 +305,8 @@ export default function DioramaCard({
       window.removeEventListener('deviceorientation', onOri);
       geo.dispose();
       mat.dispose();
+      shadowGeo.dispose();
+      shadowMat.dispose();
       blank.dispose();
       colorTex?.dispose();
       depthTex?.dispose();
@@ -246,7 +314,7 @@ export default function DioramaCard({
       renderer.domElement.remove();
       delete el.dataset.ready;
     };
-  }, [src, depth, intro]);
+  }, [src, depth, intro, debugDepth]);
 
   return <div ref={host} className="diorama" aria-hidden="true" />;
 }

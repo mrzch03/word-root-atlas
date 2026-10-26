@@ -9,12 +9,34 @@ import { playRoot } from '../lib/sound';
 
 const HINTS = ['transport', 'biology', 'spectator'];
 
+function ceremonyFor(query: string): 'A' | 'B' | null {
+  if (!query) return null;
+  const found = lookup(query);
+  if (found.kind !== 'word') return null;
+  const word = found.hit.word.toLowerCase();
+  const raw = sessionStorage.getItem(`wra-new:${word}`);
+  if (raw) {
+    const [kind, t] = raw.split(':');
+    if ((kind === 'A' || kind === 'B') && Date.now() - Number(t) < 2500) return kind;
+    return null;
+  }
+  const prior = loadCollection();
+  if (prior[word]) return null;
+  const hadRoot = Object.values(prior).some((item) => item.rootId === found.hit.root.id);
+  return hadRoot ? 'B' : 'A';
+}
+
 export function Discover() {
   const [params, setParams] = useSearchParams();
   const query = params.get('word') ?? '';
   const [draft, setDraft] = useState(query);
   const { collect } = useCollection();
-  const [ceremony, setCeremony] = useState<'A' | 'B' | null>(null);
+  const [tracked, setTracked] = useState(query);
+  const [ceremony, setCeremony] = useState<'A' | 'B' | null>(() => ceremonyFor(query));
+  if (query !== tracked) {
+    setTracked(query);
+    setCeremony(ceremonyFor(query));
+  }
 
   useEffect(() => {
     setDraft(query);
