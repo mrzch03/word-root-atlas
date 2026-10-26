@@ -140,13 +140,15 @@ export function CollectionView() {
     setArrive(false);
     drag.current = { active: true, x: e.clientX, t: performance.now(), id: e.pointerId };
     suppress.current = false;
-    e.currentTarget.setPointerCapture(e.pointerId);
   }
 
   function onPointerMove(e: ReactPointerEvent<HTMLDivElement>) {
     if (!drag.current.active || e.pointerId !== drag.current.id) return;
     let dx = e.clientX - drag.current.x;
-    if (Math.abs(dx) > 8) suppress.current = true;
+    if (Math.abs(dx) > 8) {
+      suppress.current = true;
+      if (!e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.setPointerCapture(e.pointerId);
+    }
     const i = indexRef.current;
     const n = countRef.current;
     if ((i <= 0 && dx > 0) || (i >= n - 1 && dx < 0)) dx *= 0.28;

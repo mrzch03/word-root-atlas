@@ -346,8 +346,16 @@ img.sharp { filter: none; transform: none; }
   to { opacity: 1; transform: none; }
 }
 .journey-word .pre,
-.journey-word .post { display: inline-block; animation: peel 0.6s ease var(--peel, 340ms) forwards; }
-.journey-word .mid { display: inline-block; animation: ink-deep 0.6s ease var(--peel, 340ms) forwards; }
+.journey-word .post {
+  display: inline-block;
+  animation: peel 0.6s ease forwards;
+  animation-delay: var(--peel, 340ms);
+}
+.journey-word .mid {
+  display: inline-block;
+  animation: ink-deep 0.6s ease forwards;
+  animation-delay: var(--peel, 340ms);
+}
 @keyframes peel { to { opacity: 0.28; } }
 @keyframes ink-deep { to { color: var(--deep); } }
 .journey-route {
@@ -359,7 +367,8 @@ img.sharp { filter: none; transform: none; }
   background-repeat: repeat-y;
   background-position: center;
   clip-path: inset(0 0 100% 0);
-  animation: route-draw 0.7s ease var(--route, 400ms) both;
+  animation: route-draw 0.7s ease both;
+  animation-delay: var(--route, 400ms);
 }
 @keyframes route-draw { to { clip-path: inset(0); } }
 .journey-dest {
@@ -370,7 +379,8 @@ img.sharp { filter: none; transform: none; }
   line-height: 1;
   color: var(--deep);
   opacity: 0;
-  animation: dest-in 0.45s ease var(--dest, 860ms) both;
+  animation: dest-in 0.45s ease both;
+  animation-delay: var(--dest, 860ms);
 }
 .journey-gloss {
   margin: 6px 0 0;
@@ -380,7 +390,8 @@ img.sharp { filter: none; transform: none; }
   font-variant-caps: all-small-caps;
   color: var(--deep);
   opacity: 0;
-  animation: dest-in 0.45s ease var(--dest, 860ms) both;
+  animation: dest-in 0.45s ease both;
+  animation-delay: var(--dest, 860ms);
 }
 @keyframes dest-in {
   from { opacity: 0; transform: translateY(8px); }
@@ -675,8 +686,8 @@ img.sharp { filter: none; transform: none; }
 }
 .deck {
   --drag: 0px;
-  --peek-1: 34px;
-  --peek-2: 62px;
+  --peek-1: 52px;
+  --peek-2: 96px;
   --drop-1: 10px;
   --drop-2: 18px;
   --card-w: min(420px, 68vw, calc(58svh * 0.75));
@@ -708,7 +719,7 @@ img.sharp { filter: none; transform: none; }
       calc(var(--peek-1) * var(--q) + var(--drag) * (1 - var(--q))),
       calc(var(--drop-1) * var(--q))
     )
-    scale(calc(1 - 0.045 * var(--q)))
+    scale(calc(1 - 0.06 * var(--q)))
     rotate(calc(var(--drag) / 56px * 1deg * (1 - var(--q))));
 }
 .deck-card[data-place="1"] {
@@ -719,7 +730,7 @@ img.sharp { filter: none; transform: none; }
       calc(var(--peek-1) * (1 - var(--p))),
       calc(var(--drop-1) * (1 - var(--p)))
     )
-    scale(calc(0.955 + 0.045 * var(--p)));
+    scale(calc(0.94 + 0.06 * var(--p)));
 }
 .deck-card[data-place="2"] {
   z-index: 1;
@@ -729,7 +740,7 @@ img.sharp { filter: none; transform: none; }
       calc(var(--peek-2) * (1 - var(--p)) + var(--peek-1) * var(--p)),
       calc(var(--drop-2) * (1 - var(--p)) + var(--drop-1) * var(--p))
     )
-    scale(calc(0.91 + 0.045 * var(--p)));
+    scale(calc(0.88 + 0.06 * var(--p)));
 }
 .deck-card[data-place="-1"] {
   z-index: 5;
@@ -839,8 +850,8 @@ img.sharp { filter: none; transform: none; }
   .deck-head { align-items: flex-start; }
   .deck-tools { align-items: flex-start; }
   .deck {
-    --peek-1: 18px;
-    --peek-2: 34px;
+    --peek-1: 26px;
+    --peek-2: 48px;
     --drop-1: 8px;
     --drop-2: 14px;
     --card-w: min(320px, 74vw, calc(48svh * 0.75));
