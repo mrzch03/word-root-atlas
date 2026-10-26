@@ -1,0 +1,254 @@
+[
+  {
+    "rootId": "port",
+    "root": "port",
+    "meaning": "to carry",
+    "scene": "A small Roman harbour at warm dawn: a stone gate opens onto a quay where two porters in plain tunics carry clay amphorae up a gangplank onto a moored merchant ship, with coiled rope and a bollard, the whole model sitting on a cut stone-and-water plinth."
+  },
+  {
+    "rootId": "spect",
+    "root": "spect",
+    "meaning": "to look",
+    "scene": "An ancient hilltop watchtower of pale stone, its face pierced by a great eye-shaped lens, one cloaked observer on the balcony looking outward over cypress and dust, like a miniature observatory for the act of looking."
+  },
+  {
+    "rootId": "dict",
+    "root": "dict",
+    "meaning": "to say",
+    "scene": "A Roman forum in honey-coloured plaster light: an orator in a white toga speaks from a low rostrum, a few listeners on stone steps, and a bronze edict tablet leans against the platform."
+  },
+  {
+    "rootId": "scrib",
+    "root": "scrib",
+    "meaning": "to write",
+    "scene": "A Roman writing corner: a scribe seated at a worn stone desk, reed pen over a wax tablet, a sheet of papyrus and a clay inkpot beside a half-unrolled scroll, north light falling softly."
+  },
+  {
+    "rootId": "duc",
+    "root": "duc",
+    "meaning": "to lead",
+    "scene": "A Roman road with a milestone: a guide in a russet cloak leads two travellers, while a single aqueduct arch in the middle distance leads a thin thread of water across the view."
+  },
+  {
+    "rootId": "mit",
+    "root": "mit",
+    "meaning": "to send",
+    "scene": "A city gate at morning: a messenger in a short tunic has just been sent out, sealed wax tablet in hand, the sender still on the threshold, a little dust lifting from the road."
+  },
+  {
+    "rootId": "ject",
+    "root": "ject",
+    "meaning": "to throw",
+    "scene": "A palaestra of warm stone and raked sand: an athlete is caught mid-throw with a discus hanging in the air, a low starting line, and two tiny spectators on a step."
+  },
+  {
+    "rootId": "struct",
+    "root": "struct",
+    "meaning": "to build",
+    "scene": "Masons raising a small limestone arch: timber centering underneath, one worker setting the keystone, a plumb line, dressed blocks stacked in courses that echo the cut edge of the plinth."
+  },
+  {
+    "rootId": "tract",
+    "root": "tract",
+    "meaning": "to pull",
+    "scene": "A construction ramp: an ox and two workers draw a dressed stone block on wooden rollers with thick ropes, grooves in the dust, late ochre light."
+  },
+  {
+    "rootId": "vert",
+    "root": "vert",
+    "meaning": "to turn",
+    "scene": "A mill beside a stone channel: a wooden water-wheel caught mid-turn, paddles dark with water, a miller watching, the race curving around the plinth."
+  },
+  {
+    "rootId": "rupt",
+    "root": "rupt",
+    "meaning": "to break",
+    "scene": "A quiet Roman fragment: a stretch of wall split by one clean vertical crack through stone and plaster, and beside it a moneylender’s bench toppled and broken — the old image of banca rotta — with a few coins, no violence."
+  },
+  {
+    "rootId": "cred",
+    "root": "cred",
+    "meaning": "to believe",
+    "scene": "Two Romans clasp right hands before a small household altar, the old gesture of fides, a lit clay lamp and a promise-tablet on the table, intimate and still."
+  },
+  {
+    "rootId": "aud",
+    "root": "aud",
+    "meaning": "to hear",
+    "scene": "A small odeon: curved stone seats, one speaker standing, listeners leaning in, and at the side a clerk hearing accounts read aloud from a wax tablet."
+  },
+  {
+    "rootId": "vid",
+    "root": "vid",
+    "meaning": "to see",
+    "scene": "A Roman room opened by a tall window onto a distant aqueduct and hills, a figure just inside looking out, a linen curtain half drawn, daylight itself the subject."
+  },
+  {
+    "rootId": "pend",
+    "root": "pend",
+    "meaning": "to hang, to weigh",
+    "scene": "A market under a linen awning: a bronze balance hangs from a chain, one pan slightly lower, a plumb bob beside it, and a few clay jars of grain — hanging and weighing in one still life."
+  },
+  {
+    "rootId": "cap",
+    "root": "cap",
+    "meaning": "to take",
+    "scene": "Across a stone counter, one person sets a small sealed bundle into another’s open hands, a third object left apart on the ledge, the quiet act of receiving and setting aside."
+  },
+  {
+    "rootId": "form",
+    "root": "form",
+    "meaning": "shape",
+    "scene": "A potter’s yard: hands shaping a vessel on a low wheel, bowls of one family drying on a board, a wooden mold leaning on the wall, slip in a shallow bowl."
+  },
+  {
+    "rootId": "sent",
+    "root": "sent",
+    "meaning": "to feel",
+    "scene": "A quiet atrium: a person rests fingertips on sunlit warm stone while a second figure stands beside them in calm agreement, a shallow pool reflecting the columns."
+  },
+  {
+    "rootId": "voc",
+    "root": "voc",
+    "meaning": "to call",
+    "scene": "A herald on the steps of a basilica, one hand cupped to call, a few townspeople turning toward the voice, a posted tablet on the travertine wall, morning light."
+  },
+  {
+    "rootId": "manu",
+    "root": "manu",
+    "meaning": "hand",
+    "scene": "A workshop bench: two hands shaping a wooden piece with a plane and an awl, linen apron, curled shavings, no machines — manufacture as making by hand."
+  },
+  {
+    "rootId": "ped",
+    "root": "ped",
+    "meaning": "foot",
+    "scene": "A Roman street of basalt pavers: sandaled feet mid-step, a milestone incised with distances, and the empty pedestal of a statue so the foot and the base are the subject."
+  },
+  {
+    "rootId": "spir",
+    "root": "spir",
+    "meaning": "to breathe",
+    "scene": "The porch of a small temple at dawn: a figure’s breath just visible in cool air, a flame bending, a thin thread of incense — spirit as breath, not a ghost."
+  },
+  {
+    "rootId": "luc",
+    "root": "luc",
+    "meaning": "light",
+    "scene": "A plaster study where one clay oil lamp throws a warm pool of light across an open codex, the rest falling into soft shadow, and a tiny morning star in the window."
+  },
+  {
+    "rootId": "cord",
+    "root": "cord",
+    "meaning": "heart",
+    "scene": "An intimate Roman room: a person lays a flat hand over the heart while a scribe notes the words — to record is to bring something back to the heart — with a single coral thread on the table as the only red."
+  },
+  {
+    "rootId": "mov",
+    "root": "mov",
+    "meaning": "to move",
+    "scene": "A two-wheeled Roman cart just leaving a courtyard, one wheel turned, a mule’s head and shoulder, a draped bundle, dust and a half-open gate suggesting motion without blur."
+  },
+  {
+    "rootId": "flu",
+    "root": "flu",
+    "meaning": "to flow",
+    "scene": "Two shallow streams meet over pale pebbles and slip past a stone basin, a clay jug tipped so water flows in — a confluence, and influence as an inflow."
+  },
+  {
+    "rootId": "bene",
+    "root": "bene",
+    "meaning": "well",
+    "scene": "A doorway at dusk: a plainly cloaked benefactor sets a bowl of bread into a neighbour’s hands, a small lamp lit, no grandeur, the wish of good made domestic."
+  },
+  {
+    "rootId": "mal",
+    "root": "mal",
+    "meaning": "bad",
+    "scene": "The same kind of modest doorway, restrained and not cruel: a cracked bowl, a withered sprig set apart from sound fruit, a shutter askew — spoiling and damage, in the same clay palette as a gift."
+  },
+  {
+    "rootId": "graph",
+    "root": "graph",
+    "meaning": "to write, to draw",
+    "scene": "A Greek mason kneeling to incise letters into a pale stele, chalk guidelines still visible, chisel and mallet at rest, stone chips scattered, Mediterranean noon softened by dust."
+  },
+  {
+    "rootId": "phon",
+    "root": "phon",
+    "meaning": "sound, voice",
+    "scene": "The lower seats of a Greek theatre: a lyre on the stone, a singer standing in the orchestra circle, and two masks hung on the wall, one calm and one harsh."
+  },
+  {
+    "rootId": "log",
+    "root": "log",
+    "meaning": "word, reason",
+    "scene": "Two figures in himation seated under a stoa, turned toward each other in dialogue, a scroll half-open on the bench between them, columns receding in warm shade."
+  },
+  {
+    "rootId": "bio",
+    "root": "bio",
+    "meaning": "life",
+    "scene": "A museum-like cut of living soil: roots, a seedling, a beetle, and one butterfly, with a small Greek cup of water beside the plant, life shown as a specimen rather than a garden fantasy."
+  },
+  {
+    "rootId": "geo",
+    "root": "geo",
+    "meaning": "earth",
+    "scene": "A Greek hillside opened by the plinth: ochre, clay, and grey strata like a geological specimen, a small figure with a hammer, and a split geode showing dull crystals."
+  },
+  {
+    "rootId": "hydr",
+    "root": "hydr",
+    "meaning": "water",
+    "scene": "A Greek fountain house: a bronze lion-head spout, a woman filling a three-handled hydria, wet stone darkened by water, a shallow channel crossing the plinth."
+  },
+  {
+    "rootId": "phot",
+    "root": "phot",
+    "meaning": "light",
+    "scene": "A dim Greek room with a small aperture: a shaft of sunlight lays the bright silhouette of a sprig on the plaster wall, light writing an image, a bronze mirror catching a second glint."
+  },
+  {
+    "rootId": "chron",
+    "root": "chron",
+    "meaning": "time",
+    "scene": "A courtyard sundial on a stone block, the gnomon’s shadow exact across incised hour lines, a figure paused to read it, a wax chronicle tablet on a nearby bench."
+  },
+  {
+    "rootId": "psych",
+    "root": "psych",
+    "meaning": "soul, mind",
+    "scene": "Psyche without kitsch: a young woman in a pale chiton seated on stone, a single butterfly just lifting from her open palm, a clay lamp beside her, the Greek image of the soul."
+  },
+  {
+    "rootId": "path",
+    "root": "path",
+    "meaning": "feeling, suffering",
+    "scene": "Two draped Greek figures on a bench, one leaning in to listen, a hand light on the other’s forearm, a tragic mask set aside unworn — sympathy as feeling-with, suffering kept quiet."
+  },
+  {
+    "rootId": "phil",
+    "root": "phil",
+    "meaning": "love",
+    "scene": "A night study in Athens: a philosopher bent over a scroll by one oil lamp, a second cup waiting, an olive sprig in a small vessel, love of wisdom in an almost empty plaster room."
+  },
+  {
+    "rootId": "morph",
+    "root": "morph",
+    "meaning": "form",
+    "scene": "Metamorphosis on a stone ledge: a split chrysalis, a moth with muted clay-and-cream wings drying, the old skin beside it, a sprig of fennel, change of form with no glow."
+  },
+  {
+    "rootId": "aster",
+    "root": "aster",
+    "meaning": "star",
+    "scene": "A Hellenistic rooftop at late dusk, still lit like a warm museum model: an astronomer with a simple sighting staff, three pale stars, a small star-mark freshly painted on a tablet, and one cracked roof tile for the ill-starred."
+  },
+  {
+    "rootId": "meter",
+    "root": "meter",
+    "meaning": "measure",
+    "scene": "Two Greek figures measuring a column drum with a rod and a knotted cord, bronze calipers on the ground, the stone pavement faintly gridded, linen and warm limestone."
+  }
+]
