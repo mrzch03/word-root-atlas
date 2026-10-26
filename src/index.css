@@ -223,10 +223,28 @@ button:active:not(.tag) { transform: scale(0.97); }
   display: block;
 }
 .diorama { opacity: 0; pointer-events: auto; background: transparent; }
+.diorama[data-ready="true"] { animation: canvas-in 0.4s linear forwards; }
+@keyframes canvas-in { from { opacity: 0; } to { opacity: 1; } }
 .diorama canvas { cursor: grab; touch-action: none; background: transparent; }
 .diorama canvas:active { cursor: grabbing; }
-.plate.ready .diorama { opacity: 1; }
 .plate.ready img { opacity: 0; visibility: hidden; }
+.ring-count {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  z-index: 4;
+  margin: 0;
+  transform: translateX(-50%);
+  color: var(--deep);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--sand-1) 86%, transparent);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
 .plate img { transition: opacity 0.45s ease, filter 0.6s ease, transform 0.6s ease; }
 img.blurup { filter: blur(18px); transform: scale(1.06); }
 img.sharp { filter: none; transform: none; }
@@ -511,7 +529,11 @@ img.sharp { filter: none; transform: none; }
 }
 
 @media (max-width: 860px) {
-  .topbar { padding: 0 16px; }
+  .topbar {
+    position: relative;
+    top: auto;
+    padding: 0 16px;
+  }
   .nav-desktop { display: none; }
   .tabbar {
     display: flex;
@@ -545,7 +567,7 @@ img.sharp { filter: none; transform: none; }
   .search.compact { width: calc(100% - 32px); }
   .constellation {
     height: auto;
-    width: calc(100% - 32px);
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -559,8 +581,17 @@ img.sharp { filter: none; transform: none; }
     left: auto;
     top: auto;
     transform: none;
-    width: min(100%, 420px);
-    flex: 1 0 100%;
+    width: 85%;
+    flex: 0 0 85%;
+    max-width: 85%;
+  }
+  .ring-count {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    flex: 0 0 100%;
+    text-align: center;
   }
   .slot.intro:has(.ready) { animation-name: rise-flow; }
   @keyframes rise-flow {
@@ -594,6 +625,7 @@ img.sharp { filter: none; transform: none; }
     transition: none;
   }
   .slot.intro { opacity: 1; }
+  .diorama[data-ready="true"] { animation: none; opacity: 1; }
   .tilt-card { transform: none; }
   .fly { display: none; }
   img.blurup { filter: none; transform: none; }

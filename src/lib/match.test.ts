@@ -39,6 +39,9 @@ describe('dataset', () => {
       expect(color.steps).toHaveLength(12);
       expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(true);
       expect(existsSync(`public/depth/${root.id}.webp`)).toBe(true);
+      for (const layer of [0, 1, 2, 3]) {
+        expect(existsSync(`public/layers/${root.id}/${layer}.webp`)).toBe(true);
+      }
     }
   });
 });

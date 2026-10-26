@@ -58,3 +58,15 @@ What this pass changed:
 - A locked album cell is blank cream, a dashed hairline, and the root in faint serif. A collected cell shows the picture.
 
 The develop from grey to colour belongs to the mesh. Showing the rectangular photograph first, then swapping in a grey model, read as a glitch. The still stays hidden until the mesh is up, and the rise, the sway, and the develop start together.
+
+## v4 — depth displacement from one image smears
+
+A single displaced plane is a rubber sheet. Where the boat meets the back wall the depth jumps, and those texels stretch into a vertical smear. There is no real parallax: the boat and the wall are the same surface, so they cannot slide past each other, and the silhouette picks up a sawtooth from the grid. The honest 2.5D is layered parallax with inpainted layers, which is what a turnable card actually is.
+
+[`scripts/layers.py`](../scripts/layers.py) cuts each illustration into four flat planes with the depth map: far, ground, mid, hero. Each plane behind the front is extended under the cut-out in front of it, by dilating that plane's own colours (a TELEA fill kept painting the boat back into the hole). The alpha is eroded a pixel and feathered one or two pixels, so the cream does not fringe. The files are `public/layers/<id>/0.webp` … `3.webp`.
+
+The opened card draws those as flat planes at different z. Nothing is displaced per pixel, so a face cannot smear. Dragging yaws ±18° and pitches ±8°, with the same inertia and spring, and a phone can steer it from the device orientation. A sheen sits on the front plane only. The renderer is antialiased, premultiplied, mipmapped, and capped at a device pixel ratio of 2. The contact shadow is a light ellipse (opacity about 0.18) on the page, directly under the base, and it shifts a little against the tilt.
+
+On a new root the planes rise staggered, the base first and the hero last, 60ms apart, while each one develops from grey to colour. The canvas starts clear and the whole canvas fades in. There is no frame.
+
+A new word's chip stays an empty outline until the flying tag arrives, including the first paint. The count `n/10` sits on the ring, under the card, and ticks when the word lands. On a phone the header is fixed to the top of the viewport, and the diorama is about 85% of the width.

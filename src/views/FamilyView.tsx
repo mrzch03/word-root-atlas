@@ -48,11 +48,17 @@ export function FamilyView({
   const color = rootColor(root.id);
   const reduced =
     typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const [landed, setLanded] = useState(ceremony !== 'B');
+  const pending = ceremony === 'B' && lexeme ? lexeme.word : null;
+  const [pendingWord, setPendingWord] = useState(pending);
+  const [landed, setLanded] = useState(pending == null);
+  if (pending !== pendingWord) {
+    setPendingWord(pending);
+    setLanded(pending == null);
+  }
   const [webgl, setWebgl] = useState(false);
   const base = import.meta.env.BASE_URL;
   const parts = lexeme ? splitWord(lexeme.word, root) : null;
-  const freshWord = ceremony === 'B' ? lexeme?.word : null;
+  const freshWord = pending;
   const debugDepth =
     typeof window !== 'undefined' &&
     new URLSearchParams(window.location.hash.split('?')[1] ?? '').get('debug') === 'depth';
@@ -136,17 +142,17 @@ export function FamilyView({
             {!reduced && (
               <QuietBoundary fallback={null}>
                 <Suspense fallback={null}>
-                  <DioramaCard
-                    src={`${base}illustrations/${root.id}.webp`}
-                    depth={`${base}depth/${root.id}.webp`}
-                    intro={ceremony === 'A'}
-                    debugDepth={debugDepth}
-                  />
+                  <DioramaCard rootId={root.id} intro={ceremony === 'A'} debugDepth={debugDepth} />
                 </Suspense>
               </QuietBoundary>
             )}
           </div>
         </div>
+        <p className="ring-count">
+          <span className={ceremony === 'B' && landed ? 'count tick' : 'count'}>
+            {found}/{root.words.length}
+          </span>
+        </p>
         {root.words.map((word, i) => {
           const arriving = freshWord === word.word;
           const shown = held(word.word);
@@ -158,6 +164,7 @@ export function FamilyView({
               type="button"
               data-slot={word.word}
               className={shown ? (arriving ? 'tag on land' : 'tag on') : 'tag'}
+              data-state={shown ? 'filled' : 'empty'}
               aria-current={lexeme?.word === word.word ? 'true' : undefined}
               style={{ left: `${50 + Math.cos(angle) * 32}%`, top: `${50 + Math.sin(angle) * 36}%` }}
               onClick={() => onPick(word.word)}
