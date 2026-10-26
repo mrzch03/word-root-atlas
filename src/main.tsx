@@ -1,10 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import '@fontsource/newsreader/400.css';
-import '@fontsource/newsreader/500.css';
-import '@fontsource/newsreader/400-italic.css';
-import '@fontsource/outfit/400.css';
-import '@fontsource/outfit/500.css';
+import '@fontsource-variable/newsreader/wght.css';
+import '@fontsource-variable/newsreader/wght-italic.css';
+import '@fontsource-variable/inter/wght.css';
+import '@radix-ui/colors/sand.css';
 import { App } from './App';
 import './index.css';
 

@@ -12,7 +12,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '携带',
     origin: 'Latin',
     lemma: 'portāre',
-    palette: 'clay',
     artAlt: '罗马港口的微型模型：搬运工把双耳陶罐搬上一艘商船。',
     story:
       '拉丁语 portāre 是「携带」。货物运过一段路是 transport，消息被带回来是 report，从下面托住是 support。作品集 portfolio 原是可随身带走的一叠纸页。港口 portus 只是近亲词；画面里的码头，是「把东西搬走」发生的地方。',
@@ -38,7 +37,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '看',
     origin: 'Latin',
     lemma: 'specere',
-    palette: 'dusk',
     artAlt: '山顶石塔上有一只眼形透镜，一个披斗篷的人向外眺望。',
     story:
       'specere 是「注视」。spectacle 是值得看的场面；respect 是再看一眼而生的敬意；specimen 是拿来细看的一件样品。suspect 原是「从下往上看」，带着打量与不放心。',
@@ -64,7 +62,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '说',
     origin: 'Latin',
     lemma: 'dīcere',
-    palette: 'ochre',
     artAlt: '罗马广场上，演说者站在讲坛上发言，旁边靠着一块法令铜牌。',
     story:
       'dīcere 是「说出」。词典收集被说过的词；verdict 是 vere dictum，「说出真实」；edict 是向外颁布的话。管辖 jurisdiction 则是「对法律怎么说」。',
@@ -88,7 +85,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '写',
     origin: 'Latin',
     lemma: 'scrībere',
-    palette: 'ink',
     artAlt: '抄写人坐在石桌前，芦秆笔对着蜡板，旁边是纸莎草和半展开的卷轴。',
     story:
       '罗马人在蜡板和纸莎草上 scrībere。manuscript 是手写本，inscription 是刻进石头的字，postscript 是写完之后又添的一句。prescribe 原是「事先写好」，后来才变成医嘱与规定。',
@@ -112,7 +108,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '引导',
     origin: 'Latin',
     lemma: 'dūcere',
-    palette: 'slate',
     artAlt: '向导沿罗马道路带领旅人，远处一道渡槽拱引着细细的水流。',
     story:
       'dūcere 是「带领」。渡槽 aqueduct 把水引过来；reduce 原是「领回去」，后来才变成减少。educate 来自 ēducāre「抚育」，与 ēdūcere「领出来」同源，并不只是一个漂亮的字面比喻。',
@@ -136,7 +131,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '派遣',
     origin: 'Latin',
     lemma: 'mittere',
-    palette: 'sea',
     artAlt: '城门口，信使手持封好的蜡板刚被派出，送行的人还站在门槛上。',
     story:
       'mittere 是「派遣、送出」。mission 是被派出去的事；permit 是让其通过；missile 在成为武器之前，只是「被送出去的东西」。omit 是把某样东西从要送出的内容里放开、省去。',
@@ -162,7 +156,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '投掷',
     origin: 'Latin',
     lemma: 'iacere',
-    palette: 'clay',
     artAlt: '古体育场的沙地上，运动员正掷出铁饼，铁饼停在半空。',
     story:
       'iacere 是「扔」。project 是向前抛出的计划或影像；reject 是扔回去；object 原是被扔到面前的东西，所以既是物体，也发展出「反对」。形容词 adjective 则是「被添扔到名词旁边的词」。',
@@ -188,7 +181,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '建造',
     origin: 'Latin',
     lemma: 'struere',
-    palette: 'ochre',
     artAlt: '石匠正在砌一座小拱，木支架托着，一个人安放拱心石。',
     story:
       'struere 是「堆叠、建造」。instruct 字面是往里面搭建，把条理放进人的心里；destroy 来自 dēstruere，是把堆好的拆掉。基础设施 infrastructure 是建在下面的那一层结构。',
@@ -212,7 +204,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '拉，拖',
     origin: 'Latin',
     lemma: 'trahere',
-    palette: 'moss',
     artAlt: '一头牛和两个工人用粗绳把石块拉上施工坡道。',
     story:
       'trahere 是「拖、拉」。contract 是把双方拉到一起的约定；abstract 是把要点抽离出来；tractor 就是拉东西的机器。distract 则是把注意力拉开。',
@@ -236,7 +227,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '转动',
     origin: 'Latin',
     lemma: 'vertere',
-    palette: 'sea',
     artAlt: '水车正在转动，水槽绕着基座弯过来，磨坊主在一旁看着。',
     story:
       'vertere 是「转动」。universe 在拉丁语里是「被转成一体」的万物；anniversary 是年轮转回来的日子；controversy 是意见相向而转。vertical 来自 vertex「转点、顶点」。',
@@ -262,7 +252,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '破裂',
     origin: 'Latin',
     lemma: 'rumpere',
-    palette: 'plum',
     artAlt: '一段罗马墙被一道竖直裂缝分开，旁边是翻倒的钱商板凳和几枚钱币。',
     story:
       'rumpere 是「打破」。bankrupt 来自意大利钱商的 banca rotta：摊子被砸，人就破产了。abrupt 是被折断的，所以一条路会突然中止。corrupt 是彻底破掉、败坏。',
@@ -286,7 +275,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '相信',
     origin: 'Latin',
     lemma: 'crēdere',
-    palette: 'ochre',
     artAlt: '两个人在家祭小坛前右手相握，桌上有一盏灯和一块誓约蜡板。',
     story:
       'crēdere 是「托付信任」。credo 原是拉丁语「我相信」；credential 是让人愿意相信你的凭据；credit 曾是把钱托付给别人。握手立约，就是这支词根的老画面。',
@@ -310,7 +298,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '听',
     origin: 'Latin',
     lemma: 'audīre',
-    palette: 'dusk',
     artAlt: '小型音乐厅里，一个人在说话，听众前倾，旁边有书记员听写账目。',
     story:
       'audīre 是「听见」。audit 原是听人念账：早期账目是听审的，不是只看表格。auditorium 是为了听而建的厅。audience 既是听众，也是被允许去听、去谒见的一段时间。',
@@ -334,7 +321,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '看见',
     origin: 'Latin',
     lemma: 'vidēre',
-    palette: 'slate',
     artAlt: '罗马房间开着一扇高窗，一个人望向远处的渡槽与山丘。',
     story:
       'vidēre 是「看见」。evidence 是从眼前显现出来的东西；supervise 是从上方看着；provide 原是预先看见，因而能事先备好。advise 来自「朝向某事去看」，后来成为建议。',
@@ -360,7 +346,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '悬挂；称量',
     origin: 'Latin',
     lemma: 'pendere',
-    palette: 'ochre',
     artAlt: '市集棚下挂着一架铜天平，一只盘略低，旁边垂着铅锤。',
     story:
       'pendere 既是「挂着」，也是「称一称」。悬而未决叫 pending；把两边称到平衡是 compensate。钟摆 pendulum 把悬挂变成了时间。depend 字面是「挂在……下面」，所以也是依靠。',
@@ -386,7 +371,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '拿取',
     origin: 'Latin',
     lemma: 'capere',
-    palette: 'clay',
     artAlt: '石柜台两边，一个人把封好的小包放进另一个人张开的手里。',
     story:
       'capere 是「拿取」。concept 是被一起抓住的想法；except 是被拿出去的例外；anticipate 是 ante-「在前」加上拿取，即提前拿到。participate 是取走自己的那一份，因而成为参与。ceive / cept 是这支词根在法语和拉丁语里的不同外形。',
@@ -412,7 +396,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '形状',
     origin: 'Latin',
     lemma: 'fōrma',
-    palette: 'clay',
     artAlt: '陶工院子里，一双手在轮上塑一只陶罐，木模具靠在墙边。',
     story:
       'fōrma 是模具与外形。formula 是「小形状」，一个可以反复套用的样子。inform 原是把形状放进心里，所以是告知。platform 来自法语 plateforme，平坦的形。',
@@ -438,7 +421,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '感觉',
     origin: 'Latin',
     lemma: 'sentīre',
-    palette: 'plum',
     artAlt: '安静的中庭里，一个人把指尖放在被晒暖的石头上，另一个人站在旁边。',
     story:
       'sentīre 是「感到、察觉」。sentence 原是所感觉到的意见，后来才变成句子和判决。consent 是一起感到同一件事；consensus 是由此达成的一致。resent 是把一种感受又感觉了一遍，渐渐带上了不快。',
@@ -464,7 +446,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '呼唤',
     origin: 'Latin',
     lemma: 'vocāre',
-    palette: 'ochre',
     artAlt: '传令官站在会堂台阶上呼唤，几个人转过头来，墙上贴着告示。',
     story:
       'vocāre 是「呼叫」，vōx 是「声音」，二者同族。vocation 原是一种召唤；equivocal 是两种声音一样响，所以听不出哪边。revoke 是把已经发出的呼唤收回。',
@@ -488,7 +469,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '手',
     origin: 'Latin',
     lemma: 'manus',
-    palette: 'ink',
     artAlt: '工作台上，两只手用刨子和锥子做一件木器，刨花卷在旁边。',
     story:
       'manus 是拉丁语的「手」。manufacture 原指亲手做成。manage 从意大利语 maneggiare 来，本是用手驾驭马，后来才泛指管理。emancipate 是把人从「被手抓住的所有权」里放出来。',
@@ -512,7 +492,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '脚',
     origin: 'Latin',
     lemma: 'pēs / pous',
-    palette: 'moss',
     artAlt: '玄武岩铺的罗马街道上，一只穿凉鞋的脚正迈步，旁边是里程碑和空的雕像基座。',
     story:
       '拉丁语 pēs 与希腊语 pous 同源，都是「脚」。impede 原是给脚套上束缚；expedite 是把脚放开，事情才走得快。podium 与 pedestal 都是脚下那一块。不要和希腊语的 paidos（儿童，如 pediatric）相混。',
@@ -537,7 +516,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '呼吸',
     origin: 'Latin',
     lemma: 'spīrāre',
-    palette: 'sea',
     artAlt: '黎明的神庙门廊上，一个人呼出白气，灯火被风吹斜，一缕香气升起。',
     story:
       'spīrāre 是「呼吸」。spirit 原是气息本身，后来成为精神。inspire 是把气吹进去；expire 是把气呼完，所以既指呼气，也指到期。conspire 是凑在一起呼吸，即商量、密谋。',
@@ -561,7 +539,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '光',
     origin: 'Latin',
     lemma: 'lūx',
-    palette: 'ochre',
     artAlt: '一盏陶灯把暖光照在打开的书上，窗外有一颗很小的晨星。',
     story:
       'lūx 与 lūmen 都是光。elucidate 是把光放出来，让意思变清楚；translucent 是光能够穿过去。Lucifer 在被用来翻译另一段经文之前，只是拉丁语里的「携光者」，也就是启明星。',
@@ -585,7 +562,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '心',
     origin: 'Latin',
     lemma: 'cor',
-    palette: 'plum',
     artAlt: '罗马房间里，一个人把手放在心口，书吏在一旁记录，桌上有一根珊瑚色的线。',
     story:
       'cor 是拉丁语的「心」。record 来自 recordārī，把事情放回心里，也就是记住。courage 从「心」长出勇气。concord 是心在一起；discord 是心分开。',
@@ -609,7 +585,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '移动',
     origin: 'Latin',
     lemma: 'movēre',
-    palette: 'slate',
     artAlt: '一辆双轮罗马马车正离开院子，轮子转过，门半开着，扬起一点尘土。',
     story:
       'movēre 是「移动」。emotion 字面是被挪到外面的心情；remote 是被移到远处；automobile 是希腊语 auto-「自己」加上「会动的」。promote 是向前移动，因而有促进与晋升。',
@@ -635,7 +610,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '流动',
     origin: 'Latin',
     lemma: 'fluere',
-    palette: 'sea',
     artAlt: '两条浅溪在浅色卵石上汇合，一只陶罐倾侧，水流入石盆。',
     story:
       'fluere 是「流」。influence 原指一种流入，中古时期常用来讲星辰对人事的流入，后来才变成普通的「影响」。affluent 是财物像水一样流来；superfluous 是漫出来的，所以多余。',
@@ -659,7 +633,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '好',
     origin: 'Latin',
     lemma: 'bene',
-    palette: 'ochre',
     artAlt: '黄昏的门口，一个穿朴素斗篷的人把一碗面包递给邻居，旁边点着一盏小灯。',
     story:
       'bene 是「很好地」。benevolent 是愿望是好的；benediction 是说一句好话；benign 与 genus「生」有关，原指性情温和、来路不恶。benefit 是 bene 加上「做出」一件好事。',
@@ -683,7 +656,6 @@ export const latinRoots: RootEntry[] = [
     meaningZh: '坏',
     origin: 'Latin',
     lemma: 'malus',
-    palette: 'ink',
     artAlt: '同一类朴素门口：一只裂碗、一枝枯茎与完好的果子分开，百叶窗微微歪着。',
     story:
       'malus 是「坏的」。malevolent 与 benevolent 相对，是存着坏的愿望；malign 与 benign 共用「生」的那一支，一个温善，一个险恶。画面刻意克制：坏，在这里是损坏与变质，不是怪脸。',

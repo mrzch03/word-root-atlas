@@ -1,4 +1,4 @@
-import type { Lexeme, Morpheme, PaletteName, RootEntry } from './types';
+import type { Lexeme, Morpheme, RootEntry } from './types';
 
 /** Compact word row for contributors. Copy a neighbouring line and keep the glosses real. */
 export function w(
@@ -14,8 +14,6 @@ export function w(
   return { word, gloss, pos, parts: morphemes, example, exampleZh, also };
 }
 
-export function root(
-  entry: Omit<RootEntry, 'palette'> & { palette: PaletteName },
-): RootEntry {
+export function root(entry: RootEntry): RootEntry {
   return entry;
 }

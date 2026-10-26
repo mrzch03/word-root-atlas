@@ -12,7 +12,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '写，画',
     origin: 'Greek',
     lemma: 'graphein',
-    palette: 'ink',
     artAlt: '希腊石匠跪着往石碑上刻字母，粉笔底线还在，凿子放在一旁。',
     story:
       'graphein 是「刻、画、写」。paragraph 原是写在页边、用来标出新段的记号。graphite 是「用来写字的石头」。grammar 从 gramma「字母」来。与拉丁语 scrībere 是两条各自的「写」。',
@@ -38,7 +37,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '声音',
     origin: 'Greek',
     lemma: 'phōnē',
-    palette: 'dusk',
     artAlt: '希腊剧场的前排：一把里拉琴放在石上，歌者站在圆场中，墙上挂着两张面具。',
     story:
       'phōnē 是希腊语的「声音」。symphony 是一起发声；cacophony 是坏的声音；euphony 是好的声音。telephone 是十九世纪用希腊成分造的词：把声音送到远处。',
@@ -64,7 +62,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '话语；理性',
     origin: 'Greek',
     lemma: 'logos',
-    palette: 'ochre',
     artAlt: '柱廊下，两个披希腊长袍的人相对而坐，中间的长凳上摊着半卷书。',
     story:
       'logos 既是「词」，也是「理性」。dialogue 是话语在两个人之间穿过；apology 在希腊语里原是辩白的演说，后来才偏向道歉。catalog 是把事物一一说下来的清单。',
@@ -90,7 +87,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '生命',
     origin: 'Greek',
     lemma: 'bios',
-    palette: 'moss',
     artAlt: '切开的土层里有根、一株幼苗、一只甲虫和一只蝴蝶，旁边放着一杯水。',
     story:
       'bios 是「生命，也是活法」。biography 是把一生写下来。antibiotic 字面是对抗某种生命，指的是致病的微生物。symbiotic 是生活在一起。biology 本身是十九世纪用希腊成分造的学科名。',
@@ -114,7 +110,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '大地',
     origin: 'Greek',
     lemma: 'gē',
-    palette: 'ochre',
     artAlt: '希腊山坡被基座切开，露出赭石、黏土和灰色岩层，一个人拿着锤子，旁边有一颗剖开的晶洞。',
     story:
       'gē 是「大地」。geometry 是量地：希腊传统把几何追溯到洪水之后重新丈量田亩。geode 是大地里的一个形状，敲开才见晶体。这支词根与拉丁语 terra 指的都是土地，但是两条语言里的词。',
@@ -138,7 +133,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '水',
     origin: 'Greek',
     lemma: 'hydōr',
-    palette: 'sea',
     artAlt: '希腊泉房里，铜狮头吐出水，一个女人在往三柄水罐里灌水。',
     story:
       'hydōr 是希腊语的「水」。拉瓦锡把燃烧后能生成水的气体叫做 hydrogen，「水的产生者」。hydraulic 来自希腊的水风琴：hydōr 加水管 aulos。hydrophobia 是恐水，也是狂犬病的旧称。',
@@ -163,7 +157,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '光',
     origin: 'Greek',
     lemma: 'phōs',
-    palette: 'ochre',
     artAlt: '昏暗的希腊房间里，一束阳光从小孔进来，把一根细枝的影子投在灰泥墙上。',
     story:
       'phōs、phōtos 是希腊语的「光」，与拉丁语 lūx 各走一条河。photograph 是「用光来写」，由赫歇尔用希腊成分命名。phosphorus 是「带来光的」，白磷会在暗处发光。',
@@ -187,7 +180,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '时间',
     origin: 'Greek',
     lemma: 'khronos',
-    palette: 'slate',
     artAlt: '庭院里的日晷，晷针的影子落在刻好的时刻线上，长凳上放着一块编年蜡板。',
     story:
       'khronos 是「时间」。anachronism 是把时间放错了位置。航海用的 chronometer 把时间测准，才能算出经度：在那一段历史里，时间就是空间。synchronize 是把不同的时间对齐到一起。',
@@ -211,7 +203,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '心灵',
     origin: 'Greek',
     lemma: 'psykhē',
-    palette: 'dusk',
     artAlt: '一个穿浅色希腊长袍的女人坐在石上，一只蝴蝶正从她掌心飞起，旁边有一盏陶灯。',
     story:
       'psykhē 是气息、灵魂，在希腊图像里也是蝴蝶。神话中的普绪克（Psyche）借的就是这个词。psychology 是用它命名的对心灵的研究。psychiatry 里的 iatr 是「医治」。',
@@ -235,7 +226,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '情感；苦痛',
     origin: 'Greek',
     lemma: 'pathos',
-    palette: 'plum',
     artAlt: '石凳上两个披袍的人，一个侧身倾听，手轻轻放在另一个人手臂上，一张悲剧面具放在一旁没有戴上。',
     story:
       'pathos 既是「感受」，也是「受苦」。sympathy 是一起感受；apathy 是没有感受；pathology 研究的是身体的苦痛从何而来。empathy 是二十世纪初仿希腊成分新造的词，用来翻译「进入对方的感受」。',
@@ -259,7 +249,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '爱',
     origin: 'Greek',
     lemma: 'philos',
-    palette: 'moss',
     artAlt: '雅典的夜间书房：哲学家就着一盏油灯读卷轴，旁边还有一只空杯和一枝橄榄。',
     story:
       'philos 是「喜爱」。philosophy 不是智慧本身，而是爱智慧。Philadelphia 是「兄弟之爱」，威廉·佩恩用这个希腊词给城起了名。bibliophile 爱的是书本身，不单是阅读这件事。',
@@ -283,7 +272,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '形态',
     origin: 'Greek',
     lemma: 'morphē',
-    palette: 'moss',
     artAlt: '石台上，一只裂开的蛹旁边，蛾正晾着泥土色与米色的翅膀，旧皮还在。',
     story:
       'morphē 是「形状」。metamorphosis 是形状彻底改变，奥维德用它做了书名。amorphous 是没有形状。语素 morpheme 借用这个词，指语言里最小的那一块「形」。',
@@ -307,7 +295,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '星',
     origin: 'Greek',
     lemma: 'astēr',
-    palette: 'dusk',
     artAlt: '黄昏的屋顶上，观星的人拿着简单的观测杆，三颗淡星，蜡板上新画了一个星号，一片屋瓦裂了。',
     story:
       'astēr、astron 是「星」。disaster 来自意大利语 disastro，字面是「星不对」：古罗马传统里，灾祸与不祥的星象连在一起。asterisk 是一颗小星，用在页边呼唤你的注意。astronaut 是「星星的水手」，二十世纪的新造词。',
@@ -331,7 +318,6 @@ export const greekRoots: RootEntry[] = [
     meaningZh: '测量',
     origin: 'Greek',
     lemma: 'metron',
-    palette: 'slate',
     artAlt: '两个人用杆和结绳测量一段石柱，地上放着铜卡尺，石板地面有淡淡的格子。',
     story:
       'metron 是「尺度」。diameter 是量穿过去的那一条；symmetry 是用同一把尺子量，两边才相符。公制的米 meter，名字就来自这支希腊词根：法国大革命时期，人们想要一把属于所有人的尺子。',

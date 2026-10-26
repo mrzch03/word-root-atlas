@@ -1,15 +1,14 @@
 import { NavLink } from 'react-router-dom';
 import type { ReactNode } from 'react';
-import { useCollection } from '../lib/collection';
+import { setSoundEnabled, useSound } from '../lib/sound';
 
 const links = [
   { to: '/', label: '发现', end: true },
-  { to: '/tree', label: '词根之树', end: false },
   { to: '/collection', label: '图鉴', end: false },
 ];
 
 export function Shell({ children }: { children: ReactNode }) {
-  const bag = useCollection();
+  const sound = useSound();
   return (
     <div className="app">
       <a className="skip" href="#content">
@@ -17,19 +16,24 @@ export function Shell({ children }: { children: ReactNode }) {
       </a>
       <header className="topbar">
         <NavLink to="/" className="mark" end>
-          <span className="mark-zh">词根图鉴</span>
-          <span className="mark-en">Word Root Atlas</span>
+          Word Root Atlas
         </NavLink>
-        <nav className="nav-desktop" aria-label="主要">
+        <nav className="segment nav-desktop" aria-label="主要">
           {links.map((l) => (
             <NavLink key={l.to} to={l.to} end={l.end}>
               {l.label}
             </NavLink>
           ))}
         </nav>
-        <p className="count" aria-live="polite">
-          {bag.count === 0 ? '图鉴是空的' : `${bag.count} 词 · ${bag.rootCount} 根`}
-        </p>
+        <button
+          type="button"
+          className={sound ? 'sound on' : 'sound'}
+          aria-pressed={sound}
+          aria-label={sound ? '关闭音效' : '打开音效'}
+          onClick={() => setSoundEnabled(!sound)}
+        >
+          <Speaker muted={!sound} />
+        </button>
       </header>
       <main id="content" className="shell-main">
         {children}
@@ -37,10 +41,50 @@ export function Shell({ children }: { children: ReactNode }) {
       <nav className="tabbar" aria-label="主要">
         {links.map((l) => (
           <NavLink key={l.to} to={l.to} end={l.end}>
-            {l.label}
+            {l.label === '发现' ? <SearchIcon /> : <GridIcon />}
+            <span>{l.label}</span>
           </NavLink>
         ))}
       </nav>
     </div>
+  );
+}
+
+function Speaker({ muted }: { muted: boolean }) {
+  return (
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <path
+        d="M4 10h3l4-3v10l-4-3H4z"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      {muted ? (
+        <path d="M16 10l4 4M20 10l-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      ) : (
+        <path d="M16 9c1.2.8 1.8 1.8 1.8 3S17.2 14.2 16 15" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      )}
+    </svg>
+  );
+}
+
+function SearchIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <circle cx="11" cy="11" r="5.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M15.5 15.5L19 19" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function GridIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <rect x="4" y="4" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <rect x="13.5" y="4" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <rect x="4" y="13.5" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+    </svg>
   );
 }

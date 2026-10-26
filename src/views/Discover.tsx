@@ -1,16 +1,20 @@
-import { useEffect, useState } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
-import { atlas } from '../data';
-import { Specimen } from '../components/Specimen';
+import { useEffect, useState, type CSSProperties } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { rootColor } from '../data/rootColors';
+import { FamilyView } from './FamilyView';
 import { useCollection } from '../lib/collection';
+import { loadCollection } from '../lib/storage';
 import { EXAMPLE_WORDS, lookup } from '../lib/match';
+import { playRoot } from '../lib/sound';
+
+const HINTS = ['transport', 'biology', 'spectator'];
 
 export function Discover() {
   const [params, setParams] = useSearchParams();
   const query = params.get('word') ?? '';
   const [draft, setDraft] = useState(query);
-  const bag = useCollection();
-  const { collect } = bag;
+  const { collect } = useCollection();
+  const [ceremony, setCeremony] = useState<'A' | 'B' | null>(null);
 
   useEffect(() => {
     setDraft(query);
@@ -22,94 +26,117 @@ export function Discover() {
 
   useEffect(() => {
     const input = document.getElementById('word-search');
-    if (input instanceof HTMLInputElement && window.matchMedia('(pointer: fine)').matches && !query) {
+    if (input instanceof HTMLInputElement && !query && window.matchMedia('(pointer: fine)').matches) {
       input.focus();
     }
   }, [query]);
 
   useEffect(() => {
-    if (!query) return;
+    if (!query) {
+      setCeremony(null);
+      return;
+    }
     const found = lookup(query);
-    if (found.kind === 'word') collect(found.hit.word, found.hit.root.id);
+    if (found.kind !== 'word') {
+      setCeremony(null);
+      return;
+    }
+    const word = found.hit.word;
+    const rootId = found.hit.root.id;
+    const prior = loadCollection();
+    const hadWord = !!prior[word.toLowerCase()];
+    const hadRoot = Object.values(prior).some((item) => item.rootId === rootId);
+    const stampKey = `wra-new:${word.toLowerCase()}`;
+    if (!hadWord) {
+      const kind = hadRoot ? 'B' : 'A';
+      const already = sessionStorage.getItem(stampKey);
+      sessionStorage.setItem(stampKey, `${kind}:${Date.now()}`);
+      collect(word, rootId);
+      setCeremony(kind);
+      if (kind === 'A' && !already) playRoot(rootId);
+      return;
+    }
+    const raw = sessionStorage.getItem(stampKey);
+    if (raw) {
+      const [kind, t] = raw.split(':');
+      if ((kind === 'A' || kind === 'B') && Date.now() - Number(t) < 2500) {
+        setCeremony(kind);
+        return;
+      }
+    }
+    setCeremony(null);
   }, [query, collect]);
 
   const result = query ? lookup(query) : null;
 
-  useEffect(() => {
-    if (!query || !window.matchMedia('(max-width: 860px)').matches) return;
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    document.getElementById('result')?.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
-  }, [query]);
-
   function submit(value: string) {
     const next = value.trim();
     if (!next) return;
-    setParams(next ? { word: next } : {});
+    setParams({ word: next });
   }
 
+  const shownRoot = result?.kind === 'word' ? result.hit.root : result?.kind === 'root' ? result.root : null;
+  const sky = shownRoot ? rootColor(shownRoot.id) : null;
+
   return (
-    <div className="discover">
+    <div
+      className={sky ? 'discover washed' : 'discover'}
+      style={sky ? ({ '--sky-top': sky.skyTop, '--sky-bottom': sky.skyBottom } as CSSProperties) : undefined}
+    >
       <form
-        className={result ? 'search compact' : 'search'}
+        className={result ? 'search compact' : 'search hero'}
         role="search"
         onSubmit={(e) => {
           e.preventDefault();
           submit(draft);
         }}
       >
-        <label htmlFor="word-search">
-          <span className="kicker">发现</span>
-          <span className="search-title">输入一个英文单词</span>
+        <label className="sr-only" htmlFor="word-search">
+          输入一个英文单词
         </label>
-        <div className="search-row">
-          <input
-            id="word-search"
-            value={draft}
-            onChange={(e) => setDraft(e.target.value)}
-            placeholder="例如 transport"
-            autoCapitalize="none"
-            autoCorrect="off"
-            spellCheck={false}
-            enterKeyHint="search"
-            aria-describedby="search-hint"
-          />
-          <button type="submit">查看</button>
-        </div>
-        <p id="search-hint" className="sr-only">
-          按回车查看。大小写不限。
+        <input
+          id="word-search"
+          value={draft}
+          onChange={(e) => setDraft(e.target.value)}
+          placeholder="type any English word…"
+          autoCapitalize="none"
+          autoCorrect="off"
+          spellCheck={false}
+          enterKeyHint="search"
+          aria-describedby="search-hint"
+        />
+        {!result && (
+          <p id="search-hint" className="hint-row">
+            试试
+            {HINTS.map((word) => (
+              <button key={word} type="button" onClick={() => submit(word)}>
+                {word}
+              </button>
+            ))}
+          </p>
+        )}
+        <p id="search-hint-sr" className="sr-only">
+          按回车查看。试试 {EXAMPLE_WORDS.join('、')}。
         </p>
-        <div className="examples">
-          <span>例如</span>
-          {EXAMPLE_WORDS.map((word) => (
-            <button key={word} type="button" onClick={() => submit(word)}>
-              {word}
-            </button>
-          ))}
-        </div>
       </form>
 
-      <div className="result" id="result" aria-live="polite">
+      <div id="result">
         {result?.kind === 'word' && (
-          <Specimen
+          <FamilyView
             key={result.hit.word}
             root={result.hit.root}
             lexeme={result.hit.lexeme}
-            fresh={isFresh(bag.words[result.hit.word.toLowerCase()]?.at)}
-            onPick={(word) => submit(word)}
+            ceremony={ceremony}
+            onPick={submit}
           />
         )}
         {result?.kind === 'root' && (
-          <Specimen root={result.root} lexeme={null} onPick={(word) => submit(word)} />
+          <FamilyView root={result.root} lexeme={null} ceremony={null} onPick={submit} />
         )}
-        {result?.kind === 'miss' && <Miss query={query} suggestions={result.suggestions} onPick={(w) => submit(w)} />}
-        {!result && bag.count > 0 && <Recent />}
+        {result?.kind === 'miss' && <Miss query={query} suggestions={result.suggestions} onPick={submit} />}
       </div>
-      </div>
+    </div>
   );
-}
-
-function isFresh(at?: number) {
-  return typeof at === 'number' && Date.now() - at < 15000;
 }
 
 function Miss({
@@ -118,54 +145,27 @@ function Miss({
   onPick,
 }: {
   query: string;
-  suggestions: { word: string; lexeme: { gloss: string }; root: { root: string; meaningZh: string } }[];
+  suggestions: { word: string; lexeme: { gloss: string }; root: { root: string } }[];
   onPick: (word: string) => void;
 }) {
   return (
-    <section className="empty rise">
-      <p className="kicker">未收录</p>
-      <h2>图鉴里还没有「{query}」</h2>
-      <p>它可能只是还没被收进这本离线词库。可以从相近的词开始，或点一个例子。</p>
+    <section className="miss">
+      <h1>这个词的词根还没收进图鉴</h1>
+      <p>「{query}」不在这本离线词库里。</p>
       {suggestions.length > 0 && (
-        <ul className="suggest">
-          {suggestions.map((s) => (
+        <ul>
+          {suggestions.slice(0, 3).map((s) => (
             <li key={s.word}>
               <button type="button" onClick={() => onPick(s.word)}>
                 <strong>{s.word}</strong>
                 <span>
-                  {s.lexeme.gloss} · {s.root.root} {s.root.meaningZh}
+                  {s.lexeme.gloss} · {s.root.root}
                 </span>
               </button>
             </li>
           ))}
         </ul>
       )}
-    </section>
-  );
-}
-
-function Recent() {
-  const bag = useCollection();
-  const recent = Object.values(bag.words)
-    .sort((a, b) => b.at - a.at)
-    .slice(0, 4);
-  if (recent.length === 0) return null;
-  return (
-    <section className="recent">
-      <h2>最近收下</h2>
-      <ul>
-        {recent.map((item) => {
-          const root = atlas.byId.get(item.rootId);
-          return (
-            <li key={item.word}>
-              <Link to={`/?word=${encodeURIComponent(item.word)}`}>
-                {item.word}
-                <span>{root?.meaningZh}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
     </section>
   );
 }

@@ -1,6 +1,8 @@
+import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import prompts from '../../illustration-prompts.json';
 import { roots } from '../data';
+import { rootColor, rootColors } from '../data/rootColors';
 import { inflections, lookup, normalize } from './match';
 
 describe('dataset', () => {
@@ -26,6 +28,18 @@ describe('dataset', () => {
   it('matches illustration prompt ids', () => {
     const ids = new Set(roots.map((r) => r.id));
     expect(prompts.map((p) => p.rootId).sort()).toEqual([...ids].sort());
+  });
+
+  it('gives every root an OKLCH ramp and a picture', () => {
+    expect(Object.keys(rootColors).sort()).toEqual(roots.map((r) => r.id).sort());
+    for (const root of roots) {
+      const color = rootColor(root.id);
+      expect(color.accent).toMatch(/^#[0-9A-F]{6}$/);
+      expect(color.deep).not.toBe(color.accent);
+      expect(color.steps).toHaveLength(12);
+      expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(true);
+      expect(existsSync(`public/depth/${root.id}.webp`)).toBe(true);
+    }
   });
 });
 

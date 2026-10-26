@@ -1,15 +1,5 @@
 export type Origin = 'Latin' | 'Greek';
 
-export type PaletteName =
-  | 'clay'
-  | 'moss'
-  | 'sea'
-  | 'dusk'
-  | 'ochre'
-  | 'ink'
-  | 'plum'
-  | 'slate';
-
 export interface Morpheme {
   form: string;
   gloss: string;
@@ -43,6 +33,5 @@ export interface RootEntry {
   story: string;
   /** Alt text for the diorama, whether or not the raster has arrived. */
   artAlt: string;
-  palette: PaletteName;
   words: Lexeme[];
 }

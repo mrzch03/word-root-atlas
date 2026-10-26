@@ -1,0 +1,60 @@
+/** OKLCH ramps. Hue is sampled from each illustration's vivid accent, then snapped to the brief's lightness/chroma bands. Step 9 is fill-only; step 11 is text. */
+export interface RootColor {
+  hue: number;
+  accent: string;
+  deep: string;
+  wash: string;
+  skyTop: string;
+  skyBottom: string;
+  spark: string;
+  steps: readonly string[];
+}
+
+export const rootColors: Record<string, RootColor> = {
+  port: { hue: 223.9, accent: '#47ACCF', deep: '#005F78', wash: '#DFF4FD', skyTop: '#CCEEFC', skyBottom: '#F1F7FF', spark: '#E5B099', steps: ['#F7FBFD', '#EFF7FB', '#DFF4FD', '#D5F0FB', '#C6EAF8', '#B4E3F5', '#8FD1EA', '#69BCDB', '#47ACCF', '#3493B2', '#005F78', '#003F50'] },
+  spect: { hue: 250, accent: '#6AA3DD', deep: '#2A5885', wash: '#E5F2FF', skyTop: '#D8EAFE', skyBottom: '#F5F6FF', spark: '#DBB68D', steps: ['#F8FAFD', '#F1F6FC', '#E5F2FF', '#DCEDFE', '#CFE6FF', '#BFDEFE', '#A1CAF5', '#82B4E8', '#6AA3DD', '#568ABF', '#2A5885', '#173A5C'] },
+  dict: { hue: 26.8, accent: '#D8847B', deep: '#80403A', wash: '#FFEBE8', skyTop: '#FFE0DB', skyBottom: '#FFF5ED', spark: '#87CBD4', steps: ['#FDF9F8', '#FDF3F2', '#FFEBE8', '#FEE3E0', '#FED9D4', '#FDCDC7', '#F3B4AC', '#E49990', '#D8847B', '#BA6E66', '#80403A', '#572723'] },
+  scrib: { hue: 261.7, accent: '#7A9EE0', deep: '#395487', wash: '#E9F1FF', skyTop: '#DCE9FF', skyBottom: '#F7F5FF', spark: '#D5BA8A', steps: ['#F8FAFE', '#F2F6FD', '#E9F1FF', '#E0EBFE', '#D5E4FE', '#C8DBFD', '#ABC7F7', '#8FB0EA', '#7A9EE0', '#6586C1', '#395487', '#22375D'] },
+  duc: { hue: 182.9, accent: '#40B4A4', deep: '#026359', wash: '#DFF6F2', skyTop: '#CCF1EA', skyBottom: '#ECFAFD', spark: '#E5ABB9', steps: ['#F7FBFA', '#EFF8F6', '#DFF6F2', '#D4F2EC', '#C6EDE6', '#B2E7DD', '#8DD6CA', '#65C3B5', '#40B4A4', '#2C998C', '#026359', '#00423B'] },
+  mit: { hue: 78.7, accent: '#D5A960', deep: '#704E08', wash: '#F9EFDE', skyTop: '#F7E5CB', skyBottom: '#F7F8EC', spark: '#A3BFEB', steps: ['#FCFAF6', '#F9F5EE', '#F9EFDE', '#F6E9D3', '#F3E1C5', '#EED7B2', '#E0C18E', '#CFA96A', '#D5A960', '#A67F3B', '#704E08', '#4C3200'] },
+  ject: { hue: 111.1, accent: '#B4B866', deep: '#585A12', wash: '#F0F2DF', skyTop: '#E8EBCD', skyBottom: '#F1F9F0', spark: '#BDB6E8', steps: ['#FAFAF7', '#F6F6EF', '#F0F2DF', '#EBEDD5', '#E4E6C7', '#DBDEB5', '#C7CB92', '#B2B570', '#B4B866', '#898C41', '#585A12', '#3A3B04'] },
+  struct: { hue: 251.7, accent: '#6CA2DE', deep: '#2C5785', wash: '#E6F2FF', skyTop: '#D8EAFE', skyBottom: '#F5F6FF', spark: '#DAB78C', steps: ['#F8FAFD', '#F1F6FD', '#E6F2FF', '#DCECFF', '#D0E6FF', '#C0DDFE', '#A2CAF6', '#84B4E9', '#6CA2DE', '#588AC0', '#2C5785', '#19395C'] },
+  tract: { hue: 115.7, accent: '#9BA657', deep: '#535B17', wash: '#EFF3E0', skyTop: '#E6ECCE', skyBottom: '#F1FAF1', spark: '#C1B5E7', steps: ['#FAFBF7', '#F5F7EF', '#EFF3E0', '#E9EED6', '#E1E7C8', '#D8DFB6', '#C3CC94', '#ADB772', '#9BA657', '#838D44', '#535B17', '#363C07'] },
+  vert: { hue: 124.9, accent: '#90AA5F', deep: '#4A5E20', wash: '#ECF3E1', skyTop: '#E2EDD0', skyBottom: '#EFFAF2', spark: '#C8B3E3', steps: ['#F9FBF7', '#F4F7F0', '#ECF3E1', '#E5EFD8', '#DDE9CB', '#D2E1BA', '#BBCF99', '#A2BA79', '#90AA5F', '#79904C', '#4A5E20', '#2F3E0F'] },
+  rupt: { hue: 46, accent: '#D48965', deep: '#7D4427', wash: '#FFECE3', skyTop: '#FEE1D3', skyBottom: '#FDF6EC', spark: '#8DC8E0', steps: ['#FDF9F7', '#FCF4F0', '#FFECE3', '#FEE5D9', '#FCDBCC', '#FAD0BC', '#F0B79D', '#E19D7E', '#D48965', '#B77352', '#7D4427', '#562A15'] },
+  cred: { hue: 77.2, accent: '#D6A860', deep: '#714E09', wash: '#FAEEDE', skyTop: '#F7E5CB', skyBottom: '#F8F8EC', spark: '#A1C0EB', steps: ['#FCFAF6', '#FAF5EE', '#FAEEDE', '#F7E8D3', '#F3E0C5', '#EFD6B2', '#E1C08F', '#D0A86B', '#D6A860', '#A77E3C', '#714E09', '#4C3200'] },
+  aud: { hue: 313.8, accent: '#B68BCC', deep: '#674578', wash: '#F6ECFC', skyTop: '#F2E1FB', skyBottom: '#FFF3F9', spark: '#ACC89A', steps: ['#FBF9FC', '#F8F4FB', '#F6ECFC', '#F2E5FA', '#EEDCF7', '#E7D0F4', '#D8B8E8', '#C59ED9', '#B68BCC', '#9B74B0', '#674578', '#452C52'] },
+  vid: { hue: 79.3, accent: '#D5A960', deep: '#704E08', wash: '#F9EFDE', skyTop: '#F6E5CB', skyBottom: '#F7F8EC', spark: '#A3BFEB', steps: ['#FCFAF6', '#F9F5EE', '#F9EFDE', '#F6E9D3', '#F3E1C5', '#EED7B2', '#E0C18E', '#CFA96A', '#D5A960', '#A67F3B', '#704E08', '#4B3300'] },
+  pend: { hue: 186.9, accent: '#3DB3A9', deep: '#00635D', wash: '#DEF6F3', skyTop: '#CBF1EC', skyBottom: '#ECFAFD', spark: '#E6ABB6', steps: ['#F7FBFB', '#EFF8F7', '#DEF6F3', '#D4F2EE', '#C5EDE8', '#B1E6E0', '#8CD6CE', '#63C3B9', '#3DB3A9', '#289990', '#00635D', '#00423D'] },
+  cap: { hue: 32.7, accent: '#D78574', deep: '#804134', wash: '#FFEBE7', skyTop: '#FFE0D9', skyBottom: '#FFF5ED', spark: '#88CAD8', steps: ['#FDF9F8', '#FCF3F1', '#FFEBE7', '#FEE4DE', '#FEDAD2', '#FCCEC3', '#F2B5A7', '#E49A8A', '#D78574', '#BA6F60', '#804134', '#57281F'] },
+  form: { hue: 174, accent: '#4AB499', deep: '#036452', wash: '#E0F6EF', skyTop: '#CEF1E6', skyBottom: '#ECFAFB', spark: '#E3ACC1', steps: ['#F7FBFA', '#EFF8F5', '#E0F6EF', '#D6F2E9', '#C8EDE1', '#B5E7D7', '#92D6C2', '#6CC3AB', '#4AB499', '#379982', '#036452', '#004335'] },
+  sent: { hue: 28.9, accent: '#D88578', deep: '#804037', wash: '#FFEBE8', skyTop: '#FFE0DB', skyBottom: '#FFF5ED', spark: '#87CBD6', steps: ['#FDF9F8', '#FCF3F2', '#FFEBE8', '#FEE4DF', '#FEDAD3', '#FDCDC6', '#F3B4AA', '#E4998E', '#D88578', '#BA6F64', '#804037', '#572822'] },
+  voc: { hue: 88.7, accent: '#CCAE5E', deep: '#6A5205', wash: '#F7F0DE', skyTop: '#F3E7CA', skyBottom: '#F5F8ED', spark: '#ABBDEC', steps: ['#FBFAF6', '#F8F6EE', '#F7F0DE', '#F3EAD3', '#EFE2C4', '#E9D9B1', '#DAC48E', '#C7AD69', '#CCAE5E', '#9E8339', '#6A5205', '#473500'] },
+  manu: { hue: 31.4, accent: '#D88576', deep: '#804035', wash: '#FFEBE7', skyTop: '#FFE0DA', skyBottom: '#FFF5ED', spark: '#87CAD8', steps: ['#FDF9F8', '#FCF3F2', '#FFEBE7', '#FEE4DE', '#FEDAD2', '#FCCEC4', '#F2B4A8', '#E49A8B', '#D88576', '#BA6F61', '#804035', '#572820'] },
+  ped: { hue: 97.1, accent: '#C4B160', deep: '#635506', wash: '#F5F1DE', skyTop: '#EFE9CB', skyBottom: '#F4F9EE', spark: '#B2BAEB', steps: ['#FBFAF6', '#F7F6EE', '#F5F1DE', '#F0EBD3', '#EBE4C5', '#E4DBB2', '#D3C78E', '#C0B06A', '#C4B160', '#97863A', '#635506', '#423700'] },
+  spir: { hue: 243.8, accent: '#61A5DB', deep: '#205A83', wash: '#E3F2FF', skyTop: '#D5EBFE', skyBottom: '#F4F6FF', spark: '#DEB58F', steps: ['#F7FBFD', '#F0F7FC', '#E3F2FF', '#D9EEFF', '#CCE7FE', '#BCDFFC', '#9CCCF3', '#7CB6E6', '#61A5DB', '#4E8CBD', '#205A83', '#0F3B5A'] },
+  luc: { hue: 78, accent: '#D6A960', deep: '#704E09', wash: '#FAEFDE', skyTop: '#F7E5CB', skyBottom: '#F7F8EC', spark: '#A2C0EB', steps: ['#FCFAF6', '#FAF5EE', '#FAEFDE', '#F7E8D3', '#F3E0C5', '#EFD6B2', '#E1C08F', '#D0A86B', '#D6A960', '#A77E3B', '#704E09', '#4C3200'] },
+  cord: { hue: 31, accent: '#D88576', deep: '#804035', wash: '#FFEBE7', skyTop: '#FFE0DA', skyBottom: '#FFF5ED', spark: '#87CAD7', steps: ['#FDF9F8', '#FCF3F2', '#FFEBE7', '#FEE4DE', '#FEDAD3', '#FCCDC4', '#F2B4A8', '#E49A8C', '#D88576', '#BA6F61', '#804035', '#572820'] },
+  mov: { hue: 317.5, accent: '#B989C9', deep: '#6A4476', wash: '#F7EBFB', skyTop: '#F3E0FA', skyBottom: '#FFF3F9', spark: '#A8C99D', steps: ['#FBF9FC', '#F9F4FA', '#F7EBFB', '#F4E4F9', '#EFDBF6', '#EACFF2', '#DAB7E6', '#C89DD6', '#B989C9', '#9E73AD', '#6A4476', '#472B50'] },
+  flu: { hue: 218.6, accent: '#41AECA', deep: '#065F73', wash: '#DFF5FC', skyTop: '#CBEFFA', skyBottom: '#F1F8FF', spark: '#E6AF9D', steps: ['#F7FBFC', '#EFF8FA', '#DFF5FC', '#D4F0F9', '#C5EBF6', '#B2E4F3', '#8DD2E7', '#65BED7', '#41AECA', '#2E94AE', '#065F73', '#003F4E'] },
+  bene: { hue: 63.9, accent: '#CC9055', deep: '#774915', wash: '#FDEDDF', skyTop: '#FCE3CD', skyBottom: '#FAF7EC', spark: '#97C3E8', steps: ['#FDF9F7', '#FBF4EF', '#FDEDDF', '#FAE7D5', '#F8DEC7', '#F5D3B5', '#E9BC93', '#D9A371', '#CC9055', '#AF7943', '#774915', '#512F06'] },
+  mal: { hue: 290, accent: '#9D93DB', deep: '#554C84', wash: '#EFEEFE', skyTop: '#E7E4FF', skyBottom: '#FBF4FD', spark: '#C0C28E', steps: ['#FAFAFD', '#F5F5FC', '#EFEEFE', '#EAE7FF', '#E2DFFE', '#D9D5FD', '#C4BEF4', '#AEA6E6', '#9D93DB', '#857CBD', '#554C84', '#38315A'] },
+  graph: { hue: 36.3, accent: '#D78670', deep: '#7F4130', wash: '#FEEBE6', skyTop: '#FEE0D8', skyBottom: '#FEF5EC', spark: '#89CADB', steps: ['#FDF9F8', '#FCF4F1', '#FEEBE6', '#FFE4DC', '#FEDAD0', '#FCCEC1', '#F2B5A4', '#E39B87', '#D78670', '#B9705C', '#7F4130', '#57291C'] },
+  phon: { hue: 242.8, accent: '#60A6DA', deep: '#1F5A83', wash: '#E3F2FF', skyTop: '#D4EBFE', skyBottom: '#F4F6FF', spark: '#DFB48F', steps: ['#F7FBFD', '#F0F7FC', '#E3F2FF', '#D9EEFF', '#CCE7FE', '#BBDFFC', '#9BCCF3', '#7AB7E5', '#60A6DA', '#4D8DBC', '#1F5A83', '#0D3B5A'] },
+  log: { hue: 149.6, accent: '#6DB17B', deep: '#2B6339', wash: '#E5F5E7', skyTop: '#D6F0DA', skyBottom: '#EDFAF7', spark: '#D8AED4', steps: ['#F8FBF8', '#F1F8F2', '#E5F5E7', '#DCF1DF', '#D1ECD5', '#C2E5C7', '#A4D4AC', '#85C090', '#6DB17B', '#599766', '#2B6339', '#184223'] },
+  bio: { hue: 352.6, accent: '#D182A5', deep: '#7B3E5A', wash: '#FFEAF2', skyTop: '#FFDDEA', skyBottom: '#FFF4F3', spark: '#8ECDB9', steps: ['#FDF9FA', '#FCF3F6', '#FFEAF2', '#FDE2EC', '#FBD8E6', '#F8CCDD', '#EDB2CA', '#DE97B5', '#D182A5', '#B46D8C', '#7B3E5A', '#54273B'] },
+  geo: { hue: 231.1, accent: '#50AAD4', deep: '#025D7E', wash: '#E0F4FE', skyTop: '#CEEDFE', skyBottom: '#F2F7FF', spark: '#E3B195', steps: ['#F7FBFD', '#EFF7FB', '#E0F4FE', '#D6EFFC', '#C8E9FB', '#B6E1F8', '#93CFEE', '#6FBADF', '#50AAD4', '#3D90B6', '#025D7E', '#003E56'] },
+  hydr: { hue: 181.9, accent: '#41B4A3', deep: '#046358', wash: '#DFF6F1', skyTop: '#CCF1EA', skyBottom: '#ECFAFD', spark: '#E5ABBA', steps: ['#F7FBFA', '#EFF8F6', '#DFF6F1', '#D4F2EC', '#C6EDE5', '#B3E7DD', '#8ED6C9', '#66C3B4', '#41B4A3', '#2D998A', '#046358', '#00423A'] },
+  phot: { hue: 89.3, accent: '#CCAE5E', deep: '#695205', wash: '#F7F0DE', skyTop: '#F2E7CA', skyBottom: '#F5F8ED', spark: '#ABBCEC', steps: ['#FBFAF6', '#F8F6EE', '#F7F0DE', '#F3EAD3', '#EEE3C4', '#E9D9B1', '#D9C48E', '#C7AD69', '#CCAE5E', '#9E8339', '#695205', '#473500'] },
+  chron: { hue: 245, accent: '#63A5DB', deep: '#225984', wash: '#E4F2FE', skyTop: '#D5EBFF', skyBottom: '#F4F6FF', spark: '#DEB58E', steps: ['#F7FAFD', '#F0F7FC', '#E4F2FE', '#DAEDFF', '#CDE7FE', '#BDDFFD', '#9DCCF4', '#7DB6E6', '#63A5DB', '#508CBD', '#225984', '#103B5A'] },
+  psych: { hue: 302.3, accent: '#AB8ED5', deep: '#5F487E', wash: '#F3EDFF', skyTop: '#EDE2FF', skyBottom: '#FDF3FB', spark: '#B6C593', steps: ['#FBF9FD', '#F7F4FC', '#F3EDFF', '#EEE6FD', '#E8DDFB', '#E1D2F9', '#CFBBEF', '#BAA2E0', '#AB8ED5', '#9177B7', '#5F487E', '#3F2E57'] },
+  path: { hue: 92.7, accent: '#C8AF5F', deep: '#675305', wash: '#F6F0DE', skyTop: '#F1E8CA', skyBottom: '#F5F9EE', spark: '#AEBBEC', steps: ['#FBFAF6', '#F8F6EE', '#F6F0DE', '#F2EAD3', '#EDE3C4', '#E7DAB1', '#D6C58E', '#C4AE69', '#C8AF5F', '#9B843A', '#675305', '#453600'] },
+  phil: { hue: 18.9, accent: '#D88385', deep: '#803F41', wash: '#FFEBEA', skyTop: '#FFDFDF', skyBottom: '#FFF4EF', spark: '#86CCCF', steps: ['#FDF9F9', '#FDF3F3', '#FFEBEA', '#FEE3E3', '#FED9D8', '#FDCCCC', '#F3B3B3', '#E49898', '#D88385', '#BA6D6F', '#803F41', '#572729'] },
+  morph: { hue: 231.5, accent: '#51AAD4', deep: '#045D7E', wash: '#E0F4FE', skyTop: '#CEEDFE', skyBottom: '#F2F7FF', spark: '#E3B295', steps: ['#F7FBFD', '#EFF7FB', '#E0F4FE', '#D6EFFD', '#C8E9FB', '#B6E1F8', '#94CFEE', '#6FBAE0', '#51AAD4', '#3E90B7', '#045D7E', '#003E56'] },
+  aster: { hue: 263, accent: '#7C9EE0', deep: '#3A5487', wash: '#E9F0FF', skyTop: '#DCE8FF', skyBottom: '#F7F5FF', spark: '#D4BA8A', steps: ['#F8FAFE', '#F2F6FD', '#E9F0FF', '#E1EBFE', '#D6E4FE', '#C8DBFD', '#ACC6F7', '#91B0EB', '#7C9EE0', '#6785C1', '#3A5487', '#24375D'] },
+  meter: { hue: 140.3, accent: '#7AAF70', deep: '#386130', wash: '#E8F5E5', skyTop: '#DAEFD6', skyBottom: '#EDFAF5', spark: '#D2B0DA', steps: ['#F8FBF8', '#F2F8F1', '#E8F5E5', '#E0F0DC', '#D5EBD0', '#C7E4C1', '#ACD2A4', '#90BE87', '#7AAF70', '#65955C', '#386130', '#22411B'] },
+};
+
+export function rootColor(id: string): RootColor {
+  return rootColors[id] ?? rootColors.port;
+}

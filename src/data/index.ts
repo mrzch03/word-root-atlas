@@ -1,5 +1,6 @@
 import { greekRoots } from './greek';
 import { latinRoots } from './latin';
+import { rootColor } from './rootColors';
 import type { Lexeme, RootEntry } from './types';
 
 export const roots: RootEntry[] = [...latinRoots, ...greekRoots];
@@ -40,9 +41,13 @@ export function buildIndex(list: RootEntry[]): AtlasIndex {
 
 export const atlas = buildIndex(roots);
 
+export function rootsByHue(): RootEntry[] {
+  return [...roots].sort((a, b) => rootColor(a.id).hue - rootColor(b.id).hue || a.id.localeCompare(b.id));
+}
+
 export function specimenNo(id: string): string {
-  const i = roots.findIndex((r) => r.id === id);
-  return String(Math.max(1, i + 1)).padStart(3, '0');
+  const i = rootsByHue().findIndex((r) => r.id === id);
+  return `${String(Math.max(1, i + 1)).padStart(2, '0')} / ${String(roots.length).padStart(2, '0')}`;
 }
 
 export function originZh(origin: RootEntry['origin']): string {
