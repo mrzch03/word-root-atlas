@@ -70,3 +70,11 @@ The opened card draws those as flat planes at different z. Nothing is displaced 
 On a new root the planes rise staggered, the base first and the hero last, 60ms apart, while each one develops from grey to colour. The canvas starts clear and the whole canvas fades in. There is no frame.
 
 A new word's chip stays an empty outline until the flying tag arrives, including the first paint. The count `n/10` sits on the ring, under the card, and ticks when the word lands. On a phone the header is fixed to the top of the viewport, and the diorama is about 85% of the width.
+
+## v5 — a single image cannot be honestly turned
+
+Real geometry beats faking it. Depth displacement smears. Layered parallax still left a boat-shaped ghost in the hole, cardboard edges, and a fringe, because every plane was a slice of the same photograph. A turnable card has to be built.
+
+`port` is a miniature in three.js: a beveled plinth with soil strata on the cut, a volume of water with a deep side and a rippled surface, whitewashed blocks, a dock, a palm, amphorae, a tiny figure, and a boat with an orange lateen sail. The pieces are a kit in `src/three/kit/`. The arrangement is data, `src/three/scenes/port.ts`, so the other forty-one can be authored the same way. They still show the illustration until they have a scene.
+
+The camera orbits a full turn. Pitch stays between 15° and 55°. It damps, zooms within a clamp, and idles in a slow spin that stops while you drag. A phone can nudge it from the gyroscope. Light is a soft key plus a hemisphere, with PCF soft shadows and a contact blob under the plinth. Tone mapping is ACES. Colours are the port teal and the sail orange, pushed so they stay vivid. On a new root the plinth rises, then the water, the buildings, and the boat last, each springing in and developing from grey. The illustration remains the album thumbnail, and the fallback when motion is reduced or WebGL fails. three.js stays out of the first bundle.

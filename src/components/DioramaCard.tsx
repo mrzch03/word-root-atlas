@@ -1,77 +1,66 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
+import { createPiece } from '../three/kit';
+import { develop } from '../three/kit/materials';
+import { shadowTexture } from '../three/kit/geom';
+import { portPalette, portScene } from '../three/scenes/port';
+import type { DioramaScene, ScenePiece } from '../three/scenes/types';
 
-const MAX_YAW = THREE.MathUtils.degToRad(18);
-const MAX_PITCH = THREE.MathUtils.degToRad(8);
-/** Far → near. Flat planes, no per-pixel displacement. */
-const LAYER_Z = [-0.46, -0.12, 0.24, 0.62];
+const PITCH_MIN = THREE.MathUtils.degToRad(15);
+const PITCH_MAX = THREE.MathUtils.degToRad(55);
+const PITCH_HOME = THREE.MathUtils.degToRad(34);
+const RADIUS_HOME = 11.2;
+const RADIUS_MIN = 8.4;
+const RADIUS_MAX = 15;
+const INTRO_YAW = -2.55;
 
-const VERT = /* glsl */ `
-  varying vec2 vUv;
-  void main() {
-    vUv = uv;
-    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-  }
-`;
-
-const FRAG = /* glsl */ `
-  varying vec2 vUv;
-  uniform sampler2D uMap;
-  uniform float uDevelop;
-  uniform float uSheen;
-  uniform float uShow;
-  uniform float uDebug;
-  uniform vec3 uTint;
-  void main() {
-    vec4 tex = texture2D(uMap, vUv);
-    float a = tex.a * uShow;
-    if (a < 0.02) discard;
-    vec3 col = tex.rgb / max(tex.a, 1e-3);
-    if (uDebug > 0.5) {
-      gl_FragColor = vec4(uTint, a);
-      return;
-    }
-    float g = dot(col, vec3(0.299, 0.587, 0.114));
-    vec3 grey = mix(vec3(0.78), vec3(g), 0.5);
-    vec3 rgb = mix(grey, col, clamp(uDevelop, 0.0, 1.0));
-    float band = smoothstep(0.14, 0.0, abs(vUv.x - uSheen));
-    rgb += band * 0.07 * clamp(uDevelop, 0.0, 1.0);
-    gl_FragColor = vec4(rgb * a, a);
-  }
-`;
-
-const SHADOW_FRAG = /* glsl */ `
-  varying vec2 vUv;
-  void main() {
-    vec2 p = (vUv - vec2(0.5, 0.5)) * vec2(1.15, 2.6);
-    float a = smoothstep(0.52, 0.05, length(p));
-    if (a < 0.02) discard;
-    gl_FragColor = vec4(0.16, 0.13, 0.10, a * 0.18);
-  }
-`;
+const SCENES: Record<string, DioramaScene> = { port: portScene };
 
 function clamp(v: number, a: number, b: number) {
   return Math.max(a, Math.min(b, v));
 }
 
+/** Bounce that stays in 0..1, so a falling piece never goes through the floor. */
+function bounceOut(t: number) {
+  const n1 = 7.5625;
+  const d1 = 2.75;
+  if (t < 1 / d1) return n1 * t * t;
+  if (t < 2 / d1) return n1 * (t -= 1.5 / d1) * t + 0.75;
+  if (t < 2.5 / d1) return n1 * (t -= 2.25 / d1) * t + 0.9375;
+  return n1 * (t -= 2.625 / d1) * t + 0.984375;
+}
+
+function placeCamera(camera: THREE.PerspectiveCamera, yaw: number, pitch: number, radius: number, look: THREE.Vector3) {
+  const c = Math.cos(pitch);
+  camera.position.set(radius * c * Math.sin(yaw), radius * Math.sin(pitch), radius * c * Math.cos(yaw));
+  camera.lookAt(look);
+}
+
+interface RigPiece {
+  group: THREE.Group;
+  rest: THREE.Vector3;
+  delay: number;
+  intro: 'rise' | 'drop' | 'fill';
+  bob: boolean;
+}
+
+function introOf(piece: ScenePiece): RigPiece['intro'] {
+  if (piece.kind === 'plinth') return 'rise';
+  if (piece.kind === 'water') return 'fill';
+  return 'drop';
+}
+
 /**
- * Opened card: four flat planes at different depths.
- * Drag yaws ±18° and pitches ±8°. Nothing is displaced per pixel.
+ * A real miniature, for the roots that have one.
+ * Drag orbits a full turn. Pitch stays between 15° and 55°.
  */
-export default function DioramaCard({
-  rootId,
-  intro,
-  debugDepth = false,
-}: {
-  rootId: string;
-  intro: boolean;
-  debugDepth?: boolean;
-}) {
+export default function DioramaCard({ rootId, intro }: { rootId: string; intro: boolean }) {
   const host = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const el = host.current;
-    if (!el) return;
+    const sceneDef = SCENES[rootId];
+    if (!el || !sceneDef) return;
     let disposed = false;
 
     const renderer = new THREE.WebGLRenderer({
@@ -81,104 +70,108 @@ export default function DioramaCard({
       powerPreference: 'high-performance',
     });
     renderer.setClearColor(0x000000, 0);
-    renderer.outputColorSpace = THREE.SRGBColorSpace;
-    renderer.toneMapping = THREE.NoToneMapping;
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.08;
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     el.appendChild(renderer.domElement);
-    renderer.domElement.style.background = 'transparent';
 
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(30, 0.75, 0.05, 40);
-    camera.position.z = 4.55;
+    const look = new THREE.Vector3(...sceneDef.look);
+    const camera = new THREE.PerspectiveCamera(32, 0.75, 0.05, 40);
 
-    const group = new THREE.Group();
-    scene.add(group);
+    const hemi = new THREE.HemisphereLight('#fff8ef', '#e7c9a4', 0.48);
+    scene.add(hemi);
+    const key = new THREE.DirectionalLight('#fff6e8', Math.PI * 1.22);
+    key.position.set(3.4, 6.8, 2.6);
+    key.castShadow = true;
+    key.shadow.mapSize.set(2048, 2048);
+    key.shadow.bias = -0.00035;
+    key.shadow.normalBias = 0.035;
+    const shadowCam = key.shadow.camera;
+    shadowCam.left = -3.2;
+    shadowCam.right = 3.2;
+    shadowCam.top = 3.2;
+    shadowCam.bottom = -3.2;
+    shadowCam.near = 0.5;
+    shadowCam.far = 16;
+    scene.add(key);
+    scene.add(key.target);
+    key.target.position.copy(look);
+    const fill = new THREE.DirectionalLight('#d7ecf6', Math.PI * 0.28);
+    fill.position.set(-3.2, 2.4, -2);
+    scene.add(fill);
 
-    const shadowGeo = new THREE.PlaneGeometry(1.7, 2.15);
-    const shadowMat = new THREE.ShaderMaterial({
-      vertexShader: VERT,
-      fragmentShader: SHADOW_FRAG,
-      transparent: true,
-      depthWrite: false,
-      premultipliedAlpha: true,
-    });
-    const shadow = new THREE.Mesh(shadowGeo, shadowMat);
-    shadow.position.set(0, -1.02, -0.45);
-    shadow.renderOrder = 0;
-    scene.add(shadow);
+    const blob = shadowTexture();
+    const contact = new THREE.Mesh(
+      new THREE.PlaneGeometry(2.7, 2.05),
+      new THREE.MeshBasicMaterial({ map: blob, transparent: true, depthWrite: false, toneMapped: false }),
+    );
+    contact.rotation.x = -Math.PI / 2;
+    contact.position.y = -0.02;
+    contact.renderOrder = -1;
+    scene.add(contact);
 
-    const base = import.meta.env.BASE_URL;
-    const layers = [0, 1, 2, 3].map((i) => `${base}layers/${rootId}/${i}.webp`);
-    const tints = [
-      new THREE.Color('#6a8fbf'),
-      new THREE.Color('#7d9a6a'),
-      new THREE.Color('#d2b15a'),
-      new THREE.Color('#d06a48'),
-    ];
-    const geos: THREE.BufferGeometry[] = [];
-    const mats: THREE.ShaderMaterial[] = [];
-    const textures: THREE.Texture[] = [];
-    const loaded = { n: 0, expect: layers.length };
-
-    const plane = new THREE.PlaneGeometry(1.52, 2.02);
-    geos.push(plane);
-
-    layers.forEach((url, index) => {
-      const uniforms = {
-        uMap: { value: new THREE.Texture() },
-        uDevelop: { value: intro ? 0 : 1 },
-        uSheen: { value: index === layers.length - 1 ? 0.35 : -1 },
-        uShow: { value: intro ? 0 : 1 },
-        uDebug: { value: debugDepth ? 1 : 0 },
-        uTint: { value: tints[index] ?? tints[0] },
+    const palette = portPalette;
+    const pieces: RigPiece[] = sceneDef.pieces.map((piece) => {
+      const group = createPiece(piece, palette);
+      group.position.set(piece.at[0], piece.at[1], piece.at[2]);
+      group.rotation.y = piece.yaw ?? 0;
+      scene.add(group);
+      return {
+        group,
+        rest: group.position.clone(),
+        delay: piece.delay,
+        intro: introOf(piece),
+        bob: piece.kind === 'boat',
       };
-      const mat = new THREE.ShaderMaterial({
-        uniforms,
-        vertexShader: VERT,
-        fragmentShader: FRAG,
-        transparent: true,
-        depthWrite: false,
-        premultipliedAlpha: true,
-      });
-      mats.push(mat);
-      const mesh = new THREE.Mesh(plane, mat);
-      mesh.position.z = LAYER_Z[index] ?? 0;
-      mesh.renderOrder = index + 1;
-      group.add(mesh);
-
-      const loader = new THREE.TextureLoader();
-      loader.load(url, (tex) => {
-        if (disposed) {
-          tex.dispose();
-          return;
-        }
-        tex.colorSpace = THREE.NoColorSpace;
-        tex.premultiplyAlpha = true;
-        tex.generateMipmaps = true;
-        tex.minFilter = THREE.LinearMipmapLinearFilter;
-        tex.magFilter = THREE.LinearFilter;
-        tex.anisotropy = 4;
-        tex.wrapS = THREE.ClampToEdgeWrapping;
-        tex.wrapT = THREE.ClampToEdgeWrapping;
-        uniforms.uMap.value = tex;
-        textures.push(tex);
-        loaded.n += 1;
-        if (loaded.n >= loaded.expect) el.dataset.ready = 'true';
-      });
     });
 
-    let yaw = 0;
-    let pitch = 0;
+    const ripples: THREE.Texture[] = [];
+    const waters: THREE.ShaderMaterial[] = [];
+    scene.traverse((obj) => {
+      const mesh = obj as THREE.Mesh;
+      const mat = mesh.material as THREE.Material | undefined;
+      const ripple = mat?.userData?.ripple as THREE.Texture | undefined;
+      if (ripple) ripples.push(ripple);
+      if (mat instanceof THREE.ShaderMaterial && mat.uniforms.uTime) waters.push(mat);
+    });
+
+    let yaw = intro ? INTRO_YAW : 0.55;
+    let pitch = PITCH_HOME;
+    let radius = RADIUS_HOME;
     let vy = 0;
     let vp = 0;
+    let vr = 0;
     let dragging = false;
-    let px = 0;
-    let py = 0;
-    let introT = 0;
-    let ori = false;
-    let oriYaw = 0;
-    let oriPitch = 0;
-    const allowOri = window.matchMedia('(pointer: coarse)').matches;
+    let introT = intro ? 0 : 20;
+    let lastInteract = intro ? performance.now() : 0;
+    let nudgeYaw = 0;
+    let nudgePitch = 0;
+    const pointers = new Map<number, { x: number; y: number }>();
+    let pinch: number | null = null;
+
+    const applyPieces = (time: number) => {
+      for (const piece of pieces) {
+        const p = intro ? clamp((introT - piece.delay) / 0.72, 0, 1) : 1;
+        const eased = p <= 0 ? 0 : p >= 1 ? 1 : bounceOut(p);
+        piece.group.visible = piece.intro === 'rise' || p > 0;
+        if (piece.intro === 'rise') {
+          piece.group.position.y = piece.rest.y - (1 - eased) * 0.95;
+        } else if (piece.intro === 'fill') {
+          piece.group.position.copy(piece.rest);
+          piece.group.scale.y = Math.max(0.001, eased);
+        } else {
+          piece.group.position.y = piece.rest.y + (1 - eased) * 1.35;
+          if (piece.bob && p >= 1) {
+            piece.group.position.y = piece.rest.y + Math.sin(time * 0.0016 + piece.rest.x) * 0.02;
+          }
+        }
+        develop(piece.group, eased);
+      }
+    };
 
     const resize = () => {
       const w = el.clientWidth || 1;
@@ -194,93 +187,100 @@ export default function DioramaCard({
     const onDown = (e: PointerEvent) => {
       dragging = true;
       introT = 99;
-      px = e.clientX;
-      py = e.clientY;
+      lastInteract = performance.now();
       vy = 0;
       vp = 0;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
       el.setPointerCapture?.(e.pointerId);
       const DeviceOri = DeviceOrientationEvent as unknown as { requestPermission?: () => Promise<string> };
       DeviceOri.requestPermission?.().catch(() => undefined);
     };
     let lastMove = performance.now();
     const onMove = (e: PointerEvent) => {
-      if (!dragging) return;
+      const prev = pointers.get(e.pointerId);
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (!dragging || !prev) return;
+      lastInteract = performance.now();
+      if (pointers.size >= 2) {
+        const pts = [...pointers.values()];
+        const d = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+        if (pinch != null) radius = clamp(radius * (pinch / d), RADIUS_MIN, RADIUS_MAX);
+        pinch = d;
+        return;
+      }
+      pinch = null;
       const now = performance.now();
       const step = Math.max(0.008, (now - lastMove) / 1000);
       lastMove = now;
-      const dx = e.clientX - px;
-      const dy = e.clientY - py;
-      px = e.clientX;
-      py = e.clientY;
-      const dyaw = clamp(dx * 0.0042, -0.07, 0.07);
-      const dpitch = clamp(dy * 0.0032, -0.04, 0.04);
-      yaw = clamp(yaw + dyaw, -MAX_YAW, MAX_YAW);
-      pitch = clamp(pitch + dpitch, -MAX_PITCH, MAX_PITCH);
+      const dx = e.clientX - prev.x;
+      const dy = e.clientY - prev.y;
+      const dyaw = dx * 0.0085;
+      const dpitch = -dy * 0.005;
+      yaw += dyaw;
+      pitch = clamp(pitch + dpitch, PITCH_MIN, PITCH_MAX);
       vy = dyaw / step;
       vp = dpitch / step;
     };
-    const onUp = () => {
-      dragging = false;
+    const onUp = (e: PointerEvent) => {
+      pointers.delete(e.pointerId);
+      pinch = null;
+      if (pointers.size === 0) dragging = false;
+    };
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      lastInteract = performance.now();
+      introT = 99;
+      radius = clamp(radius + e.deltaY * 0.0045, RADIUS_MIN, RADIUS_MAX);
     };
     el.addEventListener('pointerdown', onDown);
     window.addEventListener('pointermove', onMove);
     window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp);
+    el.addEventListener('wheel', onWheel, { passive: false });
 
+    const allowOri = window.matchMedia('(pointer: coarse)').matches;
     const onOri = (e: DeviceOrientationEvent) => {
-      if (!allowOri || (e.gamma == null && e.beta == null)) return;
-      ori = true;
-      oriYaw = clamp((e.gamma ?? 0) / 42, -1, 1) * MAX_YAW;
-      oriPitch = clamp(((e.beta ?? 40) - 40) / 55, -1, 1) * MAX_PITCH;
+      if (!allowOri || e.gamma == null) return;
+      nudgeYaw = clamp(e.gamma / 40, -1, 1) * THREE.MathUtils.degToRad(8);
+      nudgePitch = clamp(((e.beta ?? 40) - 40) / 50, -1, 1) * THREE.MathUtils.degToRad(5);
     };
     window.addEventListener('deviceorientation', onOri);
 
-    let last = performance.now();
     let frame = 0;
-    const stiffness = 16;
-    const damping = 7.2;
+    let last = performance.now();
     const loop = (now: number) => {
       if (disposed) return;
       const dt = Math.min(0.05, (now - last) / 1000);
       last = now;
       frame = requestAnimationFrame(loop);
-      const shown = loaded.n >= loaded.expect && getComputedStyle(el).opacity !== '0';
-      if (intro && introT < 1.7) {
-        if (shown) introT += dt;
-        const u = Math.min(1, introT / 1.5);
-        const s = Math.sin(u * Math.PI);
-        yaw = s * THREE.MathUtils.degToRad(16);
-        pitch = s * THREE.MathUtils.degToRad(3);
+      const shown = getComputedStyle(el).opacity !== '0';
+      if (intro && introT < 3.2 && shown) introT += dt;
+      if (intro && introT < 2.9) {
+        const u = clamp(introT / 2.7, 0, 1);
+        yaw = INTRO_YAW + u * Math.PI;
+        pitch = PITCH_HOME;
         vy = 0;
         vp = 0;
       } else if (!dragging) {
-        const goalY = ori ? oriYaw : 0;
-        const goalP = ori ? oriPitch : 0;
-        vy += ((goalY - yaw) * stiffness - vy * damping) * dt;
-        vp += ((goalP - pitch) * stiffness - vp * damping) * dt;
-        yaw = clamp(yaw + vy * dt, -MAX_YAW, MAX_YAW);
-        pitch = clamp(pitch + vp * dt, -MAX_PITCH, MAX_PITCH);
-        if (Math.abs(yaw) >= MAX_YAW - 1e-4 && Math.sign(vy) === Math.sign(yaw)) vy = 0;
-        if (Math.abs(pitch) >= MAX_PITCH - 1e-4 && Math.sign(vp) === Math.sign(pitch)) vp = 0;
+        const idle = now - lastInteract > 1100;
+        if (idle) yaw += dt * 0.22;
+        vy *= Math.exp(-3.2 * dt);
+        vp *= Math.exp(-3.2 * dt);
+        yaw += vy * dt;
+        pitch = clamp(pitch + vp * dt, PITCH_MIN, PITCH_MAX);
+        radius = clamp(radius + vr * dt, RADIUS_MIN, RADIUS_MAX);
+        vr *= Math.exp(-4 * dt);
       }
-      group.rotation.y = yaw;
-      group.rotation.x = pitch;
-      // Shadow sits on the page and shifts slightly against the tilt.
-      shadow.position.x = -Math.sin(yaw) * 0.16;
-      shadow.position.y = -1.02 - Math.sin(pitch) * 0.06;
-      const sheen = 0.42 + Math.sin(now * 0.0013) * 0.08 + (yaw / MAX_YAW) * 0.22;
-      group.children.forEach((child, index) => {
-        const mesh = child as THREE.Mesh;
-        const mat = mesh.material as THREE.ShaderMaterial;
-        const delay = index * 0.06;
-        const rise = intro ? clamp((introT - delay) / 0.7, 0, 1) : 1;
-        const eased = 1 - (1 - rise) ** 3;
-        mesh.position.y = (1 - eased) * -0.38;
-        mat.uniforms.uDevelop.value = intro ? clamp((introT - delay) / 0.85, 0, 1) : 1;
-        mat.uniforms.uShow.value = eased;
-        mat.uniforms.uSheen.value = index === group.children.length - 1 ? sheen : -1;
-      });
+      for (const tex of ripples) tex.offset.x = now * 0.00004;
+      for (const mat of waters) mat.uniforms.uTime.value = now * 0.0015;
+      applyPieces(now);
+      placeCamera(camera, yaw + nudgeYaw, clamp(pitch + nudgePitch, PITCH_MIN, PITCH_MAX), radius, look);
       renderer.render(scene, camera);
+      if (!el.dataset.ready) el.dataset.ready = 'true';
     };
+    applyPieces(0);
+    placeCamera(camera, yaw, pitch, radius, look);
+    renderer.render(scene, camera);
     frame = requestAnimationFrame(loop);
 
     return () => {
@@ -290,17 +290,27 @@ export default function DioramaCard({
       el.removeEventListener('pointerdown', onDown);
       window.removeEventListener('pointermove', onMove);
       window.removeEventListener('pointerup', onUp);
+      window.removeEventListener('pointercancel', onUp);
+      el.removeEventListener('wheel', onWheel);
       window.removeEventListener('deviceorientation', onOri);
-      geos.forEach((g) => g.dispose());
-      mats.forEach((m) => m.dispose());
-      shadowGeo.dispose();
-      shadowMat.dispose();
-      textures.forEach((t) => t.dispose());
+      scene.traverse((obj) => {
+        const mesh = obj as THREE.Mesh;
+        if (!mesh.isMesh) return;
+        mesh.geometry?.dispose();
+        const mats = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+        for (const mat of mats) {
+          const standard = mat as THREE.MeshStandardMaterial;
+          standard.map?.dispose();
+          standard.normalMap?.dispose();
+          mat.dispose();
+        }
+      });
+      blob.dispose();
       renderer.dispose();
       renderer.domElement.remove();
       delete el.dataset.ready;
     };
-  }, [rootId, intro, debugDepth]);
+  }, [rootId, intro]);
 
   return <div ref={host} className="diorama" aria-hidden="true" />;
 }

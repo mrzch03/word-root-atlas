@@ -4,6 +4,7 @@ import { rootColor } from '../data/rootColors';
 import type { Lexeme, RootEntry } from '../data/types';
 import { useCollection } from '../lib/collection';
 import { Picture } from '../components/Picture';
+import { hasScene } from '../three/registry';
 
 const DioramaCard = lazy(() => import('../components/DioramaCard'));
 
@@ -59,9 +60,6 @@ export function FamilyView({
   const base = import.meta.env.BASE_URL;
   const parts = lexeme ? splitWord(lexeme.word, root) : null;
   const freshWord = pending;
-  const debugDepth =
-    typeof window !== 'undefined' &&
-    new URLSearchParams(window.location.hash.split('?')[1] ?? '').get('debug') === 'depth';
   const held = (word: string) => bag.has(word) && !(freshWord === word && !landed);
   const found = root.words.filter((w) => held(w.word)).length;
 
@@ -139,10 +137,10 @@ export function FamilyView({
         <div className={ceremony === 'A' ? 'slot intro' : 'slot'}>
           <div className={webgl ? 'plate ready' : ceremony === 'A' ? 'plate intro' : 'plate'}>
             <Picture src={`${base}illustrations/${root.id}.webp`} alt={root.artAlt} />
-            {!reduced && (
+            {!reduced && hasScene(root.id) && (
               <QuietBoundary fallback={null}>
                 <Suspense fallback={null}>
-                  <DioramaCard rootId={root.id} intro={ceremony === 'A'} debugDepth={debugDepth} />
+                  <DioramaCard rootId={root.id} intro={ceremony === 'A'} />
                 </Suspense>
               </QuietBoundary>
             )}
