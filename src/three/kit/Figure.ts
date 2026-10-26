@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { groundContact } from './geom';
 import { clay } from './materials';
 import type { KitPalette } from './palette';
 
@@ -13,5 +14,6 @@ export function Figure(palette: KitPalette) {
   head.position.y = 0.24;
   head.castShadow = true;
   group.add(head);
+  group.add(groundContact(0.16, 0.14));
   return group;
 }

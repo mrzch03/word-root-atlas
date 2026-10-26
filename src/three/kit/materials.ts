@@ -2,12 +2,13 @@ import * as THREE from 'three';
 
 export const DEVELOP_GREY = new THREE.Color('#b9b4ac');
 
-export function clay(hex: string, roughness = 0.72, metalness = 0): THREE.MeshStandardMaterial {
+export function clay(hex: string, roughness = 0.72, metalness = 0, ao = false): THREE.MeshStandardMaterial {
   const target = new THREE.Color(hex);
   const mat = new THREE.MeshStandardMaterial({
     color: target.clone(),
     roughness,
     metalness,
+    vertexColors: ao,
   });
   mat.userData.target = target;
   return mat;

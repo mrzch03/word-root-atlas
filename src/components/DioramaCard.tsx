@@ -9,9 +9,9 @@ import type { DioramaScene, ScenePiece } from '../three/scenes/types';
 const PITCH_MIN = THREE.MathUtils.degToRad(15);
 const PITCH_MAX = THREE.MathUtils.degToRad(55);
 const PITCH_HOME = THREE.MathUtils.degToRad(34);
-const RADIUS_HOME = 11.2;
-const RADIUS_MIN = 8.4;
-const RADIUS_MAX = 15;
+const RADIUS_HOME = 10.8;
+const RADIUS_MIN = 8.2;
+const RADIUS_MAX = 14.5;
 const INTRO_YAW = -2.55;
 
 const SCENES: Record<string, DioramaScene> = { port: portScene };
@@ -73,7 +73,7 @@ export default function DioramaCard({ rootId, intro }: { rootId: string; intro: 
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.08;
+    renderer.toneMappingExposure = 1.02;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     el.appendChild(renderer.domElement);
@@ -82,32 +82,40 @@ export default function DioramaCard({ rootId, intro }: { rootId: string; intro: 
     const look = new THREE.Vector3(...sceneDef.look);
     const camera = new THREE.PerspectiveCamera(32, 0.75, 0.05, 40);
 
-    const hemi = new THREE.HemisphereLight('#fff8ef', '#e7c9a4', 0.48);
+    const hemi = new THREE.HemisphereLight('#fff4e6', '#c8ad90', 0.18);
     scene.add(hemi);
-    const key = new THREE.DirectionalLight('#fff6e8', Math.PI * 1.22);
-    key.position.set(3.4, 6.8, 2.6);
+    const key = new THREE.DirectionalLight('#ffd8b0', Math.PI * 1.72);
+    key.position.set(-4.6, 8.4, 2.8);
     key.castShadow = true;
-    key.shadow.mapSize.set(2048, 2048);
-    key.shadow.bias = -0.00035;
-    key.shadow.normalBias = 0.035;
+    key.shadow.mapSize.set(4096, 4096);
+    key.shadow.bias = -0.00018;
+    key.shadow.normalBias = 0.016;
+    key.shadow.radius = 1.6;
     const shadowCam = key.shadow.camera;
-    shadowCam.left = -3.2;
-    shadowCam.right = 3.2;
-    shadowCam.top = 3.2;
-    shadowCam.bottom = -3.2;
-    shadowCam.near = 0.5;
+    shadowCam.left = -2.35;
+    shadowCam.right = 2.35;
+    shadowCam.top = 2.35;
+    shadowCam.bottom = -2.35;
+    shadowCam.near = 4;
     shadowCam.far = 16;
+    shadowCam.updateProjectionMatrix();
     scene.add(key);
     scene.add(key.target);
     key.target.position.copy(look);
-    const fill = new THREE.DirectionalLight('#d7ecf6', Math.PI * 0.28);
-    fill.position.set(-3.2, 2.4, -2);
+    const fill = new THREE.DirectionalLight('#c3d4e2', Math.PI * 0.16);
+    fill.position.set(4.4, 2.4, -1.8);
     scene.add(fill);
 
     const blob = shadowTexture();
     const contact = new THREE.Mesh(
-      new THREE.PlaneGeometry(2.7, 2.05),
-      new THREE.MeshBasicMaterial({ map: blob, transparent: true, depthWrite: false, toneMapped: false }),
+      new THREE.PlaneGeometry(2.15, 1.65),
+      new THREE.MeshBasicMaterial({
+        map: blob,
+        transparent: true,
+        depthWrite: false,
+        toneMapped: false,
+        opacity: 0.55,
+      }),
     );
     contact.rotation.x = -Math.PI / 2;
     contact.position.y = -0.02;
@@ -166,7 +174,10 @@ export default function DioramaCard({ rootId, intro }: { rootId: string; intro: 
         } else {
           piece.group.position.y = piece.rest.y + (1 - eased) * 1.35;
           if (piece.bob && p >= 1) {
-            piece.group.position.y = piece.rest.y + Math.sin(time * 0.0016 + piece.rest.x) * 0.02;
+            const wave = Math.sin(time * 0.00155 + piece.rest.x);
+            piece.group.position.y = piece.rest.y + wave * 0.032;
+            piece.group.rotation.z = wave * 0.04;
+            piece.group.rotation.x = Math.cos(time * 0.00125) * 0.018;
           }
         }
         develop(piece.group, eased);

@@ -191,14 +191,16 @@ button:active:not(.tag) { transform: scale(0.97); }
 .constellation {
   position: relative;
   width: min(1100px, calc(100% - 48px));
-  height: min(780px, 74vh);
+  height: min(820px, calc(100vh - 150px));
   margin: 8px auto 0;
 }
 .slot {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 48%;
+  width: auto;
+  height: 58%;
+  max-width: 42%;
   transform: translate(-50%, -50%);
   aspect-ratio: 3 / 4;
 }
@@ -256,14 +258,14 @@ img.sharp { filter: none; transform: none; }
 .tag {
   position: absolute;
   transform: translate(-50%, -50%);
-  border: 1px solid color-mix(in srgb, var(--ink-3) 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink-3) 32%, transparent);
   background: transparent;
-  color: var(--ink-3);
+  color: color-mix(in srgb, var(--ink-3) 78%, transparent);
   border-radius: 999px;
-  padding: 6px 11px;
+  padding: 3px 8px;
   font-family: var(--serif);
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 18px;
   white-space: nowrap;
 }
 .tag.on {
@@ -582,6 +584,7 @@ img.sharp { filter: none; transform: none; }
     top: auto;
     transform: none;
     width: 85%;
+    height: auto;
     flex: 0 0 85%;
     max-width: 85%;
   }

@@ -44,6 +44,7 @@ export interface BuildingPiece extends BasePiece {
   roof?: 'flat' | 'tile';
   parapet?: boolean;
   steps?: number;
+  awning?: boolean;
 }
 
 export interface BoatPiece extends BasePiece {

@@ -10,7 +10,7 @@ export function Boat(palette: KitPalette, scale = 1) {
   const wood = clay(palette.wood, 0.58);
   const sailMat = clay(palette.sail, 0.45);
   sailMat.side = THREE.DoubleSide;
-  glow(sailMat, palette.sail, 0.32);
+  glow(sailMat, palette.sail, 0.1);
 
   const plan = new THREE.Shape();
   plan.moveTo(-0.58, 0);

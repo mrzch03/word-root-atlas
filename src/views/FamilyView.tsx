@@ -164,7 +164,7 @@ export function FamilyView({
               className={shown ? (arriving ? 'tag on land' : 'tag on') : 'tag'}
               data-state={shown ? 'filled' : 'empty'}
               aria-current={lexeme?.word === word.word ? 'true' : undefined}
-              style={{ left: `${50 + Math.cos(angle) * 32}%`, top: `${50 + Math.sin(angle) * 36}%` }}
+              style={{ left: `${50 + Math.cos(angle) * 42}%`, top: `${50 + Math.sin(angle) * 46}%` }}
               onClick={() => onPick(word.word)}
             >
               {word.word}

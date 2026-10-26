@@ -16,6 +16,7 @@ export interface KitPalette {
   stone: string;
   soil: string;
   deck: string;
+  pebble: string;
   leaf: string;
   trunk: string;
   wood: string;
@@ -25,23 +26,24 @@ export interface KitPalette {
 
 export function paletteFrom(color: RootColor): KitPalette {
   return {
-    plaster: '#FBF7F1',
-    plasterShade: '#E8E0D2',
-    roof: '#E15B34',
-    opening: '#2A5560',
-    sea: '#14B7D6',
-    seaDeep: '#075E78',
-    sail: '#FF4E12',
-    hull: '#F7F3EA',
-    keel: '#1A7590',
-    clay: '#D45332',
-    sand: '#E6B84A',
-    stone: '#D4C6B0',
-    soil: '#D14E2C',
-    deck: '#E9C56A',
-    leaf: '#1EAE52',
+    plaster: '#F8F3E9',
+    plasterShade: '#D8D0C3',
+    roof: '#A66855',
+    opening: '#20373B',
+    sea: '#249CB4',
+    seaDeep: '#075062',
+    sail: '#DF6C42',
+    hull: '#EFEBE2',
+    keel: '#1D565F',
+    clay: '#A66855',
+    sand: '#BEA784',
+    stone: '#CCC3B5',
+    soil: '#AD806F',
+    deck: '#E8E1CD',
+    pebble: '#A89D8E',
+    leaf: '#417843',
     trunk: '#8A5230',
-    wood: '#C99555',
+    wood: '#AF8A63',
     skin: '#F0C8A4',
     cloth: color.deep,
   };

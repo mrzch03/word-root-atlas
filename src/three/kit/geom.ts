@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 
 /** Sit a geometry on y = 0 and centre it in x/z. */
 export function seat(geo: THREE.BufferGeometry) {
@@ -70,31 +71,67 @@ export function extrudeFootprint(shape: THREE.Shape, height: number, bevel = 0.0
   return geo;
 }
 
+/** A RoundedBox whose bottom sits on y = 0. Radius stays inside the smallest side. */
+export function bevelBox(w: number, h: number, d: number, radius = 0.04, segments = 2): THREE.BufferGeometry {
+  const ww = Math.max(0.02, w);
+  const hh = Math.max(0.02, h);
+  const dd = Math.max(0.02, d);
+  const r = Math.min(Math.max(0.001, radius), ww * 0.48, hh * 0.48, dd * 0.48);
+  const geo = new RoundedBoxGeometry(ww, hh, dd, segments, r);
+  geo.translate(0, hh / 2, 0);
+  return geo;
+}
+
+/** Darken the foot and the tucked faces, so a piece sits without a flat ambient wash. */
+export function bakeAo(geo: THREE.BufferGeometry, strength = 0.32): THREE.BufferGeometry {
+  geo.computeVertexNormals();
+  const pos = geo.attributes.position;
+  const norm = geo.attributes.normal;
+  geo.computeBoundingBox();
+  const box = geo.boundingBox;
+  const minY = box?.min.y ?? 0;
+  const span = Math.max(0.001, (box?.max.y ?? 1) - minY);
+  const colors = new Float32Array(pos.count * 3);
+  for (let i = 0; i < pos.count; i += 1) {
+    const y = (pos.getY(i) - minY) / span;
+    const up = norm ? Math.max(0, norm.getY(i)) : 1;
+    const tuck = (1 - y) * (1 - up * 0.8);
+    const k = Math.max(0.58, 1 - strength * tuck);
+    colors[i * 3] = k;
+    colors[i * 3 + 1] = k;
+    colors[i * 3 + 2] = k;
+  }
+  geo.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+  return geo;
+}
+
 /** A softly beveled box whose bottom sits on y = 0. */
 export function roundedBox(w: number, h: number, d: number, bevel = 0.028): THREE.BufferGeometry {
-  const r = Math.min(bevel * 1.6, w * 0.18, d * 0.18);
-  const shape = new THREE.Shape();
-  const x = -w / 2;
-  const y = -d / 2;
-  shape.moveTo(x + r, y);
-  shape.lineTo(x + w - r, y);
-  shape.absarc(x + w - r, y + r, r, -Math.PI / 2, 0, false);
-  shape.lineTo(x + w, y + d - r);
-  shape.absarc(x + w - r, y + d - r, r, 0, Math.PI / 2, false);
-  shape.lineTo(x + r, y + d);
-  shape.absarc(x + r, y + d - r, r, Math.PI / 2, Math.PI, false);
-  shape.lineTo(x, y + r);
-  shape.absarc(x + r, y + r, r, Math.PI, Math.PI * 1.5, false);
-  const geo = new THREE.ExtrudeGeometry(shape, {
-    depth: Math.max(0.02, h - bevel),
-    bevelEnabled: true,
-    bevelThickness: bevel,
-    bevelSize: bevel * 0.7,
-    bevelSegments: 2,
-    curveSegments: 3,
-  });
-  geo.rotateX(-Math.PI / 2);
-  return seat(geo);
+  return bevelBox(w, h, d, Math.max(0.008, bevel * 0.85), 2);
+}
+
+let contactMat: THREE.MeshBasicMaterial | null = null;
+
+/** A small blob where a piece meets the deck. Shared material, one texture. */
+export function groundContact(w: number, d: number): THREE.Mesh {
+  if (!contactMat) {
+    const map = shadowTexture();
+    contactMat = new THREE.MeshBasicMaterial({
+      map,
+      transparent: true,
+      depthWrite: false,
+      toneMapped: false,
+      polygonOffset: true,
+      polygonOffsetFactor: -1,
+      polygonOffsetUnits: -1,
+    });
+  }
+  const mesh = new THREE.Mesh(new THREE.PlaneGeometry(w, d), contactMat);
+  mesh.rotation.x = -Math.PI / 2;
+  mesh.position.y = 0.012;
+  mesh.renderOrder = 2;
+  mesh.castShadow = false;
+  return mesh;
 }
 
 /** Elevation with arch doors and square windows. Extruded, bottom on y = 0. */

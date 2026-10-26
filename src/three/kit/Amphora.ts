@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { groundContact } from './geom';
 import { clay } from './materials';
 import type { KitPalette } from './palette';
 
@@ -23,6 +24,7 @@ export function Amphora(palette: KitPalette, scale = 1) {
   handle.position.set(0.07, 0.3, 0);
   handle.rotation.z = -0.4;
   group.add(handle);
+  group.add(groundContact(0.22 * scale, 0.18 * scale));
   group.scale.setScalar(scale);
   return group;
 }
