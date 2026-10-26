@@ -92,3 +92,19 @@ Avoid hue collisions in a hue-sorted album. Neighbours are eased apart until the
 Fake 3D from one image failed. Real 3D needs real geometry. Depth displacement smeared. Layered parallax left a ghost in the hole. A hand-built miniature still did not match the illustration, so it is parked.
 
 Before and after, in hue order: [v6-before.jpg](screens/v6-before.jpg), [v6-after.jpg](screens/v6-after.jpg).
+
+## v7 — the trip, then the card
+
+A lookup that only swaps the screen feels like a form. The word should travel.
+
+词根之旅 plays after a word is committed, from the field or from a chip. The root morpheme takes the card's deep colour, a dotted route draws, and the root name arrives. Then the card rises and develops from grey. That develop is still Animation A, and it is the landing. A new word on a root you already have takes the short version, under a second, and the count ticks. The word is not flown twice. Opening a card you already have, including from the album, does not replay the trip. Escape, 跳过, or a tap cuts to the card. Reduced motion skips the trip.
+
+拍一拍 sits beside the field and stays closed until asked. It is a demo: three stills, or a photo you choose, then the picture fades into an English word. There is no vision model yet. The line on the picture says so. That word then takes the same journey. If you skip the picture, you land on the card. Typing stays the main faucet. The chips are transport, biology, describe, important, and chronometer. transport and important share port, so the second one is the short trip.
+
+The page is the card's cream, #F1E7DD. The sky wash is gone. Colour stays in the pictures and in the root's own text.
+
+图鉴 is a deck. The front card is large. One or two collected cards peek behind it, offset and a little smaller. Drag sideways to turn. Nothing you have not found is drawn: no dashed cells, no grey silhouettes. An empty album is an invitation to try a word. The count may say 已发现 8 / 42. 光谱 is the order of what you hold. Latin, Greek, and recent sit behind 筛选.
+
+ject, mal, and sent were replaced. mal's accent moved from a grey violet into green, and the hues were snapped apart again.
+
+The reference photo for the deck has a black ground. The stack is the part that transferred. The ground stayed cream.

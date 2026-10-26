@@ -1,50 +1,37 @@
-import { Component, lazy, Suspense, useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
+import { useEffect, useState, type CSSProperties } from 'react';
 import { specimenNo } from '../data';
 import { rootColor } from '../data/rootColors';
 import type { Lexeme, RootEntry } from '../data/types';
 import { useCollection } from '../lib/collection';
+import { splitSurface } from '../lib/journey';
 import { CardTitle } from '../components/CardTitle';
 import { Picture } from '../components/Picture';
 import { originStory, sourceLabel } from '../data/stories';
-import { hasScene } from '../three/registry';
 
-const DioramaCard = lazy(() => import('../components/DioramaCard'));
-
-class QuietBoundary extends Component<{ children: ReactNode; fallback: ReactNode }, { failed: boolean }> {
-  state = { failed: false };
-  static getDerivedStateFromError() {
-    return { failed: true };
-  }
-  render() {
-    return this.state.failed ? this.props.fallback : this.props.children;
-  }
+export function CardStage({ root, ceremony }: { root: RootEntry; ceremony: 'A' | 'B' | null }) {
+  const base = import.meta.env.BASE_URL;
+  const intro = ceremony === 'A' ? 'stage intro' : ceremony === 'B' ? 'stage sheen' : 'stage';
+  return (
+    <div className={intro}>
+      <div className="plate">
+        <Picture eager src={`${base}illustrations/${root.id}.webp`} alt={root.artAlt} />
+        <CardTitle root={root.root} meaning={root.titleEn} />
+      </div>
+    </div>
+  );
 }
 
-function splitWord(word: string, root: RootEntry) {
-  const forms = [root.root, ...root.forms].map((s) => s.toLowerCase()).sort((a, b) => b.length - a.length);
-  const lower = word.toLowerCase();
-  for (const form of forms) {
-    const at = lower.indexOf(form);
-    if (at >= 0 && form.length >= 2) {
-      return {
-        pre: word.slice(0, at),
-        mid: word.slice(at, at + form.length),
-        post: word.slice(at + form.length),
-      };
-    }
-  }
-  return { pre: word, mid: '', post: '' };
-}
-
-export function FamilyView({
+export function FamilyReading({
   root,
   lexeme,
   ceremony,
+  fromJourney,
   onPick,
 }: {
   root: RootEntry;
   lexeme: Lexeme | null;
   ceremony: 'A' | 'B' | null;
+  fromJourney: boolean;
   onPick: (word: string) => void;
 }) {
   const bag = useCollection();
@@ -58,9 +45,7 @@ export function FamilyView({
     setPendingWord(pending);
     setLanded(pending == null);
   }
-  const [webgl, setWebgl] = useState(false);
-  const base = import.meta.env.BASE_URL;
-  const parts = lexeme ? splitWord(lexeme.word, root) : null;
+  const parts = lexeme ? splitSurface(lexeme.word, root) : null;
   const freshWord = pending;
   const held = (word: string) => bag.has(word) && !(freshWord === word && !landed);
   const found = root.words.filter((w) => held(w.word)).length;
@@ -69,12 +54,13 @@ export function FamilyView({
   useEffect(() => {
     setLanded(ceremony !== 'B');
     if (ceremony !== 'B') return;
-    const t = window.setTimeout(() => setLanded(true), reduced ? 0 : 650);
+    const wait = reduced ? 0 : fromJourney ? 180 : 650;
+    const t = window.setTimeout(() => setLanded(true), wait);
     return () => window.clearTimeout(t);
-  }, [ceremony, lexeme?.word, reduced]);
+  }, [ceremony, lexeme?.word, reduced, fromJourney]);
 
   useEffect(() => {
-    if (ceremony !== 'B' || reduced || !lexeme) return;
+    if (ceremony !== 'B' || fromJourney || reduced || !lexeme) return;
     const input = document.getElementById('word-search');
     const slot = document.querySelector(`[data-slot="${CSS.escape(lexeme.word)}"]`);
     if (!(input instanceof HTMLInputElement) || !(slot instanceof HTMLElement)) return;
@@ -123,157 +109,89 @@ export function FamilyView({
       window.clearTimeout(done);
       fly.remove();
     };
-  }, [ceremony, lexeme, color.deep, reduced]);
+  }, [ceremony, fromJourney, lexeme, color.deep, reduced]);
 
   const style = {
     '--accent': color.accent,
     '--deep': color.deep,
     '--wash': color.wash,
-    '--spark': color.spark,
-    '--sky-top': color.skyTop,
-    '--sky-bottom': color.skyBottom,
   } as CSSProperties;
 
   return (
-    <section className={ceremony === 'A' ? 'family intro-a' : ceremony === 'B' ? 'family intro-b' : 'family'} style={style}>
-      <div className="constellation">
-        <div className={ceremony === 'A' ? 'slot intro' : 'slot'}>
-          <div className={webgl ? 'plate ready' : ceremony === 'A' ? 'plate intro' : 'plate'}>
-            <Picture src={`${base}illustrations/${root.id}.webp`} alt={root.artAlt} />
-            <CardTitle root={root.root} meaning={root.titleEn} />
-            {!reduced && hasScene(root.id) && (
-              <QuietBoundary fallback={null}>
-                <Suspense fallback={null}>
-                  <DioramaCard rootId={root.id} intro={ceremony === 'A'} />
-                </Suspense>
-              </QuietBoundary>
-            )}
-          </div>
-        </div>
-        <p className="ring-count">
-          <span className={ceremony === 'B' && landed ? 'count tick' : 'count'}>
-            {found}/{root.words.length}
-          </span>
+    <div className={ceremony === 'A' && !reduced ? 'reading settle' : 'reading'} style={style}>
+      <h1 className="word" id="specimen-word">
+        {parts ? (
+          <>
+            {parts.pre}
+            <em>{parts.mid}</em>
+            {parts.post}
+          </>
+        ) : (
+          root.root
+        )}
+      </h1>
+      <p className="meaning" lang="zh-CN">
+        {lexeme ? lexeme.gloss : root.meaningZh}
+      </p>
+      {lexeme && (
+        <p className="parts" aria-label="词素拆分">
+          {lexeme.parts.map((p, i) => (
+            <span key={p.form + i}>
+              {i > 0 && <span className="plus"> + </span>}
+              <em>{p.form}</em> {p.gloss}
+            </span>
+          ))}
         </p>
-        {root.words.map((word, i) => {
+      )}
+      {origin ? (
+        <section className="origin" lang="zh-CN">
+          <h2>词源故事</h2>
+          <p className="essay">{origin.originStory}</p>
+          {origin.uncertainty ? <p className="hedge">{origin.uncertainty}</p> : null}
+          <ul className="sources">
+            {origin.sources.map((url) => (
+              <li key={url}>
+                <a href={url} target="_blank" rel="noreferrer">
+                  {sourceLabel(url)}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : (
+        <p className="story" lang="zh-CN">
+          {root.story}
+        </p>
+      )}
+      {lexeme && (
+        <figure className="example">
+          <blockquote>{lexeme.example}</blockquote>
+          <p lang="zh-CN">{lexeme.exampleZh}</p>
+        </figure>
+      )}
+      <h2 className="pills-label">同根词</h2>
+      <div className="pills">
+        {root.words.map((word) => {
           const arriving = freshWord === word.word;
           const shown = held(word.word);
-          const n = root.words.length;
-          const angle = (i / n) * Math.PI * 2 - Math.PI / 2;
           return (
             <button
               key={word.word}
               type="button"
               data-slot={word.word}
-              className={shown ? (arriving ? 'tag on land' : 'tag on') : 'tag'}
-              data-state={shown ? 'filled' : 'empty'}
+              className={shown ? (arriving ? 'pill on land' : 'pill on') : 'pill'}
               aria-current={lexeme?.word === word.word ? 'true' : undefined}
-              style={{ left: `${50 + Math.cos(angle) * 42}%`, top: `${50 + Math.sin(angle) * 46}%` }}
               onClick={() => onPick(word.word)}
             >
               {word.word}
             </button>
           );
         })}
+        <span className={ceremony === 'B' && landed ? 'count tick' : 'count'}>
+          {found}/{root.words.length}
+        </span>
       </div>
-      <div className={ceremony === 'A' && !reduced ? 'reading settle' : 'reading'}>
-        <p className="eyebrow">{root.origin === 'Latin' ? '拉丁语词根' : '希腊语词根'}</p>
-        <p className={ceremony === 'A' && !reduced ? 'root-kicker settle' : 'root-kicker'}>
-          {root.root} · {root.titleEn}
-        </p>
-        <h1 className="word" id="specimen-word">
-          {parts ? (
-            <>
-              {parts.pre}
-              <em>{parts.mid}</em>
-              {parts.post}
-            </>
-          ) : (
-            root.root
-          )}
-        </h1>
-        <p className="meaning" lang="zh-CN">
-          {lexeme ? lexeme.gloss : root.meaningZh}
-        </p>
-        {lexeme && (
-          <p className="parts" aria-label="词素拆分">
-            {lexeme.parts.map((p, i) => (
-              <span key={p.form + i}>
-                {i > 0 && <span className="plus"> + </span>}
-                <em>{p.form}</em> {p.gloss}
-              </span>
-            ))}
-          </p>
-        )}
-        {origin ? (
-          <section className="origin" lang="zh-CN">
-            <h2>词源故事</h2>
-            <p className="essay">{origin.originStory}</p>
-            {origin.uncertainty ? <p className="hedge">{origin.uncertainty}</p> : null}
-            <ul className="sources">
-              {origin.sources.map((url) => (
-                <li key={url}>
-                  <a href={url} target="_blank" rel="noreferrer">
-                    {sourceLabel(url)}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ) : (
-          <p className="story" lang="zh-CN">
-            {root.story}
-          </p>
-        )}
-        {lexeme && (
-          <figure className="example">
-            <blockquote>{lexeme.example}</blockquote>
-            <p lang="zh-CN">{lexeme.exampleZh}</p>
-          </figure>
-        )}
-        {lexeme && (
-          <p className="belongs">
-            <span className="pip-row" aria-hidden="true">
-              {root.words.map((w) => (
-                <i key={w.word} className={held(w.word) ? 'on' : ''} />
-              ))}
-            </span>
-            <span className={ceremony === 'B' && landed ? 'count tick' : 'count'}>
-              {found}/{root.words.length}
-            </span>
-            <span className="belongs-line">
-              属于词根 <em>{root.root}</em> · {root.meaningZh}
-            </span>
-          </p>
-        )}
-        <p className="caption">No. {specimenNo(root.id)}</p>
-      </div>
-      <WebglWatch onReady={() => setWebgl(true)} />
-    </section>
+      <p className="caption">No. {specimenNo(root.id)}</p>
+    </div>
   );
-}
-
-function WebglWatch({ onReady }: { onReady: () => void }) {
-  const saved = useRef(onReady);
-  saved.current = onReady;
-  useEffect(() => {
-    const ready = () => {
-      const node = document.querySelector('.diorama');
-      return node instanceof HTMLElement && node.dataset.ready === 'true';
-    };
-    if (ready()) {
-      saved.current();
-      return;
-    }
-    const obs = new MutationObserver(() => {
-      if (ready()) {
-        saved.current();
-        obs.disconnect();
-      }
-    });
-    const host = document.getElementById('result') ?? document.body;
-    obs.observe(host, { subtree: true, attributes: true, childList: true });
-    return () => obs.disconnect();
-  }, []);
-  return null;
 }

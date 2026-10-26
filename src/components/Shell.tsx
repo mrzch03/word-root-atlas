@@ -41,7 +41,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <nav className="tabbar" aria-label="主要">
         {links.map((l) => (
           <NavLink key={l.to} to={l.to} end={l.end}>
-            {l.label === '发现' ? <SearchIcon /> : <GridIcon />}
+            {l.label === '发现' ? <SearchIcon /> : <DeckIcon />}
             <span>{l.label}</span>
           </NavLink>
         ))}
@@ -78,13 +78,11 @@ function SearchIcon() {
   );
 }
 
-function GridIcon() {
+function DeckIcon() {
   return (
     <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-      <rect x="4" y="4" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
-      <rect x="13.5" y="4" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
-      <rect x="4" y="13.5" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
-      <rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <rect x="8" y="3.5" width="11" height="15" rx="2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <rect x="4" y="6.5" width="11" height="15" rx="2" fill="var(--bg)" stroke="currentColor" strokeWidth="1.6" />
     </svg>
   );
 }
