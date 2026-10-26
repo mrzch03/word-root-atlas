@@ -4,3 +4,4 @@ dist
 *.local
 .vite
 scripts/.cache
+__pycache__/
