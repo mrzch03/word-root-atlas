@@ -4,7 +4,7 @@ import { buildScaledRoots } from './provisional';
 import { rootColor } from './rootColors';
 import type { Lexeme, RootEntry } from './types';
 
-/** The 42 illustrated roots, then the catalog's cream cards, in editorial rank. */
+/** Hand-painted roots, then the catalog cards, in editorial rank. Twelve of the catalog cards now have a picture. */
 export const roots: RootEntry[] = buildScaledRoots([...latinRoots, ...greekRoots]);
 
 export interface WordHit {

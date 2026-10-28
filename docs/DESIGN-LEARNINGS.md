@@ -120,3 +120,9 @@ Colour stays honest. The forty-two hues are measured from the pictures and still
 A word that already belongs to a painted root stays there. `manufacture` remains `manu`. A variant that is another root's id opens that root: `ped` is the foot, `paed` is the child. One family sentence is kept when the catalog gives one, and it is attached only to the word that actually appears in it. Light records have no sentence. That is left blank rather than invented.
 
 The next pictures are drawn one at a time, then measured, then the placeholder ramp goes away. The cream plate is the waiting state, not a second style.
+
+## v9 — twelve more pictures
+
+pos, fer, ten, fac, ven, sta, ced, press, curr, gress, ag, and gen leave the cream plate. Fifty-four roots now have a painting. The album is still only what you have collected, and the count is still out of 250.
+
+A signature colour has to be a block you can still read when the card is a thumbnail. A floor, a staircase, or a cloak does that. curr, ced, sta, and ven are quieter: the story is clear at full size, but the coloured area is small, so the hue goes faint in the stack. Those four can grow the colour later. The new hues are the ones measured from the pictures. The first forty-two stay where they are; a copper that already sits beside port is not pushed into another band to keep a five-degree gap.

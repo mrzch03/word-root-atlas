@@ -23,6 +23,37 @@ interface CatalogRoot {
 
 const catalog = (raw as { roots: CatalogRoot[] }).roots;
 
+/** Second painted batch. The word list stays in the catalog; the picture replaces the cream plate. */
+export const batchIllustrated = new Set([
+  'pos',
+  'fer',
+  'ten',
+  'fac',
+  'ven',
+  'sta',
+  'ced',
+  'press',
+  'curr',
+  'gress',
+  'ag',
+  'gen',
+]);
+
+const batchAlt: Record<string, string> = {
+  pos: '镶嵌画匠跪在半成品地面上，把小石子一块块安放成一只海豚。',
+  fer: '果园台阶上，一个女人把一篮果子扛下去，路旁放着一只盛供品的碗。',
+  ten: '罗马仓房里，箍着铁箍的陶罐装着粮食，保管人拿着一串钥匙。',
+  fac: '铜匠铺里，铁匠在砧上打一把刀，墙上挂着做好的工具。',
+  ven: '黄昏的路口客栈，旅人从几条路汇来，主人提着灯出来迎接。',
+  sta: '城角的哨兵站在雕像旁边，对面是书贩固定的摊子。',
+  ced: '一小队人穿过拱门，前面的人先走，一位长者侧身让路。',
+  press: '庄园压榨间里，长木梁压着橄榄垫，油流入石盆。',
+  curr: '赛车场的弯道上，战车绕过转弯柱，尘土扬起。',
+  gress: '神庙的宽台阶上，一个孩子一级级往上走，老人已经站在顶端。',
+  ag: '牧人用曲杖赶着羊群，旁边露天舞台上有一个正在做手势的演员。',
+  gen: '中庭里，摇篮中的婴儿上方是祖先的架子和一幅家族树壁画。',
+};
+
 function originOf(language: string): Origin {
   if (language === 'Greek' || language === 'Latin + Greek') return language;
   return 'Latin';
@@ -115,10 +146,12 @@ function toEntry(record: CatalogRoot, ids: Set<string>, claimed: Set<string>): R
     origin: originOf(record.language),
     lemma: record.sourceWord,
     story: record.originStory,
-    artAlt: record.meaning.zh
-      ? `${record.meaning.zh}。奶油色卡片，插画还没画。`
-      : '奶油色卡片，插画还没画。',
-    illustrated: false,
+    artAlt: batchIllustrated.has(record.id)
+      ? batchAlt[record.id]
+      : record.meaning.zh
+        ? `${record.meaning.zh}。奶油色卡片，插画还没画。`
+        : '奶油色卡片，插画还没画。',
+    illustrated: batchIllustrated.has(record.id),
     example: sentence || undefined,
     exampleZh: sentence ? sentenceZh : undefined,
     words,
