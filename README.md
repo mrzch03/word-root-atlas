@@ -1,5 +1,7 @@
 # 词根图鉴 · Word Root Atlas
 
+**[https://mrzch03.github.io/word-root-atlas/](https://mrzch03.github.io/word-root-atlas/)** — 手机上打开最好看。 Best on a phone.
+
 [![license](https://img.shields.io/badge/license-MIT-f4f1ea?style=flat-square)](LICENSE)
 [![pages](https://img.shields.io/badge/deploy-GitHub%20Pages-f4f1ea?style=flat-square)](https://mrzch03.github.io/word-root-atlas/)
 [![stack](https://img.shields.io/badge/stack-Vite%20·%20React%20·%20TypeScript-f4f1ea?style=flat-square)](package.json)
@@ -86,11 +88,7 @@ w('transport', '运输', '动', [['trans-', '越过'], ['port', '携带']], 'Shi
 
 ## 部署到 GitHub Pages
 
-仓库里的 [`.github/workflows/pages.yml`](.github/workflows/pages.yml) 会在 `main` 上构建并发布到 `https://mrzch03.github.io/word-root-atlas/`。
-
-合并之后还需要在 GitHub 里打开一次：
-
-**Settings → Pages → Build and deployment → Source: GitHub Actions**
+仓库里的 [`.github/workflows/pages.yml`](.github/workflows/pages.yml) 会在推送到 `main` 时构建并发布。线上地址是 [https://mrzch03.github.io/word-root-atlas/](https://mrzch03.github.io/word-root-atlas/)。Pages 的 Source 已是 GitHub Actions。
 
 路由使用 hash（`#/`、`#/collection`），不需要额外的 404 回退。
 
