@@ -304,12 +304,19 @@ img.sharp { filter: none; transform: none; }
   font-family: var(--serif);
   font-weight: 500;
   font-size: clamp(11px, 3.8cqi, 15px);
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: 0.14em;
   opacity: 0.84;
   font-variant-caps: all-small-caps;
   color: var(--deep);
-  white-space: nowrap;
+  white-space: normal;
+}
+.cream-face {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 70% at 50% 118%, rgba(44, 36, 28, 0.045), transparent 58%),
+    #f6efe7;
 }
 
 .journey, .photo-morph { z-index: 2; }

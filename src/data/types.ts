@@ -1,4 +1,4 @@
-export type Origin = 'Latin' | 'Greek';
+export type Origin = 'Latin' | 'Greek' | 'Latin + Greek';
 
 export interface Morpheme {
   form: string;
@@ -33,5 +33,10 @@ export interface RootEntry {
   story: string;
   /** Alt text for the diorama, whether or not the raster has arrived. */
   artAlt: string;
+  /** Measured illustration. False is a cream plate until a picture is made. */
+  illustrated: boolean;
+  /** One family sentence, when the catalog gives one. Shown on the root itself. */
+  example?: string;
+  exampleZh?: string;
   words: Lexeme[];
 }

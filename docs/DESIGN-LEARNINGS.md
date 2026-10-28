@@ -108,3 +108,15 @@ The page is the card's cream, #F1E7DD. The sky wash is gone. Colour stays in the
 ject, mal, and sent were replaced. mal's accent moved from a grey violet into green, and the hues were snapped apart again.
 
 The reference photo for the deck has a black ground. The stack is the part that transferred. The ground stayed cream.
+
+## v8 — scale the index, not the pictures
+
+Two hundred and fifty roots can be searched. Forty-two of them have a picture. The rest do not get a generated illustration.
+
+A root without art is the same plate: the radius, the hairline, the shadow, and the title in the cream margin. The picture area is a lighter cream. The 词源故事, the uncertainty line, and the source links sit under the card, the same as on a painted root. The album still draws only what has been collected. The count moves toward 250. An empty slot is still not drawn.
+
+Colour stays honest. The forty-two hues are measured from the pictures and still keep a gap of at least 5°. A cream root gets a quiet placeholder ramp, hashed from its id and nudged off those measured hues. It tints the title, the journey, and the spectrum pip. It is not a signature colour, and it is replaced when a picture is sampled. Two hundred and fifty entries cannot keep a 5° gap, and the painted set is not shoved apart to make room.
+
+A word that already belongs to a painted root stays there. `manufacture` remains `manu`. A variant that is another root's id opens that root: `ped` is the foot, `paed` is the child. One family sentence is kept when the catalog gives one, and it is attached only to the word that actually appears in it. Light records have no sentence. That is left blank rather than invented.
+
+The next pictures are drawn one at a time, then measured, then the placeholder ramp goes away. The cream plate is the waiting state, not a second style.

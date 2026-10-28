@@ -55,6 +55,80 @@ export const rootColors: Record<string, RootColor> = {
   meter: { hue: 154.7, accent: '#65B181', deep: '#286340', wash: '#E3F5E8', skyTop: '#D4F0DC', skyBottom: '#ECFAF8', spark: '#DBADD0', steps: ['#F8FBF9', '#F0F8F2', '#E3F5E8', '#DBF2E2', '#CEECD7', '#BFE6CB', '#9FD5B0', '#7FC195', '#65B181', '#52986C', '#286340', '#194229'] },
 };
 
+export function hasSampledColor(id: string): boolean {
+  return Object.prototype.hasOwnProperty.call(rootColors, id);
+}
+
+function hueGap(a: number, b: number): number {
+  const gap = Math.abs(a - b) % 360;
+  return Math.min(gap, 360 - gap);
+}
+
+/** Stable placeholder hue, nudged off every measured illustration hue. */
+function provisionalHue(id: string): number {
+  let hash = 0;
+  for (let i = 0; i < id.length; i += 1) hash = (hash * 33 + id.charCodeAt(i)) % 3600;
+  let hue = hash / 10;
+  const taken = Object.values(rootColors).map((color) => color.hue);
+  for (let n = 0; n < 12; n += 1) {
+    if (!taken.some((other) => hueGap(other, hue) < 2.5)) break;
+    hue = (hue + 3.7) % 360;
+  }
+  return Math.round(hue * 10) / 10;
+}
+
+/** OKLCH → sRGB hex. Placeholder ramps stay inside a quiet chroma so they don't imitate a sampled accent. */
+function oklchToHex(L: number, C: number, H: number): string {
+  const h = (H * Math.PI) / 180;
+  const a = C * Math.cos(h);
+  const b = C * Math.sin(h);
+  const l_ = L + 0.3963377774 * a + 0.2158037573 * b;
+  const m_ = L - 0.1055613458 * a - 0.0638541728 * b;
+  const s_ = L - 0.0894841775 * a - 1.291485548 * b;
+  const l = l_ ** 3;
+  const m = m_ ** 3;
+  const s = s_ ** 3;
+  const linear = [
+    +4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+    -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+    -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
+  ];
+  const hex = linear
+    .map((channel) => {
+      const clipped = Math.min(1, Math.max(0, channel));
+      const encoded = clipped <= 0.0031308 ? 12.92 * clipped : 1.055 * clipped ** (1 / 2.4) - 0.055;
+      return Math.round(Math.min(1, Math.max(0, encoded)) * 255)
+        .toString(16)
+        .padStart(2, '0');
+    })
+    .join('');
+  return `#${hex.toUpperCase()}`;
+}
+
+function placeholderRamp(hue: number): RootColor {
+  const levels = [0.985, 0.965, 0.945, 0.92, 0.89, 0.85, 0.78, 0.7, 0.64, 0.55, 0.42, 0.3];
+  const chroma = [0.004, 0.008, 0.012, 0.016, 0.022, 0.03, 0.04, 0.048, 0.052, 0.046, 0.038, 0.028];
+  const steps = levels.map((lightness, i) => oklchToHex(lightness, chroma[i] ?? 0.03, hue));
+  return {
+    hue,
+    accent: steps[8] ?? '#8A8178',
+    deep: steps[10] ?? '#5C5148',
+    wash: steps[2] ?? '#F6EFE7',
+    skyTop: steps[1] ?? '#F8F3ED',
+    skyBottom: steps[0] ?? '#FBF8F4',
+    spark: steps[5] ?? '#C4B8AA',
+    steps,
+  };
+}
+
+const placeholderCache = new Map<string, RootColor>();
+
 export function rootColor(id: string): RootColor {
-  return rootColors[id] ?? rootColors.port;
+  const sampled = rootColors[id];
+  if (sampled) return sampled;
+  const cached = placeholderCache.get(id);
+  if (cached) return cached;
+  const ramp = placeholderRamp(provisionalHue(id));
+  placeholderCache.set(id, ramp);
+  return ramp;
 }

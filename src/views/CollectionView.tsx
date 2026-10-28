@@ -1,12 +1,11 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent as ReactPointerEvent, type TransitionEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { roots, rootsByHue } from '../data';
+import { roots, rootsByHue, sharesOrigin } from '../data';
 import { rootColor } from '../data/rootColors';
 import type { RootEntry } from '../data/types';
 import { useCollection } from '../lib/collection';
 import type { CollectedWord } from '../lib/storage';
-import { CardTitle } from '../components/CardTitle';
-import { Picture } from '../components/Picture';
+import { RootFace } from '../components/RootFace';
 
 type Sort = 'hue' | 'latin' | 'greek' | 'recent';
 
@@ -320,8 +319,7 @@ export function CollectionView() {
                               aria-label={label}
                               onClick={guard}
                             >
-                              <Picture eager src={`${import.meta.env.BASE_URL}illustrations/${card.root.id}.webp`} alt="" />
-                              <CardTitle root={card.root.root} meaning={card.root.titleEn} />
+                              <RootFace root={card.root} />
                             </Link>
                           ) : (
                             <button
@@ -338,8 +336,7 @@ export function CollectionView() {
                                 startFly(place > 0 ? 1 : -1);
                               }}
                             >
-                              <Picture src={`${import.meta.env.BASE_URL}thumbs/${card.root.id}.webp`} alt="" />
-                              <CardTitle root={card.root.root} meaning={card.root.titleEn} />
+                              <RootFace root={card.root} thumb />
                             </button>
                           )}
                         </article>
@@ -370,8 +367,8 @@ export function CollectionView() {
 function collectOrdered(sort: Sort, words: Record<string, CollectedWord>) {
   const owned = new Set(Object.values(words).map((item) => item.rootId));
   const hue = rootsByHue().filter((root) => owned.has(root.id));
-  if (sort === 'latin') return hue.filter((root) => root.origin === 'Latin');
-  if (sort === 'greek') return hue.filter((root) => root.origin === 'Greek');
+  if (sort === 'latin') return hue.filter((root) => sharesOrigin(root, 'Latin'));
+  if (sort === 'greek') return hue.filter((root) => sharesOrigin(root, 'Greek'));
   if (sort === 'recent') {
     const latest = new Map<string, number>();
     for (const item of Object.values(words)) {

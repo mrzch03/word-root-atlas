@@ -280,10 +280,10 @@ export function Discover() {
 
       {showSlot && (
         <div className="stage-slot">
-          {showCard && shownRoot && <CardStage key={run} root={shownRoot} ceremony={ceremony} />}
+          {showCard && shownRoot && <CardStage key={`card-${run}`} root={shownRoot} ceremony={ceremony} />}
           {phase === 'journey' && shownRoot && (
             <RootJourney
-              key={run}
+              key={`journey-${run}`}
               word={journeyWord}
               root={shownRoot}
               mode={mode}

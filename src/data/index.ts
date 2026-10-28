@@ -1,9 +1,11 @@
 import { greekRoots } from './greek';
 import { latinRoots } from './latin';
+import { buildScaledRoots } from './provisional';
 import { rootColor } from './rootColors';
 import type { Lexeme, RootEntry } from './types';
 
-export const roots: RootEntry[] = [...latinRoots, ...greekRoots];
+/** The 42 illustrated roots, then the catalog's cream cards, in editorial rank. */
+export const roots: RootEntry[] = buildScaledRoots([...latinRoots, ...greekRoots]);
 
 export interface WordHit {
   word: string;
@@ -47,18 +49,29 @@ export function rootsByHue(): RootEntry[] {
 
 export function specimenNo(id: string): string {
   const i = rootsByHue().findIndex((r) => r.id === id);
-  return `${String(Math.max(1, i + 1)).padStart(2, '0')} / ${String(roots.length).padStart(2, '0')}`;
+  const width = String(roots.length).length;
+  return `${String(Math.max(1, i + 1)).padStart(width, '0')} / ${String(roots.length).padStart(width, '0')}`;
 }
 
 export function originZh(origin: RootEntry['origin']): string {
-  return origin === 'Latin' ? '拉丁语' : '希腊语';
+  if (origin === 'Latin') return '拉丁语';
+  if (origin === 'Greek') return '希腊语';
+  return '拉丁语 / 希腊语';
 }
 
+export function sharesOrigin(root: RootEntry, origin: 'Latin' | 'Greek'): boolean {
+  return root.origin === origin || root.origin === 'Latin + Greek';
+}
+
+/** An id or display form wins over another root that merely lists the string as a variant. */
 export function findRootByForm(raw: string): RootEntry | null {
   const q = norm(raw);
   if (!q) return null;
   for (const root of roots) {
-    if (root.id === q || root.root === q || root.forms.some((f) => f === q)) return root;
+    if (root.id === q || root.root === q) return root;
+  }
+  for (const root of roots) {
+    if (root.forms.some((form) => form === q)) return root;
   }
   return null;
 }

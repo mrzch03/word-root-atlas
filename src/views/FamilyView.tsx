@@ -4,18 +4,15 @@ import { rootColor } from '../data/rootColors';
 import type { Lexeme, RootEntry } from '../data/types';
 import { useCollection } from '../lib/collection';
 import { splitSurface } from '../lib/journey';
-import { CardTitle } from '../components/CardTitle';
-import { Picture } from '../components/Picture';
+import { RootFace } from '../components/RootFace';
 import { originStory, sourceLabel } from '../data/stories';
 
 export function CardStage({ root, ceremony }: { root: RootEntry; ceremony: 'A' | 'B' | null }) {
-  const base = import.meta.env.BASE_URL;
   const intro = ceremony === 'A' ? 'stage intro' : ceremony === 'B' ? 'stage sheen' : 'stage';
   return (
     <div className={intro}>
-      <div className="plate">
-        <Picture eager src={`${base}illustrations/${root.id}.webp`} alt={root.artAlt} />
-        <CardTitle root={root.root} meaning={root.titleEn} />
+      <div className={root.illustrated ? 'plate' : 'plate cream'}>
+        <RootFace root={root} />
       </div>
     </div>
   );
@@ -116,6 +113,12 @@ export function FamilyReading({
     '--deep': color.deep,
     '--wash': color.wash,
   } as CSSProperties;
+  const sample =
+    lexeme && lexeme.example
+      ? { en: lexeme.example, zh: lexeme.exampleZh }
+      : !lexeme && root.example
+        ? { en: root.example, zh: root.exampleZh ?? '' }
+        : null;
 
   return (
     <div className={ceremony === 'A' && !reduced ? 'reading settle' : 'reading'} style={style}>
@@ -163,10 +166,10 @@ export function FamilyReading({
           {root.story}
         </p>
       )}
-      {lexeme && (
+      {sample && (
         <figure className="example">
-          <blockquote>{lexeme.example}</blockquote>
-          <p lang="zh-CN">{lexeme.exampleZh}</p>
+          <blockquote>{sample.en}</blockquote>
+          {sample.zh ? <p lang="zh-CN">{sample.zh}</p> : null}
         </figure>
       )}
       <h2 className="pills-label">同根词</h2>
