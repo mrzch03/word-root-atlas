@@ -2,18 +2,23 @@ import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import prompts from '../../illustration-prompts.json';
 import { roots, rootsByHue } from '../data';
+import { batchIllustrated } from '../data/provisional';
 import { hasSampledColor, rootColor, rootColors } from '../data/rootColors';
 import { originStory } from '../data/stories';
 import { inflections, lookup, normalize } from './match';
 
 const illustrated = roots.filter((root) => root.illustrated);
 const cream = roots.filter((root) => !root.illustrated);
+const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
+const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships about 250 roots, with the original 42 still fully illustrated', () => {
+  it('ships about 250 roots, with 54 paintings and the original 42 still fully written', () => {
     expect(roots.length).toBe(250);
-    expect(illustrated).toHaveLength(42);
-    expect(cream.length).toBe(roots.length - 42);
+    expect(illustrated).toHaveLength(54);
+    expect(authored).toHaveLength(42);
+    expect(batch).toHaveLength(12);
+    expect(cream.length).toBe(roots.length - 54);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
     expect(new Set(words).size).toBe(words.length);
@@ -22,7 +27,7 @@ describe('dataset', () => {
   });
 
   it('keeps illustrated roots strict, and cream roots searchable without a picture', () => {
-    for (const root of illustrated) {
+    for (const root of authored) {
       expect(root.words.length).toBeGreaterThanOrEqual(6);
       expect(root.words.length).toBeLessThanOrEqual(12);
       expect(root.story.length).toBeGreaterThan(20);
@@ -33,6 +38,13 @@ describe('dataset', () => {
         expect(word.example.toLowerCase()).toContain(word.word.toLowerCase());
         expect(word.exampleZh.trim()).not.toBe('');
       }
+    }
+    for (const root of batch) {
+      expect(root.words.length).toBeGreaterThanOrEqual(2);
+      expect(root.artAlt.length).toBeGreaterThan(8);
+      expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(true);
+      expect(existsSync(`public/thumbs/${root.id}.webp`)).toBe(true);
+      expect(hasSampledColor(root.id)).toBe(true);
     }
     for (const root of cream) {
       expect(root.words.length).toBeGreaterThanOrEqual(2);
@@ -57,7 +69,7 @@ describe('dataset', () => {
 
   it('gives painted roots a measured ramp and a picture, and cream roots a quiet placeholder', () => {
     expect(Object.keys(rootColors).sort()).toEqual(illustrated.map((root) => root.id).sort());
-    for (const root of illustrated) {
+    for (const root of authored) {
       const color = rootColor(root.id);
       expect(hasSampledColor(root.id)).toBe(true);
       expect(color.accent).toMatch(/^#[0-9A-F]{6}$/);
@@ -73,7 +85,7 @@ describe('dataset', () => {
       }
     }
     const paintedHues = rootsByHue()
-      .filter((root) => root.illustrated)
+      .filter((root) => root.illustrated && !batchIllustrated.has(root.id))
       .map((root) => rootColor(root.id).hue);
     for (let i = 0; i < paintedHues.length; i += 1) {
       const gap = (paintedHues[(i + 1) % paintedHues.length] - paintedHues[i] + 360) % 360;
@@ -104,7 +116,7 @@ describe('lookup', () => {
 
   it('opens a root family when the root itself is typed', () => {
     expect(lookup('spect')).toMatchObject({ kind: 'root', root: { id: 'spect' } });
-    expect(lookup('pos')).toMatchObject({ kind: 'root', root: { id: 'pos', illustrated: false } });
+    expect(lookup('pos')).toMatchObject({ kind: 'root', root: { id: 'pos', illustrated: true } });
     expect(lookup('compose')).toMatchObject({ kind: 'word', hit: { word: 'compose', root: { id: 'pos' } } });
     expect(lookup('microbe')).toMatchObject({ kind: 'word', hit: { root: { id: 'micro', illustrated: false } } });
     expect(lookup('ped')).toMatchObject({ kind: 'root', root: { id: 'ped', illustrated: true } });

@@ -250,5 +250,77 @@
     "root": "meter",
     "meaning": "measure",
     "scene": "Two Greek figures measuring a column drum with a rod and a knotted cord, bronze calipers on the ground, the stone pavement faintly gridded, linen and warm limestone."
+  },
+  {
+    "rootId": "pos",
+    "root": "pos",
+    "meaning": "to put, place",
+    "scene": "A mosaicist kneeling on a half-finished floor, setting tesserae one by one into wet mortar to compose a dolphin; trays of coloured stones beside him"
+  },
+  {
+    "rootId": "fer",
+    "root": "fer",
+    "meaning": "to carry, bear",
+    "scene": "A terraced orchard heavy with fruit; a woman carries a basket of figs down stone steps toward a small roadside altar where an offering is laid"
+  },
+  {
+    "rootId": "ten",
+    "root": "ten",
+    "meaning": "to hold",
+    "scene": "A Roman storeroom: tall dolia jars hold grain, bound by iron hoops; a keeper holds a ring of keys while a tenant farmer holds out a sack"
+  },
+  {
+    "rootId": "fac",
+    "root": "fac",
+    "meaning": "to make, do",
+    "scene": "A Roman bronze-smith's officina: an anvil, a glowing hearth, a smith hammering a blade, finished tools hanging on the wall as proof of making"
+  },
+  {
+    "rootId": "ven",
+    "root": "ven",
+    "meaning": "to come",
+    "scene": "A crossroads inn at dusk: travellers arrive from three roads at once, lanterns being lit, a host stepping out to greet them"
+  },
+  {
+    "rootId": "sta",
+    "root": "sta",
+    "meaning": "to stand",
+    "scene": "A Roman sentry stands at a fixed post beside a statue on its pedestal at a city corner; a bookseller's fixed stall opposite"
+  },
+  {
+    "rootId": "ced",
+    "root": "ced",
+    "meaning": "to go; to yield",
+    "scene": "A small procession passes through a narrow arch: leaders go ahead, an elder steps aside to yield, footprints showing those who went before"
+  },
+  {
+    "rootId": "press",
+    "root": "press",
+    "meaning": "to press",
+    "scene": "A Roman villa press-room: a long timber beam press squeezing olive mats, golden oil running into a stone basin; a signet ring pressed into wax on the sill"
+  },
+  {
+    "rootId": "curr",
+    "root": "curr",
+    "meaning": "to run",
+    "scene": "A miniature Circus Maximus curve: two chariots rounding the turning post, dust plumes, a stream running alongside the track"
+  },
+  {
+    "rootId": "gress",
+    "root": "gress",
+    "meaning": "to step, walk",
+    "scene": "A broad flight of temple steps; a child climbing them one by one, each step a different shade of stone from light to dark, an elder already at the top"
+  },
+  {
+    "rootId": "ag",
+    "root": "ag",
+    "meaning": "to do, drive, act",
+    "scene": "A shepherd driving a flock along a hillside path with a crook while a small open-air stage nearby shows an actor mid-gesture — driving and acting"
+  },
+  {
+    "rootId": "gen",
+    "root": "gen",
+    "meaning": "birth, kind, origin",
+    "scene": "A Roman atrium with ancestor masks and a painted family tree on the wall; a newborn in a cradle beneath it, generations looking down"
   }
 ]
