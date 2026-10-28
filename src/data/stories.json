@@ -1,0 +1,4052 @@
+[
+ {
+  "rank": 1,
+  "id": "port",
+  "root": "port",
+  "forms": [
+   "port",
+   "portat"
+  ],
+  "language": "Latin",
+  "sourceWord": "portāre",
+  "meaning": {
+   "en": "to carry",
+   "zh": "搬运，携带"
+  },
+  "originStory": "拉丁语 portāre 本义是「搬、扛、带着走」，是罗马码头、集市里最日常的体力活动词。货物越过（trans-）边界是 transport，带进（im-）是 import，带出（ex-）是 export，从下面托住（sub-）是 support。important 来自中世纪拉丁语 importāre「带进来、引起后果」——能带来后果的事才「重要」。常被误会的一点：港口 portus、城门 porta 与 portāre 只是同一印欧词根 *per-「穿过」的远亲，并不是它的来源；画面里的码头只是「搬运」发生的舞台。",
+  "uncertainty": "portus/porta 与 portāre 同源于 PIE *per- 是通行说法（Etymonline），但它们不是 port「搬运」系词的直接来源。",
+  "derivedWords": [
+   {
+    "word": "transport",
+    "zh": "运输",
+    "breakdown": "trans-(越过) + port(携带)"
+   },
+   {
+    "word": "export",
+    "zh": "出口",
+    "breakdown": "ex-(向外) + port(携带)"
+   },
+   {
+    "word": "import",
+    "zh": "进口",
+    "breakdown": "im-(向内) + port(携带)"
+   },
+   {
+    "word": "portable",
+    "zh": "便携的",
+    "breakdown": "port(携带) + -able(可以)"
+   },
+   {
+    "word": "porter",
+    "zh": "搬运工",
+    "breakdown": "port(携带) + -er(人)"
+   },
+   {
+    "word": "portfolio",
+    "zh": "作品集",
+    "breakdown": "port(携带) + folio(纸页)"
+   },
+   {
+    "word": "report",
+    "zh": "报告；汇报",
+    "breakdown": "re-(回) + port(携带)"
+   },
+   {
+    "word": "support",
+    "zh": "支撑；支持",
+    "breakdown": "sup-(自下) + port(携带)"
+   },
+   {
+    "word": "deport",
+    "zh": "驱逐出境",
+    "breakdown": "de-(离开) + port(携带)"
+   },
+   {
+    "word": "important",
+    "zh": "重要的",
+    "breakdown": "im-(向内) + port(携带) + -ant(……的)"
+   }
+  ],
+  "example": {
+   "en": "Ships transport grain across the sea.",
+   "zh": "船只把谷物运过海。"
+  },
+  "illustration": {
+   "scene": "Ostia-style quay at dawn: a chain of porters shoulder clay amphorae from a handcart up a gangplank; the carrying bodies are the heroes, the ship only half in frame",
+   "dominantHue": {
+    "name": "港湾青 harbour teal",
+    "rationale": "搬运最集中的地方是水路码头；青蓝水色衬托陶土色的人与罐"
+   },
+   "props": [
+    "amphorae carried on shoulders",
+    "gangplank",
+    "handcart"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/portable",
+   "https://www.etymonline.com/word/important",
+   "https://www.etymonline.com/word/transport",
+   "https://www.etymonline.com/word/port",
+   "https://en.wiktionary.org/wiki/porto#Latin",
+   "https://logeion.uchicago.edu/porto",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "画面读成「港口 portus」：船是主角，看不到搬运的人和货，反而强化了「port=港口」的常见误解。",
+   "file": "/workspace/wra-illustrations/port.webp"
+  }
+ },
+ {
+  "rank": 2,
+  "id": "spect",
+  "root": "spect",
+  "forms": [
+   "spect",
+   "spec",
+   "spic"
+  ],
+  "language": "Latin",
+  "sourceWord": "specere / spectāre",
+  "meaning": {
+   "en": "to look",
+   "zh": "看，观察"
+  },
+  "originStory": "拉丁语 specere 是「注视」，反复体 spectāre 是「凝望、观看」。罗马的占卜官 auspex 字面是「看鸟的人」（avis 鸟 + specere 看）：公共大事之前，他在划定的天空区域里观察鸟的飞行，判断神意是否吉利，这就是 auspicious「吉兆的」的来历。spectacle 是值得一看的盛大场面；respect 是「回头再看一眼」而生的敬重；inspect 是往里看；suspect 原是「从下往上打量」，带着不放心。",
+  "uncertainty": "auspex 的构词（avis + specere）见 Etymonline / Lewis & Short；占卜细节按古罗马通行记载简化。",
+  "derivedWords": [
+   {
+    "word": "spectacle",
+    "zh": "景象",
+    "breakdown": "spect(看) + -acle(事物)"
+   },
+   {
+    "word": "spectator",
+    "zh": "观众",
+    "breakdown": "spect(看) + -ator(人)"
+   },
+   {
+    "word": "inspect",
+    "zh": "检查",
+    "breakdown": "in-(向内) + spect(看)"
+   },
+   {
+    "word": "respect",
+    "zh": "尊敬",
+    "breakdown": "re-(再) + spect(看)"
+   },
+   {
+    "word": "prospect",
+    "zh": "前景；展望",
+    "breakdown": "pro-(向前) + spect(看)"
+   },
+   {
+    "word": "spectrum",
+    "zh": "光谱；范围",
+    "breakdown": "spect(看) + -rum(事物)"
+   },
+   {
+    "word": "specimen",
+    "zh": "标本",
+    "breakdown": "spec(看) + -men(一件)"
+   },
+   {
+    "word": "aspect",
+    "zh": "方面；朝向",
+    "breakdown": "a-(朝向) + spect(看)"
+   },
+   {
+    "word": "suspect",
+    "zh": "怀疑",
+    "breakdown": "su-(自下) + spect(看)"
+   },
+   {
+    "word": "retrospect",
+    "zh": "回顾",
+    "breakdown": "retro-(向后) + spect(看)"
+   }
+  ],
+  "example": {
+   "en": "The eclipse was a rare spectacle.",
+   "zh": "日食是罕见的景象。"
+  },
+  "illustration": {
+   "scene": "An auspex on a small hill-top templum, curved lituus staff raised, watching a few birds cross a marked patch of sky; two attendants wait below",
+   "dominantHue": {
+    "name": "晨空青绿 dawn sky teal",
+    "rationale": "观察发生在开阔天空与光线里，青绿天色呼应「眼睛」与远望"
+   },
+   "props": [
+    "curved lituus staff",
+    "flight of birds",
+    "stone boundary marker of the templum"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/auspice",
+   "https://www.etymonline.com/word/spectacle",
+   "https://www.etymonline.com/word/respect",
+   "https://www.etymonline.com/word/suspect",
+   "https://en.wiktionary.org/wiki/specio#Latin",
+   "https://logeion.uchicago.edu/specio",
+   "https://en.wiktionary.org/wiki/specto#Latin",
+   "https://logeion.uchicago.edu/specto",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "灯塔加天文台穹顶读成「灯塔/光」，和 luc 的灯塔重复，没体现「注视」的文化来源。",
+   "file": "/workspace/wra-illustrations/spect.webp"
+  }
+ },
+ {
+  "rank": 3,
+  "id": "dict",
+  "root": "dict",
+  "forms": [
+   "dict",
+   "dic"
+  ],
+  "language": "Latin",
+  "sourceWord": "dīcere",
+  "meaning": {
+   "en": "to say",
+   "zh": "说"
+  },
+  "originStory": "拉丁语 dīcere 是「说、宣告」。罗马法官（praetor）上任时把自己将如何断案「宣布出来」，写成 ēdictum（e- 出 + dict 说），公开张贴，这就是 edict「法令」。危急时元老院会任命一位 dictator，独揽大权，他的话就是命令。verdict 是 vērē dictum「说出的真话」，经盎格鲁-法语进入英语。predict 是「预先说出」，contradict 是「反着说」，dictionary 则是中世纪拉丁语 dictiōnārium「词语之书」。",
+  "uncertainty": "dictator 由 dictāre（dīcere 的反复体「口授、规定」）派生。",
+  "derivedWords": [
+   {
+    "word": "dictionary",
+    "zh": "词典",
+    "breakdown": "dict(说) + -ionary(汇集)"
+   },
+   {
+    "word": "predict",
+    "zh": "预测",
+    "breakdown": "pre-(预先) + dict(说)"
+   },
+   {
+    "word": "contradict",
+    "zh": "反驳",
+    "breakdown": "contra-(相反) + dict(说)"
+   },
+   {
+    "word": "verdict",
+    "zh": "裁决",
+    "breakdown": "ver(真实) + dict(说)"
+   },
+   {
+    "word": "dictate",
+    "zh": "口述",
+    "breakdown": "dict(说) + -ate(动词)"
+   },
+   {
+    "word": "edict",
+    "zh": "法令",
+    "breakdown": "e-(向外) + dict(说)"
+   },
+   {
+    "word": "diction",
+    "zh": "用词",
+    "breakdown": "dict(说) + -ion(方式)"
+   },
+   {
+    "word": "jurisdiction",
+    "zh": "管辖权",
+    "breakdown": "juris(法) + dict(说)"
+   }
+  ],
+  "example": {
+   "en": "Look it up in a dictionary.",
+   "zh": "到词典里查一查。"
+  },
+  "illustration": {
+   "scene": "keep current: Roman forum, an orator on a low rostrum, listeners on steps, a bronze edict tablet leaning against the platform",
+   "dominantHue": {
+    "name": "朱红 rostrum vermilion",
+    "rationale": "演说与宣告是有力量、带权威的声音，暖红表达「说出来」的分量"
+   },
+   "props": [
+    "rostrum",
+    "bronze edict tablet",
+    "listeners"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/edict",
+   "https://www.etymonline.com/word/dictator",
+   "https://www.etymonline.com/word/verdict",
+   "https://www.etymonline.com/word/dictionary",
+   "https://en.wiktionary.org/wiki/dico#Latin",
+   "https://logeion.uchicago.edu/dico",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "演说台、听众和元老雕像，「宣告」很清楚。",
+   "file": "/workspace/wra-illustrations/dict.webp"
+  }
+ },
+ {
+  "rank": 4,
+  "id": "scrib",
+  "root": "scrib",
+  "forms": [
+   "scrib",
+   "script"
+  ],
+  "language": "Latin",
+  "sourceWord": "scrībere",
+  "meaning": {
+   "en": "to write",
+   "zh": "写"
+  },
+  "originStory": "拉丁语 scrībere 是「写」，更早的意思是「刻、划」——古人在涂蜡的木板上用尖笔划出字迹，写就是划。罗马有一个专门的公职阶层 scribae（文书），替官员誊写公文、记账、保管档案。manuscript 是「手写的东西」；prescribe 是「事先写下」，原是法律用语，后来医生「事先写好」用药方案，于是有了 prescription「处方」；subscribe 是「写在下面」，即在文书末尾签名表示同意。describe 是「照着写下来」。",
+  "uncertainty": "「刻、划」的早期义见 Etymonline（PIE *skribh- \"to cut\"）。",
+  "derivedWords": [
+   {
+    "word": "describe",
+    "zh": "描述",
+    "breakdown": "de-(下来) + scrib(写)"
+   },
+   {
+    "word": "manuscript",
+    "zh": "手稿",
+    "breakdown": "manu(手) + script(写)"
+   },
+   {
+    "word": "prescribe",
+    "zh": "规定；开具",
+    "breakdown": "pre-(预先) + scrib(写)"
+   },
+   {
+    "word": "subscribe",
+    "zh": "署名；订阅",
+    "breakdown": "sub-(在下) + scrib(写)"
+   },
+   {
+    "word": "inscription",
+    "zh": "铭文",
+    "breakdown": "in-(入) + script(写)"
+   },
+   {
+    "word": "scripture",
+    "zh": "经文",
+    "breakdown": "script(写) + -ure(文本)"
+   },
+   {
+    "word": "transcribe",
+    "zh": "抄写；转录",
+    "breakdown": "trans-(转换) + scrib(写)"
+   },
+   {
+    "word": "postscript",
+    "zh": "附言",
+    "breakdown": "post-(在后) + script(写)"
+   }
+  ],
+  "example": {
+   "en": "Describe the color of the clay.",
+   "zh": "描述这块陶土的颜色。"
+  },
+  "illustration": {
+   "scene": "keep current: a scribe at a desk with stylus over a wax tablet; add a stack of tablets and a half-unrolled scroll",
+   "dominantHue": {
+    "name": "墨蓝 ink blue",
+    "rationale": "写字离不开墨与夜间灯下的书桌，深蓝最像墨水"
+   },
+   "props": [
+    "wax tablet with stylus",
+    "scroll",
+    "inkpot"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/scribe",
+   "https://www.etymonline.com/word/prescribe",
+   "https://www.etymonline.com/word/subscribe",
+   "https://www.etymonline.com/word/manuscript",
+   "https://en.wiktionary.org/wiki/scribo#Latin",
+   "https://logeion.uchicago.edu/scribo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "书桌前的抄写员，意思准确；蓝白棋盘地砖稍偏现代，可在重绘时换成蜡板和尖笔。",
+   "file": "/workspace/wra-illustrations/scrib.webp"
+  }
+ },
+ {
+  "rank": 5,
+  "id": "duc",
+  "root": "duc",
+  "forms": [
+   "duc",
+   "duct"
+  ],
+  "language": "Latin",
+  "sourceWord": "dūcere",
+  "meaning": {
+   "en": "to lead",
+   "zh": "引导，带领"
+  },
+  "originStory": "拉丁语 dūcere 是「牵引、带领」，名词 dux 是「领头的人」，后来变成英语的 duke「公爵」。罗马人把引水工程叫 aquae ductus「水的引导」，aqueduct 就是把山泉一路「领」进城的石拱渠道。conduct 是「一起带着走」，produce 是「向前带出」，reduce 是「带回去、减回去」，introduce 是「领进来」，deduce 是「从前提里引出结论」。educate 来自 ēducāre「抚养」，与 ēdūcere「领出来」是近亲。",
+  "uncertainty": "educate 与 ēdūcere 的关系 Etymonline 标为「相关」，不是直接派生。",
+  "derivedWords": [
+   {
+    "word": "conduct",
+    "zh": "引导；指挥",
+    "breakdown": "con-(一起) + duc(引导)"
+   },
+   {
+    "word": "produce",
+    "zh": "生产；拿出",
+    "breakdown": "pro-(向前) + duc(引导)"
+   },
+   {
+    "word": "introduce",
+    "zh": "介绍；引入",
+    "breakdown": "intro-(向内) + duc(引导)"
+   },
+   {
+    "word": "reduce",
+    "zh": "减少",
+    "breakdown": "re-(回) + duc(引导)"
+   },
+   {
+    "word": "educate",
+    "zh": "教育",
+    "breakdown": "e-(向外) + duc(抚育)"
+   },
+   {
+    "word": "abduct",
+    "zh": "劫持",
+    "breakdown": "ab-(离开) + duc(引导)"
+   },
+   {
+    "word": "deduce",
+    "zh": "推断",
+    "breakdown": "de-(从……) + duc(引导)"
+   },
+   {
+    "word": "aqueduct",
+    "zh": "渡槽",
+    "breakdown": "aqua(水) + duc(引导)"
+   }
+  ],
+  "example": {
+   "en": "She will conduct the tour.",
+   "zh": "她来带领这次参观。"
+  },
+  "illustration": {
+   "scene": "keep current: a Roman road, a guide leading travellers, an aqueduct arch carrying a thread of water across the plinth",
+   "dominantHue": {
+    "name": "引水碧 aqueduct green-teal",
+    "rationale": "引导意象最经典的是引水渠：清水与绿野"
+   },
+   "props": [
+    "aqueduct arch",
+    "guide's staff",
+    "milestone"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/aqueduct",
+   "https://www.etymonline.com/word/duke",
+   "https://www.etymonline.com/word/educate",
+   "https://www.etymonline.com/word/conduct",
+   "https://en.wiktionary.org/wiki/duco#Latin",
+   "https://logeion.uchicago.edu/duco",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "引水渠和带路人，与 aqueduct、「引导」吻合。",
+   "file": "/workspace/wra-illustrations/duc.webp"
+  }
+ },
+ {
+  "rank": 6,
+  "id": "mit",
+  "root": "mit",
+  "forms": [
+   "mit",
+   "miss"
+  ],
+  "language": "Latin",
+  "sourceWord": "mittere",
+  "meaning": {
+   "en": "to send, let go",
+   "zh": "送出，放走"
+  },
+  "originStory": "拉丁语 mittere 本义是「放手、让它走」，引申为「派遣、送出」。罗马的信使带着封蜡的书板从城门被派出去，是 missiō 的最直观画面。message 经古法语来自 missāticum「被送出的东西」；missile 是「能投出去的东西」；dismiss 是「放走」，admit 是「放进来」，permit 是「放过去」，promise 是「把话向前送出」，transmit 是「送过去」。英语 Mass「弥撒」很可能来自礼仪结束时的「Ite, missa est」（去吧，散会了），学界对此仍有讨论。",
+  "uncertainty": "Mass < missa 来自礼仪结语一说，Etymonline 标为 probably。",
+  "derivedWords": [
+   {
+    "word": "transmit",
+    "zh": "传送",
+    "breakdown": "trans-(越过) + mit(送)"
+   },
+   {
+    "word": "mission",
+    "zh": "使命",
+    "breakdown": "miss(送) + -ion(事情)"
+   },
+   {
+    "word": "permit",
+    "zh": "允许",
+    "breakdown": "per-(通过) + mit(送)"
+   },
+   {
+    "word": "submit",
+    "zh": "提交",
+    "breakdown": "sub-(向上呈) + mit(送)"
+   },
+   {
+    "word": "dismiss",
+    "zh": "解散",
+    "breakdown": "dis-(离开) + miss(送)"
+   },
+   {
+    "word": "emit",
+    "zh": "发出",
+    "breakdown": "e-(向外) + mit(送)"
+   },
+   {
+    "word": "omit",
+    "zh": "省略",
+    "breakdown": "o-(放开) + mit(送)"
+   },
+   {
+    "word": "missile",
+    "zh": "投射物",
+    "breakdown": "miss(送) + -ile(可被……的)"
+   },
+   {
+    "word": "admission",
+    "zh": "准入",
+    "breakdown": "ad-(向) + miss(送)"
+   },
+   {
+    "word": "commission",
+    "zh": "委托",
+    "breakdown": "com-(交托) + miss(送)"
+   }
+  ],
+  "example": {
+   "en": "The wire transmits a faint signal.",
+   "zh": "电线传送着微弱的信号。"
+  },
+  "illustration": {
+   "scene": "A city gate at morning: a messenger in a short tunic has just been sent out at a run with a sealed wax tablet; the sender still on the threshold, a released dove above",
+   "dominantHue": {
+    "name": "信使玫瑰 messenger rose",
+    "rationale": "「送出」带着期待与告别的情绪，玫红在路尘中最醒目"
+   },
+   "props": [
+    "sealed wax tablet",
+    "city gate",
+    "released dove"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/mission",
+   "https://www.etymonline.com/word/message",
+   "https://www.etymonline.com/word/dismiss",
+   "https://www.etymonline.com/word/promise",
+   "https://www.etymonline.com/word/mass",
+   "https://en.wiktionary.org/wiki/mitto#Latin",
+   "https://logeion.uchicago.edu/mitto",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "骆驼商队加黄色城堡读成「沙漠商旅」，没有「派出、放手」的动作，也看不到信使。",
+   "file": "/workspace/wra-illustrations/mit.webp"
+  }
+ },
+ {
+  "rank": 11,
+  "id": "cap",
+  "root": "cap",
+  "forms": [
+   "cap",
+   "capt",
+   "cept",
+   "ceive",
+   "cip"
+  ],
+  "language": "Latin",
+  "sourceWord": "capere",
+  "meaning": {
+   "en": "to take, seize",
+   "zh": "拿，抓住"
+  },
+  "originStory": "拉丁语 capere 是「拿、抓住」，可以是捕鸟、抓鱼，也可以是战场上俘获敌人：captīvus 是被抓住的人。能「装得下、拿得住」叫 capāx，于是有 capable、capacity。拿进来是 receive，拿出去是 except「除了」，拿到一起是 concept——concipere 原指「把东西收拢并容纳在里面」，也指怀孕，后来才指头脑里「怀上」一个想法。perceive 是「完全抓住」，participate 是「拿走一份」。",
+  "derivedWords": [
+   {
+    "word": "capture",
+    "zh": "捕捉",
+    "breakdown": "cap(取) + -ure(结果)"
+   },
+   {
+    "word": "accept",
+    "zh": "接受",
+    "breakdown": "ac-(向) + cept(取)"
+   },
+   {
+    "word": "concept",
+    "zh": "概念",
+    "breakdown": "con-(一起) + cept(取)"
+   },
+   {
+    "word": "receive",
+    "zh": "收到",
+    "breakdown": "re-(回) + ceive(取)"
+   },
+   {
+    "word": "except",
+    "zh": "除外",
+    "breakdown": "ex-(向外) + cept(取)"
+   },
+   {
+    "word": "anticipate",
+    "zh": "预期",
+    "breakdown": "ante-(在前) + cip(取)"
+   },
+   {
+    "word": "capable",
+    "zh": "有能力的",
+    "breakdown": "cap(取) + -able(可以)"
+   },
+   {
+    "word": "participate",
+    "zh": "参加",
+    "breakdown": "part(部分) + cip(取)"
+   },
+   {
+    "word": "recipient",
+    "zh": "接受者",
+    "breakdown": "re-(回) + cip(取) + -ent(人)"
+   },
+   {
+    "word": "intercept",
+    "zh": "拦截",
+    "breakdown": "inter-(之间) + cept(取)"
+   }
+  ],
+  "example": {
+   "en": "The photo captures the morning mist.",
+   "zh": "照片捕捉到晨雾。"
+  },
+  "illustration": {
+   "scene": "keep current: two people picking apples, one reaching up, one holding a basket — taking and receiving",
+   "dominantHue": {
+    "name": "苹果熟红 ripe apple red",
+    "rationale": "伸手去拿的对象是熟透的果子，红色让「抓取」有焦点"
+   },
+   "props": [
+    "apple tree",
+    "basket",
+    "ladder"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/capture",
+   "https://www.etymonline.com/word/capable",
+   "https://www.etymonline.com/word/conceive",
+   "https://www.etymonline.com/word/except",
+   "https://en.wiktionary.org/wiki/capio#Latin",
+   "https://logeion.uchicago.edu/capio",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "伸手摘苹果，「拿、抓取」直观。",
+   "file": "/workspace/wra-illustrations/cap.webp"
+  }
+ },
+ {
+  "rank": 16,
+  "id": "ject",
+  "root": "ject",
+  "forms": [
+   "ject"
+  ],
+  "language": "Latin",
+  "sourceWord": "iacere (iactus)",
+  "meaning": {
+   "en": "to throw",
+   "zh": "投，扔"
+  },
+  "originStory": "拉丁语 iacere 是「扔、投」。在希腊罗马的体育场上，掷铁饼、投标枪是最经典的项目。project 来自 prōicere「向前扔出」，先指往前伸出，后来变成「方案、计划」——把想法投向未来。reject 是「扔回去」，inject 是「扔进去」，eject 是「扔出去」。object 是「扔在面前的东西」，挡在眼前，所以也有「反对」义；subject 是「被扔在下面的」，即臣服者。adjective「形容词」是「被添加、扔到名词旁边的词」。",
+  "derivedWords": [
+   {
+    "word": "project",
+    "zh": "项目；投射",
+    "breakdown": "pro-(向前) + ject(投)"
+   },
+   {
+    "word": "reject",
+    "zh": "拒绝",
+    "breakdown": "re-(回) + ject(投)"
+   },
+   {
+    "word": "inject",
+    "zh": "注入",
+    "breakdown": "in-(入) + ject(投)"
+   },
+   {
+    "word": "eject",
+    "zh": "弹出",
+    "breakdown": "e-(向外) + ject(投)"
+   },
+   {
+    "word": "subject",
+    "zh": "主题",
+    "breakdown": "sub-(在下) + ject(投)"
+   },
+   {
+    "word": "object",
+    "zh": "物体；反对",
+    "breakdown": "ob-(对着) + ject(投)"
+   },
+   {
+    "word": "trajectory",
+    "zh": "轨迹",
+    "breakdown": "tra-(越过) + ject(投)"
+   },
+   {
+    "word": "conjecture",
+    "zh": "推测",
+    "breakdown": "con-(一起) + ject(投)"
+   },
+   {
+    "word": "interject",
+    "zh": "插话",
+    "breakdown": "inter-(之间) + ject(投)"
+   },
+   {
+    "word": "adjective",
+    "zh": "形容词",
+    "breakdown": "ad-(向) + ject(投)"
+   }
+  ],
+  "example": {
+   "en": "They project the film onto the wall.",
+   "zh": "他们把影片投到墙上。"
+  },
+  "illustration": {
+   "scene": "keep current: an athlete mid-throw on a sand palaestra, discus visible in the air (make the discus clearly readable), spectators on a step",
+   "dominantHue": {
+    "name": "投掷橄榄 field olive",
+    "rationale": "运动场的沙地与草色给投掷动作一个干净的背景"
+   },
+   "props": [
+    "discus in flight",
+    "starting line",
+    "column"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/project",
+   "https://www.etymonline.com/word/object",
+   "https://www.etymonline.com/word/subject",
+   "https://www.etymonline.com/word/adjective",
+   "https://en.wiktionary.org/wiki/iacio#Latin",
+   "https://logeion.uchicago.edu/iacio",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "运动场上的投掷动作，「投」很清楚；铁饼太小，可放大一点。",
+   "file": "/workspace/wra-illustrations/ject.webp"
+  }
+ },
+ {
+  "rank": 17,
+  "id": "struct",
+  "root": "struct",
+  "forms": [
+   "struct",
+   "stru",
+   "stroy"
+  ],
+  "language": "Latin",
+  "sourceWord": "struere (structus)",
+  "meaning": {
+   "en": "to build, pile up",
+   "zh": "建造，堆砌"
+  },
+  "originStory": "拉丁语 struere 本义是「一层层堆起来、排列整齐」，罗马石匠砌墙就是 struere。structure 是「堆砌起来的样子」，construct 是「一起堆起来」。instruct 来自 instruere「在里面装配好、布置好」，原指整顿军队、装备齐全，后来才变成「教导」——把知识一层层搭进人心里。obstruct 是「堆在前面挡住」。destroy 经古法语来自 dēstruere「拆掉堆好的东西」。industry 可能来自 indu-「在内」+ struere，「勤勉」原是内在的建造力，此说尚有疑问。",
+  "uncertainty": "industry < indu + struere 为 Etymonline 所标「perhaps」。",
+  "derivedWords": [
+   {
+    "word": "structure",
+    "zh": "结构",
+    "breakdown": "struct(建造) + -ure(结果)"
+   },
+   {
+    "word": "construct",
+    "zh": "建造",
+    "breakdown": "con-(一起) + struct(建造)"
+   },
+   {
+    "word": "destroy",
+    "zh": "摧毁",
+    "breakdown": "de-(撤去) + stroy(建造)"
+   },
+   {
+    "word": "instruct",
+    "zh": "指导",
+    "breakdown": "in-(入) + struct(建造)"
+   },
+   {
+    "word": "obstruct",
+    "zh": "阻塞",
+    "breakdown": "ob-(对着) + struct(建造)"
+   },
+   {
+    "word": "infrastructure",
+    "zh": "基础设施",
+    "breakdown": "infra-(在下) + struct(建造)"
+   },
+   {
+    "word": "reconstruct",
+    "zh": "重建",
+    "breakdown": "re-(再) + con-(一起) + struct(建造)"
+   },
+   {
+    "word": "destruction",
+    "zh": "毁坏",
+    "breakdown": "de-(撤去) + struct(建造)"
+   }
+  ],
+  "example": {
+   "en": "Study the structure of the arch.",
+   "zh": "研究这座拱的结构。"
+  },
+  "illustration": {
+   "scene": "Masons raising a small limestone arch on timber centering: one sets the keystone, others lay dressed blocks in courses that echo the plinth's strata; plumb line hanging",
+   "dominantHue": {
+    "name": "石灰蜜黄 limestone honey",
+    "rationale": "一层层叠起的石灰岩自然呈现暖黄，与「堆砌」同构"
+   },
+   "props": [
+    "timber centering",
+    "keystone",
+    "plumb line"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/structure",
+   "https://www.etymonline.com/word/instruct",
+   "https://www.etymonline.com/word/destroy",
+   "https://www.etymonline.com/word/industry",
+   "https://en.wiktionary.org/wiki/struo#Latin",
+   "https://logeion.uchicago.edu/struo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "蓝色钢脚手架和黄色塔吊是现代工地，和整套古典微缩世界不统一；story 讲的是「一层层堆砌」。",
+   "file": "/workspace/wra-illustrations/struct.webp"
+  }
+ },
+ {
+  "rank": 18,
+  "id": "tract",
+  "root": "tract",
+  "forms": [
+   "tract",
+   "treat",
+   "trait"
+  ],
+  "language": "Latin",
+  "sourceWord": "trahere (tractus)",
+  "meaning": {
+   "en": "to draw, pull",
+   "zh": "拉，拖"
+  },
+  "originStory": "拉丁语 trahere 是「拉、拖」。古罗马工地上，牛和工人用绳索和滚木把巨石拖上坡道，这就是 trahere 的本相。tractor 是「拉东西的机器」。attract 是「拉过来」，distract 是「往两边拉」，分散注意力；extract 是「拉出来」，subtract 是「从下面抽走」。contract 是「拉到一起」，双方被同一份约定牵在一处。abstract 是「拉走、抽离」出来的。portrait 经古法语来自 prōtrahere「拉出来、描画出来」。",
+  "derivedWords": [
+   {
+    "word": "attract",
+    "zh": "吸引",
+    "breakdown": "at-(向) + tract(拉)"
+   },
+   {
+    "word": "contract",
+    "zh": "合同；收缩",
+    "breakdown": "con-(一起) + tract(拉)"
+   },
+   {
+    "word": "extract",
+    "zh": "提取",
+    "breakdown": "ex-(向外) + tract(拉)"
+   },
+   {
+    "word": "subtract",
+    "zh": "减去",
+    "breakdown": "sub-(离下) + tract(拉)"
+   },
+   {
+    "word": "tractor",
+    "zh": "拖拉机",
+    "breakdown": "tract(拉) + -or(器具)"
+   },
+   {
+    "word": "abstract",
+    "zh": "摘要；抽象的",
+    "breakdown": "abs-(离开) + tract(拉)"
+   },
+   {
+    "word": "distract",
+    "zh": "使分心",
+    "breakdown": "dis-(分开) + tract(拉)"
+   },
+   {
+    "word": "retract",
+    "zh": "收回",
+    "breakdown": "re-(回) + tract(拉)"
+   }
+  ],
+  "example": {
+   "en": "Warm light attracts moths.",
+   "zh": "暖光吸引飞蛾。"
+  },
+  "illustration": {
+   "scene": "keep current: an ox and two workers haul a dressed stone on wooden rollers up a ramp, rope taut, grooves in the dust",
+   "dominantHue": {
+    "name": "春草绿 meadow green",
+    "rationale": "拖拽发生在开阔的田野与工地，草绿衬出紧绷的绳索"
+   },
+   "props": [
+    "taut rope",
+    "wooden rollers",
+    "stone block"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/tractor",
+   "https://www.etymonline.com/word/attract",
+   "https://www.etymonline.com/word/contract",
+   "https://www.etymonline.com/word/portrait",
+   "https://en.wiktionary.org/wiki/traho#Latin",
+   "https://logeion.uchicago.edu/traho",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "牛拖石块，「拉」的动作一眼可懂。",
+   "file": "/workspace/wra-illustrations/tract.webp"
+  }
+ },
+ {
+  "rank": 19,
+  "id": "vert",
+  "root": "vert",
+  "forms": [
+   "vert",
+   "vers"
+  ],
+  "language": "Latin",
+  "sourceWord": "vertere (versus)",
+  "meaning": {
+   "en": "to turn",
+   "zh": "转"
+  },
+  "originStory": "拉丁语 vertere 是「转」。它有个特别美的派生：versus 原指犁地时耕牛走到田头「转身」，于是也指一道犁沟、一行字，英语 verse「诗行」由此而来——写满一行就像犁到田头，转身再写下一行。universe 是「转成一个整体」，anniversary 是「每年转回来的日子」，convert 是「完全转过去」，divert 是「转到一边」，reverse 是「转回来」，version 是「转写成另一种」，advertise 原是「把注意力转向」。",
+  "uncertainty": "verse < versus「犁沟、行」见 Etymonline。",
+  "derivedWords": [
+   {
+    "word": "convert",
+    "zh": "转变",
+    "breakdown": "con-(完全) + vert(转)"
+   },
+   {
+    "word": "reverse",
+    "zh": "颠倒；背面",
+    "breakdown": "re-(回) + vers(转)"
+   },
+   {
+    "word": "divert",
+    "zh": "使转向",
+    "breakdown": "di-(离开) + vert(转)"
+   },
+   {
+    "word": "universe",
+    "zh": "宇宙",
+    "breakdown": "uni-(一) + vers(转)"
+   },
+   {
+    "word": "version",
+    "zh": "版本",
+    "breakdown": "vers(转) + -ion(一次)"
+   },
+   {
+    "word": "adverse",
+    "zh": "不利的",
+    "breakdown": "ad-(向) + vers(转)"
+   },
+   {
+    "word": "introvert",
+    "zh": "内向的人",
+    "breakdown": "intro-(向内) + vert(转)"
+   },
+   {
+    "word": "controversy",
+    "zh": "争论",
+    "breakdown": "contro-(相对) + vers(转)"
+   },
+   {
+    "word": "anniversary",
+    "zh": "周年",
+    "breakdown": "ann(年) + vers(转)"
+   },
+   {
+    "word": "vertical",
+    "zh": "垂直的",
+    "breakdown": "vert(转) + -ical(……的)"
+   }
+  ],
+  "example": {
+   "en": "Convert the sketch into a plan.",
+   "zh": "把草图转成平面图。"
+  },
+  "illustration": {
+   "scene": "keep current water-mill, or alternative: a ploughman turning oxen at the end of a furrow, finished furrows forming lines like written verse",
+   "dominantHue": {
+    "name": "紫藤转盘 wheel violet",
+    "rationale": "「转」偏向循环与诗意，冷暖之间的紫色能表达流转"
+   },
+   "props": [
+    "water wheel (or plough at furrow end)",
+    "curved channel",
+    "furrows"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/verse",
+   "https://www.etymonline.com/word/universe",
+   "https://www.etymonline.com/word/anniversary",
+   "https://www.etymonline.com/word/advertise",
+   "https://en.wiktionary.org/wiki/verto#Latin",
+   "https://logeion.uchicago.edu/verto",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "转动的水车，「转」很清楚。",
+   "file": "/workspace/wra-illustrations/vert.webp"
+  }
+ },
+ {
+  "rank": 20,
+  "id": "graph",
+  "root": "graph",
+  "forms": [
+   "graph",
+   "gram"
+  ],
+  "language": "Greek",
+  "sourceWord": "graphein (γράφειν)",
+  "meaning": {
+   "en": "to scratch, write, draw",
+   "zh": "刻划，书写，描画"
+  },
+  "originStory": "希腊语 graphein 最早的意思是「刻、划」，后来才成为「写」和「画」。古希腊人在石碑上刻法令、在陶器上划出图案，书写和绘画在这个词里原本是同一件事。它的名词 gramma 是「刻出来的字母」，所以 grammar 原是「关于字母的学问」，telegram 是「远方送来的字」。photograph 是「用光书写」，autograph 是「亲手写的」，geography 是「描写大地」，biography 是「写一个人的一生」。",
+  "derivedWords": [
+   {
+    "word": "paragraph",
+    "zh": "段落",
+    "breakdown": "para-(在旁) + graph(写)"
+   },
+   {
+    "word": "diagram",
+    "zh": "图解",
+    "breakdown": "dia-(穿过) + gram(写)"
+   },
+   {
+    "word": "autograph",
+    "zh": "亲笔签名",
+    "breakdown": "auto-(自己) + graph(写)"
+   },
+   {
+    "word": "epigraph",
+    "zh": "题词",
+    "breakdown": "epi-(在上) + graph(写)"
+   },
+   {
+    "word": "monograph",
+    "zh": "专著",
+    "breakdown": "mono-(单一) + graph(写)"
+   },
+   {
+    "word": "graphite",
+    "zh": "石墨",
+    "breakdown": "graph(写)"
+   },
+   {
+    "word": "grammar",
+    "zh": "语法",
+    "breakdown": "gram(字母)"
+   },
+   {
+    "word": "calligraphy",
+    "zh": "书法",
+    "breakdown": "calli-(美) + graph(写)"
+   },
+   {
+    "word": "telegram",
+    "zh": "电报",
+    "breakdown": "tele-(远) + gram(写)"
+   },
+   {
+    "word": "graphic",
+    "zh": "形象的；图形的",
+    "breakdown": "graph(写)"
+   }
+  ],
+  "example": {
+   "en": "Begin a new paragraph.",
+   "zh": "另起一段。"
+  },
+  "illustration": {
+   "scene": "A Greek mason kneeling before a pale stele, incising letters along chalk guidelines; chisel and mallet; a painted pot with scratched figures on a stand nearby",
+   "dominantHue": {
+    "name": "赤陶朱 terracotta vermilion",
+    "rationale": "古希腊陶器与刻石的红黑配色是「刻划」的文化色"
+   },
+   "props": [
+    "stele with incised letters",
+    "chisel and mallet",
+    "red-figure pot"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/graphic",
+   "https://www.etymonline.com/word/grammar",
+   "https://www.etymonline.com/word/photograph",
+   "https://www.etymonline.com/word/biography",
+   "https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%AC%CF%86%CF%89#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%B3%CF%81%CE%AC%CF%86%CF%89",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "wrong",
+   "reason": "现代画家在画架前画抽象色块，脱离了古典世界，也背离 graphein「刻、划」的本义。",
+   "file": "/workspace/wra-illustrations/graph.webp"
+  }
+ },
+ {
+  "rank": 21,
+  "id": "log",
+  "root": "log",
+  "forms": [
+   "log",
+   "logy",
+   "logue"
+  ],
+  "language": "Greek",
+  "sourceWord": "logos (λόγος)",
+  "meaning": {
+   "en": "word, speech, reason",
+   "zh": "话语，道理，学科"
+  },
+  "originStory": "希腊语 logos 来自动词 legein「挑选、收集、说」——把话语挑拣排列好，就是「说」，也就是「讲道理」。在雅典的柱廊下，哲学家们用对话（dialogos，「穿过话语」）来追问真理。赫拉克利特把 logos 当作世界背后的理性秩序，《约翰福音》开篇「太初有道」的「道」也是 logos。英语里 -logy 表示「关于……的学问」：biology、geology、psychology；dialogue 是对话，monologue 是独白，apology 原是「为自己辩护的话」，如柏拉图的《申辩篇》。",
+  "uncertainty": "legein 的「收集」义与「说」义的关系为通行解释（Etymonline / LSJ）。",
+  "derivedWords": [
+   {
+    "word": "logic",
+    "zh": "逻辑",
+    "breakdown": "log(理性)"
+   },
+   {
+    "word": "dialogue",
+    "zh": "对话",
+    "breakdown": "dia-(穿过) + log(言)"
+   },
+   {
+    "word": "monologue",
+    "zh": "独白",
+    "breakdown": "mono-(单一) + log(言)"
+   },
+   {
+    "word": "catalog",
+    "zh": "目录",
+    "breakdown": "cata-(逐一) + log(言)"
+   },
+   {
+    "word": "analogy",
+    "zh": "类比",
+    "breakdown": "ana-(依照) + log(言)"
+   },
+   {
+    "word": "apology",
+    "zh": "道歉",
+    "breakdown": "apo-(辩白) + log(言)"
+   },
+   {
+    "word": "prologue",
+    "zh": "序言",
+    "breakdown": "pro-(在前) + log(言)"
+   },
+   {
+    "word": "epilogue",
+    "zh": "尾声",
+    "breakdown": "epi-(在后) + log(言)"
+   },
+   {
+    "word": "eulogy",
+    "zh": "颂词",
+    "breakdown": "eu-(好) + log(言)"
+   },
+   {
+    "word": "neologism",
+    "zh": "新词",
+    "breakdown": "neo-(新) + log(言)"
+   }
+  ],
+  "example": {
+   "en": "The logic of the joint is simple.",
+   "zh": "这个榫卯的道理很简单。"
+  },
+  "illustration": {
+   "scene": "keep current: two figures in himation in dialogue across a table/bench under a stoa or library, a scroll between them (soften the modern green library toward a stoa)",
+   "dominantHue": {
+    "name": "思辨靛蓝 reasoning indigo",
+    "rationale": "理性与沉思在色彩上常用冷静的蓝紫"
+   },
+   "props": [
+    "scroll",
+    "stoa columns",
+    "two facing seats"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/logos",
+   "https://www.etymonline.com/word/dialogue",
+   "https://www.etymonline.com/word/apology",
+   "https://www.etymonline.com/word/-logy",
+   "https://en.wiktionary.org/wiki/%CE%BB%CF%8C%CE%B3%CE%BF%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%BB%CF%8C%CE%B3%CE%BF%CF%82",
+   "https://en.wiktionary.org/wiki/%CE%BB%CE%AD%CE%B3%CF%89#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%BB%CE%AD%CE%B3%CF%89",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "两人对坐交谈，背景是书架，「话语与道理」到位；书房偏现代，可改成柱廊。",
+   "file": "/workspace/wra-illustrations/log.webp"
+  }
+ },
+ {
+  "rank": 22,
+  "id": "form",
+  "root": "form",
+  "forms": [
+   "form"
+  ],
+  "language": "Latin",
+  "sourceWord": "fōrma",
+  "meaning": {
+   "en": "shape, mould",
+   "zh": "形状，模子"
+  },
+  "originStory": "拉丁语 fōrma 是「外形、样子」，也指浇铸用的「模子」：陶匠、铸铜匠把泥或铜倒进模子，出来就是同样的形状。所以 form 既是「形状」也是「表格」——表格就是给内容预先定好的模子。formal 是「合乎规定形式的」；inform 原意是「给……赋形」，后来才是「告知」——让脑子里的东西成形；reform 是「重新塑形」，transform 是「越过原形变成另一种」，uniform 是「同一种形状」的衣服，formula 是「小模子」——固定的配方。",
+  "uncertainty": "fōrma 的更早来源不明，有人认为借自希腊语 morphē（经伊特鲁里亚语），Etymonline 标为 uncertain。",
+  "derivedWords": [
+   {
+    "word": "format",
+    "zh": "版式",
+    "breakdown": "form(形)"
+   },
+   {
+    "word": "transform",
+    "zh": "使变形",
+    "breakdown": "trans-(改变) + form(形)"
+   },
+   {
+    "word": "uniform",
+    "zh": "统一的",
+    "breakdown": "uni-(单一) + form(形)"
+   },
+   {
+    "word": "reform",
+    "zh": "改革",
+    "breakdown": "re-(再) + form(形)"
+   },
+   {
+    "word": "formula",
+    "zh": "配方；公式",
+    "breakdown": "form(形) + -ula(小)"
+   },
+   {
+    "word": "conform",
+    "zh": "符合",
+    "breakdown": "con-(一致) + form(形)"
+   },
+   {
+    "word": "inform",
+    "zh": "告知",
+    "breakdown": "in-(放入) + form(形)"
+   },
+   {
+    "word": "formation",
+    "zh": "形成",
+    "breakdown": "form(形) + -ation(过程)"
+   },
+   {
+    "word": "deform",
+    "zh": "使变形",
+    "breakdown": "de-(偏离) + form(形)"
+   },
+   {
+    "word": "platform",
+    "zh": "平台",
+    "breakdown": "plat(平) + form(形)"
+   }
+  ],
+  "example": {
+   "en": "Choose a quiet format for the page.",
+   "zh": "为这一页选一种安静的版式。"
+  },
+  "illustration": {
+   "scene": "keep current: a potter shaping a vessel on a wheel, a family of bowls drying, a wooden mould on the wall",
+   "dominantHue": {
+    "name": "釉色青瓷 glaze celadon",
+    "rationale": "陶器釉色给「形状」一个干净的视觉焦点"
+   },
+   "props": [
+    "potter's wheel",
+    "drying bowls",
+    "wooden mould"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/form",
+   "https://www.etymonline.com/word/inform",
+   "https://www.etymonline.com/word/uniform",
+   "https://www.etymonline.com/word/formula",
+   "https://en.wiktionary.org/wiki/forma#Latin",
+   "https://logeion.uchicago.edu/forma",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "陶工与成排器皿，「形状/模子」准确。",
+   "file": "/workspace/wra-illustrations/form.webp"
+  }
+ },
+ {
+  "rank": 23,
+  "id": "vid",
+  "root": "vid",
+  "forms": [
+   "vid",
+   "vis",
+   "view"
+  ],
+  "language": "Latin",
+  "sourceWord": "vidēre (vīsus)",
+  "meaning": {
+   "en": "to see",
+   "zh": "看见"
+  },
+  "originStory": "拉丁语 vidēre 是「看见」，过去分词 vīsus 给了英语 vision、visible、visit。visit 来自 vīsitāre「反复去看」，所以拜访就是「去看看」。evident 是「从外面就看得见的」，provide 原意是「向前看、预见」，所以才「预先准备」——provide 和 prudent「审慎的」是同源词。revise 是「再看一遍」，supervise 是「从上面看」，advice 来自古法语 avis「看法」。video 就是拉丁语「我看见」。",
+  "derivedWords": [
+   {
+    "word": "vision",
+    "zh": "视力；构想",
+    "breakdown": "vis(看) + -ion(结果)"
+   },
+   {
+    "word": "visible",
+    "zh": "可见的",
+    "breakdown": "vis(看) + -ible(可以)"
+   },
+   {
+    "word": "video",
+    "zh": "视频",
+    "breakdown": "video(我看见)"
+   },
+   {
+    "word": "provide",
+    "zh": "提供",
+    "breakdown": "pro-(预先) + vid(看)"
+   },
+   {
+    "word": "revise",
+    "zh": "修订",
+    "breakdown": "re-(再) + vis(看)"
+   },
+   {
+    "word": "evidence",
+    "zh": "证据",
+    "breakdown": "e-(出来) + vid(看)"
+   },
+   {
+    "word": "supervise",
+    "zh": "监督",
+    "breakdown": "super-(在上) + vis(看)"
+   },
+   {
+    "word": "invisible",
+    "zh": "看不见的",
+    "breakdown": "in-(不) + vis(看) + -ible(可以)"
+   },
+   {
+    "word": "visit",
+    "zh": "拜访",
+    "breakdown": "vis(去看)"
+   },
+   {
+    "word": "advise",
+    "zh": "建议",
+    "breakdown": "ad-(向) + vis(看)"
+   }
+  ],
+  "example": {
+   "en": "Her vision of the garden was simple.",
+   "zh": "她对园子的设想很简单。"
+  },
+  "illustration": {
+   "scene": "keep current: a figure at a tall window looking out at sunlit fields; daylight is the subject",
+   "dominantHue": {
+    "name": "日光麦黄 daylight wheat",
+    "rationale": "「看见」靠光，明亮的麦田黄就是视野"
+   },
+   "props": [
+    "tall window",
+    "half-drawn curtain",
+    "sunlit field"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/vision",
+   "https://www.etymonline.com/word/visit",
+   "https://www.etymonline.com/word/provide",
+   "https://www.etymonline.com/word/video",
+   "https://www.etymonline.com/word/evident",
+   "https://en.wiktionary.org/wiki/video#Latin",
+   "https://logeion.uchicago.edu/video",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "窗前眺望向日葵田，「看见」清楚。",
+   "file": "/workspace/wra-illustrations/vid.webp"
+  }
+ },
+ {
+  "rank": 24,
+  "id": "aud",
+  "root": "aud",
+  "forms": [
+   "aud",
+   "audit"
+  ],
+  "language": "Latin",
+  "sourceWord": "audīre",
+  "meaning": {
+   "en": "to hear",
+   "zh": "听"
+  },
+  "originStory": "拉丁语 audīre 是「听」。古罗马的剧场和会堂里，观众（audientia）是「在听的人们」，因此 audience 最初是「倾听」本身，后来才是「听众」。auditorium 是「听的地方」。audit「审计」很有意思：中世纪账目要当众「宣读」，审核人坐着「听账」，所以审计原是「听」出来的。audible 是「听得见的」，audition 是试听，audio 是「我听」。obey 也是同族——经古法语来自 oboedīre「对着听」，即听从。",
+  "uncertainty": "audit「听账」之说见 Etymonline（「hearing of accounts」）。",
+  "derivedWords": [
+   {
+    "word": "audio",
+    "zh": "音频",
+    "breakdown": "audio(我听见)"
+   },
+   {
+    "word": "audience",
+    "zh": "听众",
+    "breakdown": "aud(听) + -ence(众人)"
+   },
+   {
+    "word": "audible",
+    "zh": "听得见的",
+    "breakdown": "aud(听) + -ible(可以)"
+   },
+   {
+    "word": "auditorium",
+    "zh": "礼堂",
+    "breakdown": "aud(听) + -orium(场所)"
+   },
+   {
+    "word": "audit",
+    "zh": "审计",
+    "breakdown": "aud(听)"
+   },
+   {
+    "word": "audition",
+    "zh": "试听",
+    "breakdown": "aud(听) + -ition(一次)"
+   },
+   {
+    "word": "inaudible",
+    "zh": "听不见的",
+    "breakdown": "in-(不) + aud(听) + -ible(可以)"
+   },
+   {
+    "word": "auditory",
+    "zh": "听觉的",
+    "breakdown": "aud(听) + -ory(关于)"
+   }
+  ],
+  "example": {
+   "en": "Turn the audio down.",
+   "zh": "把音频调低。"
+  },
+  "illustration": {
+   "scene": "keep current: a small odeon with curved seats, a speaker standing, listeners leaning in; a clerk hearing accounts read aloud at the side",
+   "dominantHue": {
+    "name": "薰衣草紫 lavender",
+    "rationale": "倾听是安静、柔和的动作，淡紫最温柔"
+   },
+   "props": [
+    "curved stone seats",
+    "wax tablet of accounts",
+    "speaker"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/audience",
+   "https://www.etymonline.com/word/audit",
+   "https://www.etymonline.com/word/obey",
+   "https://www.etymonline.com/word/audition",
+   "https://en.wiktionary.org/wiki/audio#Latin",
+   "https://logeion.uchicago.edu/audio",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "小剧场和倾听的人群，「听」到位；紫藤装饰略多但不误导。",
+   "file": "/workspace/wra-illustrations/aud.webp"
+  }
+ },
+ {
+  "rank": 25,
+  "id": "voc",
+  "root": "voc",
+  "forms": [
+   "voc",
+   "vok",
+   "vow"
+  ],
+  "language": "Latin",
+  "sourceWord": "vocāre / vōx",
+  "meaning": {
+   "en": "to call; voice",
+   "zh": "呼唤；声音"
+  },
+  "originStory": "拉丁语 vōx 是「声音」，动词 vocāre 是「呼唤、召唤」。罗马城中，传令官在台阶上高声召集市民，就是 vocāre。vocation 原是宗教上「被神召唤」去做的事，后来变成「职业、使命」。advocate 是「被召到身旁的人」，在罗马法庭上为你说话；provoke 是「把人叫出来」，挑起事端；evoke 是「唤出来」，invoke 是「向神呼求」。vocabulary 是「词语的集合」，vowel 经古法语来自 vōcālis「有声的（字母）」。",
+  "derivedWords": [
+   {
+    "word": "vocal",
+    "zh": "嗓音的；直言的",
+    "breakdown": "voc(声音)"
+   },
+   {
+    "word": "vocabulary",
+    "zh": "词汇",
+    "breakdown": "voc(呼唤) + -abulary(用语)"
+   },
+   {
+    "word": "advocate",
+    "zh": "提倡",
+    "breakdown": "ad-(来) + voc(呼唤)"
+   },
+   {
+    "word": "revoke",
+    "zh": "撤销",
+    "breakdown": "re-(回) + vok(呼唤)"
+   },
+   {
+    "word": "invoke",
+    "zh": "唤起",
+    "breakdown": "in-(向) + vok(呼唤)"
+   },
+   {
+    "word": "provoke",
+    "zh": "激起",
+    "breakdown": "pro-(向前) + vok(呼唤)"
+   },
+   {
+    "word": "vocation",
+    "zh": "志业",
+    "breakdown": "voc(呼唤) + -ation(召唤)"
+   },
+   {
+    "word": "equivocal",
+    "zh": "模棱两可的",
+    "breakdown": "equi-(相等) + voc(声音)"
+   }
+  ],
+  "example": {
+   "en": "She is vocal about the craft.",
+   "zh": "她对这门手艺直言不讳。"
+  },
+  "illustration": {
+   "scene": "A herald on basilica steps with a cupped hand calling out, townspeople turning toward the voice, a notice tablet on the wall (replace the bell: the voice itself is the subject)",
+   "dominantHue": {
+    "name": "呼唤玫紫 calling mauve",
+    "rationale": "声音向外扩散，柔和的玫紫像一圈圈音波"
+   },
+   "props": [
+    "herald's cupped hand",
+    "notice tablet",
+    "turning crowd"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/vocation",
+   "https://www.etymonline.com/word/advocate",
+   "https://www.etymonline.com/word/provoke",
+   "https://www.etymonline.com/word/vowel",
+   "https://en.wiktionary.org/wiki/voco#Latin",
+   "https://logeion.uchicago.edu/voco",
+   "https://en.wiktionary.org/wiki/vox#Latin",
+   "https://logeion.uchicago.edu/vox",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "钟楼加人群表达的是「钟声召集」，vōx 的核心是人的声音。",
+   "file": "/workspace/wra-illustrations/voc.webp"
+  }
+ },
+ {
+  "rank": 26,
+  "id": "mov",
+  "root": "mov",
+  "forms": [
+   "mov",
+   "mot",
+   "mob"
+  ],
+  "language": "Latin",
+  "sourceWord": "movēre (mōtus)",
+  "meaning": {
+   "en": "to move",
+   "zh": "移动"
+  },
+  "originStory": "拉丁语 movēre 是「移动、推动」，过去分词 mōtus 给了英语 motion、motive、motor。motive 是「推动你去做的东西」，emotion 来自法语 émouvoir「把人从内心搅动出来」——情感就是心里的「移动」。mobile 是「能移动的」，mob 是 17 世纪对拉丁语 mōbile vulgus「易动摇的群众」的缩写。promote 是「向前推」，remove 是「移开」，moment 原是 mōmentum「推动之力」，引申为天平一动的一瞬间。",
+  "uncertainty": "mob < mōbile vulgus 见 Etymonline（1680s）。",
+  "derivedWords": [
+   {
+    "word": "move",
+    "zh": "移动",
+    "breakdown": "mov(移动)"
+   },
+   {
+    "word": "motion",
+    "zh": "运动",
+    "breakdown": "mot(移动) + -ion(状态)"
+   },
+   {
+    "word": "mobile",
+    "zh": "可移动的",
+    "breakdown": "mob(移动) + -ile(能够)"
+   },
+   {
+    "word": "motor",
+    "zh": "发动机",
+    "breakdown": "mot(移动) + -or(器具)"
+   },
+   {
+    "word": "promote",
+    "zh": "促进",
+    "breakdown": "pro-(向前) + mot(移动)"
+   },
+   {
+    "word": "remote",
+    "zh": "遥远的",
+    "breakdown": "re-(远离) + mot(移动)"
+   },
+   {
+    "word": "emotion",
+    "zh": "情感",
+    "breakdown": "e-(向外) + mot(移动)"
+   },
+   {
+    "word": "remove",
+    "zh": "移开",
+    "breakdown": "re-(离开) + mov(移动)"
+   },
+   {
+    "word": "commotion",
+    "zh": "骚动",
+    "breakdown": "com-(一起) + mot(移动)"
+   },
+   {
+    "word": "automobile",
+    "zh": "汽车",
+    "breakdown": "auto-(自己) + mob(移动)"
+   }
+  ],
+  "example": {
+   "en": "Move the lamp closer.",
+   "zh": "把灯移近一些。"
+  },
+  "illustration": {
+   "scene": "keep current: a two-wheeled cart leaving a courtyard, mule and wheel mid-turn, dust lifting",
+   "dominantHue": {
+    "name": "行旅鼠尾草绿 travel sage",
+    "rationale": "移动发生在路上与田野里，清新的绿让动感不显杂乱"
+   },
+   "props": [
+    "cart wheel",
+    "mule",
+    "open gate"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/emotion",
+   "https://www.etymonline.com/word/mob",
+   "https://www.etymonline.com/word/moment",
+   "https://www.etymonline.com/word/motive",
+   "https://en.wiktionary.org/wiki/moveo#Latin",
+   "https://logeion.uchicago.edu/moveo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "马车在路上行进，「移动」清楚。",
+   "file": "/workspace/wra-illustrations/mov.webp"
+  }
+ },
+ {
+  "rank": 29,
+  "id": "pend",
+  "root": "pend",
+  "forms": [
+   "pend",
+   "pens"
+  ],
+  "language": "Latin",
+  "sourceWord": "pendere / pendēre",
+  "meaning": {
+   "en": "to hang; to weigh, pay",
+   "zh": "悬挂；称量，支付"
+  },
+  "originStory": "拉丁语 pendēre 是「悬挂」，pendere 是「称量」——古代的秤就是让东西「挂」在横杆两端。早期罗马人用称量铜块来付款，所以「称」也就是「付」：expend 是「称出去」，spend 是它的缩略；pension 是定期「称付」给人的钱，compensate 是「放在一起称平」。pendulum 是「挂着摆动的东西」，depend 是「挂在……下面」，suspend 是「从下往上吊起」，pending 是「悬而未决」。",
+  "uncertainty": "早期罗马以称重铜块（aes rude）支付属通行史学说法；spend 经古英语借自 expendere。",
+  "derivedWords": [
+   {
+    "word": "depend",
+    "zh": "依靠",
+    "breakdown": "de-(下) + pend(悬挂)"
+   },
+   {
+    "word": "suspend",
+    "zh": "悬挂；暂停",
+    "breakdown": "sus-(悬起) + pend(悬挂)"
+   },
+   {
+    "word": "pendulum",
+    "zh": "钟摆",
+    "breakdown": "pend(悬挂) + -ulum(小物)"
+   },
+   {
+    "word": "appendix",
+    "zh": "附录",
+    "breakdown": "ad-(附加) + pend(悬挂)"
+   },
+   {
+    "word": "pending",
+    "zh": "待定的",
+    "breakdown": "pend(悬挂) + -ing(处于)"
+   },
+   {
+    "word": "suspense",
+    "zh": "悬念",
+    "breakdown": "sus-(悬起) + pens(悬挂)"
+   },
+   {
+    "word": "pendant",
+    "zh": "垂饰",
+    "breakdown": "pend(悬挂) + -ant(物)"
+   },
+   {
+    "word": "impending",
+    "zh": "即将到来的",
+    "breakdown": "im-(朝向) + pend(悬挂)"
+   },
+   {
+    "word": "independent",
+    "zh": "独立的",
+    "breakdown": "in-(不) + depend(依靠)"
+   },
+   {
+    "word": "compensate",
+    "zh": "补偿",
+    "breakdown": "com-(一起) + pens(称量)"
+   }
+  ],
+  "example": {
+   "en": "The lamp depends from a chain.",
+   "zh": "灯悬在一条链子上。"
+  },
+  "illustration": {
+   "scene": "keep current: a market awning with a bronze balance hanging from a chain, one pan lower, bronze lumps on the pan instead of fruit",
+   "dominantHue": {
+    "name": "秤盘铜青 bronze patina",
+    "rationale": "青铜秤与铜块的铜绿表达「称量与支付」"
+   },
+   "props": [
+    "hanging balance",
+    "bronze lumps",
+    "chain"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/pendulum",
+   "https://www.etymonline.com/word/depend",
+   "https://www.etymonline.com/word/pension",
+   "https://www.etymonline.com/word/spend",
+   "https://www.etymonline.com/word/compensate",
+   "https://en.wiktionary.org/wiki/pendeo#Latin",
+   "https://logeion.uchicago.edu/pendeo",
+   "https://en.wiktionary.org/wiki/pendo#Latin",
+   "https://logeion.uchicago.edu/pendo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "市集遮棚下悬挂的天平，「悬挂/称量」两义都在。",
+   "file": "/workspace/wra-illustrations/pend.webp"
+  }
+ },
+ {
+  "rank": 30,
+  "id": "sent",
+  "root": "sent",
+  "forms": [
+   "sent",
+   "sens"
+  ],
+  "language": "Latin",
+  "sourceWord": "sentīre (sēnsus)",
+  "meaning": {
+   "en": "to feel, perceive",
+   "zh": "感觉，认为"
+  },
+  "originStory": "拉丁语 sentīre 既是身体上「感觉到」，也是心里「认为」。罗马元老院议事时，每位元老要说出自己的 sententia「意见、判断」，sentence 最早就是「意见」，后来才是法庭「判决」和语法上的「句子」。sense 是感官，sensitive 是敏感的，sentiment 是情感，consent 是「感受一致」即同意，resent 是「再次感到」被冒犯，assent 是「朝着同一感受」。scent「气味」也是它，c 是 17 世纪误加的。",
+  "uncertainty": "scent 中 c 为 17 世纪拼写变更，见 Etymonline。",
+  "derivedWords": [
+   {
+    "word": "sense",
+    "zh": "感觉；意义",
+    "breakdown": "sens(感觉)"
+   },
+   {
+    "word": "sentiment",
+    "zh": "情意",
+    "breakdown": "sent(感觉) + -iment(心情)"
+   },
+   {
+    "word": "sensitive",
+    "zh": "敏感的",
+    "breakdown": "sens(感觉) + -itive(易于)"
+   },
+   {
+    "word": "consent",
+    "zh": "同意",
+    "breakdown": "con-(共同) + sent(感觉)"
+   },
+   {
+    "word": "resent",
+    "zh": "怨恨",
+    "breakdown": "re-(再) + sent(感觉)"
+   },
+   {
+    "word": "sensation",
+    "zh": "感觉",
+    "breakdown": "sens(感觉) + -ation(结果)"
+   },
+   {
+    "word": "dissent",
+    "zh": "异议",
+    "breakdown": "dis-(分开) + sent(感觉)"
+   },
+   {
+    "word": "sentence",
+    "zh": "句子；判决",
+    "breakdown": "sent(意见) + -ence(表述)"
+   },
+   {
+    "word": "sensory",
+    "zh": "感官的",
+    "breakdown": "sens(感觉) + -ory(关于)"
+   },
+   {
+    "word": "consensus",
+    "zh": "共识",
+    "breakdown": "con-(共同) + sens(感觉)"
+   }
+  ],
+  "example": {
+   "en": "A sense of quiet fills the room.",
+   "zh": "房间里有一种安静的感觉。"
+  },
+  "illustration": {
+   "scene": "A quiet atrium: a person rests fingertips on a sun-warmed stone column, eyes closed, a second figure listening in agreement; a shallow pool reflecting columns",
+   "dominantHue": {
+    "name": "蔷薇粉 rose blush",
+    "rationale": "「感觉」是温柔的，柔和的粉色最贴近肌肤与情绪"
+   },
+   "props": [
+    "sun-warmed column",
+    "fingertips",
+    "impluvium pool"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/sentence",
+   "https://www.etymonline.com/word/sense",
+   "https://www.etymonline.com/word/consent",
+   "https://www.etymonline.com/word/scent",
+   "https://en.wiktionary.org/wiki/sentio#Latin",
+   "https://logeion.uchicago.edu/sentio",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "粉色回廊与睡莲池有情绪，但画面里没有「感觉」的主体动作，太抽象。",
+   "file": "/workspace/wra-illustrations/sent.webp"
+  }
+ },
+ {
+  "rank": 31,
+  "id": "rupt",
+  "root": "rupt",
+  "forms": [
+   "rupt"
+  ],
+  "language": "Latin",
+  "sourceWord": "rumpere (ruptus)",
+  "meaning": {
+   "en": "to break, burst",
+   "zh": "破裂"
+  },
+  "originStory": "拉丁语 rumpere 是「打破、撑破」。中世纪意大利的钱商在广场上摆一张长凳（banca）做生意，破产就叫 banca rotta「断了的凳子」——旧说是破产者的凳子会被当众砸断，但更可能只是比喻，英语 bankrupt 就从这里来。erupt 是「冲破而出」，火山爆发正是如此；interrupt 是「从中间打断」；corrupt 是「彻底破坏」；disrupt 是「打碎」；abrupt 是「突然断开的」；rupture 是破裂。route「路线」也来自 rupta via「被开辟出来的路」。",
+  "uncertainty": "Etymonline：「据说」源于砸断破产者长凳的旧俗，但更可能是比喻（probably figurative）。",
+  "derivedWords": [
+   {
+    "word": "interrupt",
+    "zh": "打断",
+    "breakdown": "inter-(之间) + rupt(破)"
+   },
+   {
+    "word": "erupt",
+    "zh": "喷发",
+    "breakdown": "e-(向外) + rupt(破)"
+   },
+   {
+    "word": "corrupt",
+    "zh": "腐败；损坏",
+    "breakdown": "cor-(彻底) + rupt(破)"
+   },
+   {
+    "word": "disrupt",
+    "zh": "扰乱",
+    "breakdown": "dis-(分开) + rupt(破)"
+   },
+   {
+    "word": "rupture",
+    "zh": "破裂",
+    "breakdown": "rupt(破) + -ure(结果)"
+   },
+   {
+    "word": "bankrupt",
+    "zh": "破产的",
+    "breakdown": "bank(钱凳) + rupt(破)"
+   },
+   {
+    "word": "abrupt",
+    "zh": "突然的",
+    "breakdown": "ab-(脱离) + rupt(破)"
+   },
+   {
+    "word": "irrupt",
+    "zh": "闯入",
+    "breakdown": "ir-(入) + rupt(破)"
+   }
+  ],
+  "example": {
+   "en": "Do not interrupt the recording.",
+   "zh": "不要打断录音。"
+  },
+  "illustration": {
+   "scene": "A Renaissance-style piazza corner: a moneylender's wooden bench snapped in two, a few coins spilled, and a single clean crack running through the plinth stone (calm, no lava)",
+   "dominantHue": {
+    "name": "破口橘红 fracture orange",
+    "rationale": "断裂处露出的暖橘色，让「破」有焦点又不暴力"
+   },
+   "props": [
+    "snapped bench",
+    "spilled coins",
+    "crack through the plinth"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/bankrupt",
+   "https://www.etymonline.com/word/erupt",
+   "https://www.etymonline.com/word/corrupt",
+   "https://www.etymonline.com/word/route",
+   "https://en.wiktionary.org/wiki/rumpo#Latin",
+   "https://logeion.uchicago.edu/rumpo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "火山喷发熔岩只对应 erupt，黑橙配色暴烈，与整套柔和风格冲突；story 的核心 banca rotta 没出现。",
+   "file": "/workspace/wra-illustrations/rupt.webp"
+  }
+ },
+ {
+  "rank": 32,
+  "id": "cred",
+  "root": "cred",
+  "forms": [
+   "cred"
+  ],
+  "language": "Latin",
+  "sourceWord": "crēdere",
+  "meaning": {
+   "en": "to believe, trust",
+   "zh": "相信，信托"
+  },
+  "originStory": "拉丁语 crēdere 是「相信、托付」。它的根可能来自印欧语「把心放下」——把心交给对方（这是学界的一种推测）。罗马人重视 fidēs「信义」，交易时握住彼此的右手立约。把钱托付给别人，等于相信他会归还，所以 credit 既是「信用」也是「贷款」，creditor 是「出借人」。credible 是「可信的」，incredible 是「难以置信的」，credential 是「让人相信你的凭证」，creed 是「我信」的信条，credulous 是「轻信的」。",
+  "uncertainty": "crēdere < PIE *kerd-「心」+ *dhe-「放」为构拟（Etymonline 标为 probably），故事中注明是推测。",
+  "derivedWords": [
+   {
+    "word": "credit",
+    "zh": "信用；学分",
+    "breakdown": "cred(相信)"
+   },
+   {
+    "word": "credible",
+    "zh": "可信的",
+    "breakdown": "cred(相信) + -ible(可以)"
+   },
+   {
+    "word": "incredible",
+    "zh": "难以置信的",
+    "breakdown": "in-(不) + cred(相信) + -ible(可以)"
+   },
+   {
+    "word": "credential",
+    "zh": "凭证",
+    "breakdown": "cred(相信) + -ential(凭据)"
+   },
+   {
+    "word": "credence",
+    "zh": "信任",
+    "breakdown": "cred(相信) + -ence(状态)"
+   },
+   {
+    "word": "credo",
+    "zh": "信条",
+    "breakdown": "credo(我相信)"
+   },
+   {
+    "word": "discredit",
+    "zh": "使丧失信誉",
+    "breakdown": "dis-(除去) + cred(相信)"
+   },
+   {
+    "word": "incredulous",
+    "zh": "怀疑的",
+    "breakdown": "in-(不) + cred(相信) + -ulous(倾向于)"
+   }
+  ],
+  "example": {
+   "en": "The shop gave her credit.",
+   "zh": "店家赊给了她。"
+  },
+  "illustration": {
+   "scene": "Two Romans clasp right hands across a counter beside a small shrine of Fides; a purse of coins is being entrusted, a ledger tablet open",
+   "dominantHue": {
+    "name": "信义金 trust gold",
+    "rationale": "托付与信用常与金币、金色联系，暖金表达可靠"
+   },
+   "props": [
+    "clasped right hands",
+    "purse of coins",
+    "ledger tablet"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/credit",
+   "https://www.etymonline.com/word/creed",
+   "https://www.etymonline.com/word/credible",
+   "https://www.etymonline.com/word/credential",
+   "https://en.wiktionary.org/wiki/credo#Latin",
+   "https://logeion.uchicago.edu/credo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "金顶圆形神庙读成「宗教/神殿」；crēdere 的核心是信任与托付（credit），不是礼拜。",
+   "file": "/workspace/wra-illustrations/cred.webp"
+  }
+ },
+ {
+  "rank": 33,
+  "id": "flu",
+  "root": "flu",
+  "forms": [
+   "flu",
+   "flux"
+  ],
+  "language": "Latin",
+  "sourceWord": "fluere (flūxus)",
+  "meaning": {
+   "en": "to flow",
+   "zh": "流"
+  },
+  "originStory": "拉丁语 fluere 是「流」。中世纪占星术认为星辰会流下一种无形的「流体」影响人的命运，叫 influentia「流进来的东西」，这就是 influence「影响」。意大利人把一种突然流行的病归因于星辰的 influenza，英语缩成 flu「流感」。fluid 是流体，fluent 是说话「流畅」，fluctuate 像波浪起伏，affluent 是财富「流向你」的，confluence 是两条河「流到一起」，flux 是不停流动。",
+  "derivedWords": [
+   {
+    "word": "fluid",
+    "zh": "流体；流畅的",
+    "breakdown": "flu(流动)"
+   },
+   {
+    "word": "fluent",
+    "zh": "流利的",
+    "breakdown": "flu(流动) + -ent(处于)"
+   },
+   {
+    "word": "influence",
+    "zh": "影响",
+    "breakdown": "in-(流入) + flu(流动)"
+   },
+   {
+    "word": "affluent",
+    "zh": "富裕的",
+    "breakdown": "af-(向) + flu(流动)"
+   },
+   {
+    "word": "fluctuate",
+    "zh": "波动",
+    "breakdown": "fluct(波流)"
+   },
+   {
+    "word": "confluence",
+    "zh": "汇流",
+    "breakdown": "con-(一起) + flu(流动)"
+   },
+   {
+    "word": "superfluous",
+    "zh": "多余的",
+    "breakdown": "super-(漫过) + flu(流动)"
+   },
+   {
+    "word": "influx",
+    "zh": "涌入",
+    "breakdown": "in-(向内) + flux(流动)"
+   }
+  ],
+  "example": {
+   "en": "Keep the ink fluid.",
+   "zh": "让墨水保持流畅。"
+  },
+  "illustration": {
+   "scene": "keep current: two streams meet over pale pebbles and slip into a stone basin; add a tiny star-mark above for 'influence'",
+   "dominantHue": {
+    "name": "溪流湖蓝 stream blue",
+    "rationale": "水流的清透蓝最直接表达「流」"
+   },
+   "props": [
+    "confluence of streams",
+    "stone basin",
+    "pebbles"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/influence",
+   "https://www.etymonline.com/word/influenza",
+   "https://www.etymonline.com/word/fluent",
+   "https://www.etymonline.com/word/affluent",
+   "https://en.wiktionary.org/wiki/fluo#Latin",
+   "https://logeion.uchicago.edu/fluo",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "蜿蜒河网，「流」直观。",
+   "file": "/workspace/wra-illustrations/flu.webp"
+  }
+ },
+ {
+  "rank": 34,
+  "id": "manu",
+  "root": "manu",
+  "forms": [
+   "manu",
+   "man",
+   "main"
+  ],
+  "language": "Latin",
+  "sourceWord": "manus",
+  "meaning": {
+   "en": "hand",
+   "zh": "手"
+  },
+  "originStory": "拉丁语 manus 是「手」。manuscript 是「手写的」，manufacture 是「手做的」——工业革命前，制造就是手工。manual 是「手的、手册」。manage 来自意大利语 maneggiare「用手驾驭马匹」，后来才是「管理」。maneuver 经法语来自 manū operārī「用手操作」。罗马法里 manus 也指家长对家人的「掌控权」，emancipate 是 ē- + mancipium「从被手抓住的状态中放出」，即解放；manumission 是「从手中放走」奴隶。",
+  "uncertainty": "emancipate 的 mancipium 本义「用手抓取（取得所有权）」，见 Etymonline。",
+  "derivedWords": [
+   {
+    "word": "manual",
+    "zh": "手工的；手册",
+    "breakdown": "manu(手)"
+   },
+   {
+    "word": "manufacture",
+    "zh": "制造",
+    "breakdown": "manu(手) + fact(制作)"
+   },
+   {
+    "word": "manipulate",
+    "zh": "操作",
+    "breakdown": "mani(手) + pul(一把)"
+   },
+   {
+    "word": "manicure",
+    "zh": "修甲",
+    "breakdown": "manu(手) + cure(照料)"
+   },
+   {
+    "word": "manage",
+    "zh": "管理",
+    "breakdown": "man(手（驾驭）)"
+   },
+   {
+    "word": "emancipate",
+    "zh": "解放",
+    "breakdown": "e-(脱离) + man(手) + cip(取)"
+   },
+   {
+    "word": "manacle",
+    "zh": "手铐",
+    "breakdown": "manu(手) + -cle(小物)"
+   },
+   {
+    "word": "maneuver",
+    "zh": "操作；调动",
+    "breakdown": "manu(手) + oeuvre(做事)"
+   }
+  ],
+  "example": {
+   "en": "A manual press sits in the corner.",
+   "zh": "角落里有一台手动印刷机。"
+  },
+  "illustration": {
+   "scene": "keep current loom/workbench; make hands visibly central: two hands guiding a shuttle or plane, no machines",
+   "dominantHue": {
+    "name": "手工茜红 madder red",
+    "rationale": "手工染织的茜草红是「手作」的颜色"
+   },
+   "props": [
+    "hands on a loom shuttle",
+    "skeins of dyed wool",
+    "wood shavings"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/manuscript",
+   "https://www.etymonline.com/word/manage",
+   "https://www.etymonline.com/word/emancipate",
+   "https://www.etymonline.com/word/manual",
+   "https://en.wiktionary.org/wiki/manus#Latin",
+   "https://logeion.uchicago.edu/manus",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "织布机和毛线，「手作」意思对；手本身没出现，重绘可让双手入画。",
+   "file": "/workspace/wra-illustrations/manu.webp"
+  }
+ },
+ {
+  "rank": 35,
+  "id": "ped",
+  "root": "ped",
+  "forms": [
+   "ped",
+   "pod",
+   "pus"
+  ],
+  "language": "Latin + Greek",
+  "sourceWord": "pēs (pedis) / pous (podos)",
+  "meaning": {
+   "en": "foot",
+   "zh": "脚"
+  },
+  "originStory": "拉丁语 pēs 和希腊语 pous 都是「脚」，同出一源。pedestrian 是「用脚走的人」，pedal 是「用脚踩的」，pedestal 经意大利语来自「脚下的支座」，雕像就站在上面。expedition 来自 expedīre「把脚从绊索里解开」——解开了脚才能出发远行；impede 正相反，是「把脚套住」。centipede 是「百足虫」。希腊一支：tripod「三只脚」，octopus「八只脚」，podium 原是「抬高的平台」。注意 pedagogy 里的 ped- 是希腊语「孩子」，不是脚。",
+  "uncertainty": "expedite/expedition 的「解开脚」义见 Etymonline；pedagogy 属另一词根 paid-。",
+  "derivedWords": [
+   {
+    "word": "pedal",
+    "zh": "踏板",
+    "breakdown": "ped(脚)"
+   },
+   {
+    "word": "pedestrian",
+    "zh": "行人",
+    "breakdown": "ped(脚) + -estrian(行走的人)"
+   },
+   {
+    "word": "pedestal",
+    "zh": "基座",
+    "breakdown": "ped(脚) + stall(座)"
+   },
+   {
+    "word": "expedite",
+    "zh": "加快办理",
+    "breakdown": "ex-(放开) + ped(脚)"
+   },
+   {
+    "word": "impede",
+    "zh": "阻碍",
+    "breakdown": "im-(套上) + ped(脚)"
+   },
+   {
+    "word": "biped",
+    "zh": "两足动物",
+    "breakdown": "bi-(二) + ped(脚)"
+   },
+   {
+    "word": "tripod",
+    "zh": "三脚架",
+    "breakdown": "tri-(三) + pod(脚)"
+   },
+   {
+    "word": "podium",
+    "zh": "讲台",
+    "breakdown": "pod(脚) + -ium(座)"
+   },
+   {
+    "word": "centipede",
+    "zh": "蜈蚣",
+    "breakdown": "cent-(百) + ped(脚)"
+   }
+  ],
+  "example": {
+   "en": "Press the pedal lightly.",
+   "zh": "轻轻踩下踏板。"
+  },
+  "illustration": {
+   "scene": "A Roman street of basalt pavers: sandaled feet mid-step leaving prints in dust, a statue's pedestal with only its bronze feet left, a tripod by the door",
+   "dominantHue": {
+    "name": "足迹橄榄 footpath olive",
+    "rationale": "脚步落在土路与石板上，大地的橄榄色最自然"
+   },
+   "props": [
+    "sandaled feet and footprints",
+    "empty pedestal with bronze feet",
+    "tripod"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/pedestrian",
+   "https://www.etymonline.com/word/expedition",
+   "https://www.etymonline.com/word/impede",
+   "https://www.etymonline.com/word/pedestal",
+   "https://www.etymonline.com/word/tripod",
+   "https://en.wiktionary.org/wiki/pes#Latin",
+   "https://logeion.uchicago.edu/pes",
+   "https://en.wiktionary.org/wiki/%CF%80%CE%BF%CF%8D%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%80%CE%BF%CF%8D%CF%82",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "石板小路和小桥读成「花园」，脚不是焦点。",
+   "file": "/workspace/wra-illustrations/ped.webp"
+  }
+ },
+ {
+  "rank": 36,
+  "id": "spir",
+  "root": "spir",
+  "forms": [
+   "spir"
+  ],
+  "language": "Latin",
+  "sourceWord": "spīrāre",
+  "meaning": {
+   "en": "to breathe",
+   "zh": "呼吸"
+  },
+  "originStory": "拉丁语 spīrāre 是「呼吸、吹气」，名词 spīritus 原是「一口气、风」。古人把人活着的那股气息看作生命本身，于是 spirit 成了「精神、灵魂」。inspire 本是「把气吹进去」：古人相信诗人的灵感是神向他吹入的一口气。expire 是「把最后一口气吐出去」，即死亡、到期。respiration 是一呼一吸，aspire 是「朝着……喘气」般地渴望，conspire 是「一起呼吸」——凑在一起低声密谋，perspire 是「透过皮肤呼气」，出汗。",
+  "uncertainty": "玻璃吹制约公元前 1 世纪在罗马世界普及，场景合乎时代；「灵感是神吹入」是古典时期常见观念。",
+  "derivedWords": [
+   {
+    "word": "spirit",
+    "zh": "精神；气息",
+    "breakdown": "spir(呼吸)"
+   },
+   {
+    "word": "inspire",
+    "zh": "激发",
+    "breakdown": "in-(入) + spir(呼吸)"
+   },
+   {
+    "word": "expire",
+    "zh": "期满",
+    "breakdown": "ex-(出) + spir(呼吸)"
+   },
+   {
+    "word": "conspire",
+    "zh": "密谋",
+    "breakdown": "con-(一起) + spir(呼吸)"
+   },
+   {
+    "word": "perspire",
+    "zh": "出汗",
+    "breakdown": "per-(透过) + spir(呼吸)"
+   },
+   {
+    "word": "aspire",
+    "zh": "向往",
+    "breakdown": "a-(向) + spir(呼吸)"
+   },
+   {
+    "word": "respiration",
+    "zh": "呼吸",
+    "breakdown": "re-(反复) + spir(呼吸)"
+   },
+   {
+    "word": "transpire",
+    "zh": "发生；蒸发",
+    "breakdown": "trans-(穿过) + spir(呼吸)"
+   }
+  ],
+  "example": {
+   "en": "The old house has a quiet spirit.",
+   "zh": "老房子有一种安静的气息。"
+  },
+  "illustration": {
+   "scene": "A Roman glassblower's workshop: a craftsman blows a glowing bubble on a long pipe, his breath shaping the vessel; on a cold window ledge, a visible puff of breath beside a guttering flame",
+   "dominantHue": {
+    "name": "晨雾天青 breath sky-blue",
+    "rationale": "气息透明而清冷，淡天青最像呼出的雾气"
+   },
+   "props": [
+    "blowpipe with glass bubble",
+    "glowing furnace mouth",
+    "visible breath"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/spirit",
+   "https://www.etymonline.com/word/inspire",
+   "https://www.etymonline.com/word/expire",
+   "https://www.etymonline.com/word/conspire",
+   "https://en.wiktionary.org/wiki/spiro#Latin",
+   "https://logeion.uchicago.edu/spiro",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "wrong",
+   "reason": "雪山插旗读成「攀登/aspire」，完全没有「呼吸、气息」。",
+   "file": "/workspace/wra-illustrations/spir.webp"
+  }
+ },
+ {
+  "rank": 37,
+  "id": "luc",
+  "root": "luc",
+  "forms": [
+   "luc",
+   "lum",
+   "lus"
+  ],
+  "language": "Latin",
+  "sourceWord": "lūx (lūcis) / lūmen",
+  "meaning": {
+   "en": "light",
+   "zh": "光"
+  },
+  "originStory": "拉丁语 lūx 是「光」，lūmen 是「光源、灯」。罗马人把黎明前的启明星（金星）叫 Lūcifer「带来光的」，后来才在基督教传统里变成堕落天使之名。lucid 是「透亮的、清晰的」，elucidate 是「照亮、阐明」，translucent 是「光能透过的」。luminous 是发光的，illuminate 是照亮，illustrate 来自同族的 lūstrāre「照亮、使明亮」——插图原本就是「给文字照亮」。",
+  "uncertainty": "illustrate < lūstrāre 与 lūx 的关系为通行说法（Etymonline）。",
+  "derivedWords": [
+   {
+    "word": "illuminate",
+    "zh": "照亮",
+    "breakdown": "il-(向内) + lumin(光)"
+   },
+   {
+    "word": "lucid",
+    "zh": "清晰的",
+    "breakdown": "luc(光) + -id(具有)"
+   },
+   {
+    "word": "luminous",
+    "zh": "发光的",
+    "breakdown": "lumin(光) + -ous(具有)"
+   },
+   {
+    "word": "translucent",
+    "zh": "半透明的",
+    "breakdown": "trans-(穿过) + luc(光)"
+   },
+   {
+    "word": "elucidate",
+    "zh": "阐明",
+    "breakdown": "e-(出来) + luc(光)"
+   },
+   {
+    "word": "luminary",
+    "zh": "发光体；名家",
+    "breakdown": "lumin(光) + -ary(物)"
+   },
+   {
+    "word": "lucent",
+    "zh": "明亮的",
+    "breakdown": "luc(光) + -ent(正在)"
+   },
+   {
+    "word": "Lucifer",
+    "zh": "启明星",
+    "breakdown": "luc(光) + fer(携带)"
+   }
+  ],
+  "example": {
+   "en": "Lamps illuminate the cases.",
+   "zh": "灯照亮展柜。"
+  },
+  "illustration": {
+   "scene": "A plaster study: one clay oil lamp throws a warm pool of light across an open codex; through the window, a single morning star (replace the lighthouse to avoid duplication with spect)",
+   "dominantHue": {
+    "name": "灯火金 lamplight gold",
+    "rationale": "暖金是灯火与晨星的颜色"
+   },
+   "props": [
+    "clay oil lamp",
+    "open codex",
+    "morning star in window"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/lucid",
+   "https://www.etymonline.com/word/Lucifer",
+   "https://www.etymonline.com/word/illuminate",
+   "https://www.etymonline.com/word/illustrate",
+   "https://en.wiktionary.org/wiki/lux#Latin",
+   "https://logeion.uchicago.edu/lux",
+   "https://en.wiktionary.org/wiki/lumen#Latin",
+   "https://logeion.uchicago.edu/lumen",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "海上灯塔发光，「光」准确；但与 spect 构图重复，修改 spect 即可。",
+   "file": "/workspace/wra-illustrations/luc.webp"
+  }
+ },
+ {
+  "rank": 38,
+  "id": "cord",
+  "root": "cord",
+  "forms": [
+   "cord",
+   "cour",
+   "cor"
+  ],
+  "language": "Latin",
+  "sourceWord": "cor (cordis)",
+  "meaning": {
+   "en": "heart",
+   "zh": "心"
+  },
+  "originStory": "拉丁语 cor 是「心」。古罗马人认为心是记忆与思考所在，所以 record 原是 re- + cor「重新放回心里」，即记住，后来才是「记录」。英语 learn by heart「背下来」也是这种观念。cordial 是「发自内心的」，accord 是「心向一处」，concord 是「同心」，discord 是「心分两处」。courage 经古法语来自 cor，勇气就是「心」的力量。core「核心」的来源有争议，可能也与 cor 有关。",
+  "uncertainty": "core < cor 不确定（Etymonline 标为 uncertain）；record 之义见 Etymonline。",
+  "derivedWords": [
+   {
+    "word": "cordial",
+    "zh": "恳切的",
+    "breakdown": "cord(心)"
+   },
+   {
+    "word": "concord",
+    "zh": "和谐",
+    "breakdown": "con-(共同) + cord(心)"
+   },
+   {
+    "word": "discord",
+    "zh": "不和",
+    "breakdown": "dis-(分开) + cord(心)"
+   },
+   {
+    "word": "accord",
+    "zh": "一致",
+    "breakdown": "ac-(朝向) + cord(心)"
+   },
+   {
+    "word": "record",
+    "zh": "记录",
+    "breakdown": "re-(回) + cord(心)"
+   },
+   {
+    "word": "courage",
+    "zh": "勇气",
+    "breakdown": "cour(心) + -age(状态)"
+   },
+   {
+    "word": "encourage",
+    "zh": "鼓励",
+    "breakdown": "en-(使) + courage(勇气)"
+   },
+   {
+    "word": "concordance",
+    "zh": "语词索引",
+    "breakdown": "con-(共同) + cord(心)"
+   }
+  ],
+  "example": {
+   "en": "A cordial welcome met us.",
+   "zh": "我们受到恳切的欢迎。"
+  },
+  "illustration": {
+   "scene": "An intimate Roman room: a student with a hand over his heart recites from memory while a teacher listens, the closed tablet set aside — 'learning by heart'; a single coral thread as the only red (replace the heart-shaped flowerbed)",
+   "dominantHue": {
+    "name": "心房珊瑚红 heart coral",
+    "rationale": "心的颜色自然是温暖的珊瑚红"
+   },
+   "props": [
+    "hand over heart",
+    "closed wax tablet",
+    "coral thread"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/record",
+   "https://www.etymonline.com/word/courage",
+   "https://www.etymonline.com/word/cordial",
+   "https://www.etymonline.com/word/core",
+   "https://en.wiktionary.org/wiki/cor#Latin",
+   "https://logeion.uchicago.edu/cor",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "心形花坛是网红式字面图解，偏俗；也没讲出 record=「放回心里」这个故事。",
+   "file": "/workspace/wra-illustrations/cord.webp"
+  }
+ },
+ {
+  "rank": 39,
+  "id": "phon",
+  "root": "phon",
+  "forms": [
+   "phon",
+   "phone",
+   "phony"
+  ],
+  "language": "Greek",
+  "sourceWord": "phōnē (φωνή)",
+  "meaning": {
+   "en": "sound, voice",
+   "zh": "声音"
+  },
+  "originStory": "希腊语 phōnē 是「声音、嗓音」。在古希腊剧场里，演员戴着面具，全靠声音把台词送到最后一排，嗓音就是表演的一切。symphony 是 syn- + phōnē「声音合在一起」，最早指和声；telephone 是「远方的声音」，是 19 世纪的新造词；microphone 是「放大微小的声音」；phonetics 是语音学；euphony 是悦耳之声；cacophony 是「难听的声音」。saxophone 则是以发明者萨克斯命名的「萨克斯之声」。",
+  "derivedWords": [
+   {
+    "word": "telephone",
+    "zh": "电话",
+    "breakdown": "tele-(远) + phon(声)"
+   },
+   {
+    "word": "microphone",
+    "zh": "麦克风",
+    "breakdown": "micro-(微小) + phon(声)"
+   },
+   {
+    "word": "symphony",
+    "zh": "交响乐",
+    "breakdown": "sym-(一起) + phon(声)"
+   },
+   {
+    "word": "phonics",
+    "zh": "拼读法",
+    "breakdown": "phon(声)"
+   },
+   {
+    "word": "megaphone",
+    "zh": "扩音器",
+    "breakdown": "mega-(大) + phon(声)"
+   },
+   {
+    "word": "homophone",
+    "zh": "同音词",
+    "breakdown": "homo-(相同) + phon(声)"
+   },
+   {
+    "word": "cacophony",
+    "zh": "刺耳嘈杂",
+    "breakdown": "caco-(坏) + phon(声)"
+   },
+   {
+    "word": "euphony",
+    "zh": "悦耳",
+    "breakdown": "eu-(好) + phon(声)"
+   },
+   {
+    "word": "phonetic",
+    "zh": "语音的",
+    "breakdown": "phon(声)"
+   },
+   {
+    "word": "phonograph",
+    "zh": "留声机",
+    "breakdown": "phon(声) + graph(写)"
+   }
+  ],
+  "example": {
+   "en": "The telephone rang twice.",
+   "zh": "电话响了两声。"
+  },
+  "illustration": {
+   "scene": "keep current: Greek theatre, a singer with a lyre in the orchestra circle, two masks on the wall",
+   "dominantHue": {
+    "name": "琴声紫 lyre purple",
+    "rationale": "声音是看不见的，冷紫色适合表达音色与共鸣"
+   },
+   "props": [
+    "lyre",
+    "theatre masks",
+    "orchestra circle"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/symphony",
+   "https://www.etymonline.com/word/telephone",
+   "https://www.etymonline.com/word/phonetic",
+   "https://www.etymonline.com/word/saxophone",
+   "https://en.wiktionary.org/wiki/%CF%86%CF%89%CE%BD%CE%AE#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%86%CF%89%CE%BD%CE%AE",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "希腊剧场与竖琴歌者，「声音」到位。",
+   "file": "/workspace/wra-illustrations/phon.webp"
+  }
+ },
+ {
+  "rank": 40,
+  "id": "bio",
+  "root": "bio",
+  "forms": [
+   "bio"
+  ],
+  "language": "Greek",
+  "sourceWord": "bios (βίος)",
+  "meaning": {
+   "en": "life, way of life",
+   "zh": "生命，一生"
+  },
+  "originStory": "希腊语有两个「生命」：zōē 指一切活物的生命，bios 更多指「一个人的一生、生活方式」。所以 biography 是「写一个人的一生」——这个用法比「生物」早得多。到 19 世纪，科学家借 bios 造出 biology「生命的学问」，此后 bio- 才和动植物联系在一起：biochemistry、antibiotic（「对抗生命」，即杀灭微生物）、symbiosis（「共同生活」）、biodiversity。amphibian 是「两种生活」——能在水里也能在陆上生活的动物。",
+  "uncertainty": "biology 一词 1800 年前后由德、法学者造出（Etymonline）。",
+  "derivedWords": [
+   {
+    "word": "biology",
+    "zh": "生物学",
+    "breakdown": "bio(生命) + log(学问)"
+   },
+   {
+    "word": "biography",
+    "zh": "传记",
+    "breakdown": "bio(生命) + graph(写)"
+   },
+   {
+    "word": "antibiotic",
+    "zh": "抗生素",
+    "breakdown": "anti-(对抗) + bio(生命)"
+   },
+   {
+    "word": "biosphere",
+    "zh": "生物圈",
+    "breakdown": "bio(生命) + sphere(圈层)"
+   },
+   {
+    "word": "symbiotic",
+    "zh": "共生的",
+    "breakdown": "sym-(共同) + bio(生命)"
+   },
+   {
+    "word": "biodiversity",
+    "zh": "生物多样性",
+    "breakdown": "bio(生命) + divers(多样)"
+   },
+   {
+    "word": "autobiography",
+    "zh": "自传",
+    "breakdown": "auto-(自己) + bio(生命) + graph(写)"
+   },
+   {
+    "word": "biome",
+    "zh": "生物群系",
+    "breakdown": "bio(生命)"
+   }
+  ],
+  "example": {
+   "en": "Biology begins with careful looking.",
+   "zh": "生物学从仔细观察开始。"
+  },
+  "illustration": {
+   "scene": "A life as a path: a spiral garden path where the same figure appears as child, adult and elder, with a seedling, a blossoming tree and a fruiting tree along it; a frog at the pond for 'amphibian'",
+   "dominantHue": {
+    "name": "生命叶绿 leaf green",
+    "rationale": "生命与成长最直观的是叶子的绿色"
+   },
+   "props": [
+    "spiral path with three life stages",
+    "seedling to fruit tree",
+    "frog by a pond"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/biography",
+   "https://www.etymonline.com/word/biology",
+   "https://www.etymonline.com/word/antibiotic",
+   "https://www.etymonline.com/word/amphibian",
+   "https://en.wiktionary.org/wiki/%CE%B2%CE%AF%CE%BF%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%B2%CE%AF%CE%BF%CF%82",
+   "https://en.wiktionary.org/wiki/%CE%B6%CF%89%CE%AE#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%B6%CF%89%CE%AE",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "花园加青蛙蝴蝶只表达「生物」，而 bios 本义是「一生、生活方式」（biography）。",
+   "file": "/workspace/wra-illustrations/bio.webp"
+  }
+ },
+ {
+  "rank": 41,
+  "id": "geo",
+  "root": "geo",
+  "forms": [
+   "geo"
+  ],
+  "language": "Greek",
+  "sourceWord": "gē (γῆ)",
+  "meaning": {
+   "en": "earth, land",
+   "zh": "大地"
+  },
+  "originStory": "希腊语 gē（或 gaia）是「大地」，神话中的大地女神盖亚也是这个名字。geometry 是「丈量土地」：据希罗多德记载，古埃及尼罗河每年泛滥后要重新测量田界，希腊人认为几何学由此而来。geography 是「描写大地」，最早的这类著作出自古希腊的埃拉托斯特尼等人。geology 是「大地之学」，18 世纪才定型。George 原是 geōrgos「耕地的人」，即农夫。",
+  "uncertainty": "几何学起源于埃及测地的说法出自希罗多德《历史》2.109，属古代传说性解释。",
+  "derivedWords": [
+   {
+    "word": "geography",
+    "zh": "地理",
+    "breakdown": "geo(地) + graph(描述)"
+   },
+   {
+    "word": "geology",
+    "zh": "地质学",
+    "breakdown": "geo(地) + log(学问)"
+   },
+   {
+    "word": "geometry",
+    "zh": "几何",
+    "breakdown": "geo(地) + meter(测量)"
+   },
+   {
+    "word": "geothermal",
+    "zh": "地热的",
+    "breakdown": "geo(地) + therm(热)"
+   },
+   {
+    "word": "geode",
+    "zh": "晶洞",
+    "breakdown": "geo(地)"
+   },
+   {
+    "word": "geopolitics",
+    "zh": "地缘政治",
+    "breakdown": "geo(地) + polit(城邦事务)"
+   },
+   {
+    "word": "geocentric",
+    "zh": "地心的",
+    "breakdown": "geo(地) + centr(中心)"
+   },
+   {
+    "word": "geologist",
+    "zh": "地质学家",
+    "breakdown": "geo(地) + log(学者)"
+   }
+  ],
+  "example": {
+   "en": "Geography maps the river's course.",
+   "zh": "地理标出河流的走向。"
+  },
+  "illustration": {
+   "scene": "keep current: a landscape slab with visible rock strata; add a tiny surveyor with rope and stakes re-marking a field boundary by a river",
+   "dominantHue": {
+    "name": "大地赭石 earth ochre",
+    "rationale": "土壤与岩层的赭色是大地本色"
+   },
+   "props": [
+    "rock strata",
+    "surveyor's rope and stakes",
+    "river"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/geometry",
+   "https://www.etymonline.com/word/geography",
+   "https://www.etymonline.com/word/geology",
+   "https://www.etymonline.com/word/George",
+   "https://en.wiktionary.org/wiki/%CE%B3%E1%BF%86#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%B3%E1%BF%86",
+   "https://en.wiktionary.org/wiki/%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CF%8C%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%B3%CE%B5%CF%89%CF%81%CE%B3%CF%8C%CF%82",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "带岩层断面的大地，「大地」准确。",
+   "file": "/workspace/wra-illustrations/geo.webp"
+  }
+ },
+ {
+  "rank": 42,
+  "id": "hydr",
+  "root": "hydr",
+  "forms": [
+   "hydr",
+   "hydro"
+  ],
+  "language": "Greek",
+  "sourceWord": "hydōr (ὕδωρ)",
+  "meaning": {
+   "en": "water",
+   "zh": "水"
+  },
+  "originStory": "希腊语 hydōr 是「水」。希腊城邦里，妇女到泉屋（krēnē）用三耳的陶罐 hydria 打水，这是古典陶画中常见的场景。神话里的九头蛇 Hydra 生活在沼泽水域，名字就是「水蛇」。hydrogen 是 18 世纪拉瓦锡造的词，意思是「生成水的元素」；dehydrate 是「去掉水」；hydrant 是消防栓；hydraulic 来自「水管笛」——古希腊的水压风琴 hydraulis。",
+  "uncertainty": "hydrogen 由 Lavoisier 等人于 1787 年命名（Etymonline）。",
+  "derivedWords": [
+   {
+    "word": "hydrate",
+    "zh": "补水",
+    "breakdown": "hydr(水)"
+   },
+   {
+    "word": "hydraulic",
+    "zh": "水力的",
+    "breakdown": "hydr(水) + aul(管)"
+   },
+   {
+    "word": "hydrogen",
+    "zh": "氢",
+    "breakdown": "hydr(水) + gen(产生)"
+   },
+   {
+    "word": "dehydrate",
+    "zh": "脱水",
+    "breakdown": "de-(除去) + hydr(水)"
+   },
+   {
+    "word": "hydrophobia",
+    "zh": "恐水",
+    "breakdown": "hydr(水) + phobia(恐惧)"
+   },
+   {
+    "word": "hydrant",
+    "zh": "消防栓",
+    "breakdown": "hydr(水)"
+   },
+   {
+    "word": "hydroponic",
+    "zh": "水培的",
+    "breakdown": "hydr(水) + pon(劳作)"
+   },
+   {
+    "word": "hydrology",
+    "zh": "水文学",
+    "breakdown": "hydr(水) + log(学问)"
+   },
+   {
+    "word": "anhydrous",
+    "zh": "无水的",
+    "breakdown": "an-(无) + hydr(水)"
+   }
+  ],
+  "example": {
+   "en": "Hydrate the clay before wedging.",
+   "zh": "揉泥前先给陶土补水。"
+  },
+  "illustration": {
+   "scene": "keep current: a Greek fountain house; add a woman filling a three-handled hydria under a bronze lion-head spout",
+   "dominantHue": {
+    "name": "泉水碧蓝 spring teal",
+    "rationale": "水的清凉碧蓝"
+   },
+   "props": [
+    "lion-head spout",
+    "hydria jar",
+    "wet stone"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/hydrogen",
+   "https://www.etymonline.com/word/hydrant",
+   "https://www.etymonline.com/word/hydraulic",
+   "https://www.etymonline.com/word/hydra",
+   "https://en.wiktionary.org/wiki/%E1%BD%95%CE%B4%CF%89%CF%81#Ancient_Greek",
+   "https://logeion.uchicago.edu/%E1%BD%95%CE%B4%CF%89%CF%81",
+   "https://en.wiktionary.org/wiki/%E1%BD%91%CE%B4%CF%81%CE%AF%CE%B1#Ancient_Greek",
+   "https://logeion.uchicago.edu/%E1%BD%91%CE%B4%CF%81%CE%AF%CE%B1",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "喷泉与水池，「水」准确。",
+   "file": "/workspace/wra-illustrations/hydr.webp"
+  }
+ },
+ {
+  "rank": 43,
+  "id": "phot",
+  "root": "phot",
+  "forms": [
+   "phot",
+   "photo"
+  ],
+  "language": "Greek",
+  "sourceWord": "phōs (φῶς, phōtos)",
+  "meaning": {
+   "en": "light",
+   "zh": "光"
+  },
+  "originStory": "希腊语 phōs 是「光」。19 世纪 30 年代，英国科学家约翰·赫歇尔等人用它造出 photograph「用光书写」——最早的摄影就是让光在感光板上慢慢「写」出影像。更早的小孔成像（camera obscura）原理在古代就有人观察过：一束光穿过小孔，会在暗室墙上投出倒立的外景。photosynthesis 是「用光合成」，photon 是光子，phosphorus「磷」是「带来光的」，因为它在暗处发光。",
+  "uncertainty": "photograph 一词通常归于 John Herschel（1839），见 Etymonline。",
+  "derivedWords": [
+   {
+    "word": "photograph",
+    "zh": "照片",
+    "breakdown": "phot(光) + graph(写)"
+   },
+   {
+    "word": "photosynthesis",
+    "zh": "光合作用",
+    "breakdown": "phot(光) + syn-(一起) + thesis(合成)"
+   },
+   {
+    "word": "photon",
+    "zh": "光子",
+    "breakdown": "phot(光)"
+   },
+   {
+    "word": "photocopy",
+    "zh": "影印",
+    "breakdown": "phot(光) + copy(副本)"
+   },
+   {
+    "word": "photogenic",
+    "zh": "上镜的",
+    "breakdown": "phot(光) + gen(产生)"
+   },
+   {
+    "word": "photovoltaic",
+    "zh": "光伏的",
+    "breakdown": "phot(光) + volta(伏打)"
+   },
+   {
+    "word": "photosphere",
+    "zh": "光球",
+    "breakdown": "phot(光) + sphere(球层)"
+   },
+   {
+    "word": "phosphorus",
+    "zh": "磷",
+    "breakdown": "phot(光) + phor(携带)"
+   }
+  ],
+  "example": {
+   "en": "The photograph faded at the edges.",
+   "zh": "照片边缘褪了色。"
+  },
+  "illustration": {
+   "scene": "A dim room with a tiny aperture: a shaft of light projects the inverted image of a tree onto the plaster wall; a sprig left on a sensitised plate fading into silhouette (camera obscura)",
+   "dominantHue": {
+    "name": "日光黄绿 sunlit chartreuse",
+    "rationale": "光照下的黄绿兼有阳光与植物光合的意味"
+   },
+   "props": [
+    "pinhole aperture",
+    "projected inverted image",
+    "plate with sprig silhouette"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/photograph",
+   "https://www.etymonline.com/word/photosynthesis",
+   "https://www.etymonline.com/word/phosphorus",
+   "https://www.etymonline.com/word/photon",
+   "https://en.wiktionary.org/wiki/%CF%86%E1%BF%B6%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%86%E1%BF%B6%CF%82",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "玻璃温室对应 photosynthesis，可以接受；若要贴近 photograph「用光书写」，可换小孔成像。",
+   "file": "/workspace/wra-illustrations/phot.webp"
+  }
+ },
+ {
+  "rank": 44,
+  "id": "chron",
+  "root": "chron",
+  "forms": [
+   "chron",
+   "chrono"
+  ],
+  "language": "Greek",
+  "sourceWord": "khronos (χρόνος)",
+  "meaning": {
+   "en": "time",
+   "zh": "时间"
+  },
+  "originStory": "希腊语 khronos 是「时间」，尤其指可以数、可以排序的流逝时间（与 kairos「恰当的时机」相对）。日晷的影子一点点挪动，就是 khronos。chronicle 是「按时间先后写下的记事」，chronology 是年代学，chronic 是「拖了很久的」慢性病，synchronize 是「让时间对齐」，anachronism 是「放错了时代的东西」。注意：时间 Khronos 常被与泰坦神 Kronos（克洛诺斯）混为一谈，这是古代就有的混淆，两个词其实不同源。",
+  "uncertainty": "Khronos 与 Kronos 不同源是通行观点；kairos 对比为哲学传统常见说法。",
+  "derivedWords": [
+   {
+    "word": "chronicle",
+    "zh": "编年史",
+    "breakdown": "chron(时间)"
+   },
+   {
+    "word": "chronology",
+    "zh": "年表",
+    "breakdown": "chron(时间) + log(学问)"
+   },
+   {
+    "word": "synchronize",
+    "zh": "使同步",
+    "breakdown": "syn-(一起) + chron(时间)"
+   },
+   {
+    "word": "chronic",
+    "zh": "慢性的",
+    "breakdown": "chron(时间)"
+   },
+   {
+    "word": "anachronism",
+    "zh": "时代错误",
+    "breakdown": "ana-(错位) + chron(时间)"
+   },
+   {
+    "word": "chronological",
+    "zh": "按时间顺序的",
+    "breakdown": "chron(时间) + log(条理)"
+   },
+   {
+    "word": "chronometer",
+    "zh": "精密计时器",
+    "breakdown": "chron(时间) + meter(测量)"
+   },
+   {
+    "word": "synchronous",
+    "zh": "同步的",
+    "breakdown": "syn-(一起) + chron(时间)"
+   }
+  ],
+  "example": {
+   "en": "The chronicle lists each flood.",
+   "zh": "编年史记下每一次洪水。"
+  },
+  "illustration": {
+   "scene": "A courtyard sundial on a stone block, the gnomon's shadow falling exactly across incised hour lines; a figure paused to read it, a chronicle tablet on a bench (replace the snowy village)",
+   "dominantHue": {
+    "name": "日影钴蓝 shadow cobalt",
+    "rationale": "时间的流逝在影子里，冷静的蓝最像影子"
+   },
+   "props": [
+    "sundial with gnomon",
+    "incised hour lines",
+    "chronicle tablet"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/chronicle",
+   "https://www.etymonline.com/word/chronic",
+   "https://www.etymonline.com/word/synchronize",
+   "https://www.etymonline.com/word/anachronism",
+   "https://en.wiktionary.org/wiki/%CF%87%CF%81%CF%8C%CE%BD%CE%BF%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%87%CF%81%CF%8C%CE%BD%CE%BF%CF%82",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "雪中小镇加钟楼读成「冬天/圣诞」，时间感弱。",
+   "file": "/workspace/wra-illustrations/chron.webp"
+  }
+ },
+ {
+  "rank": 45,
+  "id": "psych",
+  "root": "psych",
+  "forms": [
+   "psych",
+   "psycho"
+  ],
+  "language": "Greek",
+  "sourceWord": "psykhē (ψυχή)",
+  "meaning": {
+   "en": "breath, soul, mind",
+   "zh": "气息，灵魂，心灵"
+  },
+  "originStory": "希腊语 psykhē 最早是「气息」，进而指「生命、灵魂」。古希腊人常把灵魂画成一只蝴蝶，psykhē 这个词本身也可指蝴蝶。罗马作家阿普列乌斯讲过丘比特与普赛克（Psyche）的故事：凡间少女普赛克历经考验成为不朽，后世常给她画上蝴蝶翅膀。psychology 是「灵魂之学」，16 世纪出现，后来变成研究心理的科学；psychiatry 是「治疗心灵」，psyche 本身也进入英语表示「心灵」。",
+  "uncertainty": "psykhē 的「蝴蝶」义见 LSJ；丘比特与普赛克故事出自阿普列乌斯《金驴记》。",
+  "derivedWords": [
+   {
+    "word": "psychology",
+    "zh": "心理学",
+    "breakdown": "psych(心灵) + log(学问)"
+   },
+   {
+    "word": "psyche",
+    "zh": "心灵",
+    "breakdown": "psych(心灵)"
+   },
+   {
+    "word": "psychic",
+    "zh": "心灵的",
+    "breakdown": "psych(心灵)"
+   },
+   {
+    "word": "psychiatry",
+    "zh": "精神病学",
+    "breakdown": "psych(心灵) + iatr(医治)"
+   },
+   {
+    "word": "psychosomatic",
+    "zh": "身心的",
+    "breakdown": "psych(心灵) + somat(身体)"
+   },
+   {
+    "word": "psychotherapy",
+    "zh": "心理治疗",
+    "breakdown": "psych(心灵) + therapy(治疗)"
+   },
+   {
+    "word": "psychosis",
+    "zh": "精神病",
+    "breakdown": "psych(心灵)"
+   },
+   {
+    "word": "psychologist",
+    "zh": "心理学家",
+    "breakdown": "psych(心灵) + log(学者)"
+   }
+  ],
+  "example": {
+   "en": "Psychology studies the mind with care.",
+   "zh": "心理学小心地研究心灵。"
+  },
+  "illustration": {
+   "scene": "keep current: Psyche seated on stone, a butterfly lifting from her palm, lamp beside her",
+   "dominantHue": {
+    "name": "心灵丁香 lilac",
+    "rationale": "蝴蝶与灵魂的轻盈用柔和的丁香紫"
+   },
+   "props": [
+    "butterfly",
+    "oil lamp",
+    "stone seat"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/psyche",
+   "https://www.etymonline.com/word/psychology",
+   "https://www.etymonline.com/word/psychiatry",
+   "https://en.wiktionary.org/wiki/%CF%88%CF%85%CF%87%CE%AE#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%88%CF%85%CF%87%CE%AE",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "普赛克与蝴蝶，正是 psykhē 的经典意象。",
+   "file": "/workspace/wra-illustrations/psych.webp"
+  }
+ },
+ {
+  "rank": 46,
+  "id": "path",
+  "root": "path",
+  "forms": [
+   "path",
+   "pathy",
+   "pass"
+  ],
+  "language": "Greek",
+  "sourceWord": "pathos (πάθος)",
+  "meaning": {
+   "en": "suffering, feeling",
+   "zh": "遭受，感受"
+  },
+  "originStory": "希腊语 pathos 来自动词 paskhein「遭受、经历」，本义是「发生在你身上、你被动承受的事」，可以是痛苦，也可以是强烈的情感。亚里士多德在《修辞学》中把 pathos 列为说服的三种手段之一：打动听众的情感。sympathy 是「一起感受」，empathy 是「感受进去」（20 世纪初为翻译德语 Einfühlung 而造），apathy 是「无感」，antipathy 是「反感」。在医学里，pathology 是「病痛之学」，-pathy 也表示疾病或疗法。",
+  "uncertainty": "empathy 1908 年作为 Einfühlung 的译词出现（Etymonline）。",
+  "derivedWords": [
+   {
+    "word": "sympathy",
+    "zh": "同情",
+    "breakdown": "sym-(共同) + path(感)"
+   },
+   {
+    "word": "empathy",
+    "zh": "共情",
+    "breakdown": "em-(进入) + path(感)"
+   },
+   {
+    "word": "apathy",
+    "zh": "冷漠",
+    "breakdown": "a-(无) + path(感)"
+   },
+   {
+    "word": "pathetic",
+    "zh": "可怜的",
+    "breakdown": "path(感)"
+   },
+   {
+    "word": "pathology",
+    "zh": "病理学",
+    "breakdown": "path(病痛) + log(学问)"
+   },
+   {
+    "word": "antipathy",
+    "zh": "反感",
+    "breakdown": "anti-(相对) + path(感)"
+   },
+   {
+    "word": "telepathy",
+    "zh": "心灵感应",
+    "breakdown": "tele-(远) + path(感)"
+   },
+   {
+    "word": "pathogen",
+    "zh": "病原体",
+    "breakdown": "path(病) + gen(产生)"
+   }
+  ],
+  "example": {
+   "en": "She listened with sympathy.",
+   "zh": "她带着同情倾听。"
+  },
+  "illustration": {
+   "scene": "keep current: two figures on a bench, one leaning in with a hand on the other's forearm; a tragic mask set aside; soft rain",
+   "dominantHue": {
+    "name": "共感雨蓝 rain blue",
+    "rationale": "感受与悲伤常被联想为细雨般的灰蓝"
+   },
+   "props": [
+    "bench",
+    "tragic mask",
+    "umbrella or rain"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/sympathy",
+   "https://www.etymonline.com/word/empathy",
+   "https://www.etymonline.com/word/apathy",
+   "https://www.etymonline.com/word/pathology",
+   "https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%80%CE%AC%CE%B8%CE%BF%CF%82",
+   "https://en.wiktionary.org/wiki/%CF%80%CE%AC%CF%83%CF%87%CF%89#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%80%CE%AC%CF%83%CF%87%CF%89",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "两人同伞依偎，「感同身受」清楚。",
+   "file": "/workspace/wra-illustrations/path.webp"
+  }
+ },
+ {
+  "rank": 47,
+  "id": "phil",
+  "root": "phil",
+  "forms": [
+   "phil",
+   "philo"
+  ],
+  "language": "Greek",
+  "sourceWord": "philos (φίλος)",
+  "meaning": {
+   "en": "dear, friend; loving",
+   "zh": "亲爱的，朋友；爱"
+  },
+  "originStory": "希腊语 philos 是「亲爱的、朋友」，philein 是「爱、喜欢」。相传毕达哥拉斯不愿自称「智者」（sophos），只说自己是「爱智慧的人」philosophos——这则轶事出自后世作家，真伪难考，但 philosophy「爱智慧」确实由此而来。Philadelphia 是「兄弟之爱」之城；philanthropy 是「爱人类」，即慈善；bibliophile 是「爱书的人」；Philip 是「爱马的人」。哈姆雷特的 Ophelia 则不属于这一族。",
+  "uncertainty": "毕达哥拉斯自称 philosophos 的轶事出自西塞罗、第欧根尼·拉尔修等后世记载，可信度存疑。",
+  "derivedWords": [
+   {
+    "word": "philosophy",
+    "zh": "哲学",
+    "breakdown": "phil(爱) + soph(智慧)"
+   },
+   {
+    "word": "philosopher",
+    "zh": "哲学家",
+    "breakdown": "phil(爱) + soph(智慧)"
+   },
+   {
+    "word": "philanthropy",
+    "zh": "慈善",
+    "breakdown": "phil(爱) + anthrop(人)"
+   },
+   {
+    "word": "philanthropist",
+    "zh": "慈善家",
+    "breakdown": "phil(爱) + anthrop(人)"
+   },
+   {
+    "word": "philology",
+    "zh": "语文学",
+    "breakdown": "phil(爱) + log(言)"
+   },
+   {
+    "word": "bibliophile",
+    "zh": "爱书的人",
+    "breakdown": "biblio(书) + phil(爱)"
+   },
+   {
+    "word": "philharmonic",
+    "zh": "爱乐的",
+    "breakdown": "phil(爱) + harmon(和谐)"
+   },
+   {
+    "word": "Philadelphia",
+    "zh": "费城；兄弟之爱",
+    "breakdown": "phil(爱) + adelph(兄弟)"
+   }
+  ],
+  "example": {
+   "en": "Philosophy is the love of wisdom.",
+   "zh": "哲学是对智慧的爱。"
+  },
+  "illustration": {
+   "scene": "A night study in Athens: two friends share one oil lamp and two cups over an open scroll, an olive sprig in a small vessel (replace the rose gazebo)",
+   "dominantHue": {
+    "name": "友谊珊瑚粉 friendship coral",
+    "rationale": "亲密与友爱用温暖的珊瑚粉，避免浪漫红"
+   },
+   "props": [
+    "shared oil lamp",
+    "two cups",
+    "scroll"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/philosophy",
+   "https://www.etymonline.com/word/philanthropy",
+   "https://www.etymonline.com/word/Philadelphia",
+   "https://www.etymonline.com/word/Philip",
+   "https://en.wiktionary.org/wiki/%CF%86%CE%AF%CE%BB%CE%BF%CF%82#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%86%CE%AF%CE%BB%CE%BF%CF%82",
+   "https://en.wiktionary.org/wiki/%CF%86%CE%B9%CE%BB%CE%BF%CF%83%CE%BF%CF%86%CE%AF%CE%B1#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CF%86%CE%B9%CE%BB%CE%BF%CF%83%CE%BF%CF%86%CE%AF%CE%B1",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "玫瑰凉亭偏「浪漫爱情」；philos 是朋友之爱、philosophy 是爱智慧。",
+   "file": "/workspace/wra-illustrations/phil.webp"
+  }
+ },
+ {
+  "rank": 48,
+  "id": "morph",
+  "root": "morph",
+  "forms": [
+   "morph"
+  ],
+  "language": "Greek",
+  "sourceWord": "morphē (μορφή)",
+  "meaning": {
+   "en": "form, shape",
+   "zh": "形态"
+  },
+  "originStory": "希腊语 morphē 是「形状、外形」。罗马诗人奥维德写过一部著名长诗《变形记》（Metamorphōsēs，「形态的转变」），讲神和人变成树、鸟、星辰的故事。metamorphosis 后来也用来描述毛虫结蛹化蝶。Morpheus 是梦神，奥维德说他能在梦中化出人的形状，止痛药 morphine 就以他命名。morphology 是「形态学」，amorphous 是「无定形的」，polymorphic 是「多种形态的」。",
+  "uncertainty": "Morpheus 一名与 morphē 的关系是常见说法，部分学者认为是奥维德的造名。",
+  "derivedWords": [
+   {
+    "word": "morphology",
+    "zh": "形态学",
+    "breakdown": "morph(形态) + log(学问)"
+   },
+   {
+    "word": "metamorphosis",
+    "zh": "变形",
+    "breakdown": "meta-(变化) + morph(形态)"
+   },
+   {
+    "word": "amorphous",
+    "zh": "无定形的",
+    "breakdown": "a-(无) + morph(形态)"
+   },
+   {
+    "word": "polymorphic",
+    "zh": "多态的",
+    "breakdown": "poly-(多) + morph(形态)"
+   },
+   {
+    "word": "morpheme",
+    "zh": "语素",
+    "breakdown": "morph(形态)"
+   },
+   {
+    "word": "isomorphic",
+    "zh": "同构的",
+    "breakdown": "iso-(相同) + morph(形态)"
+   },
+   {
+    "word": "anthropomorphic",
+    "zh": "拟人的",
+    "breakdown": "anthrop(人) + morph(形态)"
+   },
+   {
+    "word": "metamorphic",
+    "zh": "变质的",
+    "breakdown": "meta-(变化) + morph(形态)"
+   }
+  ],
+  "example": {
+   "en": "Morphology studies the shapes of leaves.",
+   "zh": "形态学研究叶子的形状。"
+  },
+  "illustration": {
+   "scene": "keep current: split chrysalis and drying butterfly on a stone ledge with fennel; give the butterfly muted clay-and-cream wings to differ from psych",
+   "dominantHue": {
+    "name": "蜕变藕荷 metamorphosis mauve",
+    "rationale": "形态变化在冷暖之间，藕荷色兼具两者"
+   },
+   "props": [
+    "chrysalis",
+    "butterfly",
+    "old skin"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/metamorphosis",
+   "https://www.etymonline.com/word/morphine",
+   "https://www.etymonline.com/word/Morpheus",
+   "https://www.etymonline.com/word/amorphous",
+   "https://en.wiktionary.org/wiki/%CE%BC%CE%BF%CF%81%CF%86%CE%AE#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%BC%CE%BF%CF%81%CF%86%CE%AE",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "蝶蛹与蝴蝶，「变形」准确；与 psych 都用蝴蝶，重绘时可改成土色蛾子以示区别。",
+   "file": "/workspace/wra-illustrations/morph.webp"
+  }
+ },
+ {
+  "rank": 49,
+  "id": "aster",
+  "root": "aster",
+  "forms": [
+   "aster",
+   "astr",
+   "astro"
+  ],
+  "language": "Greek",
+  "sourceWord": "astēr / astron (ἀστήρ)",
+  "meaning": {
+   "en": "star",
+   "zh": "星"
+  },
+  "originStory": "希腊语 astēr 是「星」。古人相信星辰的位置决定人的命运，所以 disaster 原是意大利语 disastro「星象不吉」——灾难就是「坏星」。astronomy 是「星的法则」，astrology 是「星的学说」，两者在古代本是一回事。asterisk 是「小星星」，就是印刷中的 * 号；astronaut 是 20 世纪的「星际水手」。花名 aster「紫菀」因花形像星而得名。",
+  "uncertainty": "disaster 经意大利语 disastro 与法语 désastre 进入英语（Etymonline）。",
+  "derivedWords": [
+   {
+    "word": "astronomy",
+    "zh": "天文学",
+    "breakdown": "astr(星) + nom(法则)"
+   },
+   {
+    "word": "asteroid",
+    "zh": "小行星",
+    "breakdown": "aster(星) + -oid(似)"
+   },
+   {
+    "word": "astronaut",
+    "zh": "宇航员",
+    "breakdown": "astr(星) + naut(航行者)"
+   },
+   {
+    "word": "asterisk",
+    "zh": "星号",
+    "breakdown": "aster(星) + -isk(小)"
+   },
+   {
+    "word": "disaster",
+    "zh": "灾难",
+    "breakdown": "dis-(不祥) + aster(星)"
+   },
+   {
+    "word": "astrology",
+    "zh": "占星术",
+    "breakdown": "astr(星) + log(说法)"
+   },
+   {
+    "word": "astronomical",
+    "zh": "极其巨大的",
+    "breakdown": "astr(星)"
+   },
+   {
+    "word": "astrophysics",
+    "zh": "天体物理",
+    "breakdown": "astr(星) + physics(物理)"
+   }
+  ],
+  "example": {
+   "en": "Astronomy measures the stars.",
+   "zh": "天文学测量星辰。"
+  },
+  "illustration": {
+   "scene": "A Hellenistic rooftop at dusk: an astronomer with a sighting staff below three clear stars; a cracked roof tile for 'dis-aster', a star mark painted on a tablet (make stars, not the moon, the focus)",
+   "dominantHue": {
+    "name": "星夜蓝 star-night blue",
+    "rationale": "星空的深蓝衬托星光"
+   },
+   "props": [
+    "sighting staff",
+    "three stars",
+    "cracked tile"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/disaster",
+   "https://www.etymonline.com/word/asterisk",
+   "https://www.etymonline.com/word/astronomy",
+   "https://www.etymonline.com/word/astronaut",
+   "https://en.wiktionary.org/wiki/%E1%BC%80%CF%83%CF%84%CE%AE%CF%81#Ancient_Greek",
+   "https://logeion.uchicago.edu/%E1%BC%80%CF%83%CF%84%CE%AE%CF%81",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "玻璃罩下的天文台和星空，「星」到位；但新月比星星更显眼。",
+   "file": "/workspace/wra-illustrations/aster.webp"
+  }
+ },
+ {
+  "rank": 50,
+  "id": "meter",
+  "root": "meter",
+  "forms": [
+   "meter",
+   "metr",
+   "metre"
+  ],
+  "language": "Greek",
+  "sourceWord": "metron (μέτρον)",
+  "meaning": {
+   "en": "measure",
+   "zh": "测量"
+  },
+  "originStory": "希腊语 metron 是「量具、尺度」，也指诗歌的「格律」——诗句里音节的长短是被「量」出来的。1790 年代，法国大革命政府要建立一套统一的度量制度，把子午线长度的千万分之一定为一个 mètre，这就是「米」，后来推广到全世界。thermometer 是「量热」，diameter 是「穿过（圆心）量」，symmetry 是「同一尺度」即对称，geometry 是「量地」，perimeter 是「量一周」。",
+  "uncertainty": "米制定义（1793 年法国，子午线四分之一的千万分之一）见常见史料。",
+  "derivedWords": [
+   {
+    "word": "meter",
+    "zh": "米；计量器",
+    "breakdown": "meter(测量)"
+   },
+   {
+    "word": "thermometer",
+    "zh": "温度计",
+    "breakdown": "therm(热) + meter(测量)"
+   },
+   {
+    "word": "diameter",
+    "zh": "直径",
+    "breakdown": "dia-(穿过) + meter(测量)"
+   },
+   {
+    "word": "perimeter",
+    "zh": "周长",
+    "breakdown": "peri-(周围) + meter(测量)"
+   },
+   {
+    "word": "symmetry",
+    "zh": "对称",
+    "breakdown": "sym-(相同) + meter(测量)"
+   },
+   {
+    "word": "barometer",
+    "zh": "气压计",
+    "breakdown": "baro(重量) + meter(测量)"
+   },
+   {
+    "word": "parameter",
+    "zh": "参数",
+    "breakdown": "para-(在旁) + meter(测量)"
+   },
+   {
+    "word": "metric",
+    "zh": "公制的",
+    "breakdown": "meter(测量)"
+   },
+   {
+    "word": "odometer",
+    "zh": "里程表",
+    "breakdown": "odo(道路) + meter(测量)"
+   }
+  ],
+  "example": {
+   "en": "A meter of cloth is enough.",
+   "zh": "一米布就够了。"
+  },
+  "illustration": {
+   "scene": "Two surveyors measuring a column drum with a rod and knotted cord, bronze calipers on a faintly gridded pavement; a metal standard bar in a case (replace the hedge maze)",
+   "dominantHue": {
+    "name": "测量薄荷绿 survey mint",
+    "rationale": "理性而精确的冷绿适合度量"
+   },
+   "props": [
+    "measuring rod",
+    "knotted cord",
+    "calipers"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/meter",
+   "https://www.etymonline.com/word/symmetry",
+   "https://www.etymonline.com/word/diameter",
+   "https://www.etymonline.com/word/geometry",
+   "https://en.wiktionary.org/wiki/%CE%BC%CE%AD%CF%84%CF%81%CE%BF%CE%BD#Ancient_Greek",
+   "https://logeion.uchicago.edu/%CE%BC%CE%AD%CF%84%CF%81%CE%BF%CE%BD",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "weak",
+   "reason": "绿篱迷宫读成「迷宫/园林」，量杆太小看不出「测量」。",
+   "file": "/workspace/wra-illustrations/meter.webp"
+  }
+ },
+ {
+  "rank": 51,
+  "id": "bene",
+  "root": "bene",
+  "forms": [
+   "bene",
+   "bon"
+  ],
+  "language": "Latin",
+  "sourceWord": "bene / bonus",
+  "meaning": {
+   "en": "well, good",
+   "zh": "好"
+  },
+  "originStory": "拉丁语 bene 是「好地」，形容词 bonus 是「好的」。benefit 是「做好事」，原指善行、恩惠；benefactor 是「做好事的人」，benevolent 是「心怀善意的」，benediction 是「说好话」——祝福，与 malediction「诅咒」相对。beneficial 是有益的。bonus 本身在 18 世纪进入英语，据说起初是伦敦证券交易所的俚语。bounty 经古法语 bonté「善意、慷慨」而来。",
+  "uncertainty": "bonus 的证交所俚语来源见 Etymonline，标为 probably。",
+  "derivedWords": [
+   {
+    "word": "benefit",
+    "zh": "益处",
+    "breakdown": "bene(好) + fit(做出)"
+   },
+   {
+    "word": "benevolent",
+    "zh": "仁慈的",
+    "breakdown": "bene(好) + vol(意愿) + -ent(……的)"
+   },
+   {
+    "word": "benefactor",
+    "zh": "捐助人",
+    "breakdown": "bene(好) + fact(做) + -or(人)"
+   },
+   {
+    "word": "benign",
+    "zh": "良性的；和善的",
+    "breakdown": "bene(好) + gn(生)"
+   },
+   {
+    "word": "benediction",
+    "zh": "祝福",
+    "breakdown": "bene(好) + dict(说)"
+   },
+   {
+    "word": "beneficial",
+    "zh": "有益的",
+    "breakdown": "bene(好) + fic(做)"
+   },
+   {
+    "word": "beneficiary",
+    "zh": "受益人",
+    "breakdown": "bene(好) + fic(做) + -ary(人)"
+   },
+   {
+    "word": "benevolence",
+    "zh": "仁慈",
+    "breakdown": "bene(好) + vol(意愿)"
+   }
+  ],
+  "example": {
+   "en": "Sunlight benefits the plants.",
+   "zh": "阳光对植物有益。"
+  },
+  "illustration": {
+   "scene": "keep current: a doorway at dusk where a neighbour hands over a bowl of bread, a lamp lit, orange tree beside",
+   "dominantHue": {
+    "name": "善意橙黄 kindness orange",
+    "rationale": "善意与慷慨用温暖的橙色"
+   },
+   "props": [
+    "bowl of bread",
+    "lit lamp",
+    "doorway"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/benefit",
+   "https://www.etymonline.com/word/benevolent",
+   "https://www.etymonline.com/word/benediction",
+   "https://www.etymonline.com/word/bonus",
+   "https://en.wiktionary.org/wiki/bene#Latin",
+   "https://logeion.uchicago.edu/bene",
+   "https://en.wiktionary.org/wiki/bonus#Latin",
+   "https://logeion.uchicago.edu/bonus",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "门口递东西的善意场景，与故事吻合。",
+   "file": "/workspace/wra-illustrations/bene.webp"
+  }
+ },
+ {
+  "rank": 52,
+  "id": "mal",
+  "root": "mal",
+  "forms": [
+   "mal",
+   "male"
+  ],
+  "language": "Latin",
+  "sourceWord": "male / malus",
+  "meaning": {
+   "en": "badly, bad",
+   "zh": "坏"
+  },
+  "originStory": "拉丁语 malus 是「坏的」，副词 male 是「坏地」。malaria 来自意大利语 mala aria「坏空气」——在病原体被发现之前，人们以为是沼泽散发的浊气让人发烧。malice 是恶意，malevolent 是「心怀恶意的」，malediction 是「说坏话」即诅咒，malfunction 是失灵，malnutrition 是营养不良，malignant 是「天生坏的」恶性的。dismal 来自中世纪「坏日子」dies malī，原指日历上不吉利的日子。",
+  "uncertainty": "dismal < dies malī 见 Etymonline。",
+  "derivedWords": [
+   {
+    "word": "malfunction",
+    "zh": "故障",
+    "breakdown": "mal-(不良) + function(运转)"
+   },
+   {
+    "word": "malicious",
+    "zh": "恶意的",
+    "breakdown": "mal(坏) + -icious(充满)"
+   },
+   {
+    "word": "malady",
+    "zh": "疾病",
+    "breakdown": "mal(坏)"
+   },
+   {
+    "word": "malign",
+    "zh": "诋毁；恶性的",
+    "breakdown": "mal(坏) + gn(生)"
+   },
+   {
+    "word": "malpractice",
+    "zh": "渎职",
+    "breakdown": "mal-(坏) + practice(行事)"
+   },
+   {
+    "word": "malevolent",
+    "zh": "恶毒的",
+    "breakdown": "male(坏) + vol(意愿)"
+   },
+   {
+    "word": "malnutrition",
+    "zh": "营养不良",
+    "breakdown": "mal-(不良) + nutrition(营养)"
+   },
+   {
+    "word": "malignant",
+    "zh": "恶性的",
+    "breakdown": "mal(坏) + gn(生) + -ant(……的)"
+   }
+  ],
+  "example": {
+   "en": "The press had a malfunction.",
+   "zh": "印刷机出了故障。"
+  },
+  "illustration": {
+   "scene": "keep current: a run-down hut under a small rain cloud, a withered tree; add a marsh mist for 'mala aria'",
+   "dominantHue": {
+    "name": "阴雨灰紫 gloomy grey-violet",
+    "rationale": "「坏」用阴沉的灰紫，但保持克制"
+   },
+   "props": [
+    "rain cloud",
+    "withered tree",
+    "marsh mist"
+   ],
+   "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+  },
+  "sources": [
+   "https://www.etymonline.com/word/malaria",
+   "https://www.etymonline.com/word/malice",
+   "https://www.etymonline.com/word/dismal",
+   "https://www.etymonline.com/word/malignant",
+   "https://en.wiktionary.org/wiki/malus#Latin",
+   "https://logeion.uchicago.edu/malus",
+   "https://en.wiktionary.org/wiki/male#Latin",
+   "https://logeion.uchicago.edu/male",
+   "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+  ],
+  "inCurrentApp": true,
+  "tier": "full",
+  "currentIllustrationAudit": {
+   "verdict": "fits",
+   "reason": "乌云、破屋、枯树，「坏」一眼可懂；风格稍卡通但不误导。",
+   "file": "/workspace/wra-illustrations/mal.webp"
+  }
+ }
+]
