@@ -65,12 +65,18 @@ python3 scripts/depth_maps.py
 
 插画与代码都按 [MIT](LICENSE) 授权。
 
+图鉴里现在有 250 条词根。42 条有插画；其余先用奶油色卡片，词源故事已经写上，插画以后一张张补。
+
 ## 如何增加一条词根
 
-1. 在 `src/data/latin.ts` 或 `src/data/greek.ts` 加一条记录：词根、语言、词典原形、一两句词源（跟得上常见词源书的那种，不要编）、6–12 个同族词。每个词要有中文义、语素拆分、英文例句和中文译文。
-2. 在 `illustration-prompts.json` 加 `{ rootId, root, meaning, scene }`。`rootId` 必须和数据里的 `id` 一致。
-3. 把 `public/illustrations/<rootId>.webp` 放进去，再跑一次 `scripts/depth_maps.py`。
-4. `npm test`。测试会检查词条数量、词不重复、例句里真的出现这个词，以及插画、深度图和词根一一对应。
+已经画好的 42 条在 `src/data/latin.ts` 和 `src/data/greek.ts`。还没画的在 `src/data/catalog.json`，由 `src/data/provisional.ts` 收成卡片。
+
+要给一条奶油卡片补上插画：
+
+1. 把这条从目录里的轻记录改写成 `latin.ts` 或 `greek.ts` 里的完整词条：6–12 个同族词，每个词有中文义、语素拆分、英文例句和中文译文。`id` 保持不变。
+2. 在 `illustration-prompts.json` 加 `{ rootId, root, meaning, scene }`。
+3. 把 `public/illustrations/<rootId>.webp` 放进去，再跑一次 `scripts/depth_maps.py`。色相从画面取样，写进 `src/data/rootColors.ts`，占位色就不再用。
+4. `npm test`。插画、缩略图、深度图和分层只要求这 42 条（以及以后补上的）一一对应。词不重复。奶油卡片不要求例句，但有例句时句子里必须真的出现这个词。
 
 词条写法可以照抄旁边的 `w(...)`：
 

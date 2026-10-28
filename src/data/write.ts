@@ -14,6 +14,6 @@ export function w(
   return { word, gloss, pos, parts: morphemes, example, exampleZh, also };
 }
 
-export function root(entry: RootEntry): RootEntry {
-  return entry;
+export function root(entry: Omit<RootEntry, 'illustrated'>): RootEntry {
+  return { ...entry, illustrated: true };
 }

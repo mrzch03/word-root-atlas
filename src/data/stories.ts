@@ -1,4 +1,4 @@
-import raw from './stories.json';
+import raw from './catalog.json';
 
 export interface OriginRecord {
   id: string;
@@ -7,7 +7,24 @@ export interface OriginRecord {
   sources: string[];
 }
 
-const byId = new Map((raw as unknown as OriginRecord[]).map((story) => [story.id, story]));
+interface CatalogStory {
+  id: string;
+  originStory: string;
+  uncertainty?: string;
+  sources?: string[];
+}
+
+const byId = new Map(
+  ((raw as { roots: CatalogStory[] }).roots).map((story) => [
+    story.id,
+    {
+      id: story.id,
+      originStory: story.originStory,
+      uncertainty: story.uncertainty,
+      sources: story.sources ?? [],
+    } satisfies OriginRecord,
+  ]),
+);
 
 export function originStory(id: string): OriginRecord | undefined {
   return byId.get(id);

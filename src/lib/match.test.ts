@@ -2,17 +2,27 @@ import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import prompts from '../../illustration-prompts.json';
 import { roots, rootsByHue } from '../data';
-import { rootColor, rootColors } from '../data/rootColors';
+import { hasSampledColor, rootColor, rootColors } from '../data/rootColors';
 import { originStory } from '../data/stories';
 import { inflections, lookup, normalize } from './match';
 
+const illustrated = roots.filter((root) => root.illustrated);
+const cream = roots.filter((root) => !root.illustrated);
+
 describe('dataset', () => {
-  it('has 40+ roots and 300+ words, 6–12 each, all unique', () => {
-    expect(roots.length).toBeGreaterThanOrEqual(40);
-    const words = roots.flatMap((r) => r.words.map((w) => w.word.toLowerCase()));
+  it('ships about 250 roots, with the original 42 still fully illustrated', () => {
+    expect(roots.length).toBe(250);
+    expect(illustrated).toHaveLength(42);
+    expect(cream.length).toBe(roots.length - 42);
+    const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
     expect(new Set(words).size).toBe(words.length);
-    for (const root of roots) {
+    const ids = roots.map((root) => root.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it('keeps illustrated roots strict, and cream roots searchable without a picture', () => {
+    for (const root of illustrated) {
       expect(root.words.length).toBeGreaterThanOrEqual(6);
       expect(root.words.length).toBeLessThanOrEqual(12);
       expect(root.story.length).toBeGreaterThan(20);
@@ -24,17 +34,32 @@ describe('dataset', () => {
         expect(word.exampleZh.trim()).not.toBe('');
       }
     }
+    for (const root of cream) {
+      expect(root.words.length).toBeGreaterThanOrEqual(2);
+      expect(root.words.length).toBeLessThanOrEqual(12);
+      expect(root.artAlt.length).toBeGreaterThan(8);
+      expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(false);
+      for (const word of root.words) {
+        expect(word.gloss.trim()).not.toBe('');
+        expect(word.parts.length).toBeGreaterThan(0);
+        expect(word.parts.every((part) => part.form.trim().length > 0)).toBe(true);
+        if (word.example) {
+          expect(word.example.toLowerCase()).toContain(word.word.toLowerCase());
+          expect(word.exampleZh.trim()).not.toBe('');
+        }
+      }
+    }
   });
 
-  it('matches illustration prompt ids', () => {
-    const ids = new Set(roots.map((r) => r.id));
-    expect(prompts.map((p) => p.rootId).sort()).toEqual([...ids].sort());
+  it('matches illustration prompt ids to the painted set only', () => {
+    expect(prompts.map((prompt) => prompt.rootId).sort()).toEqual(illustrated.map((root) => root.id).sort());
   });
 
-  it('gives every root an OKLCH ramp and a picture', () => {
-    expect(Object.keys(rootColors).sort()).toEqual(roots.map((r) => r.id).sort());
-    for (const root of roots) {
+  it('gives painted roots a measured ramp and a picture, and cream roots a quiet placeholder', () => {
+    expect(Object.keys(rootColors).sort()).toEqual(illustrated.map((root) => root.id).sort());
+    for (const root of illustrated) {
       const color = rootColor(root.id);
+      expect(hasSampledColor(root.id)).toBe(true);
       expect(color.accent).toMatch(/^#[0-9A-F]{6}$/);
       expect(color.deep).not.toBe(color.accent);
       expect(color.steps).toHaveLength(12);
@@ -42,17 +67,27 @@ describe('dataset', () => {
       expect(color.steps[10]).toBe(color.deep);
       expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(true);
       expect(existsSync(`public/thumbs/${root.id}.webp`)).toBe(true);
-      expect(originStory(root.id)?.originStory.length).toBeGreaterThan(40);
-      expect(originStory(root.id)?.sources.length).toBeGreaterThan(0);
       expect(existsSync(`public/depth/${root.id}.webp`)).toBe(true);
-    const hues = rootsByHue().map((root) => rootColor(root.id).hue);
-    for (let i = 0; i < hues.length; i += 1) {
-      const gap = (hues[(i + 1) % hues.length] - hues[i] + 360) % 360;
-      expect(gap).toBeGreaterThanOrEqual(4.5);
-    }
       for (const layer of [0, 1, 2, 3]) {
         expect(existsSync(`public/layers/${root.id}/${layer}.webp`)).toBe(true);
       }
+    }
+    const paintedHues = rootsByHue()
+      .filter((root) => root.illustrated)
+      .map((root) => rootColor(root.id).hue);
+    for (let i = 0; i < paintedHues.length; i += 1) {
+      const gap = (paintedHues[(i + 1) % paintedHues.length] - paintedHues[i] + 360) % 360;
+      expect(gap).toBeGreaterThanOrEqual(4.5);
+    }
+    for (const root of roots) {
+      const story = originStory(root.id);
+      expect(story?.originStory.length).toBeGreaterThan(40);
+      expect(story?.sources.length).toBeGreaterThan(0);
+      const color = rootColor(root.id);
+      expect(color.accent).toMatch(/^#[0-9A-F]{6}$/);
+      expect(color.steps).toHaveLength(12);
+      expect(color.steps[8]).toBe(color.accent);
+      if (!root.illustrated) expect(hasSampledColor(root.id)).toBe(false);
     }
   });
 });
@@ -69,6 +104,12 @@ describe('lookup', () => {
 
   it('opens a root family when the root itself is typed', () => {
     expect(lookup('spect')).toMatchObject({ kind: 'root', root: { id: 'spect' } });
+    expect(lookup('pos')).toMatchObject({ kind: 'root', root: { id: 'pos', illustrated: false } });
+    expect(lookup('compose')).toMatchObject({ kind: 'word', hit: { word: 'compose', root: { id: 'pos' } } });
+    expect(lookup('microbe')).toMatchObject({ kind: 'word', hit: { root: { id: 'micro', illustrated: false } } });
+    expect(lookup('ped')).toMatchObject({ kind: 'root', root: { id: 'ped', illustrated: true } });
+    expect(lookup('paed')).toMatchObject({ kind: 'root', root: { id: 'paed', root: 'paed' } });
+    expect(lookup('manufacture')).toMatchObject({ kind: 'word', hit: { root: { id: 'manu' } } });
   });
 
   it('suggests neighbours instead of dying', () => {
