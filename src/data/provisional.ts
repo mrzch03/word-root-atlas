@@ -180,6 +180,17 @@ export const batchIllustrated = new Set([
   'mir',
   'ocul',
   'anthrop',
+  'cern',
+  'dem',
+  'crat',
+  'arch',
+  'theo',
+  'therm',
+  'cycl',
+  'pan',
+  'mono',
+  'poly',
+  'phob',
 ]);
 
 const batchAlt: Record<string, string> = {
@@ -338,6 +349,17 @@ const batchAlt: Record<string, string> = {
   mir: '一个人举起双手，望着一团发光的漩涡。',
   ocul: '一只大眼睛从拱门里看下来，下面站着一个很小的人。',
   anthrop: '老人、女人和两个孩子站在一起。',
+  cern: '一个人用筛子筛谷子，糠壳飞到一边。',
+  dem: '一群人围成一圈在商量事情，旁边有石柱和石凳。',
+  crat: '一个人拿着权杖站在高台上，下面站着两个人。',
+  arch: '一个人拿着三角尺指挥，另外两个人在砌墙基，旁边是神庙。',
+  theo: '一个人跪在神庙前，庙里立着一位神的雕像。',
+  therm: '一个人把手伸向火盆里的火焰。',
+  cycl: '一个人沿着地上的白圈走，旁边立着一只大木轮。',
+  pan: '一个人张开双臂，面前摆满了罐子、果实和器物。',
+  mono: '一个人独自站在蓝色的地面上，手托着下巴。',
+  poly: '很多人穿着不同颜色的袍子，站满了整块地面。',
+  phob: '一个人举手后退，一条黑蛇在面前扬起头。',
 };
 
 function originOf(language: string): Origin {

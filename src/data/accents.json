@@ -195,5 +195,16 @@
  "merg": "#62B6B9",
  "mir": "#8B6AA5",
  "ocul": "#3E60A0",
- "anthrop": "#D7787C"
+ "anthrop": "#D7787C",
+ "cern": "#876CA5",
+ "dem": "#50805D",
+ "crat": "#CF4232",
+ "arch": "#3E5AA5",
+ "theo": "#434176",
+ "therm": "#B33026",
+ "cycl": "#538687",
+ "pan": "#3B695B",
+ "mono": "#3964BD",
+ "poly": "#C75C39",
+ "phob": "#313D5E"
 }

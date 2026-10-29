@@ -1180,5 +1180,71 @@
     "root": "anthrop",
     "meaning": "human being",
     "scene": "An elder, a woman, and two children stand together."
+  },
+  {
+    "rootId": "cern",
+    "root": "cern",
+    "meaning": "to sift, decide",
+    "scene": "A figure sifts grain; the chaff blows aside."
+  },
+  {
+    "rootId": "dem",
+    "root": "dem",
+    "meaning": "people, district",
+    "scene": "A circle of people talk together beside a column and a bench."
+  },
+  {
+    "rootId": "crat",
+    "root": "crat",
+    "meaning": "power, rule",
+    "scene": "A figure with a staff stands on a high platform above two others."
+  },
+  {
+    "rootId": "arch",
+    "root": "arch",
+    "meaning": "beginning, rule; to lead",
+    "scene": "A figure with a set square directs two others laying a foundation beside a temple."
+  },
+  {
+    "rootId": "theo",
+    "root": "the",
+    "meaning": "god",
+    "scene": "A figure kneels before a temple that holds a statue of a god."
+  },
+  {
+    "rootId": "therm",
+    "root": "therm",
+    "meaning": "hot, warm",
+    "scene": "A figure reaches a hand toward the fire in a brazier."
+  },
+  {
+    "rootId": "cycl",
+    "root": "cycl",
+    "meaning": "circle, wheel",
+    "scene": "A figure walks a white circle beside a large wooden wheel."
+  },
+  {
+    "rootId": "pan",
+    "root": "pan",
+    "meaning": "all",
+    "scene": "A figure stands with arms wide among jars, fruit, and objects."
+  },
+  {
+    "rootId": "mono",
+    "root": "mon",
+    "meaning": "alone, single",
+    "scene": "One figure stands alone, chin resting on a hand."
+  },
+  {
+    "rootId": "poly",
+    "root": "poly",
+    "meaning": "many",
+    "scene": "A crowd in different colored robes fills the platform."
+  },
+  {
+    "rootId": "phob",
+    "root": "phob",
+    "meaning": "fear",
+    "scene": "A figure leans back with raised hands as a black snake rears up."
   }
 ]
