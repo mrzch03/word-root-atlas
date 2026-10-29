@@ -1102,5 +1102,83 @@
     "root": "lingu",
     "meaning": "tongue, language",
     "scene": "Two figures talk in a market; one points at their tongue."
+  },
+  {
+    "rootId": "ali",
+    "root": "ali",
+    "meaning": "other",
+    "scene": "A figure points at a blue door beside a second, red door."
+  },
+  {
+    "rootId": "brev",
+    "root": "brev",
+    "meaning": "short",
+    "scene": "A figure cuts a long scroll short with scissors."
+  },
+  {
+    "rootId": "labor",
+    "root": "labor",
+    "meaning": "work, toil",
+    "scene": "Six people pull a stone block together with ropes."
+  },
+  {
+    "rootId": "migr",
+    "root": "migr",
+    "meaning": "to move, wander",
+    "scene": "Travelers with packs leave a house and walk toward a distant arch."
+  },
+  {
+    "rootId": "fract",
+    "root": "fract",
+    "meaning": "to break",
+    "scene": "A child swings a hammer; a jar and glass shatter."
+  },
+  {
+    "rootId": "fus",
+    "root": "fus",
+    "meaning": "to pour, melt",
+    "scene": "A figure pours glowing molten metal from a crucible into a mold."
+  },
+  {
+    "rootId": "gest",
+    "root": "gest",
+    "meaning": "to carry, bear, do",
+    "scene": "A figure walks forward carrying a large jar on one shoulder."
+  },
+  {
+    "rootId": "hab",
+    "root": "hab",
+    "meaning": "to have, hold",
+    "scene": "A figure holds a large glowing key in both hands."
+  },
+  {
+    "rootId": "liter",
+    "root": "liter",
+    "meaning": "letter (of the alphabet)",
+    "scene": "A figure writes on a tablet among blocks carved with letters."
+  },
+  {
+    "rootId": "merg",
+    "root": "merg",
+    "meaning": "to dip, plunge",
+    "scene": "A figure dives headfirst into the water."
+  },
+  {
+    "rootId": "mir",
+    "root": "mir",
+    "meaning": "to wonder at; wonderful",
+    "scene": "A figure looks up with raised hands at a glowing spiral."
+  },
+  {
+    "rootId": "ocul",
+    "root": "ocul",
+    "meaning": "eye",
+    "scene": "A giant eye looks down through an arch at a tiny figure."
+  },
+  {
+    "rootId": "anthrop",
+    "root": "anthrop",
+    "meaning": "human being",
+    "scene": "An elder, a woman, and two children stand together."
   }
 ]

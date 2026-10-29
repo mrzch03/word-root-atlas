@@ -182,5 +182,18 @@
  "aqu": "#4BA8AF",
  "cura": "#316C4C",
  "arm": "#A9341B",
- "lingu": "#DE6E7E"
+ "lingu": "#DE6E7E",
+ "ali": "#3C6D4F",
+ "brev": "#82649E",
+ "labor": "#AE3E1F",
+ "migr": "#4963A1",
+ "fract": "#55AEAF",
+ "fus": "#B8301D",
+ "gest": "#42855A",
+ "hab": "#375598",
+ "liter": "#D87276",
+ "merg": "#62B6B9",
+ "mir": "#8B6AA5",
+ "ocul": "#3E60A0",
+ "anthrop": "#D7787C"
 }
