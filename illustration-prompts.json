@@ -652,5 +652,83 @@
     "root": "nav",
     "meaning": "ship",
     "scene": "A sailor rows a small sailboat across a blue sea past a tiny island."
+  },
+  {
+    "rootId": "vol",
+    "root": "vol",
+    "meaning": "to wish, will",
+    "scene": "A figure kneels toward a huge yellow star, a small flag planted beside them."
+  },
+  {
+    "rootId": "cogn",
+    "root": "cogn",
+    "meaning": "to know, recognize",
+    "scene": "Two people point at a bust on a table, recognizing who it is."
+  },
+  {
+    "rootId": "grat",
+    "root": "grat",
+    "meaning": "pleasing; thanks, favour",
+    "scene": "A kneeling figure offers a gift with a bow; the seated person rests a hand on the chest."
+  },
+  {
+    "rootId": "mar",
+    "root": "mar",
+    "meaning": "sea",
+    "scene": "A figure stands on the sand before a high blue wave and a small boat."
+  },
+  {
+    "rootId": "equ",
+    "root": "equ",
+    "meaning": "equal, level",
+    "scene": "A balance holds equal weights, with extra weights on the blue ground."
+  },
+  {
+    "rootId": "phys",
+    "root": "phys",
+    "meaning": "nature, growth",
+    "scene": "A plant shows its roots while a figure watches and a ball falls along a dotted path."
+  },
+  {
+    "rootId": "tele",
+    "root": "tele",
+    "meaning": "far, far off",
+    "scene": "Two hills each hold a fire; a figure tends the nearer one with a stick."
+  },
+  {
+    "rootId": "scop",
+    "root": "scop",
+    "meaning": "to look at, examine; watcher",
+    "scene": "A figure on a grey watchtower looks through a spyglass."
+  },
+  {
+    "rootId": "micro",
+    "root": "micro",
+    "meaning": "small",
+    "scene": "A figure leans into a green microscope; tiny shapes sit on the slide."
+  },
+  {
+    "rootId": "mult",
+    "root": "mult",
+    "meaning": "many, much",
+    "scene": "A crowd of small figures fills a red ground among several columns."
+  },
+  {
+    "rootId": "omni",
+    "root": "omni",
+    "meaning": "all, every",
+    "scene": "A green carriage is filled with people inside and on the roof."
+  },
+  {
+    "rootId": "uni",
+    "root": "uni",
+    "meaning": "one",
+    "scene": "A unicorn stands on a purple ground while two figures sit together."
+  },
+  {
+    "rootId": "ann",
+    "root": "ann",
+    "meaning": "year",
+    "scene": "A figure lights a birthday candle beside a calendar, inside a blue ring."
   }
 ]
