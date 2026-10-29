@@ -868,5 +868,167 @@
     "root": "tex",
     "meaning": "to weave",
     "scene": "A weaver works a loom that spills a purple cloth."
+  },
+  {
+    "rootId": "mod",
+    "root": "mod",
+    "meaning": "measure, manner",
+    "scene": "A figure measures a column with a marked wooden rod."
+  },
+  {
+    "rootId": "prob",
+    "root": "prob",
+    "meaning": "to test, prove; good",
+    "scene": "A figure rubs a gold bar on a touchstone beside a small balance."
+  },
+  {
+    "rootId": "punct",
+    "root": "punct",
+    "meaning": "to prick, point",
+    "scene": "A figure punches a hole through a sheet of leather."
+  },
+  {
+    "rootId": "spond",
+    "root": "spond",
+    "meaning": "to pledge, promise",
+    "scene": "Two figures pour wine from jars onto the same stone table."
+  },
+  {
+    "rootId": "trib",
+    "root": "trib",
+    "meaning": "tribe; to assign, pay",
+    "scene": "A crowd hands stacks of gold coins to a figure in a red robe."
+  },
+  {
+    "rootId": "turb",
+    "root": "turb",
+    "meaning": "crowd, turmoil; to disturb",
+    "scene": "A crowd surrounds a fallen column, arms raised."
+  },
+  {
+    "rootId": "urb",
+    "root": "urb",
+    "meaning": "city",
+    "scene": "A walled city of roofs and towers, two figures outside the gate."
+  },
+  {
+    "rootId": "vac",
+    "root": "vac",
+    "meaning": "to be empty",
+    "scene": "A clay jar is cut open and empty; a child stands in front."
+  },
+  {
+    "rootId": "vad",
+    "root": "vad",
+    "meaning": "to go",
+    "scene": "A child walks barefoot across a pink ground, leaving footprints."
+  },
+  {
+    "rootId": "via",
+    "root": "via",
+    "meaning": "way, road",
+    "scene": "A figure walks a paved road toward a milestone."
+  },
+  {
+    "rootId": "capit",
+    "root": "capit",
+    "meaning": "head",
+    "scene": "A large marble head stands on a red base beside a tiny figure."
+  },
+  {
+    "rootId": "clin",
+    "root": "clin",
+    "meaning": "to lean, bend",
+    "scene": "One figure braces a leaning column; another reclines on a couch."
+  },
+  {
+    "rootId": "dent",
+    "root": "dent",
+    "meaning": "tooth",
+    "scene": "A dentist holds a mirror up to a giant cutaway tooth."
+  },
+  {
+    "rootId": "dom",
+    "root": "dom",
+    "meaning": "house; master",
+    "scene": "A figure opens the door of a small house and steps inside."
+  },
+  {
+    "rootId": "clam",
+    "root": "clam",
+    "meaning": "to cry out, shout",
+    "scene": "A figure stands on a stool and shouts, hands cupped at the mouth."
+  },
+  {
+    "rootId": "corp",
+    "root": "corp",
+    "meaning": "body",
+    "scene": "An athlete winds up to throw a discus."
+  },
+  {
+    "rootId": "soci",
+    "root": "soci",
+    "meaning": "companion, ally",
+    "scene": "Two companions sit side by side and break a loaf of bread."
+  },
+  {
+    "rootId": "don",
+    "root": "don",
+    "meaning": "to give; gift",
+    "scene": "Two figures pass a ribboned gift between them."
+  },
+  {
+    "rootId": "fend",
+    "root": "fend",
+    "meaning": "to strike, ward off",
+    "scene": "A shield-bearer wards off a flying spear."
+  },
+  {
+    "rootId": "flor",
+    "root": "flor",
+    "meaning": "flower",
+    "scene": "Beside a huge rose, one figure sets a flower crown on another."
+  },
+  {
+    "rootId": "fug",
+    "root": "fug",
+    "meaning": "to flee",
+    "scene": "A figure in a red cloak runs across a teal ground."
+  },
+  {
+    "rootId": "greg",
+    "root": "greg",
+    "meaning": "flock, herd",
+    "scene": "A shepherd with a staff watches a flock gathered together."
+  },
+  {
+    "rootId": "it",
+    "root": "it",
+    "meaning": "to go",
+    "scene": "A crowned figure walks out through a stone arch."
+  },
+  {
+    "rootId": "cand",
+    "root": "cand",
+    "meaning": "to shine white",
+    "scene": "A figure in a glowing white robe stands on purple ground."
+  },
+  {
+    "rootId": "nunci",
+    "root": "nunci",
+    "meaning": "messenger; to announce",
+    "scene": "A messenger holds a scroll and calls out the news."
+  },
+  {
+    "rootId": "pict",
+    "root": "pict",
+    "meaning": "to paint",
+    "scene": "A painter stands at an easel and lays red paint on the canvas."
+  },
+  {
+    "rootId": "san",
+    "root": "san",
+    "meaning": "healthy, sound",
+    "scene": "A figure drinks from a fountain ringed with green plants."
   }
 ]

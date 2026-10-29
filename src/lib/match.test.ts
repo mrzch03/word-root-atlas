@@ -13,12 +13,12 @@ const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
 const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships about 250 roots, with 145 paintings and the original 42 still fully written', () => {
+  it('ships about 250 roots, with 172 paintings and the original 42 still fully written', () => {
     expect(roots.length).toBe(250);
-    expect(illustrated).toHaveLength(145);
+    expect(illustrated).toHaveLength(172);
     expect(authored).toHaveLength(42);
-    expect(batch).toHaveLength(103);
-    expect(cream.length).toBe(roots.length - 145);
+    expect(batch).toHaveLength(130);
+    expect(cream.length).toBe(roots.length - 172);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
     expect(new Set(words).size).toBe(words.length);
@@ -130,6 +130,9 @@ describe('lookup', () => {
     expect(lookup('popular')).toMatchObject({ kind: 'word', hit: { word: 'popular', root: { id: 'pop', illustrated: true } } });
     expect(lookup('descend')).toMatchObject({ kind: 'word', hit: { word: 'descend', root: { id: 'scend', illustrated: true } } });
     expect(lookup('radical')).toMatchObject({ kind: 'word', hit: { word: 'radical', root: { id: 'rad', illustrated: true } } });
+    expect(lookup('urban')).toMatchObject({ kind: 'word', hit: { word: 'urban', root: { id: 'urb', illustrated: true } } });
+    expect(lookup('dentist')).toMatchObject({ kind: 'word', hit: { word: 'dentist', root: { id: 'dent', illustrated: true } } });
+    expect(lookup('florist')).toMatchObject({ kind: 'word', hit: { word: 'florist', root: { id: 'flor', illustrated: true } } });
     expect(lookup('microbe')).toMatchObject({ kind: 'word', hit: { word: 'microbe', root: { id: 'micro', illustrated: true } } });
     expect(lookup('microscope')).toMatchObject({ kind: 'word', hit: { word: 'microscope', root: { id: 'micro', illustrated: true } } });
     expect(lookup('compose')).toMatchObject({ kind: 'word', hit: { word: 'compose', root: { id: 'pos' } } });
