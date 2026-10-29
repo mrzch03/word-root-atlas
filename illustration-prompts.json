@@ -261,7 +261,7 @@
     "rootId": "fer",
     "root": "fer",
     "meaning": "to carry, bear",
-    "scene": "A terraced orchard heavy with fruit; a woman carries a basket of figs down stone steps toward a small roadside altar where an offering is laid"
+    "scene": "A fig tree on a terrace: a woman carries a basket of figs down stone steps to a roadside altar, an apricot cloth spread on the steps."
   },
   {
     "rootId": "ten",
@@ -297,13 +297,13 @@
     "rootId": "press",
     "root": "press",
     "meaning": "to press",
-    "scene": "A Roman villa press-room: a long timber beam press squeezing olive mats, golden oil running into a stone basin; a signet ring pressed into wax on the sill"
+    "scene": "A chartreuse signet pressed into a pool of wax is the hero; behind it a timber beam presses olive mats, and a chartreuse cloth hangs nearby."
   },
   {
     "rootId": "curr",
     "root": "curr",
     "meaning": "to run",
-    "scene": "A miniature Circus Maximus curve: two chariots rounding the turning post, dust plumes, a stream running alongside the track"
+    "scene": "A magenta racing court fills the plinth: a chariot rounds the curve, a magenta pennant flying, the track itself the colour."
   },
   {
     "rootId": "gress",
@@ -322,5 +322,77 @@
     "root": "gen",
     "meaning": "birth, kind, origin",
     "scene": "A Roman atrium with ancestor masks and a painted family tree on the wall; a newborn in a cradle beneath it, generations looking down"
+  },
+  {
+    "rootId": "leg",
+    "root": "leg",
+    "meaning": "to gather, choose, read",
+    "scene": "An olive harvest under a tree: one figure gathers fallen olives into a basket, another sorts them on a cloth, a third reads a scroll in the shade — gathering, choosing, reading"
+  },
+  {
+    "rootId": "reg",
+    "root": "reg",
+    "meaning": "to rule, guide straight",
+    "scene": "A Roman surveyor stretches a straight cord between stakes to lay out a new town grid, while a crowned figure watches from a dais — straight line and rule in one scene"
+  },
+  {
+    "rootId": "plic",
+    "root": "plic",
+    "meaning": "to fold, weave",
+    "scene": "A weaver's yard: one figure folds a long dyed cloth into neat layers, another braids three cords into a rope; a basket woven from interlaced reeds"
+  },
+  {
+    "rootId": "tend",
+    "root": "tend",
+    "meaning": "to stretch",
+    "scene": "A Roman army camp: soldiers stretch the ropes of a leather tent, an archer draws a bow taut nearby; lines of tension crossing the scene"
+  },
+  {
+    "rootId": "sequ",
+    "root": "sequ",
+    "meaning": "to follow",
+    "scene": "A Roman magistrate walking with a line of attendants following in order, footprints showing the sequence; a smaller child copying the last step"
+  },
+  {
+    "rootId": "clud",
+    "root": "clud",
+    "meaning": "to shut, close",
+    "scene": "A cloister courtyard closed on all sides by arches, a monk turning a large iron key in a gate; inside a garden, outside dusty road"
+  },
+  {
+    "rootId": "cid",
+    "root": "cid",
+    "meaning": "to cut, kill",
+    "scene": "A woodcutter's clearing: one tree cleanly felled with a clear axe cut, a carpenter trimming a plank with precise strokes; a pair of iron shears on a stump"
+  },
+  {
+    "rootId": "cad",
+    "root": "cad",
+    "meaning": "to fall",
+    "scene": "An autumn orchard terrace at sunset: leaves and a few apples falling, two dice tumbling on a step, the sun setting over the western edge of the plinth"
+  },
+  {
+    "rootId": "fin",
+    "root": "fin",
+    "meaning": "end, boundary",
+    "scene": "A boundary stone (terminus) at the end of a field where a furrow stops; a winding road disappears into a horizon of infinite misty hills"
+  },
+  {
+    "rootId": "flect",
+    "root": "flect",
+    "meaning": "to bend",
+    "scene": "A pool reflecting a willow whose branches bend to the water; a craftsman bends a heated wooden strip into a hoop over a fire, a bronze mirror catching light"
+  },
+  {
+    "rootId": "junct",
+    "root": "junct",
+    "meaning": "to join, yoke",
+    "scene": "Two oxen under one wooden yoke at a crossroads where two roads join; a carpenter's joint of two beams beside the field"
+  },
+  {
+    "rootId": "loc",
+    "root": "loc",
+    "meaning": "place",
+    "scene": "A memory palace as a cut-away Roman house: in each room a single bright object sits in its own place — a lamp, an anchor, a sword — while an orator walks through rehearsing"
   }
 ]

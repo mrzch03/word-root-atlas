@@ -13,12 +13,12 @@ const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
 const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships about 250 roots, with 54 paintings and the original 42 still fully written', () => {
+  it('ships about 250 roots, with 66 paintings and the original 42 still fully written', () => {
     expect(roots.length).toBe(250);
-    expect(illustrated).toHaveLength(54);
+    expect(illustrated).toHaveLength(66);
     expect(authored).toHaveLength(42);
-    expect(batch).toHaveLength(12);
-    expect(cream.length).toBe(roots.length - 54);
+    expect(batch).toHaveLength(24);
+    expect(cream.length).toBe(roots.length - 66);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
     expect(new Set(words).size).toBe(words.length);
@@ -117,6 +117,7 @@ describe('lookup', () => {
   it('opens a root family when the root itself is typed', () => {
     expect(lookup('spect')).toMatchObject({ kind: 'root', root: { id: 'spect' } });
     expect(lookup('pos')).toMatchObject({ kind: 'root', root: { id: 'pos', illustrated: true } });
+    expect(lookup('include')).toMatchObject({ kind: 'word', hit: { word: 'include', root: { id: 'clud', illustrated: true } } });
     expect(lookup('compose')).toMatchObject({ kind: 'word', hit: { word: 'compose', root: { id: 'pos' } } });
     expect(lookup('microbe')).toMatchObject({ kind: 'word', hit: { root: { id: 'micro', illustrated: false } } });
     expect(lookup('ped')).toMatchObject({ kind: 'root', root: { id: 'ped', illustrated: true } });
