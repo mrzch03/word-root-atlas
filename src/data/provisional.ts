@@ -92,6 +92,19 @@ export const batchIllustrated = new Set([
   'lev',
   'fort',
   'nav',
+  'vol',
+  'cogn',
+  'grat',
+  'mar',
+  'equ',
+  'phys',
+  'tele',
+  'scop',
+  'micro',
+  'mult',
+  'omni',
+  'uni',
+  'ann',
 ]);
 
 const batchAlt: Record<string, string> = {
@@ -162,6 +175,19 @@ const batchAlt: Record<string, string> = {
   lev: '一个人压下金色的杠杆，把另一头的石球抬起来。',
   fort: '黄色的城墙上站着持盾的人，墙下有人把手放在同伴肩上。',
   nav: '蓝色的海上，一个人在帆船里用桨划过一座小岛。',
+  vol: '一个人跪着望向一颗很大的黄星，旁边插着一面小旗。',
+  cogn: '两个人指着桌上的一尊胸像，像是在认出谁。',
+  grat: '一个人跪着献上系了蝴蝶结的礼物，对方把手放在胸口。',
+  mar: '沙滩上站着一个人，面前是一道很高的蓝色海浪和一只小船。',
+  equ: '一架天平两端的砝码一样高，蓝色的地面上还放着砝码。',
+  phys: '一株植物露出根系，旁边有人看着，一颗球沿着虚线落下。',
+  tele: '两座山各有一堆火，一个人在近处的火边用棍子拨火。',
+  scop: '一个人站在灰色的瞭望塔顶，用望远镜向远处看。',
+  micro: '一个人凑近一台绿色的显微镜，玻片上有很小的东西。',
+  mult: '很多小人站在红色的地面上，中间立着几根柱子。',
+  omni: '一辆绿色马车里里外外坐满了人。',
+  uni: '紫色的地面上站着一匹独角兽，旁边两个人坐在一起。',
+  ann: '一个人在点生日蜡烛，旁边挂着一本日历，外面是一圈蓝环。',
 };
 
 function originOf(language: string): Origin {
@@ -226,7 +252,14 @@ function displayRoot(record: CatalogRoot, ids: Set<string>): string {
   return form || record.id;
 }
 
-function toEntry(record: CatalogRoot, ids: Set<string>, claimed: Set<string>): RootEntry {
+function toEntry(
+  record: CatalogRoot,
+  ids: Set<string>,
+  claimed: Set<string>,
+  owners: Map<string, string>,
+  built: Map<string, RootEntry>,
+  paintedIds: Set<string>,
+): RootEntry {
   const rootForm = displayRoot(record, ids);
   const sentence = record.example?.en?.trim() ?? '';
   const sentenceZh = record.example?.zh?.trim() ?? '';
@@ -234,8 +267,21 @@ function toEntry(record: CatalogRoot, ids: Set<string>, claimed: Set<string>): R
   for (const derived of record.derivedWords) {
     const surface = derived.word.trim();
     const key = surface.toLowerCase();
-    if (!key || claimed.has(key)) continue;
+    if (!key) continue;
+    if (claimed.has(key)) {
+      const ownerId = owners.get(key);
+      const take =
+        !!ownerId &&
+        !paintedIds.has(ownerId) &&
+        record.id.length >= 4 &&
+        key.startsWith(record.id) &&
+        !key.startsWith(ownerId);
+      if (!take) continue;
+      const prev = built.get(ownerId);
+      if (prev) prev.words = prev.words.filter((word) => word.word.toLowerCase() !== key);
+    }
     claimed.add(key);
+    owners.set(key, record.id);
     const mentioned = sentence.length > 0 && sentence.toLowerCase().includes(key);
     words.push({
       word: surface,
@@ -272,20 +318,29 @@ function toEntry(record: CatalogRoot, ids: Set<string>, claimed: Set<string>): R
 export function buildScaledRoots(painted: RootEntry[]): RootEntry[] {
   const byId = new Map(painted.map((root) => [root.id, root]));
   const claimed = new Set<string>();
+  const owners = new Map<string, string>();
+  const paintedIds = new Set(painted.map((root) => root.id));
   for (const root of painted) {
     for (const word of root.words) {
       claimed.add(word.word.toLowerCase());
-      for (const alt of word.also ?? []) claimed.add(alt.toLowerCase());
+      owners.set(word.word.toLowerCase(), root.id);
+      for (const alt of word.also ?? []) {
+        claimed.add(alt.toLowerCase());
+        owners.set(alt.toLowerCase(), root.id);
+      }
     }
   }
   const ids = new Set(catalog.map((record) => record.id));
   const out: RootEntry[] = [];
+  const built = new Map<string, RootEntry>();
   const seen = new Set<string>();
   for (const record of [...catalog].sort((a, b) => a.rank - b.rank)) {
     if (seen.has(record.id)) continue;
     seen.add(record.id);
     const art = byId.get(record.id);
-    out.push(art ?? toEntry(record, ids, claimed));
+    const entry = art ?? toEntry(record, ids, claimed, owners, built, paintedIds);
+    built.set(entry.id, entry);
+    out.push(entry);
   }
   for (const art of painted) {
     if (!seen.has(art.id)) out.push(art);
