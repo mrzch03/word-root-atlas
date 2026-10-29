@@ -411,7 +411,7 @@
     "rootId": "ment",
     "root": "ment",
     "meaning": "mind",
-    "scene": "A thinker with a glowing mind-tablet; a mentor points toward a temple."
+    "scene": "A youth holds a Roman wax tablet on a mint mosaic floor while a mentor points toward a temple."
   },
   {
     "rootId": "mem",
@@ -447,7 +447,7 @@
     "rootId": "nov",
     "root": "nov",
     "meaning": "new",
-    "scene": "A nova star above a renovation and a length of new cloth."
+    "scene": "A huge nova hangs over an entire cobalt night pavement that covers the plinth."
   },
   {
     "rootId": "numer",
@@ -466,5 +466,77 @@
     "root": "part",
     "meaning": "part, share",
     "scene": "A scored loaf being broken into shared portions."
+  },
+  {
+    "rootId": "pati",
+    "root": "pat",
+    "meaning": "to suffer, endure",
+    "scene": "A patient endures on a wine-rose couch while a physician holds the wrist."
+  },
+  {
+    "rootId": "pel",
+    "root": "pel",
+    "meaning": "to drive, push, beat",
+    "scene": "Rowers mid-stroke drive a ship through a cyan sea."
+  },
+  {
+    "rootId": "pet",
+    "root": "pet",
+    "meaning": "to seek, aim at, rush at",
+    "scene": "Runners rush a magenta track toward the finish post."
+  },
+  {
+    "rootId": "ple",
+    "root": "ple",
+    "meaning": "to fill; full",
+    "scene": "A farmer overflows an amphora from an amber mound of grain."
+  },
+  {
+    "rootId": "prehend",
+    "root": "prehend",
+    "meaning": "to seize, grasp",
+    "scene": "A fisherman grasps a fish with both hands beside a copper heap of net."
+  },
+  {
+    "rootId": "quer",
+    "root": "quer",
+    "meaning": "to seek, ask",
+    "scene": "A lantern-seeker stands on yellow light-washed ground."
+  },
+  {
+    "rootId": "sci",
+    "root": "sci",
+    "meaning": "to know",
+    "scene": "A scholar points at a violet constellation board beside a globe."
+  },
+  {
+    "rootId": "sec",
+    "root": "sec",
+    "meaning": "to cut",
+    "scene": "Shears section a three-part insect on a chartreuse field."
+  },
+  {
+    "rootId": "serv",
+    "root": "serv",
+    "meaning": "to serve; to keep, watch",
+    "scene": "A watchman in a bronze-ochre robe holds a torch on a parapet."
+  },
+  {
+    "rootId": "sign",
+    "root": "sign",
+    "meaning": "mark, sign, standard",
+    "scene": "A signifer raises a huge crimson standard on crimson brick."
+  },
+  {
+    "rootId": "simil",
+    "root": "simil",
+    "meaning": "like; at the same time",
+    "scene": "Two nearly identical statues stand on matching pedestals."
+  },
+  {
+    "rootId": "solv",
+    "root": "solv",
+    "meaning": "to loosen, release, pay",
+    "scene": "Hands untie a rope knot beside a wide turquoise bowl."
   }
 ]
