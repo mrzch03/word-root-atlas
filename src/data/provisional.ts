@@ -49,6 +49,18 @@ export const batchIllustrated = new Set([
   'flect',
   'junct',
   'loc',
+  'loqu',
+  'mand',
+  'ment',
+  'mem',
+  'mon',
+  'mort',
+  'nat',
+  'nom',
+  'nov',
+  'numer',
+  'par',
+  'part',
 ]);
 
 const batchAlt: Record<string, string> = {
@@ -76,6 +88,18 @@ const batchAlt: Record<string, string> = {
   flect: '柳枝弯向水面，水里映出树影，旁边有人把热木条弯成一个圈。',
   junct: '十字路口，两头牛套在同一副轭下，旁边是两根梁的榫接。',
   loc: '记忆宫殿的平面上插着一枚巨大的红色地图钉，演说者把钉按在画了圈的地点上。',
+  loqu: '演说者张着嘴、张开手臂正在说话，旁边有书记员和一张剧场面具。',
+  mand: '军官把封好的卷轴交到年轻人手中，披风是朱红的。',
+  ment: '思考的人面前有一块发亮的心智蜡板，导师指向一座神庙。',
+  mem: '一家人站在纪念胸像前，铺着淡紫的布，放着花。',
+  mon: '鹅在报警，旁边是朱诺·摩涅塔的钱币和神庙。',
+  mort: '沙漏旁边，一株枯萎，一株新芽。',
+  nat: '母羊身边站着刚出生的羊羔，土层里有种子在发芽。',
+  nom: '婴儿命名的日子，脖子上挂着金色的护符。',
+  nov: '一颗新星，旁边是翻新的房子和一块新布。',
+  numer: '柜台上摆着算盘，有人在数珠子。',
+  par: '出征前，有人在穿戴甲胄，把一切准备好。',
+  part: '一条划了格的面包被分成几份，正在分给别人。',
 };
 
 function originOf(language: string): Origin {

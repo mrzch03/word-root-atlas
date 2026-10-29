@@ -394,5 +394,77 @@
     "root": "loc",
     "meaning": "place",
     "scene": "A Roman memory-palace plan with a giant red map pin; an orator plants the pin on a circled spot."
+  },
+  {
+    "rootId": "loqu",
+    "root": "loqu",
+    "meaning": "to speak",
+    "scene": "An orator mid-speech, mouth open and arms out, a scribe with a scroll, and a theatre mask."
+  },
+  {
+    "rootId": "mand",
+    "root": "mand",
+    "meaning": "to entrust, order",
+    "scene": "An officer hands a sealed scroll to a youth; the cape is vermillion."
+  },
+  {
+    "rootId": "ment",
+    "root": "ment",
+    "meaning": "mind",
+    "scene": "A thinker with a glowing mind-tablet; a mentor points toward a temple."
+  },
+  {
+    "rootId": "mem",
+    "root": "mem",
+    "meaning": "mindful, remembering",
+    "scene": "A family stands at a memorial bust, a lavender cloth and flowers beside it."
+  },
+  {
+    "rootId": "mon",
+    "root": "mon",
+    "meaning": "to warn, remind",
+    "scene": "Geese raise the alarm beside a Juno Moneta coin and temple."
+  },
+  {
+    "rootId": "mort",
+    "root": "mort",
+    "meaning": "death",
+    "scene": "An hourglass between a withering plant and a new sprout."
+  },
+  {
+    "rootId": "nat",
+    "root": "nat",
+    "meaning": "to be born",
+    "scene": "A ewe with a newborn lamb, and a seed sprouting in the cut soil."
+  },
+  {
+    "rootId": "nom",
+    "root": "nom",
+    "meaning": "name",
+    "scene": "An infant on naming day, a gold bulla amulet on a cord."
+  },
+  {
+    "rootId": "nov",
+    "root": "nov",
+    "meaning": "new",
+    "scene": "A nova star above a renovation and a length of new cloth."
+  },
+  {
+    "rootId": "numer",
+    "root": "numer",
+    "meaning": "number",
+    "scene": "A merchant counts on a bronze abacus."
+  },
+  {
+    "rootId": "par",
+    "root": "par",
+    "meaning": "to prepare, make ready",
+    "scene": "Armour being put on, everything made ready before action."
+  },
+  {
+    "rootId": "part",
+    "root": "part",
+    "meaning": "part, share",
+    "scene": "A scored loaf being broken into shared portions."
   }
 ]
