@@ -127,5 +127,21 @@
  "pac": "#4D7CAC",
  "patr": "#762B2F",
  "matr": "#AA5549",
- "pop": "#9A3A27"
+ "pop": "#9A3A27",
+ "mut": "#319354",
+ "auto": "#6855C7",
+ "min": "#EC3A16",
+ "ord": "#3466AD",
+ "oper": "#34AAAF",
+ "plac": "#E53D67",
+ "medi": "#42ACAF",
+ "rat": "#326ABF",
+ "rad": "#2D9257",
+ "sacr": "#9068A9",
+ "sal": "#349CA0",
+ "scend": "#255AB7",
+ "sed": "#D44861",
+ "sol": "#2F68A4",
+ "string": "#40A8AE",
+ "tex": "#693F8D"
 }

@@ -772,5 +772,101 @@
     "root": "pac",
     "meaning": "peace",
     "scene": "A white dove carries an olive sprig over a blue floor and a stone table."
+  },
+  {
+    "rootId": "mut",
+    "root": "mut",
+    "meaning": "to change, exchange",
+    "scene": "A green snake sheds its skin while a small figure watches."
+  },
+  {
+    "rootId": "auto",
+    "root": "auto",
+    "meaning": "self",
+    "scene": "A jointed purple figure walks by itself beside a real person."
+  },
+  {
+    "rootId": "min",
+    "root": "min",
+    "meaning": "smaller, least; to lessen",
+    "scene": "Three figures stand from large to small on a red ground."
+  },
+  {
+    "rootId": "ord",
+    "root": "ord",
+    "meaning": "row, order",
+    "scene": "A row of shield-bearers stands in order."
+  },
+  {
+    "rootId": "oper",
+    "root": "oper",
+    "meaning": "work",
+    "scene": "Three workers hoist a stone ball with a teal crane."
+  },
+  {
+    "rootId": "plac",
+    "root": "plac",
+    "meaning": "to please",
+    "scene": "One figure offers a pink gift; the other clasps their hands, pleased."
+  },
+  {
+    "rootId": "medi",
+    "root": "medi",
+    "meaning": "middle",
+    "scene": "Three figures stand on a bridge; the one in teal is in the middle."
+  },
+  {
+    "rootId": "rat",
+    "root": "rat",
+    "meaning": "to reckon, think",
+    "scene": "A figure runs toward a blue abacus, loaves lined up on the ground."
+  },
+  {
+    "rootId": "rad",
+    "root": "rad",
+    "meaning": "root",
+    "scene": "A cutaway shows tree roots and a radish while someone digs."
+  },
+  {
+    "rootId": "sacr",
+    "root": "sacr",
+    "meaning": "holy, sacred",
+    "scene": "A figure kneels on purple ground before a temple altar."
+  },
+  {
+    "rootId": "sal",
+    "root": "sal",
+    "meaning": "to leap",
+    "scene": "Three fish leap from the water and a child jumps with them."
+  },
+  {
+    "rootId": "scend",
+    "root": "scend",
+    "meaning": "to climb",
+    "scene": "Two figures climb a flight of blue stairs."
+  },
+  {
+    "rootId": "sed",
+    "root": "sed",
+    "meaning": "to sit",
+    "scene": "One figure sits in a pink chair while others sit in front."
+  },
+  {
+    "rootId": "sol",
+    "root": "sol",
+    "meaning": "alone",
+    "scene": "A figure sits alone on a rock in the sea, playing a pipe."
+  },
+  {
+    "rootId": "string",
+    "root": "string",
+    "meaning": "to draw tight, bind",
+    "scene": "Two figures pull a rope tight between them."
+  },
+  {
+    "rootId": "tex",
+    "root": "tex",
+    "meaning": "to weave",
+    "scene": "A weaver works a loom that spills a purple cloth."
   }
 ]
