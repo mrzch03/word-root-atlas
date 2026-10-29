@@ -128,3 +128,5 @@ pos, fer, ten, fac, ven, sta, ced, press, curr, gress, ag, and gen leave the cre
 A signature colour has to be a block you can still read when the card is a thumbnail. A floor, a staircase, or a cloak does that. curr, ced, sta, and ven are quieter: the story is clear at full size, but the coloured area is small, so the hue goes faint in the stack. Those four can grow the colour later. The new hues are the ones measured from the pictures. The first forty-two stay where they are; a copper that already sits beside port is not pushed into another band to keep a five-degree gap.
 
 The next twelve paintings, plus redraws of curr, press, and fer, bring the illustrated set to sixty-six. Asking for a signature colour of about eight percent of the card worked on the redraws: curr's magenta track, press's wax and signet, and fer's apricot cloth are readable as thumbnails. junct is still under that, about six percent, and can grow later. The album and the count are unchanged.
+
+New acceptance test, user-approved: guess the meaning from the picture alone, without the caption.

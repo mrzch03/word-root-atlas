@@ -261,7 +261,7 @@
     "rootId": "fer",
     "root": "fer",
     "meaning": "to carry, bear",
-    "scene": "A fig tree on a terrace: a woman carries a basket of figs down stone steps to a roadside altar, an apricot cloth spread on the steps."
+    "scene": "A porter bears a heavy basket of purple-green figs on the shoulder and head."
   },
   {
     "rootId": "ten",
@@ -297,7 +297,7 @@
     "rootId": "press",
     "root": "press",
     "meaning": "to press",
-    "scene": "A chartreuse signet pressed into a pool of wax is the hero; behind it a timber beam presses olive mats, and a chartreuse cloth hangs nearby."
+    "scene": "A hand presses a stamp down into a large mound of wax, the wax bulging under the pressure."
   },
   {
     "rootId": "curr",
@@ -375,7 +375,7 @@
     "rootId": "fin",
     "root": "fin",
     "meaning": "end, boundary",
-    "scene": "A boundary stone (terminus) at the end of a field where a furrow stops; a winding road disappears into a horizon of infinite misty hills"
+    "scene": "A road ends at a tall boundary stone tied with a blue finish ribbon."
   },
   {
     "rootId": "flect",
@@ -393,6 +393,6 @@
     "rootId": "loc",
     "root": "loc",
     "meaning": "place",
-    "scene": "A memory palace as a cut-away Roman house: in each room a single bright object sits in its own place — a lamp, an anchor, a sword — while an orator walks through rehearsing"
+    "scene": "A Roman memory-palace plan with a giant red map pin; an orator plants the pin on a circled spot."
   }
 ]
