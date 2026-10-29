@@ -730,5 +730,47 @@
     "root": "ann",
     "meaning": "year",
     "scene": "A figure lights a birthday candle beside a calendar, inside a blue ring."
+  },
+  {
+    "rootId": "doc",
+    "root": "doc",
+    "meaning": "to teach",
+    "scene": "A teacher in a red robe stands and speaks while a student sits with a wax tablet."
+  },
+  {
+    "rootId": "prim",
+    "root": "prim",
+    "meaning": "first",
+    "scene": "One figure stands alone in front; a wreath rests on a small table, three others wait behind."
+  },
+  {
+    "rootId": "magn",
+    "root": "magn",
+    "meaning": "great",
+    "scene": "A huge red statue stands on a plinth while a tiny figure looks up."
+  },
+  {
+    "rootId": "patr",
+    "root": "patr",
+    "meaning": "father",
+    "scene": "A father rests a hand on a child; ancestor busts stand beside them."
+  },
+  {
+    "rootId": "matr",
+    "root": "matr",
+    "meaning": "mother",
+    "scene": "A mother holds an infant, a city rising on the hill behind her."
+  },
+  {
+    "rootId": "pop",
+    "root": "pop",
+    "meaning": "people",
+    "scene": "A crowd stands in a ring, each holding a tablet, a flag in the middle."
+  },
+  {
+    "rootId": "pac",
+    "root": "pac",
+    "meaning": "peace",
+    "scene": "A white dove carries an olive sprig over a blue floor and a stone table."
   }
 ]
