@@ -579,7 +579,7 @@
     "rootId": "vinc",
     "root": "vinc",
     "meaning": "to conquer",
-    "scene": "Winged Victory crowns a victor on a purple dais."
+    "scene": "Winged Victory places a laurel crown on a kneeling victor; a palm leaf lies on the purple ground."
   },
   {
     "rootId": "viv",
@@ -598,5 +598,59 @@
     "root": "fid",
     "meaning": "faith, trust",
     "scene": "A trust handshake on a sapphire altar, a loyal dog beside them."
+  },
+  {
+    "rootId": "temp",
+    "root": "temp",
+    "meaning": "time, season",
+    "scene": "A figure stands in a huge teal bowl marked like a clock face, a wooden rod set in the centre hole."
+  },
+  {
+    "rootId": "ver",
+    "root": "ver",
+    "meaning": "true",
+    "scene": "A figure in a well lifts a gold mirror; a checked gold coin rests on the rim."
+  },
+  {
+    "rootId": "jud",
+    "root": "jud",
+    "meaning": "judge",
+    "scene": "A white-haired judge sits on a carved chair while two youths stand on a blue floor."
+  },
+  {
+    "rootId": "jur",
+    "root": "jur",
+    "meaning": "law, right; to swear",
+    "scene": "Several figures raise their right hands around a stone table on a green floor."
+  },
+  {
+    "rootId": "liber",
+    "root": "liber",
+    "meaning": "free",
+    "scene": "One figure sets a red cap on another head; a broken chain lies on the red ground."
+  },
+  {
+    "rootId": "grav",
+    "root": "grav",
+    "meaning": "heavy",
+    "scene": "A figure carries a huge purple sack while a purple fruit falls beside them."
+  },
+  {
+    "rootId": "lev",
+    "root": "lev",
+    "meaning": "light (in weight); to raise",
+    "scene": "A figure presses a gold lever and lifts a stone ball on the other end."
+  },
+  {
+    "rootId": "fort",
+    "root": "fort",
+    "meaning": "strong, brave",
+    "scene": "A shield-bearer stands on a yellow fortress wall; below, one figure rests a hand on a companion."
+  },
+  {
+    "rootId": "nav",
+    "root": "nav",
+    "meaning": "ship",
+    "scene": "A sailor rows a small sailboat across a blue sea past a tiny island."
   }
 ]
