@@ -105,6 +105,13 @@ export const batchIllustrated = new Set([
   'omni',
   'uni',
   'ann',
+  'doc',
+  'prim',
+  'magn',
+  'patr',
+  'matr',
+  'pop',
+  'pac',
 ]);
 
 const batchAlt: Record<string, string> = {
@@ -188,6 +195,13 @@ const batchAlt: Record<string, string> = {
   omni: '一辆绿色马车里里外外坐满了人。',
   uni: '紫色的地面上站着一匹独角兽，旁边两个人坐在一起。',
   ann: '一个人在点生日蜡烛，旁边挂着一本日历，外面是一圈蓝环。',
+  doc: '穿红袍的人站着讲，学生坐在地上拿着蜡板。',
+  prim: '一个人单独站在前面，小桌上放着一只桂冠，后面还有三个人。',
+  magn: '一尊很大的红色雕像立在基座上，脚下站着一个很小的人。',
+  patr: '父亲把手放在孩子肩上，旁边是祖先的胸像。',
+  matr: '母亲抱着婴儿，身后的山上是一座城。',
+  pop: '很多人围成一圈，每人拿着一块板，中间插着一面旗。',
+  pac: '一只白鸽衔着橄榄枝，飞过蓝色的地面和一张石桌。',
 };
 
 function originOf(language: string): Origin {
