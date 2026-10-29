@@ -777,7 +777,7 @@
     "rootId": "mut",
     "root": "mut",
     "meaning": "to change, exchange",
-    "scene": "A green snake sheds its skin while a small figure watches."
+    "scene": "A red-and-purple snake sheds its skin while a small figure watches."
   },
   {
     "rootId": "auto",
@@ -1030,5 +1030,77 @@
     "root": "san",
     "meaning": "healthy, sound",
     "scene": "A figure drinks from a fountain ringed with green plants."
+  },
+  {
+    "rootId": "noc",
+    "root": "noc",
+    "meaning": "to harm",
+    "scene": "A wounded soldier clutches a bandaged arm beside a broken jar and thorns."
+  },
+  {
+    "rootId": "test",
+    "root": "test",
+    "meaning": "witness; to bear witness",
+    "scene": "A figure raises a hand and swears before a seated elder."
+  },
+  {
+    "rootId": "cult",
+    "root": "cult",
+    "meaning": "to till, tend, worship",
+    "scene": "A farmer ploughs a field beside a small shrine holding a bowl of fruit."
+  },
+  {
+    "rootId": "cresc",
+    "root": "cresc",
+    "meaning": "to grow",
+    "scene": "Wheat grows from short to tall beneath a crescent moon."
+  },
+  {
+    "rootId": "crea",
+    "root": "crea",
+    "meaning": "to make, bring forth",
+    "scene": "A potter shapes a clay figure on the wheel."
+  },
+  {
+    "rootId": "ign",
+    "root": "ign",
+    "meaning": "fire",
+    "scene": "A child holds a torch to the fire inside a rocky cave."
+  },
+  {
+    "rootId": "lab",
+    "root": "lab",
+    "meaning": "to slip, fall",
+    "scene": "A figure slips off a tilted slab beside a fallen hourglass."
+  },
+  {
+    "rootId": "neg",
+    "root": "neg",
+    "meaning": "to deny, say no",
+    "scene": "One figure raises a hand and refuses the scroll being offered."
+  },
+  {
+    "rootId": "aqu",
+    "root": "aqu",
+    "meaning": "water",
+    "scene": "A figure pours water from a jar in front of an aqueduct."
+  },
+  {
+    "rootId": "cura",
+    "root": "cur",
+    "meaning": "care; to take care of",
+    "scene": "A figure dusts a painted vase with care."
+  },
+  {
+    "rootId": "arm",
+    "root": "arm",
+    "meaning": "weapons, gear",
+    "scene": "Three soldiers take shields and spears from a weapons rack."
+  },
+  {
+    "rootId": "lingu",
+    "root": "lingu",
+    "meaning": "tongue, language",
+    "scene": "Two figures talk in a market; one points at their tongue."
   }
 ]
