@@ -84,9 +84,19 @@
  "prehend": "#A3511A",
  "quer": "#FFE811",
  "sci": "#503568",
- "sec": "#6FAE08",
+ "sec": "#59AE06",
  "serv": "#A27227",
  "sign": "#CD1B01",
  "simil": "#C43E91",
- "solv": "#36AE76"
+ "solv": "#36AE76",
+ "son": "#1E1F6D",
+ "sum": "#DF9105",
+ "tang": "#EF5040",
+ "terr": "#CA3501",
+ "tort": "#EC6202",
+ "val": "#45C953",
+ "vinc": "#85238E",
+ "viv": "#4BD400",
+ "volv": "#FFCC00",
+ "fid": "#0157B9"
 }

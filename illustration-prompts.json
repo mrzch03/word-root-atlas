@@ -513,7 +513,7 @@
     "rootId": "sec",
     "root": "sec",
     "meaning": "to cut",
-    "scene": "Shears section a three-part insect on a chartreuse field."
+    "scene": "A reaper sickle cleanly parts a sheaf in two on a chartreuse field."
   },
   {
     "rootId": "serv",
@@ -538,5 +538,65 @@
     "root": "solv",
     "meaning": "to loosen, release, pay",
     "scene": "Hands untie a rope knot beside a wide turquoise bowl."
+  },
+  {
+    "rootId": "son",
+    "root": "son",
+    "meaning": "sound",
+    "scene": "An orator shouts under an arch, sound-wave rings visible in the air."
+  },
+  {
+    "rootId": "sum",
+    "root": "sum",
+    "meaning": "to take up, use",
+    "scene": "Banquet guests take food from golden platters."
+  },
+  {
+    "rootId": "tang",
+    "root": "tang",
+    "meaning": "to touch",
+    "scene": "A fingertip touches a marble sphere on a coral contact disc."
+  },
+  {
+    "rootId": "terr",
+    "root": "terr",
+    "meaning": "earth, land",
+    "scene": "A farmer stands on stepped terracotta earth terraces."
+  },
+  {
+    "rootId": "tort",
+    "root": "tort",
+    "meaning": "to twist",
+    "scene": "A figure twists a copper rope until it becomes a torch."
+  },
+  {
+    "rootId": "val",
+    "root": "val",
+    "meaning": "to be strong, be worth",
+    "scene": "A farewell handshake beside a large emerald shield."
+  },
+  {
+    "rootId": "vinc",
+    "root": "vinc",
+    "meaning": "to conquer",
+    "scene": "Winged Victory crowns a victor on a purple dais."
+  },
+  {
+    "rootId": "viv",
+    "root": "viv",
+    "meaning": "to live; life",
+    "scene": "Green plants revive after watering, next to a wilted stub."
+  },
+  {
+    "rootId": "volv",
+    "root": "volv",
+    "meaning": "to roll",
+    "scene": "A huge papyrus scroll unrolls across the plinth."
+  },
+  {
+    "rootId": "fid",
+    "root": "fid",
+    "meaning": "faith, trust",
+    "scene": "A trust handshake on a sapphire altar, a loyal dog beside them."
   }
 ]

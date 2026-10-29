@@ -73,6 +73,16 @@ export const batchIllustrated = new Set([
   'sign',
   'simil',
   'solv',
+  'son',
+  'sum',
+  'tang',
+  'terr',
+  'tort',
+  'val',
+  'vinc',
+  'viv',
+  'volv',
+  'fid',
 ]);
 
 const batchAlt: Record<string, string> = {
@@ -119,11 +129,21 @@ const batchAlt: Record<string, string> = {
   prehend: '渔夫双手抓住一条鱼，旁边堆着铜色的网。',
   quer: '提灯的人在被黄光照亮的地上寻找。',
   sci: '学者指着一块紫色的星图板，旁边有地球仪。',
-  sec: '剪刀把一只昆虫切成三段，地面是黄绿色的。',
+  sec: '收割的人用镰刀把一捆麦子从中间切开，地面是黄绿色的。',
   serv: '守望的人穿着青铜色长袍，在城垛上举着火把。',
   sign: '旗手举起一面巨大的深红军旗，站在红砖上。',
   simil: '两座几乎一样的雕像立在成对的基座上。',
   solv: '有人在解开绳结，旁边是一只宽口的青绿碗。',
+  son: '拱门下有人张嘴喊叫，周围看得见一圈圈声波。',
+  sum: '宴席上的客人从金色的盘子里取用食物。',
+  tang: '指尖触到一颗大理石球，球放在珊瑚色的圆盘上。',
+  terr: '农夫站在一层层陶土色的梯田上。',
+  tort: '一个人把铜色的绳子拧成一支火把。',
+  val: '两个人握手告别，旁边是一面很大的翠绿盾。',
+  vinc: '长翅膀的胜利女神在紫色的高台上给胜利者戴冠。',
+  viv: '浇过水之后，绿色的植物重新活过来，旁边还留着一截枯茎。',
+  volv: '一大卷纸莎草在底座上展开。',
+  fid: '蓝宝石色的祭坛前，两个人握手，旁边有一只忠诚的狗。',
 };
 
 function originOf(language: string): Origin {
