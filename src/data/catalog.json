@@ -669,6 +669,22 @@
      "word": "purpose",
      "zh": "目的",
      "breakdown": "pur-(pro-) 向前 + pose 放"
+    },
+    {
+     "word": "impose",
+     "zh": "强加",
+     "breakdown": "im-(向) + pose(放置)",
+     "pos": "动",
+     "example": "They will not impose a new rule.",
+     "exampleZh": "他们不会强加一条新规矩。"
+    },
+    {
+     "word": "dispose",
+     "zh": "处置",
+     "breakdown": "dis-(分开) + pose(放置)",
+     "pos": "动",
+     "example": "Dispose of the broken shards with care.",
+     "exampleZh": "把碎瓷片小心处置掉。"
     }
    ],
    "example": {
@@ -766,6 +782,22 @@
      "word": "relate",
      "zh": "联系",
      "breakdown": "re- 回 + lat 带"
+    },
+    {
+     "word": "infer",
+     "zh": "推断",
+     "breakdown": "in-(向内) + fer(带)",
+     "pos": "动",
+     "example": "What can we infer from the glaze?",
+     "exampleZh": "从这层釉能推断出什么？"
+    },
+    {
+     "word": "circumference",
+     "zh": "圆周",
+     "breakdown": "circum-(周围) + fer(带) + -ence(状态)",
+     "pos": "名",
+     "example": "Measure the circumference of the bowl.",
+     "exampleZh": "量一量碗的圆周。"
     }
    ],
    "example": {
@@ -864,6 +896,22 @@
      "word": "tenacious",
      "zh": "顽强的",
      "breakdown": "ten 握 + -acious 很……的"
+    },
+    {
+     "word": "tenure",
+     "zh": "任期；保有",
+     "breakdown": "ten(握) + -ure(状态)",
+     "pos": "名",
+     "example": "Her tenure at the museum was long.",
+     "exampleZh": "她在博物馆的任期很长。"
+    },
+    {
+     "word": "abstain",
+     "zh": "戒绝",
+     "breakdown": "abs-(离开) + tain(握)",
+     "pos": "动",
+     "example": "He will abstain from the vote.",
+     "exampleZh": "他会在表决时弃权。"
     }
    ],
    "example": {
@@ -964,6 +1012,14 @@
      "word": "difficult",
      "zh": "困难的",
      "breakdown": "dif- 不 + fic 做 + -ult"
+    },
+    {
+     "word": "facile",
+     "zh": "轻易的",
+     "breakdown": "fac(做) + -ile(易于)",
+     "pos": "形",
+     "example": "The solution looks facile, and is not.",
+     "exampleZh": "这个办法看上去轻易，其实不然。"
     }
    ],
    "example": {
@@ -1165,6 +1221,22 @@
      "word": "souvenir",
      "zh": "纪念品",
      "breakdown": "sou-(sub-) 下 + venir 来（来到心头）"
+    },
+    {
+     "word": "convene",
+     "zh": "召集",
+     "breakdown": "con-(一起) + vene(来)",
+     "pos": "动",
+     "example": "They convene the council at dusk.",
+     "exampleZh": "他们在黄昏召集议会。"
+    },
+    {
+     "word": "covenant",
+     "zh": "盟约",
+     "breakdown": "co-(一起) + ven(来) + -ant(事物)",
+     "pos": "名",
+     "example": "The covenant is written on one page.",
+     "exampleZh": "盟约写在一页纸上。"
     }
    ],
    "example": {
@@ -1264,6 +1336,22 @@
      "word": "exist",
      "zh": "存在",
      "breakdown": "ex- 出 + (s)ist 站"
+    },
+    {
+     "word": "status",
+     "zh": "地位；状态",
+     "breakdown": "stat(站) + -us(状态)",
+     "pos": "名",
+     "example": "The status of the repair is unchanged.",
+     "exampleZh": "修缮的状态没有变。"
+    },
+    {
+     "word": "instant",
+     "zh": "瞬间；立即的",
+     "breakdown": "in-(向) + stant(站)",
+     "pos": "名/形",
+     "example": "The glaze set in an instant.",
+     "exampleZh": "釉在一瞬间定住了。"
     }
    ],
    "example": {
@@ -1365,6 +1453,22 @@
      "word": "predecessor",
      "zh": "前任",
      "breakdown": "pre- 前 + de- 离开 + cess 走 + -or"
+    },
+    {
+     "word": "recede",
+     "zh": "后退",
+     "breakdown": "re-(回) + cede(走)",
+     "pos": "动",
+     "example": "The flood began to recede.",
+     "exampleZh": "洪水开始退去。"
+    },
+    {
+     "word": "intercede",
+     "zh": "调停",
+     "breakdown": "inter-(之间) + cede(走)",
+     "pos": "动",
+     "example": "A neighbor came to intercede.",
+     "exampleZh": "一位邻居来调停。"
     }
    ],
    "example": {
@@ -1463,6 +1567,22 @@
      "word": "impression",
      "zh": "印象",
      "breakdown": "im- 进 + press 压 + -ion"
+    },
+    {
+     "word": "compression",
+     "zh": "压缩",
+     "breakdown": "com-(一起) + press(压) + -ion(行为)",
+     "pos": "名",
+     "example": "The compression of the clay took care.",
+     "exampleZh": "陶土的压缩需要小心。"
+    },
+    {
+     "word": "oppressive",
+     "zh": "压迫的",
+     "breakdown": "op-(对着) + press(压) + -ive(……的)",
+     "pos": "形",
+     "example": "The noon heat was oppressive.",
+     "exampleZh": "正午的热气令人透不过气。"
     }
    ],
    "example": {
@@ -2647,6 +2767,22 @@
      "word": "recur",
      "zh": "复发",
      "breakdown": "re- 再 + cur 跑"
+    },
+    {
+     "word": "precursor",
+     "zh": "先驱",
+     "breakdown": "pre-(在前) + curs(跑) + -or(人)",
+     "pos": "名",
+     "example": "This kiln is a precursor of the later design.",
+     "exampleZh": "这座窑是后来那种设计的先驱。"
+    },
+    {
+     "word": "curriculum",
+     "zh": "课程",
+     "breakdown": "curr(跑) + -iculum(小)",
+     "pos": "名",
+     "example": "The curriculum includes one drawing class.",
+     "exampleZh": "课程里有一门绘画课。"
     }
    ],
    "example": {
@@ -2744,6 +2880,22 @@
      "word": "ingredient",
      "zh": "成分",
      "breakdown": "in- 进 + gred 走 + -ient"
+    },
+    {
+     "word": "transgress",
+     "zh": "逾越",
+     "breakdown": "trans-(越过) + gress(步)",
+     "pos": "动",
+     "example": "Do not transgress the marked line.",
+     "exampleZh": "不要越过画出的线。"
+    },
+    {
+     "word": "egress",
+     "zh": "出口",
+     "breakdown": "e-(向外) + gress(步)",
+     "pos": "名",
+     "example": "The egress is a narrow stair.",
+     "exampleZh": "出口是一段窄楼梯。"
     }
    ],
    "example": {
@@ -5118,6 +5270,22 @@
      "word": "active",
      "zh": "积极的",
      "breakdown": "act 做 + -ive"
+    },
+    {
+     "word": "agitate",
+     "zh": "煽动；搅动",
+     "breakdown": "ag(做) + -itate(反复)",
+     "pos": "动",
+     "example": "Do not agitate the wet glaze.",
+     "exampleZh": "不要搅动未干的釉。"
+    },
+    {
+     "word": "prodigal",
+     "zh": "挥霍的",
+     "breakdown": "prod(向前) + ag(做) + -al(……的)",
+     "pos": "形",
+     "example": "A prodigal use of gold leaf shows.",
+     "exampleZh": "金箔用得太费，一眼就能看出来。"
     }
    ],
    "example": {
@@ -5218,6 +5386,22 @@
      "word": "oxygen",
      "zh": "氧",
      "breakdown": "oxy 酸 + gen 生成"
+    },
+    {
+     "word": "progeny",
+     "zh": "后代",
+     "breakdown": "pro-(向前) + gen(生) + -y(结果)",
+     "pos": "名",
+     "example": "The tree has a wide progeny of seedlings.",
+     "exampleZh": "这棵树有许多小苗后代。"
+    },
+    {
+     "word": "indigenous",
+     "zh": "本土的",
+     "breakdown": "indi(在内) + gen(生) + -ous(……的)",
+     "pos": "形",
+     "example": "The dye comes from an indigenous plant.",
+     "exampleZh": "染料来自一种本土植物。"
     }
    ],
    "example": {
@@ -5321,6 +5505,14 @@
      "word": "diligent",
      "zh": "勤奋的",
      "breakdown": "di-(dis-) + lig 选 + -ent"
+    },
+    {
+     "word": "eligible",
+     "zh": "有资格的",
+     "breakdown": "e-(向外) + lig(挑选) + -ible(可以)",
+     "pos": "形",
+     "example": "Every apprentice is eligible.",
+     "exampleZh": "每个学徒都有资格。"
     }
    ],
    "example": {
@@ -5421,6 +5613,22 @@
      "word": "rule",
      "zh": "规则",
      "breakdown": "rule（regula 尺）"
+    },
+    {
+     "word": "regent",
+     "zh": "摄政",
+     "breakdown": "reg(统治) + -ent(人)",
+     "pos": "名",
+     "example": "The regent signed the charter.",
+     "exampleZh": "摄政签署了特许状。"
+    },
+    {
+     "word": "rectify",
+     "zh": "纠正",
+     "breakdown": "rect(直) + -ify(使)",
+     "pos": "动",
+     "example": "Rectify the crooked line.",
+     "exampleZh": "把歪了的线改直。"
     }
    ],
    "example": {
@@ -5522,6 +5730,22 @@
      "word": "multiply",
      "zh": "乘；增加",
      "breakdown": "multi- 多 + ply 折"
+    },
+    {
+     "word": "perplex",
+     "zh": "使困惑",
+     "breakdown": "per-(彻底) + plex(编织)",
+     "pos": "动",
+     "example": "The joint may perplex a new reader.",
+     "exampleZh": "这个榫卯会让初学者困惑。"
+    },
+    {
+     "word": "supple",
+     "zh": "柔软的",
+     "breakdown": "sup(在下) + ple(折)",
+     "pos": "形",
+     "example": "The leather is supple.",
+     "exampleZh": "这皮子很柔软。"
     }
    ],
    "example": {
@@ -5622,6 +5846,22 @@
      "word": "intense",
      "zh": "强烈的",
      "breakdown": "in- + tens 拉紧"
+    },
+    {
+     "word": "distend",
+     "zh": "膨胀",
+     "breakdown": "dis-(分开) + tend(伸)",
+     "pos": "动",
+     "example": "The wet clay began to distend.",
+     "exampleZh": "湿陶土开始胀开。"
+    },
+    {
+     "word": "portend",
+     "zh": "预示",
+     "breakdown": "por-(向前) + tend(伸)",
+     "pos": "动",
+     "example": "A red sky can portend a storm.",
+     "exampleZh": "红色的天空可能预示暴风雨。"
     }
    ],
    "example": {
@@ -5721,6 +5961,22 @@
      "word": "consecutive",
      "zh": "连续的",
      "breakdown": "con- 一起 + secut 跟 + -ive"
+    },
+    {
+     "word": "obsequious",
+     "zh": "谄媚的",
+     "breakdown": "ob-(跟着) + sequ(跟随) + -ious(……的)",
+     "pos": "形",
+     "example": "The assistant was helpful, not obsequious.",
+     "exampleZh": "助手肯帮忙，并不谄媚。"
+    },
+    {
+     "word": "non sequitur",
+     "zh": "不合逻辑的推论",
+     "breakdown": "non(不) + sequitur(跟随)",
+     "pos": "名",
+     "example": "The last sentence is a non sequitur.",
+     "exampleZh": "最后一句是不合逻辑的推论。"
     }
    ],
    "example": {
@@ -5820,6 +6076,14 @@
      "word": "exclusive",
      "zh": "独有的",
      "breakdown": "ex- 出 + clus 关 + -ive"
+    },
+    {
+     "word": "recluse",
+     "zh": "隐士",
+     "breakdown": "re-(回) + cluse(关闭)",
+     "pos": "名",
+     "example": "The recluse kept a small garden.",
+     "exampleZh": "隐士照料着一小块园子。"
     }
    ],
    "example": {
@@ -5925,6 +6189,22 @@
      "pos": "名",
      "example": "Her notes leave one line for insecticide.",
      "exampleZh": "她的笔记里为杀虫剂留了一行。"
+    },
+    {
+     "word": "caesura",
+     "zh": "休止",
+     "breakdown": "caes(切) + -ura(结果)",
+     "pos": "名",
+     "example": "The line pauses at a caesura.",
+     "exampleZh": "这一行在休止处停了一下。"
+    },
+    {
+     "word": "decisive",
+     "zh": "决定性的",
+     "breakdown": "de-(离开) + cis(切) + -ive(……的)",
+     "pos": "形",
+     "example": "The test was decisive.",
+     "exampleZh": "这次试验是决定性的。"
     }
    ],
    "example": {
@@ -6022,6 +6302,22 @@
      "word": "cascade",
      "zh": "小瀑布",
      "breakdown": "casc 落 + -ade"
+    },
+    {
+     "word": "recidivism",
+     "zh": "再犯",
+     "breakdown": "re-(再) + cid(落) + -ivism(倾向)",
+     "pos": "名",
+     "example": "The study tracks recidivism over ten years.",
+     "exampleZh": "这项研究追踪十年里的再犯。"
+    },
+    {
+     "word": "deciduous",
+     "zh": "落叶的",
+     "breakdown": "de-(离开) + cid(落) + -uous(……的)",
+     "pos": "形",
+     "example": "The deciduous trees are bare.",
+     "exampleZh": "落叶树已经光了。"
     }
    ],
    "example": {
@@ -6119,6 +6415,22 @@
      "word": "fine",
      "zh": "罚款；好的",
      "breakdown": "fine 了结"
+    },
+    {
+     "word": "affinity",
+     "zh": "亲和；近似",
+     "breakdown": "af-(向) + fin(界) + -ity(性质)",
+     "pos": "名",
+     "example": "The two clays have an affinity.",
+     "exampleZh": "这两种陶土很亲近。"
+    },
+    {
+     "word": "finale",
+     "zh": "终曲",
+     "breakdown": "fin(尽头) + -ale(结果)",
+     "pos": "名",
+     "example": "The finale is a single quiet chord.",
+     "exampleZh": "终曲是一个安静的和弦。"
     }
    ],
    "example": {
@@ -6205,6 +6517,22 @@
      "word": "genuflect",
      "zh": "跪拜",
      "breakdown": "genu 膝 + flect 弯"
+    },
+    {
+     "word": "circumflex",
+     "zh": "扬抑符；弯曲的",
+     "breakdown": "circum-(周围) + flex(弯)",
+     "pos": "名/形",
+     "example": "A circumflex marks the long vowel.",
+     "exampleZh": "扬抑符标出长元音。"
+    },
+    {
+     "word": "inflexible",
+     "zh": "不灵活的",
+     "breakdown": "in-(不) + flex(弯) + -ible(可以)",
+     "pos": "形",
+     "example": "The rule is inflexible.",
+     "exampleZh": "这条规矩没有余地。"
     }
    ],
    "example": {
@@ -6293,6 +6621,22 @@
      "word": "juncture",
      "zh": "关头",
      "breakdown": "junct 连 + -ure"
+    },
+    {
+     "word": "injunction",
+     "zh": "禁令",
+     "breakdown": "in-(向) + junct(连) + -ion(行为)",
+     "pos": "名",
+     "example": "An injunction halted the work.",
+     "exampleZh": "一道禁令让工程停了下来。"
+    },
+    {
+     "word": "disjoin",
+     "zh": "拆开",
+     "breakdown": "dis-(分开) + join(连)",
+     "pos": "动",
+     "example": "Disjoin the two beams carefully.",
+     "exampleZh": "把两根梁小心地拆开。"
     }
    ],
    "example": {
@@ -6382,6 +6726,22 @@
      "word": "locality",
      "zh": "地区",
      "breakdown": "loc 地方 + -ality"
+    },
+    {
+     "word": "locus",
+     "zh": "位点；场所",
+     "breakdown": "loc(地方)",
+     "pos": "名",
+     "example": "The courtyard is the locus of the fair.",
+     "exampleZh": "庭院是集市所在的地方。"
+    },
+    {
+     "word": "collocate",
+     "zh": "搭配；并置",
+     "breakdown": "col-(一起) + loc(地方) + -ate(使)",
+     "pos": "动",
+     "example": "These two words collocate often.",
+     "exampleZh": "这两个词常常搭配在一起。"
     }
    ],
    "example": {
