@@ -777,7 +777,7 @@
     "rootId": "mut",
     "root": "mut",
     "meaning": "to change, exchange",
-    "scene": "A green snake sheds its skin while a small figure watches."
+    "scene": "A red-and-purple snake sheds its skin while a small figure watches."
   },
   {
     "rootId": "auto",
@@ -868,5 +868,383 @@
     "root": "tex",
     "meaning": "to weave",
     "scene": "A weaver works a loom that spills a purple cloth."
+  },
+  {
+    "rootId": "mod",
+    "root": "mod",
+    "meaning": "measure, manner",
+    "scene": "A figure measures a column with a marked wooden rod."
+  },
+  {
+    "rootId": "prob",
+    "root": "prob",
+    "meaning": "to test, prove; good",
+    "scene": "A figure rubs a gold bar on a touchstone beside a small balance."
+  },
+  {
+    "rootId": "punct",
+    "root": "punct",
+    "meaning": "to prick, point",
+    "scene": "A figure punches a hole through a sheet of leather."
+  },
+  {
+    "rootId": "spond",
+    "root": "spond",
+    "meaning": "to pledge, promise",
+    "scene": "Two figures pour wine from jars onto the same stone table."
+  },
+  {
+    "rootId": "trib",
+    "root": "trib",
+    "meaning": "tribe; to assign, pay",
+    "scene": "A crowd hands stacks of gold coins to a figure in a red robe."
+  },
+  {
+    "rootId": "turb",
+    "root": "turb",
+    "meaning": "crowd, turmoil; to disturb",
+    "scene": "A crowd surrounds a fallen column, arms raised."
+  },
+  {
+    "rootId": "urb",
+    "root": "urb",
+    "meaning": "city",
+    "scene": "A walled city of roofs and towers, two figures outside the gate."
+  },
+  {
+    "rootId": "vac",
+    "root": "vac",
+    "meaning": "to be empty",
+    "scene": "A clay jar is cut open and empty; a child stands in front."
+  },
+  {
+    "rootId": "vad",
+    "root": "vad",
+    "meaning": "to go",
+    "scene": "A child walks barefoot across a pink ground, leaving footprints."
+  },
+  {
+    "rootId": "via",
+    "root": "via",
+    "meaning": "way, road",
+    "scene": "A figure walks a paved road toward a milestone."
+  },
+  {
+    "rootId": "capit",
+    "root": "capit",
+    "meaning": "head",
+    "scene": "A large marble head stands on a red base beside a tiny figure."
+  },
+  {
+    "rootId": "clin",
+    "root": "clin",
+    "meaning": "to lean, bend",
+    "scene": "One figure braces a leaning column; another reclines on a couch."
+  },
+  {
+    "rootId": "dent",
+    "root": "dent",
+    "meaning": "tooth",
+    "scene": "A dentist holds a mirror up to a giant cutaway tooth."
+  },
+  {
+    "rootId": "dom",
+    "root": "dom",
+    "meaning": "house; master",
+    "scene": "A figure opens the door of a small house and steps inside."
+  },
+  {
+    "rootId": "clam",
+    "root": "clam",
+    "meaning": "to cry out, shout",
+    "scene": "A figure stands on a stool and shouts, hands cupped at the mouth."
+  },
+  {
+    "rootId": "corp",
+    "root": "corp",
+    "meaning": "body",
+    "scene": "An athlete winds up to throw a discus."
+  },
+  {
+    "rootId": "soci",
+    "root": "soci",
+    "meaning": "companion, ally",
+    "scene": "Two companions sit side by side and break a loaf of bread."
+  },
+  {
+    "rootId": "don",
+    "root": "don",
+    "meaning": "to give; gift",
+    "scene": "Two figures pass a ribboned gift between them."
+  },
+  {
+    "rootId": "fend",
+    "root": "fend",
+    "meaning": "to strike, ward off",
+    "scene": "A shield-bearer wards off a flying spear."
+  },
+  {
+    "rootId": "flor",
+    "root": "flor",
+    "meaning": "flower",
+    "scene": "Beside a huge rose, one figure sets a flower crown on another."
+  },
+  {
+    "rootId": "fug",
+    "root": "fug",
+    "meaning": "to flee",
+    "scene": "A figure in a red cloak runs across a teal ground."
+  },
+  {
+    "rootId": "greg",
+    "root": "greg",
+    "meaning": "flock, herd",
+    "scene": "A shepherd with a staff watches a flock gathered together."
+  },
+  {
+    "rootId": "it",
+    "root": "it",
+    "meaning": "to go",
+    "scene": "A crowned figure walks out through a stone arch."
+  },
+  {
+    "rootId": "cand",
+    "root": "cand",
+    "meaning": "to shine white",
+    "scene": "A figure in a glowing white robe stands on purple ground."
+  },
+  {
+    "rootId": "nunci",
+    "root": "nunci",
+    "meaning": "messenger; to announce",
+    "scene": "A messenger holds a scroll and calls out the news."
+  },
+  {
+    "rootId": "pict",
+    "root": "pict",
+    "meaning": "to paint",
+    "scene": "A painter stands at an easel and lays red paint on the canvas."
+  },
+  {
+    "rootId": "san",
+    "root": "san",
+    "meaning": "healthy, sound",
+    "scene": "A figure drinks from a fountain ringed with green plants."
+  },
+  {
+    "rootId": "noc",
+    "root": "noc",
+    "meaning": "to harm",
+    "scene": "A wounded soldier clutches a bandaged arm beside a broken jar and thorns."
+  },
+  {
+    "rootId": "test",
+    "root": "test",
+    "meaning": "witness; to bear witness",
+    "scene": "A figure raises a hand and swears before a seated elder."
+  },
+  {
+    "rootId": "cult",
+    "root": "cult",
+    "meaning": "to till, tend, worship",
+    "scene": "A farmer ploughs a field beside a small shrine holding a bowl of fruit."
+  },
+  {
+    "rootId": "cresc",
+    "root": "cresc",
+    "meaning": "to grow",
+    "scene": "Wheat grows from short to tall beneath a crescent moon."
+  },
+  {
+    "rootId": "crea",
+    "root": "crea",
+    "meaning": "to make, bring forth",
+    "scene": "A potter shapes a clay figure on the wheel."
+  },
+  {
+    "rootId": "ign",
+    "root": "ign",
+    "meaning": "fire",
+    "scene": "A child holds a torch to the fire inside a rocky cave."
+  },
+  {
+    "rootId": "lab",
+    "root": "lab",
+    "meaning": "to slip, fall",
+    "scene": "A figure slips off a tilted slab beside a fallen hourglass."
+  },
+  {
+    "rootId": "neg",
+    "root": "neg",
+    "meaning": "to deny, say no",
+    "scene": "One figure raises a hand and refuses the scroll being offered."
+  },
+  {
+    "rootId": "aqu",
+    "root": "aqu",
+    "meaning": "water",
+    "scene": "A figure pours water from a jar in front of an aqueduct."
+  },
+  {
+    "rootId": "cura",
+    "root": "cur",
+    "meaning": "care; to take care of",
+    "scene": "A figure dusts a painted vase with care."
+  },
+  {
+    "rootId": "arm",
+    "root": "arm",
+    "meaning": "weapons, gear",
+    "scene": "Three soldiers take shields and spears from a weapons rack."
+  },
+  {
+    "rootId": "lingu",
+    "root": "lingu",
+    "meaning": "tongue, language",
+    "scene": "Two figures talk in a market; one points at their tongue."
+  },
+  {
+    "rootId": "ali",
+    "root": "ali",
+    "meaning": "other",
+    "scene": "A figure points at a blue door beside a second, red door."
+  },
+  {
+    "rootId": "brev",
+    "root": "brev",
+    "meaning": "short",
+    "scene": "A figure cuts a long scroll short with scissors."
+  },
+  {
+    "rootId": "labor",
+    "root": "labor",
+    "meaning": "work, toil",
+    "scene": "Six people pull a stone block together with ropes."
+  },
+  {
+    "rootId": "migr",
+    "root": "migr",
+    "meaning": "to move, wander",
+    "scene": "Travelers with packs leave a house and walk toward a distant arch."
+  },
+  {
+    "rootId": "fract",
+    "root": "fract",
+    "meaning": "to break",
+    "scene": "A child swings a hammer; a jar and glass shatter."
+  },
+  {
+    "rootId": "fus",
+    "root": "fus",
+    "meaning": "to pour, melt",
+    "scene": "A figure pours glowing molten metal from a crucible into a mold."
+  },
+  {
+    "rootId": "gest",
+    "root": "gest",
+    "meaning": "to carry, bear, do",
+    "scene": "A figure walks forward carrying a large jar on one shoulder."
+  },
+  {
+    "rootId": "hab",
+    "root": "hab",
+    "meaning": "to have, hold",
+    "scene": "A figure holds a large glowing key in both hands."
+  },
+  {
+    "rootId": "liter",
+    "root": "liter",
+    "meaning": "letter (of the alphabet)",
+    "scene": "A figure writes on a tablet among blocks carved with letters."
+  },
+  {
+    "rootId": "merg",
+    "root": "merg",
+    "meaning": "to dip, plunge",
+    "scene": "A figure dives headfirst into the water."
+  },
+  {
+    "rootId": "mir",
+    "root": "mir",
+    "meaning": "to wonder at; wonderful",
+    "scene": "A figure looks up with raised hands at a glowing spiral."
+  },
+  {
+    "rootId": "ocul",
+    "root": "ocul",
+    "meaning": "eye",
+    "scene": "A giant eye looks down through an arch at a tiny figure."
+  },
+  {
+    "rootId": "anthrop",
+    "root": "anthrop",
+    "meaning": "human being",
+    "scene": "An elder, a woman, and two children stand together."
+  },
+  {
+    "rootId": "cern",
+    "root": "cern",
+    "meaning": "to sift, decide",
+    "scene": "A figure sifts grain; the chaff blows aside."
+  },
+  {
+    "rootId": "dem",
+    "root": "dem",
+    "meaning": "people, district",
+    "scene": "A circle of people talk together beside a column and a bench."
+  },
+  {
+    "rootId": "crat",
+    "root": "crat",
+    "meaning": "power, rule",
+    "scene": "A figure with a staff stands on a high platform above two others."
+  },
+  {
+    "rootId": "arch",
+    "root": "arch",
+    "meaning": "beginning, rule; to lead",
+    "scene": "A figure with a set square directs two others laying a foundation beside a temple."
+  },
+  {
+    "rootId": "theo",
+    "root": "the",
+    "meaning": "god",
+    "scene": "A figure kneels before a temple that holds a statue of a god."
+  },
+  {
+    "rootId": "therm",
+    "root": "therm",
+    "meaning": "hot, warm",
+    "scene": "A figure reaches a hand toward the fire in a brazier."
+  },
+  {
+    "rootId": "cycl",
+    "root": "cycl",
+    "meaning": "circle, wheel",
+    "scene": "A figure walks a white circle beside a large wooden wheel."
+  },
+  {
+    "rootId": "pan",
+    "root": "pan",
+    "meaning": "all",
+    "scene": "A figure stands with arms wide among jars, fruit, and objects."
+  },
+  {
+    "rootId": "mono",
+    "root": "mon",
+    "meaning": "alone, single",
+    "scene": "One figure stands alone, chin resting on a hand."
+  },
+  {
+    "rootId": "poly",
+    "root": "poly",
+    "meaning": "many",
+    "scene": "A crowd in different colored robes fills the platform."
+  },
+  {
+    "rootId": "phob",
+    "root": "phob",
+    "meaning": "fear",
+    "scene": "A figure leans back with raised hands as a black snake rears up."
   }
 ]
