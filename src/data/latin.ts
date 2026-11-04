@@ -26,6 +26,8 @@ export const latinRoots: RootEntry[] = [
       w('support', '支撑；支持', '动', [['sup-', '自下'], ['port', '携带']], 'Stone columns support the roof.', '石柱支撑着屋顶。'),
       w('deport', '驱逐出境', '动', [['de-', '离开'], ['port', '携带']], 'The court chose not to deport her.', '法庭决定不将她驱逐出境。'),
       w('important', '重要的', '形', [['im-', '向内'], ['port', '携带'], ['-ant', '……的']], 'This letter is important.', '这封信很重要。'),
+      w('deportation', '驱逐出境', '名', [['de-', '离开'], ['port', '携带'], ['-ation', '行为']], 'The letter stopped the deportation.', '这封信止住了驱逐出境。'),
+      w('portage', '陆路搬运', '名', [['port', '携带'], ['-age', '过程']], 'The portage between the lakes takes an hour.', '两湖之间的陆路搬运要一小时。'),
     ],
   }),
   root({
@@ -51,6 +53,8 @@ export const latinRoots: RootEntry[] = [
       w('aspect', '方面；朝向', '名', [['a-', '朝向'], ['spect', '看']], 'Consider one aspect at a time.', '一次只看一个方面。'),
       w('suspect', '怀疑', '动', [['su-', '自下'], ['spect', '看']], 'I suspect the glaze is too thin.', '我怀疑釉上得太薄。'),
       w('retrospect', '回顾', '名', [['retro-', '向后'], ['spect', '看']], 'In retrospect, the choice was clear.', '回头看，选择其实很清楚。'),
+      w('circumspect', '谨慎的', '形', [['circum-', '周围'], ['spect', '看']], 'The keeper was circumspect about the date.', '管理员对年代很谨慎。'),
+      w('perspective', '视角；透视', '名', [['per-', '透过'], ['spect', '看'], ['-ive', '……的']], 'The sketch uses one-point perspective.', '这张素描用了单点透视。'),
     ],
   }),
   root({
@@ -74,6 +78,8 @@ export const latinRoots: RootEntry[] = [
       w('edict', '法令', '名', [['e-', '向外'], ['dict', '说']], 'An edict was posted on the gate.', '城门上贴出一道法令。'),
       w('diction', '用词', '名', [['dict', '说'], ['-ion', '方式']], 'Clear diction helps a reader.', '清楚的用词便于阅读。'),
       w('jurisdiction', '管辖权', '名', [['juris', '法'], ['dict', '说']], 'This case is outside our jurisdiction.', '此案不在我们的管辖之内。'),
+      w('dictator', '独裁者', '名', [['dict', '说'], ['-ator', '人']], 'The play shows a dictator who fears quiet rooms.', '戏里的独裁者害怕安静的房间。'),
+      w('indict', '起诉', '动', [['in-', '向内'], ['dict', '说']], 'The committee chose not to indict her.', '委员会决定不起诉她。'),
     ],
   }),
   root({
@@ -97,6 +103,9 @@ export const latinRoots: RootEntry[] = [
       w('scripture', '经文', '名', [['script', '写'], ['-ure', '文本']], 'He copied the scripture by hand.', '他亲手抄写经文。'),
       w('transcribe', '抄写；转录', '动', [['trans-', '转换'], ['scrib', '写']], 'Transcribe the interview.', '把访谈转录成文字。'),
       w('postscript', '附言', '名', [['post-', '在后'], ['script', '写']], 'She added a short postscript.', '她加了一行简短的附言。'),
+      w('scribe', '抄写员', '名', [['scrib', '写']], 'A scribe copied the column by hand.', '抄写员亲手誊下这一栏。'),
+      w('proscribe', '禁止；放逐', '动', [['pro-', '公开'], ['scrib', '写']], 'The studio rules proscribe open flames.', '工坊规矩禁止明火。'),
+      w('circumscribe', '限制', '动', [['circum-', '周围'], ['scrib', '写']], 'The frame circumscribes the drawing.', '画框限定了这幅画。'),
     ],
   }),
   root({
@@ -120,6 +129,9 @@ export const latinRoots: RootEntry[] = [
       w('abduct', '劫持', '动', [['ab-', '离开'], ['duc', '引导']], 'The tale tells of a prince abducted at sea.', '故事讲一位王子在海上被劫走。'),
       w('deduce', '推断', '动', [['de-', '从……'], ['duc', '引导']], 'We can deduce the date from the glaze.', '我们可以从釉色推断年代。'),
       w('aqueduct', '渡槽', '名', [['aqua', '水'], ['duc', '引导']], 'The Roman aqueduct still stands.', '罗马渡槽至今屹立。'),
+      w('induce', '诱导', '动', [['in-', '向内'], ['duc', '引导']], 'A damp draft can induce a crack.', '潮湿的穿堂风会诱出裂纹。'),
+      w('duct', '管道', '名', [['duc', '引导']], 'A duct brings air to the kiln.', '一条管道把空气送进窑里。'),
+      w('seduce', '引诱', '动', [['se-', '离'], ['duc', '引导']], 'Bright colors can seduce the eye.', '鲜艳的颜色会引诱视线。'),
     ],
   }),
   root({
@@ -145,6 +157,8 @@ export const latinRoots: RootEntry[] = [
       w('missile', '投射物', '名', [['miss', '送'], ['-ile', '可被……的']], 'A missile, in origin, is something sent.', 'missile 的本义是被送出去的东西。'),
       w('admission', '准入', '名', [['ad-', '向'], ['miss', '送']], 'Admission is free on Sundays.', '星期日免费入场。'),
       w('commission', '委托', '名', [['com-', '交托'], ['miss', '送']], 'The city commissioned a new bridge.', '市政府委托建造一座新桥。'),
+      w('remit', '汇出；赦免', '动', [['re-', '回'], ['mit', '送']], 'Please remit the fee by Friday.', '请在周五前汇出这笔费用。'),
+      w('intermittent', '间歇的', '形', [['inter-', '之间'], ['mitt', '送'], ['-ent', '……的']], 'The rain was intermittent.', '雨一阵一阵的。'),
     ],
   }),
   root({
@@ -170,6 +184,8 @@ export const latinRoots: RootEntry[] = [
       w('conjecture', '推测', '名', [['con-', '一起'], ['ject', '投']], 'That date is still a conjecture.', '那个年代仍是推测。'),
       w('interject', '插话', '动', [['inter-', '之间'], ['ject', '投']], 'She interjected a quiet question.', '她轻轻插进一个问题。'),
       w('adjective', '形容词', '名', [['ad-', '向'], ['ject', '投']], 'Place the adjective before the noun.', '把形容词放在名词前面。'),
+      w('projectile', '抛射物', '名', [['pro-', '向前'], ['ject', '投'], ['-ile', '物']], 'The projectile was a smooth stone.', '抛出的是一颗光滑的石子。'),
+      w('abject', '卑微的', '形', [['ab-', '离开'], ['ject', '投']], 'The apology was abject and brief.', '道歉卑微而简短。'),
     ],
   }),
   root({
@@ -193,6 +209,8 @@ export const latinRoots: RootEntry[] = [
       w('infrastructure', '基础设施', '名', [['infra-', '在下'], ['struct', '建造']], 'The port needs new infrastructure.', '港口需要新的基础设施。'),
       w('reconstruct', '重建', '动', [['re-', '再'], ['con-', '一起'], ['struct', '建造']], 'Scholars reconstruct the broken bowl.', '学者把破碗复原。'),
       w('destruction', '毁坏', '名', [['de-', '撤去'], ['struct', '建造']], 'The destruction of the archive was recorded.', '档案的毁坏被记录了下来。'),
+      w('instrument', '工具；乐器', '名', [['in-', '入'], ['stru', '建造'], ['-ment', '物']], 'The instrument is a small flute.', '这件乐器是一支小长笛。'),
+      w('construction', '建造', '名', [['con-', '一起'], ['struct', '建造'], ['-ion', '行为']], 'The construction of the arch took a season.', '这座拱的建造花了一个季节。'),
     ],
   }),
   root({
@@ -216,6 +234,8 @@ export const latinRoots: RootEntry[] = [
       w('abstract', '摘要；抽象的', '名/形', [['abs-', '离开'], ['tract', '拉']], 'The abstract hangs beside the painting.', '摘要挂在画作旁边。'),
       w('distract', '使分心', '动', [['dis-', '分开'], ['tract', '拉']], 'Noise can distract a reader.', '噪音会分散读者的注意。'),
       w('retract', '收回', '动', [['re-', '回'], ['tract', '拉']], 'The snail retracts its horns.', '蜗牛收回触角。'),
+      w('protract', '延长', '动', [['pro-', '向前'], ['tract', '拉']], 'Do not protract the meeting.', '不要把会议拖长。'),
+      w('traction', '牵引力', '名', [['tract', '拉'], ['-ion', '行为']], 'The cart lost traction in the mud.', '车子在泥里失去了牵引力。'),
     ],
   }),
   root({
@@ -241,6 +261,8 @@ export const latinRoots: RootEntry[] = [
       w('controversy', '争论', '名', [['contro-', '相对'], ['vers', '转']], 'The date remains a controversy.', '年代问题仍有争论。'),
       w('anniversary', '周年', '名', [['ann', '年'], ['vers', '转']], 'The library marks its anniversary.', '图书馆迎来周年纪念。'),
       w('vertical', '垂直的', '形', [['vert', '转'], ['-ical', '……的']], 'Draw a vertical line.', '画一条垂直线。'),
+      w('avert', '避免；转开', '动', [['a-', '离开'], ['vert', '转']], 'A small change can avert a crack.', '小小的改动就能避免开裂。'),
+      w('subvert', '颠覆', '动', [['sub-', '在下'], ['vert', '转']], 'The new evidence seemed to subvert the old label.', '新证据似乎推翻了旧标签。'),
     ],
   }),
   root({
@@ -310,6 +332,8 @@ export const latinRoots: RootEntry[] = [
       w('audition', '试听', '名', [['aud', '听'], ['-ition', '一次']], 'The audition is at noon.', '试听在中午。'),
       w('inaudible', '听不见的', '形', [['in-', '不'], ['aud', '听'], ['-ible', '可以']], 'The last word was inaudible.', '最后一个词听不清。'),
       w('auditory', '听觉的', '形', [['aud', '听'], ['-ory', '关于']], 'The auditory nerve carries sound.', '听神经传递声音。'),
+      w('audiovisual', '视听的', '形', [['audio', '听'], ['vis', '看']], 'The lesson is audiovisual.', '这一课是视听的。'),
+      w('auditor', '审计员', '名', [['aud', '听'], ['-itor', '人']], 'An auditor checked the ledger.', '审计员核对了账簿。'),
     ],
   }),
   root({
@@ -335,6 +359,8 @@ export const latinRoots: RootEntry[] = [
       w('invisible', '看不见的', '形', [['in-', '不'], ['vis', '看'], ['-ible', '可以']], 'Mend the tear so it is nearly invisible.', '把裂口补到几乎看不见。'),
       w('visit', '拜访', '动', [['vis', '去看']], 'Visit the gallery before it closes.', '闭馆前去看看展览。'),
       w('advise', '建议', '动', [['ad-', '向'], ['vis', '看']], 'I advise a slower fire.', '我建议火小一点。'),
+      w('visual', '视觉的', '形', [['vis', '看'], ['-ual', '……的']], 'The visual record is a single plate.', '视觉记录只是一张底片。'),
+      w('vista', '远景', '名', [['vis', '看']], 'The path opens onto a wide vista.', '小路通向一片开阔的远景。'),
     ],
   }),
   root({
@@ -385,6 +411,8 @@ export const latinRoots: RootEntry[] = [
       w('participate', '参加', '动', [['part', '部分'], ['cip', '取']], 'Everyone may participate.', '每个人都可以参加。'),
       w('recipient', '接受者', '名', [['re-', '回'], ['cip', '取'], ['-ent', '人']], 'The recipient signed the slip.', '收件人在单据上签了字。'),
       w('intercept', '拦截', '动', [['inter-', '之间'], ['cept', '取']], 'The hill intercepts the wind.', '山丘挡住了风。'),
+      w('capacity', '容量；能力', '名', [['cap', '取'], ['-acity', '性质']], 'The jar has a modest capacity.', '这只罐子容量不大。'),
+      w('captive', '俘虏', '名', [['capt', '取'], ['-ive', '……的']], 'They freed the captive at dusk.', '他们在黄昏释放了俘虏。'),
     ],
   }),
   root({
@@ -410,6 +438,8 @@ export const latinRoots: RootEntry[] = [
       w('formation', '形成', '名', [['form', '形'], ['-ation', '过程']], 'Watch the formation of the crystals.', '观察晶体如何形成。'),
       w('deform', '使变形', '动', [['de-', '偏离'], ['form', '形']], 'Do not deform the wet rim.', '不要把湿的碗沿压变形。'),
       w('platform', '平台', '名', [['plat', '平'], ['form', '形']], 'Speak from the low platform.', '在矮平台上发言。'),
+      w('formality', '手续；形式', '名', [['form', '形'], ['-ality', '性质']], 'The formality took only a minute.', '手续只花了一分钟。'),
+      w('formative', '形成的', '形', [['form', '形'], ['-ative', '……的']], 'Those years were formative.', '那些年塑造了他。'),
     ],
   }),
   root({
@@ -458,6 +488,8 @@ export const latinRoots: RootEntry[] = [
       w('provoke', '激起', '动', [['pro-', '向前'], ['vok', '呼唤']], 'The question provoked a smile.', '这个问题惹人一笑。'),
       w('vocation', '志业', '名', [['voc', '呼唤'], ['-ation', '召唤']], 'Teaching became her vocation.', '教书成了她的志业。'),
       w('equivocal', '模棱两可的', '形', [['equi-', '相等'], ['voc', '声音']], 'The evidence is equivocal.', '证据模棱两可。'),
+      w('voice', '声音', '名', [['voc', '声音']], 'Her voice stayed low and clear.', '她的声音一直低而清楚。'),
+      w('convoke', '召集', '动', [['con-', '一起'], ['voke', '呼唤']], 'They convoke the guild each spring.', '他们每年春天召集行会。'),
     ],
   }),
   root({
@@ -505,6 +537,7 @@ export const latinRoots: RootEntry[] = [
       w('tripod', '三脚架', '名', [['tri-', '三'], ['pod', '脚']], 'Set the camera on a tripod.', '把相机架在三脚架上。'),
       w('podium', '讲台', '名', [['pod', '脚'], ['-ium', '座']], 'He spoke from a low podium.', '他站在矮讲台上发言。'),
       w('centipede', '蜈蚣', '名', [['cent-', '百'], ['ped', '脚']], 'A centipede crossed the stone.', '一只蜈蚣爬过石板。'),
+      w('impediment', '障碍', '名', [['im-', '套上'], ['ped', '脚'], ['-iment', '物']], 'The step is an impediment for the cart.', '这级台阶挡住了车子。'),
     ],
   }),
   root({
@@ -574,6 +607,8 @@ export const latinRoots: RootEntry[] = [
       w('courage', '勇气', '名', [['cour', '心'], ['-age', '状态']], 'It takes courage to start again.', '重新开始需要勇气。'),
       w('encourage', '鼓励', '动', [['en-', '使'], ['courage', '勇气']], 'Encourage the apprentice.', '鼓励那位学徒。'),
       w('concordance', '语词索引', '名', [['con-', '共同'], ['cord', '心']], 'A concordance lists every word.', '语词索引列出每一个词。'),
+      w('discordant', '不和谐的', '形', [['dis-', '分开'], ['cord', '心'], ['-ant', '……的']], 'The colors are discordant.', '这些颜色不协调。'),
+      w('accordion', '手风琴', '名', [['ac-', '朝向'], ['cord', '心'], ['-ion', '器具']], 'Someone played an accordion in the square.', '广场上有人拉手风琴。'),
     ],
   }),
   root({
@@ -599,6 +634,7 @@ export const latinRoots: RootEntry[] = [
       w('remove', '移开', '动', [['re-', '离开'], ['mov', '移动']], 'Remove the dust with a soft brush.', '用软刷拂去灰尘。'),
       w('commotion', '骚动', '名', [['com-', '一起'], ['mot', '移动']], 'A commotion rose in the market.', '市场里起了一阵骚动。'),
       w('automobile', '汽车', '名', [['auto-', '自己'], ['mob', '移动']], 'The automobile waited by the gate.', '汽车等在门口。'),
+      w('motive', '动机', '名', [['mot', '移动'], ['-ive', '……的']], 'The motive was simply to help.', '动机只是想帮忙。'),
     ],
   }),
   root({
@@ -622,6 +658,7 @@ export const latinRoots: RootEntry[] = [
       w('confluence', '汇流', '名', [['con-', '一起'], ['flu', '流动']], 'The town sits at a confluence.', '小镇坐落在两条河的汇合处。'),
       w('superfluous', '多余的', '形', [['super-', '漫过'], ['flu', '流动']], 'Cut the superfluous words.', '删去多余的词。'),
       w('influx', '涌入', '名', [['in-', '向内'], ['flux', '流动']], 'An influx of visitors came at noon.', '中午涌入一批访客。'),
+      w('effluent', '流出物', '名', [['ef-', '向外'], ['flu', '流动'], ['-ent', '物']], 'The effluent runs clear again.', '排出的水又变清了。'),
     ],
   }),
   root({
@@ -645,6 +682,8 @@ export const latinRoots: RootEntry[] = [
       w('beneficial', '有益的', '形', [['bene', '好'], ['fic', '做']], 'A walk is beneficial.', '散步有益。'),
       w('beneficiary', '受益人', '名', [['bene', '好'], ['fic', '做'], ['-ary', '人']], 'She is the beneficiary of the fund.', '她是这笔基金的受益人。'),
       w('benevolence', '仁慈', '名', [['bene', '好'], ['vol', '意愿']], 'The gift was an act of benevolence.', '这份礼物是一次善举。'),
+      w('bonus', '奖金；额外好处', '名', [['bon', '好']], 'The bonus was a day in the garden.', '额外的好处是在园子里过一天。'),
+      w('bonanza', '富矿；鸿运', '名', [['bon', '好']], 'The orchard was a quiet bonanza of pears.', '果园里梨子多得像一场安静的丰收。'),
     ],
   }),
   root({
@@ -668,6 +707,8 @@ export const latinRoots: RootEntry[] = [
       w('malevolent', '恶毒的', '形', [['male', '坏'], ['vol', '意愿']], 'The portrait has a malevolent smile.', '肖像带着恶意的微笑。'),
       w('malnutrition', '营养不良', '名', [['mal-', '不良'], ['nutrition', '营养']], 'Malnutrition slows growth.', '营养不良会拖慢生长。'),
       w('malignant', '恶性的', '形', [['mal', '坏'], ['gn', '生'], ['-ant', '……的']], 'They feared a malignant growth.', '他们担心是恶性增生。'),
+      w('dismal', '阴郁的', '形', [['dis', '日子'], ['mal', '坏']], 'The morning was dismal and still.', '早晨阴郁而安静。'),
+      w('malaria', '疟疾', '名', [['mal', '坏'], ['aria', '空气']], 'The old map marks a malaria coast.', '旧地图标出了一段疟疾海岸。'),
     ],
   }),
 ];

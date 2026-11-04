@@ -24,6 +24,11 @@ function norm(s: string) {
   return s.trim().toLowerCase();
 }
 
+/** Spaces and accents fold away so a phrase on a pill still opens from the search box. */
+function fold(s: string) {
+  return norm(s).replace(/[^a-z'-]/g, '');
+}
+
 export function buildIndex(list: RootEntry[]): AtlasIndex {
   const byId = new Map<string, RootEntry>();
   const byWord = new Map<string, WordHit>();
@@ -34,7 +39,10 @@ export function buildIndex(list: RootEntry[]): AtlasIndex {
       const hit: WordHit = { word: lexeme.word, lexeme, root };
       words.push(hit);
       for (const surface of [lexeme.word, ...(lexeme.also ?? [])]) {
-        byWord.set(norm(surface), hit);
+        const key = norm(surface);
+        byWord.set(key, hit);
+        const folded = fold(surface);
+        if (folded && folded !== key && !byWord.has(folded)) byWord.set(folded, hit);
       }
     }
   }

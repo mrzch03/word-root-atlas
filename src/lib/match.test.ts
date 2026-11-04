@@ -48,7 +48,7 @@ describe('dataset', () => {
     }
     for (const root of cream) {
       expect(root.words.length).toBeGreaterThanOrEqual(2);
-      expect(root.words.length).toBeLessThanOrEqual(12);
+      expect(root.words.length).toBeLessThanOrEqual(18);
       expect(root.artAlt.length).toBeGreaterThan(8);
       expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(false);
       for (const word of root.words) {

@@ -5,6 +5,10 @@ interface CatalogWord {
   word: string;
   zh: string;
   breakdown: string;
+  pos?: string;
+  example?: string;
+  exampleZh?: string;
+  also?: string[];
 }
 
 interface CatalogRoot {
@@ -536,16 +540,27 @@ function toEntry(
       const prev = built.get(ownerId);
       if (prev) prev.words = prev.words.filter((word) => word.word.toLowerCase() !== key);
     }
+    const also = (derived.also ?? [])
+      .map((alt) => alt.trim())
+      .filter((alt) => {
+        const altKey = alt.toLowerCase();
+        return altKey.length > 0 && altKey !== key && !claimed.has(altKey);
+      });
     claimed.add(key);
     owners.set(key, record.id);
+    for (const alt of also) {
+      claimed.add(alt.toLowerCase());
+      owners.set(alt.toLowerCase(), record.id);
+    }
     const mentioned = sentence.length > 0 && sentence.toLowerCase().includes(key);
     words.push({
       word: surface,
       gloss: derived.zh.trim(),
-      pos: '',
+      pos: derived.pos?.trim() || '',
       parts: parseBreakdown(derived.breakdown, { form: rootForm, gloss: record.meaning.zh }),
-      example: mentioned ? sentence : '',
-      exampleZh: mentioned ? sentenceZh : '',
+      example: derived.example?.trim() || (mentioned ? sentence : ''),
+      exampleZh: derived.exampleZh?.trim() || (mentioned ? sentenceZh : ''),
+      ...(also.length > 0 ? { also } : {}),
     });
   }
   return {

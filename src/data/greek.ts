@@ -26,6 +26,7 @@ export const greekRoots: RootEntry[] = [
       w('calligraphy', '书法', '名', [['calli-', '美'], ['graph', '写']], 'She studies calligraphy.', '她研习书法。'),
       w('telegram', '电报', '名', [['tele-', '远'], ['gram', '写']], 'A telegram arrived at dawn.', '黎明时来了一封电报。'),
       w('graphic', '形象的；图形的', '形', [['graph', '写']], 'The account is graphic but calm.', '叙述很具体，语气却平静。'),
+      w('seismograph', '地震仪', '名', [['seismo', '地震'], ['graph', '写']], 'The seismograph drew a thin line.', '地震仪画出一条细线。'),
     ],
   }),
   root({
@@ -51,6 +52,8 @@ export const greekRoots: RootEntry[] = [
       w('euphony', '悦耳', '名', [['eu-', '好'], ['phon', '声']], 'The line is chosen for its euphony.', '选这一行是因为它好听。'),
       w('phonetic', '语音的', '形', [['phon', '声']], 'A phonetic spelling helps.', '标音有助于朗读。'),
       w('phonograph', '留声机', '名', [['phon', '声'], ['graph', '写']], 'The phonograph played a worn disc.', '留声机放了一张旧唱片。'),
+      w('aphonia', '失声', '名', [['a-', '无'], ['phon', '声'], ['-ia', '状态']], 'A cold left her with aphonia for a day.', '感冒让她失声了一天。'),
+      w('xylophone', '木琴', '名', [['xylo', '木'], ['phon', '声']], 'The child tried the xylophone.', '孩子试了试木琴。'),
     ],
   }),
   root({
@@ -76,6 +79,7 @@ export const greekRoots: RootEntry[] = [
       w('epilogue', '尾声', '名', [['epi-', '在后'], ['log', '言']], 'The epilogue is a single page.', '尾声只有一页。'),
       w('eulogy', '颂词', '名', [['eu-', '好'], ['log', '言']], 'She wrote a eulogy for her teacher.', '她为老师写了悼词。'),
       w('neologism', '新词', '名', [['neo-', '新'], ['log', '言']], 'Podcast began as a neologism.', 'podcast 起初是一个新造词。'),
+      w('logarithm', '对数', '名', [['log', '言'], ['arithm', '数']], 'The table lists each logarithm.', '表上列出每一个对数。'),
     ],
   }),
   root({
@@ -99,6 +103,8 @@ export const greekRoots: RootEntry[] = [
       w('biodiversity', '生物多样性', '名', [['bio', '生命'], ['divers', '多样']], 'The marsh has rich biodiversity.', '湿地的生物多样性很高。'),
       w('autobiography', '自传', '名', [['auto-', '自己'], ['bio', '生命'], ['graph', '写']], 'She wrote a short autobiography.', '她写了一篇短自传。'),
       w('biome', '生物群系', '名', [['bio', '生命']], 'The desert is a harsh biome.', '沙漠是严酷的生物群系。'),
+      w('biodegradable', '可生物降解的', '形', [['bio', '生命'], ['de-', '分解'], ['grad', '步'], ['-able', '可以']], 'The wrapping is biodegradable.', '这层包装可以生物降解。'),
+      w('biopsy', '活组织检查', '名', [['bio', '生命'], ['opsy', '看']], 'The biopsy was small and quick.', '活组织检查又小又快。'),
     ],
   }),
   root({
@@ -122,6 +128,7 @@ export const greekRoots: RootEntry[] = [
       w('geopolitics', '地缘政治', '名', [['geo', '地'], ['polit', '城邦事务']], 'Geopolitics studies power and place.', '地缘政治研究权力与地点。'),
       w('geocentric', '地心的', '形', [['geo', '地'], ['centr', '中心']], 'The old map is geocentric.', '这幅古图以地球为中心。'),
       w('geologist', '地质学家', '名', [['geo', '地'], ['log', '学者']], 'A geologist tapped the cliff.', '地质学家敲了敲崖壁。'),
+      w('geoglyph', '大地线条画', '名', [['geo', '地'], ['glyph', '刻']], 'The geoglyph is visible from the ridge.', '从山脊上能看见这幅大地线条画。'),
     ],
   }),
   root({
@@ -146,6 +153,8 @@ export const greekRoots: RootEntry[] = [
       w('hydroponic', '水培的', '形', [['hydr', '水'], ['pon', '劳作']], 'Lettuce grows in a hydroponic tank.', '生菜长在水培槽里。'),
       w('hydrology', '水文学', '名', [['hydr', '水'], ['log', '学问']], 'Hydrology studies the watershed.', '水文学研究流域。'),
       w('anhydrous', '无水的', '形', [['an-', '无'], ['hydr', '水']], 'Keep the powder anhydrous.', '让粉末保持无水。'),
+      w('hydroelectric', '水力发电的', '形', [['hydr', '水'], ['electric', '电']], 'The town uses hydroelectric power.', '小镇用的是水力发电。'),
+      w('hydrosphere', '水圈', '名', [['hydr', '水'], ['sphere', '圈层']], 'The hydrosphere includes every river.', '水圈包括每一条河。'),
     ],
   }),
   root({
@@ -169,6 +178,7 @@ export const greekRoots: RootEntry[] = [
       w('photovoltaic', '光伏的', '形', [['phot', '光'], ['volta', '伏打']], 'Photovoltaic tiles cover the roof.', '屋顶铺着光伏瓦。'),
       w('photosphere', '光球', '名', [['phot', '光'], ['sphere', '球层']], 'The photosphere is the sun\'s bright face.', '光球是太阳明亮的表面。'),
       w('phosphorus', '磷', '名', [['phot', '光'], ['phor', '携带']], 'Phosphorus can glow in the dark.', '磷可以在暗处发光。'),
+      w('photometer', '光度计', '名', [['phot', '光'], ['meter', '测量']], 'A photometer measured the lamp.', '光度计量了这盏灯。'),
     ],
   }),
   root({
@@ -192,6 +202,8 @@ export const greekRoots: RootEntry[] = [
       w('chronological', '按时间顺序的', '形', [['chron', '时间'], ['log', '条理']], 'File them in chronological order.', '按时间顺序归档。'),
       w('chronometer', '精密计时器', '名', [['chron', '时间'], ['meter', '测量']], 'The ship carried a chronometer.', '船上带了一只精密计时器。'),
       w('synchronous', '同步的', '形', [['syn-', '一起'], ['chron', '时间']], 'Their steps were synchronous.', '他们的脚步一致。'),
+      w('isochronous', '等时的', '形', [['iso-', '相同'], ['chron', '时间'], ['-ous', '具有']], 'The two clocks are isochronous.', '两只钟走得一样准。'),
+      w('diachronic', '历时的', '形', [['dia-', '穿过'], ['chron', '时间'], ['-ic', '……的']], 'The study is diachronic.', '这项研究顺着时间来看。'),
     ],
   }),
   root({
@@ -215,6 +227,8 @@ export const greekRoots: RootEntry[] = [
       w('psychotherapy', '心理治疗', '名', [['psych', '心灵'], ['therapy', '治疗']], 'Psychotherapy takes time.', '心理治疗需要时间。'),
       w('psychosis', '精神病', '名', [['psych', '心灵']], 'The novel treats psychosis with restraint.', '小说克制地写了精神病。'),
       w('psychologist', '心理学家', '名', [['psych', '心灵'], ['log', '学者']], 'A psychologist joined the study.', '一位心理学家加入了研究。'),
+      w('metempsychosis', '轮回', '名', [['meta-', '转移'], ['em-', '进入'], ['psych', '心灵'], ['-osis', '状态']], 'The myth describes metempsychosis.', '这则神话讲的是灵魂的轮回。'),
+      w('psychopath', '精神病态者', '名', [['psych', '心灵'], ['path', '苦痛']], 'The novel draws its psychopath without thrill.', '小说平静地写了这个精神病态者。'),
     ],
   }),
   root({
@@ -238,6 +252,8 @@ export const greekRoots: RootEntry[] = [
       w('antipathy', '反感', '名', [['anti-', '相对'], ['path', '感']], 'He has an antipathy to noise.', '他厌恶喧闹。'),
       w('telepathy', '心灵感应', '名', [['tele-', '远'], ['path', '感']], 'The story only pretends telepathy is real.', '故事只是假装心灵感应是真的。'),
       w('pathogen', '病原体', '名', [['path', '病'], ['gen', '产生']], 'Wash hands to limit pathogens.', '洗手以减少病原体。'),
+      w('homeopathy', '顺势疗法', '名', [['homeo', '相似'], ['path', '感'], ['-y', '方法']], 'She read a short history of homeopathy.', '她读了一小段顺势疗法的历史。'),
+      w('pathos', '悲怆；感染力', '名', [['path', '感'], ['-os', '性质']], 'The scene has pathos without noise.', '这一场有感染力，却并不喧闹。'),
     ],
   }),
   root({
@@ -261,6 +277,8 @@ export const greekRoots: RootEntry[] = [
       w('bibliophile', '爱书的人', '名', [['biblio', '书'], ['phil', '爱']], 'A bibliophile notices the paper.', '爱书的人会留意纸。'),
       w('philharmonic', '爱乐的', '形', [['phil', '爱'], ['harmon', '和谐']], 'The philharmonic plays on Thursday.', '爱乐乐团星期四演出。'),
       w('Philadelphia', '费城；兄弟之爱', '名', [['phil', '爱'], ['adelph', '兄弟']], 'Philadelphia means brotherly love.', 'Philadelphia 的意思是兄弟之爱。'),
+      w('Anglophile', '亲英者', '名', [['Anglo', '英国'], ['phil', '爱']], 'An Anglophile notices the spelling.', '亲英者会留意拼写。', ['anglophile']),
+      w('cinephile', '影迷', '名', [['cine', '电影'], ['phil', '爱']], 'The cinephile stayed for the short film.', '影迷留下来看了那部短片。'),
     ],
   }),
   root({
@@ -284,6 +302,7 @@ export const greekRoots: RootEntry[] = [
       w('isomorphic', '同构的', '形', [['iso-', '相同'], ['morph', '形态']], 'The two plans are isomorphic.', '两份平面图结构相同。'),
       w('anthropomorphic', '拟人的', '形', [['anthrop', '人'], ['morph', '形态']], 'The tale is anthropomorphic.', '这个故事把动物写成了人。'),
       w('metamorphic', '变质的', '形', [['meta-', '变化'], ['morph', '形态']], 'Marble is a metamorphic rock.', '大理石是变质岩。'),
+      w('ectomorph', '外胚层体型', '名', [['ecto', '外'], ['morph', '形态']], 'The chart labels one figure an ectomorph.', '图表把其中一个身形标成外胚层体型。'),
     ],
   }),
   root({
@@ -307,6 +326,8 @@ export const greekRoots: RootEntry[] = [
       w('astrology', '占星术', '名', [['astr', '星'], ['log', '说法']], 'Astrology is not astronomy.', '占星术不是天文学。'),
       w('astronomical', '极其巨大的', '形', [['astr', '星']], 'The distance is astronomical.', '这段距离大得惊人。'),
       w('astrophysics', '天体物理', '名', [['astr', '星'], ['physics', '物理']], 'Astrophysics explains how stars burn.', '天体物理解释恒星如何燃烧。'),
+      w('astral', '星的', '形', [['astr', '星'], ['-al', '……的']], 'They mapped the astral positions.', '他们标出了星的位置。'),
+      w('astrobiology', '天体生物学', '名', [['astro', '星'], ['bio', '生命'], ['logy', '学问']], 'Astrobiology asks where life might arise.', '天体生物学追问生命可能在哪里出现。'),
     ],
   }),
   root({
@@ -331,6 +352,7 @@ export const greekRoots: RootEntry[] = [
       w('parameter', '参数', '名', [['para-', '在旁'], ['meter', '测量']], 'Change one parameter at a time.', '一次只改一个参数。'),
       w('metric', '公制的', '形', [['meter', '测量']], 'Use metric units.', '使用公制单位。'),
       w('odometer', '里程表', '名', [['odo', '道路'], ['meter', '测量']], 'The odometer reads one hundred twenty.', '里程表显示一百二十。'),
+      w('isometric', '等距的', '形', [['iso-', '相同'], ['metr', '测量'], ['-ic', '……的']], 'The drawing is isometric.', '这幅图是等距的。'),
     ],
   }),
 ];
