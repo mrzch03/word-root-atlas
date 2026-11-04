@@ -1306,5 +1306,95 @@
     "root": "dynam",
     "meaning": "power, force",
     "scene": "A man lifts a heavy weight overhead."
+  },
+  {
+    "rootId": "onym",
+    "root": "onym",
+    "meaning": "name",
+    "scene": "A man chisels a name into a stele while a woman holds a baby and another man points."
+  },
+  {
+    "rootId": "gyn",
+    "root": "gyn",
+    "meaning": "woman",
+    "scene": "A woman weaves at a loom while a girl spins wool."
+  },
+  {
+    "rootId": "neur",
+    "root": "neur",
+    "meaning": "sinew, nerve",
+    "scene": "One man holds another's arm, golden nerves glowing along the skin, a drawing of sinews on the table."
+  },
+  {
+    "rootId": "lys",
+    "root": "lys",
+    "meaning": "to loosen",
+    "scene": "A man breaks the chains off a kneeling man, links scattered on the ground."
+  },
+  {
+    "rootId": "top",
+    "root": "top",
+    "meaning": "place",
+    "scene": "A man draws on a model of hills and a village while a child watches."
+  },
+  {
+    "rootId": "ethn",
+    "root": "ethn",
+    "meaning": "nation, people",
+    "scene": "Three groups in different dress gather on a green ground, with tents and banners."
+  },
+  {
+    "rootId": "eco",
+    "root": "eco",
+    "meaning": "house, household",
+    "scene": "In a cut-away house a woman tends the hearth, a man shelves jars, and a child pets a lamb."
+  },
+  {
+    "rootId": "nomy",
+    "root": "nomy",
+    "meaning": "law, custom, arrangement",
+    "scene": "A man in a red robe points at a carved tablet, scales beside him, two listeners below."
+  },
+  {
+    "rootId": "crypt",
+    "root": "crypt",
+    "meaning": "hidden",
+    "scene": "A soldier stands on a stone roof; below, a man with a torch finds a chest of gold."
+  },
+  {
+    "rootId": "chrom",
+    "root": "chrom",
+    "meaning": "colour",
+    "scene": "A painter colors a statue beside bowls of pigment, a prism throwing a rainbow."
+  },
+  {
+    "rootId": "cosm",
+    "root": "cosm",
+    "meaning": "order, ornament, world",
+    "scene": "A man turns an orrery of planets around a sun while a child holds a star chart."
+  },
+  {
+    "rootId": "crit",
+    "root": "crit",
+    "meaning": "to separate, judge",
+    "scene": "A seated judge sorts white stones into one jar and black into another."
+  },
+  {
+    "rootId": "gloss",
+    "root": "gloss",
+    "meaning": "tongue, language",
+    "scene": "A man speaks colored ribbons of speech toward two listeners in different dress."
+  },
+  {
+    "rootId": "iatr",
+    "root": "iatr",
+    "meaning": "physician, healer",
+    "scene": "A physician tends a patient on a couch while a woman grinds herbs."
+  },
+  {
+    "rootId": "opt",
+    "root": "opt",
+    "meaning": "eye, sight; seen",
+    "scene": "Two figures hold crystals up to a large eye, light rays entering the pupil."
   }
 ]

@@ -216,5 +216,20 @@
  "paed": "#838FC0",
  "lith": "#737C8C",
  "zo": "#B64C76",
- "dynam": "#EA8268"
+ "dynam": "#EA8268",
+ "onym": "#816091",
+ "gyn": "#BF5365",
+ "neur": "#3A6045",
+ "lys": "#D83E2D",
+ "top": "#51A8AD",
+ "ethn": "#7E8137",
+ "eco": "#8A3150",
+ "nomy": "#676F78",
+ "crypt": "#4D4844",
+ "chrom": "#C4CC49",
+ "cosm": "#1D2F59",
+ "crit": "#95223E",
+ "gloss": "#5D8FBC",
+ "iatr": "#BCD3C2",
+ "opt": "#EE367E"
 }
