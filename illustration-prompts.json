@@ -1246,5 +1246,257 @@
     "root": "phob",
     "meaning": "fear",
     "scene": "A figure leans back with raised hands as a black snake rears up."
+  },
+  {
+    "rootId": "techn",
+    "root": "techn",
+    "meaning": "art, skill, craft",
+    "scene": "A craftsman in an apron chisels a wooden plank; a mallet and tongs sit on the bench."
+  },
+  {
+    "rootId": "poli",
+    "root": "poli",
+    "meaning": "city, state",
+    "scene": "Citizens in white robes talk on a blue ground, a temple on the hill behind them."
+  },
+  {
+    "rootId": "soph",
+    "root": "soph",
+    "meaning": "wise; wisdom",
+    "scene": "A white-bearded teacher gestures to a child, an owl perched on a small column."
+  },
+  {
+    "rootId": "kine",
+    "root": "kine",
+    "meaning": "to move",
+    "scene": "A runner in a pale tunic sprints across a green ground."
+  },
+  {
+    "rootId": "derm",
+    "root": "derm",
+    "meaning": "skin",
+    "scene": "A man stretches a hide on a wooden frame."
+  },
+  {
+    "rootId": "cardi",
+    "root": "cardi",
+    "meaning": "heart",
+    "scene": "A man in a white robe holds a large red heart."
+  },
+  {
+    "rootId": "paed",
+    "root": "paed",
+    "meaning": "child",
+    "scene": "Two children roll a hoop with a stick across a blue ground."
+  },
+  {
+    "rootId": "lith",
+    "root": "lith",
+    "meaning": "stone",
+    "scene": "A man drives a chisel into a boulder, chips flying."
+  },
+  {
+    "rootId": "zo",
+    "root": "zo",
+    "meaning": "animal, living being",
+    "scene": "A man in a white robe stands beside a horse."
+  },
+  {
+    "rootId": "dynam",
+    "root": "dynam",
+    "meaning": "power, force",
+    "scene": "A man lifts a heavy weight overhead."
+  },
+  {
+    "rootId": "onym",
+    "root": "onym",
+    "meaning": "name",
+    "scene": "A man chisels a name into a stele while a woman holds a baby and another man points."
+  },
+  {
+    "rootId": "gyn",
+    "root": "gyn",
+    "meaning": "woman",
+    "scene": "A woman weaves at a loom while a girl spins wool."
+  },
+  {
+    "rootId": "neur",
+    "root": "neur",
+    "meaning": "sinew, nerve",
+    "scene": "One man holds another's arm, golden nerves glowing along the skin, a drawing of sinews on the table."
+  },
+  {
+    "rootId": "lys",
+    "root": "lys",
+    "meaning": "to loosen",
+    "scene": "A man breaks the chains off a kneeling man, links scattered on the ground."
+  },
+  {
+    "rootId": "top",
+    "root": "top",
+    "meaning": "place",
+    "scene": "A man draws on a model of hills and a village while a child watches."
+  },
+  {
+    "rootId": "ethn",
+    "root": "ethn",
+    "meaning": "nation, people",
+    "scene": "Three groups in different dress gather on a green ground, with tents and banners."
+  },
+  {
+    "rootId": "eco",
+    "root": "eco",
+    "meaning": "house, household",
+    "scene": "In a cut-away house a woman tends the hearth, a man shelves jars, and a child pets a lamb."
+  },
+  {
+    "rootId": "nomy",
+    "root": "nomy",
+    "meaning": "law, custom, arrangement",
+    "scene": "A man in a red robe points at a carved tablet, scales beside him, two listeners below."
+  },
+  {
+    "rootId": "crypt",
+    "root": "crypt",
+    "meaning": "hidden",
+    "scene": "A soldier stands on a stone roof; below, a man with a torch finds a chest of gold."
+  },
+  {
+    "rootId": "chrom",
+    "root": "chrom",
+    "meaning": "colour",
+    "scene": "A painter colors a statue beside bowls of pigment, a prism throwing a rainbow."
+  },
+  {
+    "rootId": "cosm",
+    "root": "cosm",
+    "meaning": "order, ornament, world",
+    "scene": "A man turns an orrery of planets around a sun while a child holds a star chart."
+  },
+  {
+    "rootId": "crit",
+    "root": "crit",
+    "meaning": "to separate, judge",
+    "scene": "A seated judge sorts white stones into one jar and black into another."
+  },
+  {
+    "rootId": "gloss",
+    "root": "gloss",
+    "meaning": "tongue, language",
+    "scene": "A man speaks colored ribbons of speech toward two listeners in different dress."
+  },
+  {
+    "rootId": "iatr",
+    "root": "iatr",
+    "meaning": "physician, healer",
+    "scene": "A physician tends a patient on a couch while a woman grinds herbs."
+  },
+  {
+    "rootId": "opt",
+    "root": "opt",
+    "meaning": "eye, sight; seen",
+    "scene": "Two figures hold crystals up to a large eye, light rays entering the pupil."
+  },
+  {
+    "rootId": "thes",
+    "root": "the",
+    "meaning": "to put, place",
+    "scene": "A man points while two others lever a column onto its base."
+  },
+  {
+    "rootId": "pyr",
+    "root": "pyr",
+    "meaning": "fire",
+    "scene": "A man tends a fire with a stick while a child holds a torch."
+  },
+  {
+    "rootId": "trop",
+    "root": "trop",
+    "meaning": "a turning",
+    "scene": "A chariot turns around a column while a child waves."
+  },
+  {
+    "rootId": "typ",
+    "root": "typ",
+    "meaning": "blow, impression, mark",
+    "scene": "A man strikes an owl coin on an anvil while another lifts one with tongs."
+  },
+  {
+    "rootId": "tax",
+    "root": "tax",
+    "meaning": "arrangement, order",
+    "scene": "A commander lines soldiers with shields into a square formation."
+  },
+  {
+    "rootId": "tom",
+    "root": "tom",
+    "meaning": "a cutting",
+    "scene": "A man cuts an apple into smaller and smaller pieces while another looks through a lens."
+  },
+  {
+    "rootId": "dox",
+    "root": "dox",
+    "meaning": "opinion, belief, glory",
+    "scene": "Two men argue, one thinking of the sun and the other of the moon."
+  },
+  {
+    "rootId": "orth",
+    "root": "orth",
+    "meaning": "straight, correct",
+    "scene": "One man ties a tree upright while another plumbs a wall."
+  },
+  {
+    "rootId": "homo",
+    "root": "homo",
+    "meaning": "same",
+    "scene": "Two boys hold matching jars, two girls wear matching dresses, and two trees match."
+  },
+  {
+    "rootId": "hetero",
+    "root": "hetero",
+    "meaning": "other, different",
+    "scene": "A stall holds jars, fruit, and cloth of different colors, and the shoppers hold different things."
+  },
+  {
+    "rootId": "mega",
+    "root": "mega",
+    "meaning": "great, large",
+    "scene": "A huge stone stands beside two tiny people and a dog."
+  },
+  {
+    "rootId": "heli",
+    "root": "heli",
+    "meaning": "sun",
+    "scene": "The sun god drives a chariot, a child shields his eyes, and a sunflower faces the light."
+  },
+  {
+    "rootId": "erg",
+    "root": "erg",
+    "meaning": "work",
+    "scene": "Four people work together: one hammers iron, one rolls a wheel, one carries a basket."
+  },
+  {
+    "rootId": "sphere",
+    "root": "sphere",
+    "meaning": "ball, globe",
+    "scene": "A man pushes a large stone sphere, with smaller spheres on the ground."
+  },
+  {
+    "rootId": "gon",
+    "root": "gon",
+    "meaning": "angle, corner",
+    "scene": "One man measures a grid of triangles while another holds a set square, a pentagon between them."
+  },
+  {
+    "rootId": "aer",
+    "root": "aer",
+    "meaning": "air",
+    "scene": "Two children fly a kite while the wind lifts a cloak, flags, and leaves."
+  },
+  {
+    "rootId": "hem",
+    "root": "hem",
+    "meaning": "blood",
+    "scene": "A man holds up a vial of blood beside a seated patient and a drawing of a heart."
   }
 ]
