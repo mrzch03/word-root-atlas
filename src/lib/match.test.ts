@@ -29,7 +29,8 @@ describe('dataset', () => {
   it('keeps illustrated roots strict, and cream roots searchable without a picture', () => {
     for (const root of authored) {
       expect(root.words.length).toBeGreaterThanOrEqual(6);
-      expect(root.words.length).toBeLessThanOrEqual(12);
+      // Round 2 adds core school words (expect, objective, permission) on families already at 12.
+      expect(root.words.length).toBeLessThanOrEqual(16);
       expect(root.story.length).toBeGreaterThan(20);
       expect(root.artAlt.length).toBeGreaterThan(8);
       for (const word of root.words) {
