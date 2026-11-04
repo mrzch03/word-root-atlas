@@ -1246,5 +1246,65 @@
     "root": "phob",
     "meaning": "fear",
     "scene": "A figure leans back with raised hands as a black snake rears up."
+  },
+  {
+    "rootId": "techn",
+    "root": "techn",
+    "meaning": "art, skill, craft",
+    "scene": "A craftsman in an apron chisels a wooden plank; a mallet and tongs sit on the bench."
+  },
+  {
+    "rootId": "poli",
+    "root": "poli",
+    "meaning": "city, state",
+    "scene": "Citizens in white robes talk on a blue ground, a temple on the hill behind them."
+  },
+  {
+    "rootId": "soph",
+    "root": "soph",
+    "meaning": "wise; wisdom",
+    "scene": "A white-bearded teacher gestures to a child, an owl perched on a small column."
+  },
+  {
+    "rootId": "kine",
+    "root": "kine",
+    "meaning": "to move",
+    "scene": "A runner in a pale tunic sprints across a green ground."
+  },
+  {
+    "rootId": "derm",
+    "root": "derm",
+    "meaning": "skin",
+    "scene": "A man stretches a hide on a wooden frame."
+  },
+  {
+    "rootId": "cardi",
+    "root": "cardi",
+    "meaning": "heart",
+    "scene": "A man in a white robe holds a large red heart."
+  },
+  {
+    "rootId": "paed",
+    "root": "paed",
+    "meaning": "child",
+    "scene": "Two children roll a hoop with a stick across a blue ground."
+  },
+  {
+    "rootId": "lith",
+    "root": "lith",
+    "meaning": "stone",
+    "scene": "A man drives a chisel into a boulder, chips flying."
+  },
+  {
+    "rootId": "zo",
+    "root": "zo",
+    "meaning": "animal, living being",
+    "scene": "A man in a white robe stands beside a horse."
+  },
+  {
+    "rootId": "dynam",
+    "root": "dynam",
+    "meaning": "power, force",
+    "scene": "A man lifts a heavy weight overhead."
   }
 ]

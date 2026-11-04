@@ -191,6 +191,16 @@ export const batchIllustrated = new Set([
   'mono',
   'poly',
   'phob',
+  'techn',
+  'poli',
+  'soph',
+  'kine',
+  'derm',
+  'cardi',
+  'paed',
+  'lith',
+  'zo',
+  'dynam',
 ]);
 
 const batchAlt: Record<string, string> = {
@@ -360,6 +370,16 @@ const batchAlt: Record<string, string> = {
   mono: '一个人独自站在蓝色的地面上，手托着下巴。',
   poly: '很多人穿着不同颜色的袍子，站满了整块地面。',
   phob: '一个人举手后退，一条黑蛇在面前扬起头。',
+  techn: '工匠穿着围裙，在工作台上凿一块木板，旁边放着木槌和钳子。',
+  poli: '一群穿白袍的人在蓝色的地面上交谈，后面的山上是一座神庙。',
+  soph: '白胡子的老师坐着对一个孩子说话，旁边柱子上停着一只猫头鹰。',
+  kine: '一个穿浅色长袍的人在绿色的地面上奔跑。',
+  derm: '一个人把一张兽皮绷在木架上。',
+  cardi: '一个穿白袍的人双手捧着一颗很大的红心。',
+  paed: '两个孩子用棍子推着铁环，在蓝色的地面上跑。',
+  lith: '一个人用凿子敲开一块大石头，碎石飞起来。',
+  zo: '一个穿白袍的人站在一匹马旁边。',
+  dynam: '一个人双手举起一块很重的砝码。',
 };
 
 function originOf(language: string): Origin {
