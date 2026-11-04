@@ -231,5 +231,22 @@
  "crit": "#95223E",
  "gloss": "#5D8FBC",
  "iatr": "#BCD3C2",
- "opt": "#EE367E"
+ "opt": "#EE367E",
+ "thes": "#445894",
+ "pyr": "#D84D23",
+ "trop": "#3E9C9D",
+ "typ": "#8123C0",
+ "tax": "#417E55",
+ "tom": "#6F7A88",
+ "dox": "#7B5E96",
+ "orth": "#6793C7",
+ "homo": "#E96F88",
+ "hetero": "#B3B748",
+ "mega": "#C4356E",
+ "heli": "#BA94B5",
+ "erg": "#413E3D",
+ "sphere": "#293553",
+ "gon": "#4A3C9C",
+ "aer": "#A8C9DE",
+ "hem": "#A3201B"
 }

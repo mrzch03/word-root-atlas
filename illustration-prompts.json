@@ -1396,5 +1396,107 @@
     "root": "opt",
     "meaning": "eye, sight; seen",
     "scene": "Two figures hold crystals up to a large eye, light rays entering the pupil."
+  },
+  {
+    "rootId": "thes",
+    "root": "the",
+    "meaning": "to put, place",
+    "scene": "A man points while two others lever a column onto its base."
+  },
+  {
+    "rootId": "pyr",
+    "root": "pyr",
+    "meaning": "fire",
+    "scene": "A man tends a fire with a stick while a child holds a torch."
+  },
+  {
+    "rootId": "trop",
+    "root": "trop",
+    "meaning": "a turning",
+    "scene": "A chariot turns around a column while a child waves."
+  },
+  {
+    "rootId": "typ",
+    "root": "typ",
+    "meaning": "blow, impression, mark",
+    "scene": "A man strikes an owl coin on an anvil while another lifts one with tongs."
+  },
+  {
+    "rootId": "tax",
+    "root": "tax",
+    "meaning": "arrangement, order",
+    "scene": "A commander lines soldiers with shields into a square formation."
+  },
+  {
+    "rootId": "tom",
+    "root": "tom",
+    "meaning": "a cutting",
+    "scene": "A man cuts an apple into smaller and smaller pieces while another looks through a lens."
+  },
+  {
+    "rootId": "dox",
+    "root": "dox",
+    "meaning": "opinion, belief, glory",
+    "scene": "Two men argue, one thinking of the sun and the other of the moon."
+  },
+  {
+    "rootId": "orth",
+    "root": "orth",
+    "meaning": "straight, correct",
+    "scene": "One man ties a tree upright while another plumbs a wall."
+  },
+  {
+    "rootId": "homo",
+    "root": "homo",
+    "meaning": "same",
+    "scene": "Two boys hold matching jars, two girls wear matching dresses, and two trees match."
+  },
+  {
+    "rootId": "hetero",
+    "root": "hetero",
+    "meaning": "other, different",
+    "scene": "A stall holds jars, fruit, and cloth of different colors, and the shoppers hold different things."
+  },
+  {
+    "rootId": "mega",
+    "root": "mega",
+    "meaning": "great, large",
+    "scene": "A huge stone stands beside two tiny people and a dog."
+  },
+  {
+    "rootId": "heli",
+    "root": "heli",
+    "meaning": "sun",
+    "scene": "The sun god drives a chariot, a child shields his eyes, and a sunflower faces the light."
+  },
+  {
+    "rootId": "erg",
+    "root": "erg",
+    "meaning": "work",
+    "scene": "Four people work together: one hammers iron, one rolls a wheel, one carries a basket."
+  },
+  {
+    "rootId": "sphere",
+    "root": "sphere",
+    "meaning": "ball, globe",
+    "scene": "A man pushes a large stone sphere, with smaller spheres on the ground."
+  },
+  {
+    "rootId": "gon",
+    "root": "gon",
+    "meaning": "angle, corner",
+    "scene": "One man measures a grid of triangles while another holds a set square, a pentagon between them."
+  },
+  {
+    "rootId": "aer",
+    "root": "aer",
+    "meaning": "air",
+    "scene": "Two children fly a kite while the wind lifts a cloak, flags, and leaves."
+  },
+  {
+    "rootId": "hem",
+    "root": "hem",
+    "meaning": "blood",
+    "scene": "A man holds up a vial of blood beside a seated patient and a drawing of a heart."
   }
 ]
