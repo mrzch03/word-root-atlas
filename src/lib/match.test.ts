@@ -13,11 +13,11 @@ const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
 const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships 300 roots, all illustrated, with the original 42 still fully written', () => {
-    expect(roots.length).toBe(300);
-    expect(illustrated).toHaveLength(300);
+  it('ships 350 roots, all illustrated, with the original 42 still fully written', () => {
+    expect(roots.length).toBe(350);
+    expect(illustrated).toHaveLength(350);
     expect(authored).toHaveLength(42);
-    expect(batch).toHaveLength(258);
+    expect(batch).toHaveLength(308);
     expect(cream).toHaveLength(0);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
@@ -189,6 +189,33 @@ describe('lookup', () => {
     expect(lookup('centipede')).toMatchObject({ kind: 'word', hit: { word: 'centipede', root: { id: 'ped' } } });
     expect(lookup('centennial')).toMatchObject({ kind: 'word', hit: { word: 'centennial', root: { id: 'ann' } } });
     expect(lookup('millennium')).toMatchObject({ kind: 'word', hit: { word: 'millennium', root: { id: 'ann' } } });
+    // Ranks 301–350. Compounds already kept by an earlier root stay there.
+    expect(lookup('bellicose')).toMatchObject({ kind: 'word', hit: { word: 'bellicose', root: { id: 'bell' } } });
+    expect(lookup('library')).toMatchObject({ kind: 'word', hit: { word: 'library', root: { id: 'bibli' } } });
+    expect(lookup('octopus')).toMatchObject({ kind: 'word', hit: { word: 'octopus', root: { id: 'oct' } } });
+    expect(lookup('lunar')).toMatchObject({ kind: 'word', hit: { word: 'lunar', root: { id: 'lun' } } });
+    expect(lookup('acronym')).toMatchObject({ kind: 'word', hit: { word: 'acronym', root: { id: 'onym' } } });
+    expect(lookup('sympathy')).toMatchObject({ kind: 'word', hit: { word: 'sympathy', root: { id: 'path' } } });
+    expect(lookup('trophy')).toMatchObject({ kind: 'word', hit: { word: 'trophy', root: { id: 'trop' } } });
+    expect(lookup('prototype')).toMatchObject({ kind: 'word', hit: { word: 'prototype', root: { id: 'typ' } } });
+    expect(lookup('belligerent')).toMatchObject({ kind: 'word', hit: { word: 'belligerent', root: { id: 'gest' } } });
+    // syn is the combining prefix. Compounds whose second piece already has a root stay there.
+    expect(lookup('syn')).toMatchObject({ kind: 'root', root: { id: 'syn' } });
+    expect(lookup('symbol')).toMatchObject({ kind: 'word', hit: { word: 'symbol', root: { id: 'bol' } } });
+    expect(lookup('system')).toMatchObject({ kind: 'word', hit: { word: 'system', root: { id: 'syn' } } });
+    // feder is the treaty; fid stays trust. calculus is not a headword on numer, and calc does not take it.
+    expect(lookup('federal')).toMatchObject({ kind: 'word', hit: { word: 'federal', root: { id: 'feder' } } });
+    expect(lookup('confide')).toMatchObject({ kind: 'word', hit: { word: 'confide', root: { id: 'fid' } } });
+    expect(lookup('calculate')).toMatchObject({ kind: 'word', hit: { word: 'calculate', root: { id: 'numer' } } });
+    expect(lookup('calculus').kind).toBe('miss');
+    // Shared headwords inside 301–350: the earlier root keeps the word, unless the later id is longer and the word starts with it.
+    expect(lookup('cytoplasm')).toMatchObject({ kind: 'word', hit: { word: 'cytoplasm', root: { id: 'plas' } } });
+    expect(lookup('euphoria')).toMatchObject({ kind: 'word', hit: { word: 'euphoria', root: { id: 'phor' } } });
+    expect(lookup('phagocyte')).toMatchObject({ kind: 'word', hit: { word: 'phagocyte', root: { id: 'phag' } } });
+    expect(lookup('protoplasm')).toMatchObject({ kind: 'word', hit: { word: 'protoplasm', root: { id: 'proto' } } });
+    expect(lookup('sarcophagus')).toMatchObject({ kind: 'word', hit: { word: 'sarcophagus', root: { id: 'sarc' } } });
+    expect(lookup('mnemonic')).toMatchObject({ kind: 'word', hit: { word: 'mnemonic', root: { id: 'mem' } } });
+    expect(lookup('mnemonics')).toMatchObject({ kind: 'word', hit: { word: 'mnemonics', root: { id: 'mnem' } } });
   });
 
   it('suggests neighbours instead of dying', () => {

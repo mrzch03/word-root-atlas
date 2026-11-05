@@ -1798,5 +1798,305 @@
     "root": "long",
     "meaning": "long",
     "scene": "A road runs to the horizon, a mile marker standing beside it."
+  },
+  {
+    "rootId": "bell",
+    "root": "bell",
+    "meaning": "war",
+    "scene": "A tiny Roman war camp where two helmeted sides clash over a broken treaty scroll, a rebel banner half-raised and a fallen shield marked antebellum"
+  },
+  {
+    "rootId": "termin",
+    "root": "termin",
+    "meaning": "end, boundary",
+    "scene": "A surveyor chiselling the last numbered boundary stone at a field's edge while a clock's hands freeze at the end mark and a tape measure snaps shut"
+  },
+  {
+    "rootId": "vari",
+    "root": "vari",
+    "meaning": "change, different",
+    "scene": "A painter's tray of many differently coloured leaves spinning on a colour wheel while one blank leaf stays invariant under a glass dome"
+  },
+  {
+    "rootId": "put",
+    "root": "put",
+    "meaning": "to think, reckon, prune",
+    "scene": "A gardener pruning tangled vines into neat counted bundles while an abacus clicks beside a scroll of disputed tallies"
+  },
+  {
+    "rootId": "syn",
+    "root": "syn",
+    "meaning": "together, with",
+    "scene": "Four musicians locking steps on one shared beat-clock while puzzle pieces click into a single geometric whole"
+  },
+  {
+    "rootId": "bol",
+    "root": "bol",
+    "meaning": "to throw, put",
+    "scene": "An archer's token-halves flying to click together mid-air above a thrown puzzle-stone labelled problem, while a curved throw-line arcs past"
+  },
+  {
+    "rootId": "plas",
+    "root": "plas",
+    "meaning": "to mold, form",
+    "scene": "A sculptor's hands pressing soft clay into a clear face on a cut plinth, spare plaster molds and a tiny nose-reshaping template beside"
+  },
+  {
+    "rootId": "hod",
+    "root": "hod",
+    "meaning": "way, road",
+    "scene": "Travellers choosing among marked path-stones on a forking road while a wheeled odometer ticks and a circular period-ring closes the loop"
+  },
+  {
+    "rootId": "phan",
+    "root": "phan",
+    "meaning": "to show, appear",
+    "scene": "A translucent curtain parting to reveal a glowing figure while a magnifying lens emphasises one bright detail and a faint phantom lingers behind"
+  },
+  {
+    "rootId": "troph",
+    "root": "troph",
+    "meaning": "nourishment, growth",
+    "scene": "A wilted plant perking up as nutrient droplets feed its roots, beside an overgrown vine and a pale starved twin in one pot trio"
+  },
+  {
+    "rootId": "phor",
+    "root": "phor",
+    "meaning": "to bear, carry",
+    "scene": "A courier with two amphorae signalling with coloured flags while a glowing light-bearer jar trails sparks across the path"
+  },
+  {
+    "rootId": "phag",
+    "root": "phag",
+    "meaning": "to eat, devour",
+    "scene": "A stone coffin lid slightly ajar beside a giant cell gobbling green germs, and a wood-boring beetle mid-bite on a twig"
+  },
+  {
+    "rootId": "clar",
+    "root": "clar",
+    "meaning": "clear, bright",
+    "scene": "A speaker polishing a fogged glass plaque until the words shine, a bright lamp behind and a tiny spyglass labelled clair"
+  },
+  {
+    "rootId": "propri",
+    "root": "propri",
+    "meaning": "one's own",
+    "scene": "A landlord hanging a nameplate on his own small house while politely returning a borrowed tool and locking a labelled strongbox"
+  },
+  {
+    "rootId": "semin",
+    "root": "semin",
+    "meaning": "seed",
+    "scene": "A gardener broadcasting glowing seeds across furrowed earth while students sit in a semicircle nursery bed taking notes"
+  },
+  {
+    "rootId": "somn",
+    "root": "somn",
+    "meaning": "sleep",
+    "scene": "A night watchman nodding off on a stool while a tiny sleepwalker with outstretched arms crosses a moonlit plinth, a poppy vial dripping nearby"
+  },
+  {
+    "rootId": "veh",
+    "root": "veh",
+    "meaning": "to carry, convey",
+    "scene": "A small cart rolling along glowing direction arrows while warm air swirls upward from a brazier and a herald shouts invective from a balcony"
+  },
+  {
+    "rootId": "vag",
+    "root": "vag",
+    "meaning": "to wander",
+    "scene": "A wanderer with a staff stepping off a paved road into misty side-paths while a purse spills coins marked extra and a foggy signpost spins"
+  },
+  {
+    "rootId": "quies",
+    "root": "quies",
+    "meaning": "rest, quiet",
+    "scene": "A silent lakeside chapel with a resting figure on a bench, a closed music book marked requiem, and ripples fading to glass calm"
+  },
+  {
+    "rootId": "vir",
+    "root": "vir",
+    "meaning": "man, male; valor",
+    "scene": "Three togaed men at a shared council table planting a small virtue laurel, a training weight set aside unused"
+  },
+  {
+    "rootId": "feder",
+    "root": "feder",
+    "meaning": "league, treaty",
+    "scene": "City envoys tying coloured treaty ribbons into one braid on a shared table while miniature city models stand in a ring"
+  },
+  {
+    "rootId": "calc",
+    "root": "calc",
+    "meaning": "stone; to reckon",
+    "scene": "A scholar sliding pebble tokens on a counting board while chalk dust forms number-shapes and a small lime crystal glows"
+  },
+  {
+    "rootId": "acro",
+    "root": "acro",
+    "meaning": "tip, high, extreme",
+    "scene": "A tiny acrobat balancing on a pointed pinnacle above a miniature high-city, letter-tiles stacking into an acronym tower"
+  },
+  {
+    "rootId": "alg",
+    "root": "alg",
+    "meaning": "pain",
+    "scene": "A patient holding a glowing pain-spot on the temple while a nurse offers a small vial, a tiny homesick suitcase open beside the couch"
+  },
+  {
+    "rootId": "cyt",
+    "root": "cyt",
+    "meaning": "cell, hollow vessel",
+    "scene": "A cut-open translucent cell globe revealing busy organelles, tiny red and white bead-cells orbiting outside"
+  },
+  {
+    "rootId": "bibli",
+    "root": "bibli",
+    "meaning": "book",
+    "scene": "A book-lover hugging a tall stack of scrolls while writing a title list, a miniature temple-library behind"
+  },
+  {
+    "rootId": "esthes",
+    "root": "esthes",
+    "meaning": "feeling, perception",
+    "scene": "A museum-goer dazzled by a glowing art panel while a surgeon's quiet mask and a colour-sound swirl hint at lost and mixed senses"
+  },
+  {
+    "rootId": "eu",
+    "root": "eu",
+    "meaning": "good, well",
+    "scene": "A speaker swapping a harsh stone word-tablet for a soft glowing one while a small 'eureka' lamp lights and sweet-sound waves ripple"
+  },
+  {
+    "rootId": "mnem",
+    "root": "mnem",
+    "meaning": "memory",
+    "scene": "A student tying a glowing memory-thread around a finger while forgotten scraps dissolve into fog and a tiny goddess figure holds a recall scroll"
+  },
+  {
+    "rootId": "ton",
+    "root": "ton",
+    "meaning": "tone, stretch, tension",
+    "scene": "A lyre string being tightened to glow brighter in pitch while a singer holds a tone and a tuning fork vibrates beside"
+  },
+  {
+    "rootId": "proto",
+    "root": "proto",
+    "meaning": "first, primary",
+    "scene": "A lead actor stepping onto a first-page scroll carpet while a glowing first-particle bead and a sealed procedure ribbon wait at the stage edge"
+  },
+  {
+    "rootId": "sarc",
+    "root": "sarc",
+    "meaning": "flesh",
+    "scene": "A sharp-tongued mask biting a strip of cloth-flesh beside a stone coffin and a labelled flesh-sample jar on a clinic shelf"
+  },
+  {
+    "rootId": "drom",
+    "root": "drom",
+    "meaning": "run, course",
+    "scene": "Horses and a dromedary racing a circular track while mirrored letter-gates read the same both ways and symptom-flags run in together"
+  },
+  {
+    "rootId": "gam",
+    "root": "gam",
+    "meaning": "marriage",
+    "scene": "Two wedding rings linking, then a third ring trying to join while tiny gamete-beads pair under a microscope lens"
+  },
+  {
+    "rootId": "mim",
+    "root": "mim",
+    "meaning": "to imitate",
+    "scene": "A white-faced mime mirroring a bird's pose while a butterfly shows eye-spot mimicry on its wings and a small press copies a page"
+  },
+  {
+    "rootId": "foli",
+    "root": "foli",
+    "meaning": "leaf",
+    "scene": "A binder of leaf-shaped pages opening as real leaves peel from a branch into the case, a trefoil emblem on the cover"
+  },
+  {
+    "rootId": "andr",
+    "root": "andr",
+    "meaning": "man, male",
+    "scene": "A smooth man-shaped automaton standing between male and female statue halves that fuse at the centre, a small hormone vial at its feet"
+  },
+  {
+    "rootId": "lun",
+    "root": "lun",
+    "meaning": "moon",
+    "scene": "A crescent moon lamp lighting a night terrace where a figure points at a lunate scar, tide marks rising on a mini shore"
+  },
+  {
+    "rootId": "tim",
+    "root": "tim",
+    "meaning": "to fear",
+    "scene": "A small figure shrinking behind a column while a towering speaker shakes a finger, a trembling leaf shield in the figure's hands"
+  },
+  {
+    "rootId": "tenu",
+    "root": "tenu",
+    "meaning": "thin, stretched thin",
+    "scene": "A glassblower drawing glass into an ultra-thin thread that nearly snaps, a dimmed signal lamp showing attenuation"
+  },
+  {
+    "rootId": "fum",
+    "root": "fum",
+    "meaning": "smoke, vapor",
+    "scene": "A priest waving a smoking censer through grain sacks while a perfume vial catches a ribbon of scent-smoke"
+  },
+  {
+    "rootId": "grand",
+    "root": "grand",
+    "meaning": "great, large",
+    "scene": "A tiny visitor dwarfed by an oversized columned facade, a sculptor chiselling the pediment, a hot-air bubble of empty show floating off"
+  },
+  {
+    "rootId": "trem",
+    "root": "trem",
+    "meaning": "to tremble",
+    "scene": "A table shaking as concentric ripples run through a wine glass, a seismograph needle scribbling beside a tiny frightened mouse"
+  },
+  {
+    "rootId": "proxim",
+    "root": "proxim",
+    "meaning": "nearest",
+    "scene": "Two measuring rods almost touching at a bullseye while a third rod stands far off, a label reading 'nearest' on the close pair"
+  },
+  {
+    "rootId": "plan",
+    "root": "plan",
+    "meaning": "flat, level",
+    "scene": "An architect rolling a flat blueprint across a level terrace while a small plane-tool shaves a board smooth and a plain stretches beyond"
+  },
+  {
+    "rootId": "null",
+    "root": "null",
+    "meaning": "none, not any",
+    "scene": "A judge stamping VOID on a contract while numbers on a slate wipe to zero and an empty set-circle sits on the desk"
+  },
+  {
+    "rootId": "oct",
+    "root": "oct",
+    "meaning": "eight",
+    "scene": "An eight-armed octopus curling around an eight-sided gem while eight tiny musicians sit in a ring"
+  },
+  {
+    "rootId": "quadr",
+    "root": "quadr",
+    "meaning": "four",
+    "scene": "A four-footed animal stepping through four pie-slices of a circle inscribed in a square, four musicians in the corners"
+  },
+  {
+    "rootId": "semi",
+    "root": "semi",
+    "meaning": "half",
+    "scene": "A circle cut cleanly in half on the plinth, a punctuation mark glowing at the cut, a finish-line ribbon marked semi-final beyond"
+  },
+  {
+    "rootId": "digit",
+    "root": "digit",
+    "meaning": "finger, toe; numeral",
+    "scene": "A hand pressing glowing 0–9 beads while a magician's quick fingers shuffle cards into pixel squares"
   }
 ]
