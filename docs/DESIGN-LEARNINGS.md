@@ -134,3 +134,7 @@ New acceptance test, user-approved: guess the meaning from the picture alone, wi
 ## v10 — three hundred cards
 
 Three hundred roots have a picture. A global OKLab gap of 0.07 between every pair no longer fits on one hue-sorted wall. What still matters is the neighbour you actually see, and that two cards from the same batch can be told apart. Batches 19 and 20 (ranks 251–300) follow that narrower rule. Their floor colours are the measured accents. They are not pushed off those hues to clear every earlier card. The closest new pairs sit near an existing swatch (firm beside crypt, merc beside sign) or inside the batch (civ beside electr). The first forty-two hues stay where they were.
+
+## v11 — three hundred and fifty cards
+
+Ranks 301–350 keep the same floor. The colour is a muted mid-chroma block, readable on the card and quiet in the stack, not a shout. The hues are the measured floor accents. They are not pushed apart to clear every earlier swatch. The acceptance test is unchanged: guess the meaning from the picture alone, without the caption.

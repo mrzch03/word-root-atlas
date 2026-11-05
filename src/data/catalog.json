@@ -2,8 +2,8 @@
  "meta": {
   "title": "词根图鉴 Word Root Atlas — core roots v1",
   "generated": "2026-10-26",
-  "count": 300,
-  "fullRecords": 170,
+  "count": 350,
+  "fullRecords": 220,
   "lightRecords": 130,
   "ranking": "Editorial ranking by productivity in CET/IELTS/GRE/SAT vocabulary (not corpus-computed).",
   "notes": [
@@ -12,7 +12,8 @@
    "Sources: per-root Etymonline word pages, Wiktionary lemma pages and Logeion (aggregates Lewis & Short / LSJ), plus the Wikipedia root list. URLs are constructed from headwords; a sample was opened and checked, not all of them.",
    "Any claim that is legendary, disputed or uncertain is marked in the uncertainty field and hedged in the story text (据说/传说/可能).",
    "Germanic/Old English roots were not included: native English words rarely form transparent root families comparable to Latin/Greek.",
-   "Ranks 251–300 are full records (2026-11-05). Wordbank headwords are merged into derivedWords, capped at 20. A headword already kept by an earlier root stays there; millimetre is an alias of millimeter."
+   "Ranks 251–300 are full records (2026-11-05). Wordbank headwords are merged into derivedWords, capped at 20. A headword already kept by an earlier root stays there; millimetre is an alias of millimeter.",
+   "Ranks 301–350 are full records (2026-11-05). Wordbank headwords are merged into derivedWords, capped at 20. A headword already kept by an earlier root stays there. Inside this batch, cytoplasm, euphoria, and phagocyte stay with the earlier root; protoplasm moves to proto and sarcophagus to sarc, because that later id is longer and the word starts with it. library is filed on bibli so a search for the book card resolves, with the Latin liber distinction kept in uncertainty."
   ]
  },
  "roots": [
@@ -41525,6 +41526,4742 @@
     "https://www.etymonline.com/word/longevity",
     "https://en.wiktionary.org/wiki/longus#Latin",
     "https://logeion.uchicago.edu/longus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 301,
+   "id": "bell",
+   "root": "bell",
+   "forms": [
+    "bell",
+    "beli"
+   ],
+   "language": "Latin",
+   "sourceWord": "bellum",
+   "meaning": {
+    "en": "war",
+    "zh": "战争"
+   },
+   "originStory": "拉丁语 bellum 意为「战争」。bellicose 是「好战的」，rebel 是「再起战争、反叛」，rebellion 是「叛乱」，antebellum 是「战前的」（常指美国内战前），postbellum 是「战后的」。据说同一词源的古变体 duellum 演变成英语 duel「决斗」。belligerent「交战的」在旧目录里被归入 gest「进行」，本条不抢。画面用对垒军营与半扬的反叛旗，让人一眼读出「打仗」。英语里这一词族多经法语或直接拉丁进入学校词汇，是 SAT／GRE 里认「战争义」的高频线索。看到 bell／beli，先往「打仗、敌对、叛乱」上想，再结合前缀判断时间或态度。",
+   "uncertainty": "duel 经中世纪拉丁 duellum（bellum 的古变体），属间接继承（Etymonline）。",
+   "derivedWords": [
+    {
+     "word": "bellicose",
+     "zh": "好战的",
+     "breakdown": "bell(战争)+-icose"
+    },
+    {
+     "word": "rebel",
+     "zh": "反叛；反叛者",
+     "breakdown": "re-(再)+bel(战争)"
+    },
+    {
+     "word": "rebellion",
+     "zh": "叛乱",
+     "breakdown": "re-+bel+-ion"
+    },
+    {
+     "word": "antebellum",
+     "zh": "战前的",
+     "breakdown": "ante-(前)+bell(战争)+-um"
+    },
+    {
+     "word": "postbellum",
+     "zh": "战后的",
+     "breakdown": "post-(后)+bell+-um"
+    },
+    {
+     "word": "bellicosity",
+     "zh": "好战性",
+     "breakdown": "bell+-icosity"
+    },
+    {
+     "word": "casus belli",
+     "zh": "开战理由",
+     "breakdown": "casus(事件)+belli(战争的)"
+    },
+    {
+     "word": "rebellious",
+     "zh": "反叛的",
+     "breakdown": "re-+bel+-ious"
+    },
+    {
+     "word": "bellicism",
+     "zh": "好战主义",
+     "breakdown": "bell+-icism"
+    },
+    {
+     "word": "bellipotent",
+     "zh": "强于战事的",
+     "breakdown": "belli+pot(能)+-ent"
+    }
+   ],
+   "example": {
+    "en": "The rebel leaders were labelled belligerent by both sides.",
+    "zh": "双方都把反叛首领说成好战分子。"
+   },
+   "illustration": {
+    "scene": "A tiny Roman war camp where two helmeted sides clash over a broken treaty scroll, a rebel banner half-raised and a fallen shield marked antebellum",
+    "dominantHue": {
+     "name": " induct indigo",
+     "rationale": "战场烟尘与军旗的压抑红紫，避开血红 hem"
+    },
+    "props": [
+     "clashing tiny helmets",
+     "broken treaty scroll",
+     "half-raised rebel banner"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/bellicose",
+    "https://www.etymonline.com/word/rebel",
+    "https://www.etymonline.com/word/rebellion",
+    "https://en.wiktionary.org/wiki/bellum",
+    "https://logeion.uchicago.edu/bellum",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 302,
+   "id": "termin",
+   "root": "termin",
+   "forms": [
+    "termin",
+    "term"
+   ],
+   "language": "Latin",
+   "sourceWord": "terminus",
+   "meaning": {
+    "en": "end, boundary",
+    "zh": "界限，末端"
+   },
+   "originStory": "拉丁语 terminus 是「界石、终点」，罗马人把界神 Terminus 立在地界上。terminal 是「终点的／终端」，terminate 是「使终止」，determine 是「划定界限从而断定」，exterminate 是「赶出边界之外、灭绝」，interminable 是「没有尽头的」，terminology 是「把含义限定清楚的术语系统」。界石、停住的表针和收起的卷尺，对应「到此为止」。学测里 determine／terminal／terminate 几乎必遇：共同画面是「画下界线、走到尽头」。exterminate 把对象推出界外，interminable 则是界线迟迟不出现。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "terminal",
+     "zh": "终点的；终端",
+     "breakdown": "termin(界限)+-al"
+    },
+    {
+     "word": "terminate",
+     "zh": "终止",
+     "breakdown": "termin+-ate"
+    },
+    {
+     "word": "termination",
+     "zh": "终止；结局",
+     "breakdown": "termin+-ation"
+    },
+    {
+     "word": "determine",
+     "zh": "决定；断定",
+     "breakdown": "de-(完全)+termin(界限)"
+    },
+    {
+     "word": "exterminate",
+     "zh": "灭绝",
+     "breakdown": "ex-(出)+termin(边界)"
+    },
+    {
+     "word": "interminable",
+     "zh": "没完没了的",
+     "breakdown": "in-(无)+termin+-able"
+    },
+    {
+     "word": "terminus",
+     "zh": "终点；终点站",
+     "breakdown": "termin(界限)"
+    },
+    {
+     "word": "terminology",
+     "zh": "术语",
+     "breakdown": "termin(限定)+-ology"
+    },
+    {
+     "word": "predetermine",
+     "zh": "预先决定",
+     "breakdown": "pre-+de-+termin"
+    },
+    {
+     "word": "determinant",
+     "zh": "决定因素",
+     "breakdown": "de-+termin+-ant"
+    }
+   ],
+   "example": {
+    "en": "They agreed to terminate the interminable debate at the terminus.",
+    "zh": "他们同意在终点站结束这场没完没了的争论。"
+   },
+   "illustration": {
+    "scene": "A surveyor chiselling the last numbered boundary stone at a field's edge while a clock's hands freeze at the end mark and a tape measure snaps shut",
+    "dominantHue": {
+     "name": "雾青 mist teal",
+     "rationale": "界石与终点的冷静金属蓝"
+    },
+    "props": [
+     "chiselled boundary stone",
+     "frozen clock hands",
+     "snapping tape measure"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/terminal",
+    "https://www.etymonline.com/word/terminate",
+    "https://www.etymonline.com/word/termination",
+    "https://en.wiktionary.org/wiki/terminus",
+    "https://logeion.uchicago.edu/terminus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 303,
+   "id": "vari",
+   "root": "vari",
+   "forms": [
+    "vari"
+   ],
+   "language": "Latin",
+   "sourceWord": "varius / variāre",
+   "meaning": {
+    "en": "change, different",
+    "zh": "变化，不同"
+   },
+   "originStory": "拉丁语 varius 意为「斑驳的、多样的」，动词 variāre 是「使变化」。vary 是「变化」，various 是「各种各样的」，variety 是「多样性」，variable 是「可变的／变量」，invariant 是「不变的」，variant 是「变体」，variegated 是「斑驳的」。调色盘上许多颜色的叶子转着，一只罩在玻璃罩里的空白叶不变，对照出「变」与「不变」。见到 vari／vary，优先想「不一样、会变」：variety 是种类多，variable 是会变的量，invariant 是说什么都不让它变。自然科学与作文里都极常用。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "vary",
+     "zh": "变化",
+     "breakdown": "vari(变化)"
+    },
+    {
+     "word": "various",
+     "zh": "各种各样的",
+     "breakdown": "vari+-ous"
+    },
+    {
+     "word": "variety",
+     "zh": "多样性；品种",
+     "breakdown": "vari+-ety"
+    },
+    {
+     "word": "variable",
+     "zh": "可变的；变量",
+     "breakdown": "vari+-able"
+    },
+    {
+     "word": "invariant",
+     "zh": "不变的",
+     "breakdown": "in-(不)+vari+-ant"
+    },
+    {
+     "word": "variant",
+     "zh": "变体",
+     "breakdown": "vari+-ant"
+    },
+    {
+     "word": "variance",
+     "zh": "差异；方差",
+     "breakdown": "vari+-ance"
+    },
+    {
+     "word": "variegated",
+     "zh": "斑驳的",
+     "breakdown": "vari+-egated"
+    },
+    {
+     "word": "invariable",
+     "zh": "不变的",
+     "breakdown": "in-+vari+-able"
+    },
+    {
+     "word": "variation",
+     "zh": "变化；变奏",
+     "breakdown": "vari+-ation"
+    }
+   ],
+   "example": {
+    "en": "The garden shows a variety of variegated leaves.",
+    "zh": "花园里展现出多种多样的斑驳叶片。"
+   },
+   "illustration": {
+    "scene": "A painter's tray of many differently coloured leaves spinning on a colour wheel while one blank leaf stays invariant under a glass dome",
+    "dominantHue": {
+     "name": "雾紫 mist violet",
+     "rationale": "斑驳多样的冷紫，避开桃金"
+    },
+    "props": [
+     "multicolour leaf tray",
+     "spinning colour wheel",
+     "glass-domed blank leaf"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/vary",
+    "https://www.etymonline.com/word/various",
+    "https://www.etymonline.com/word/variety",
+    "https://en.wiktionary.org/wiki/varius",
+    "https://logeion.uchicago.edu/varius",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 304,
+   "id": "put",
+   "root": "put",
+   "forms": [
+    "put",
+    "putat"
+   ],
+   "language": "Latin",
+   "sourceWord": "putāre",
+   "meaning": {
+    "en": "to think, reckon, prune",
+    "zh": "思考，计算；修剪"
+   },
+   "originStory": "拉丁语 putāre 本义是「修剪树枝」，引申为「清理思路、计算、认为」。compute 是「一起计算」，reputation 是「反复被评价后的名声」，dispute 是「各持己见地争论」，putative 是「被假定的」，amputate 是「修剪掉、截肢」，impute 是「归到某人头上」，deputy 是「被指定代理的人」。园丁修剪与算盘并置，兼顾「剪」与「算」两义。compute／dispute／reputation 看起来散，其实都扣着 putāre 的「算计、认定」。amputate 保留了更古老的「剪掉」义，是记忆时很好用的具体锚点。",
+   "uncertainty": "从「修剪」到「思考」的语义链见于古典辞书，英语义项经法语传入。",
+   "derivedWords": [
+    {
+     "word": "compute",
+     "zh": "计算",
+     "breakdown": "com-(一起)+put(计算)"
+    },
+    {
+     "word": "computer",
+     "zh": "计算机",
+     "breakdown": "com-+put+-er"
+    },
+    {
+     "word": "reputation",
+     "zh": "名声",
+     "breakdown": "re-(再)+put(评价)+-ation"
+    },
+    {
+     "word": "dispute",
+     "zh": "争论",
+     "breakdown": "dis-(分开)+put(认为)"
+    },
+    {
+     "word": "putative",
+     "zh": "推定的",
+     "breakdown": "putat(认为)+-ive"
+    },
+    {
+     "word": "amputate",
+     "zh": "截肢",
+     "breakdown": "am-(离)+put(修剪)+-ate"
+    },
+    {
+     "word": "impute",
+     "zh": "归咎于",
+     "breakdown": "im-(入)+put(认为)"
+    },
+    {
+     "word": "deputy",
+     "zh": "代理人",
+     "breakdown": "de-(离开)+put(指定)"
+    },
+    {
+     "word": "repute",
+     "zh": "名声；据称",
+     "breakdown": "re-+put"
+    },
+    {
+     "word": "undisputed",
+     "zh": "无可争议的",
+     "breakdown": "un-+dis-+put+-ed"
+    }
+   ],
+   "example": {
+    "en": "The putative expert could not compute the risk.",
+    "zh": "这位所谓的专家算不出风险。"
+   },
+   "illustration": {
+    "scene": "A gardener pruning tangled vines into neat counted bundles while an abacus clicks beside a scroll of disputed tallies",
+    "dominantHue": {
+     "name": "雾蓝 mist blue",
+     "rationale": "修剪与算筹的沉稳绿灰"
+    },
+    "props": [
+     "pruning shears and vine bundles",
+     "clicking abacus",
+     "scroll of disputed tallies"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/compute",
+    "https://www.etymonline.com/word/computer",
+    "https://www.etymonline.com/word/reputation",
+    "https://en.wiktionary.org/wiki/putāre",
+    "https://logeion.uchicago.edu/putare",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 305,
+   "id": "syn",
+   "root": "syn",
+   "forms": [
+    "syn",
+    "sym",
+    "syl",
+    "sys"
+   ],
+   "language": "Greek",
+   "sourceWord": "σύν (syn)",
+   "meaning": {
+    "en": "together, with",
+    "zh": "共同，一起"
+   },
+   "originStory": "希腊语 σύν（syn）意为「一起、与」，是极高产的结合前缀：在 b/m/l/s 前常同化成 sym、syl、sys。system 是「放在一起的整体」，syllable 是「字母取在一起」，synagogue 是「聚到一起」，symposium 原指「一起饮酒的聚会」。许多复合词的第二词根已被更早条目占用（如 sympathy→path），本条收 syn 族自立词如 syndicate、synapse、systematic。四人合拍与拼图成整体，读出「共同」。把 syn／sym／syl／sys 记成「绑在一起」：system 是整体，synapse 是接头，syndicate 是联合体。遇到生词先拆前缀，再看后半词根。",
+   "uncertainty": "作结合前缀而非独立动词词根；大量复合词的第二成分已被更早词根占用（如 sympathy→path），本条保留 syn 族自立词。",
+   "derivedWords": [
+    {
+     "word": "system",
+     "zh": "系统",
+     "breakdown": "sys+stem(站立)"
+    },
+    {
+     "word": "syllable",
+     "zh": "音节",
+     "breakdown": "syl+lable(取)"
+    },
+    {
+     "word": "synagogue",
+     "zh": "犹太会堂",
+     "breakdown": "syn+agogue(引导)"
+    },
+    {
+     "word": "symposium",
+     "zh": "专题讨论会",
+     "breakdown": "sym+posium(饮)"
+    },
+    {
+     "word": "syndicate",
+     "zh": "辛迪加；财团",
+     "breakdown": "syn+dicate"
+    },
+    {
+     "word": "syncretic",
+     "zh": "融合的",
+     "breakdown": "syn+cret+-ic"
+    },
+    {
+     "word": "synapse",
+     "zh": "突触",
+     "breakdown": "syn+apse(触)"
+    },
+    {
+     "word": "synergistic",
+     "zh": "协同的",
+     "breakdown": "syn+erg+-istic"
+    },
+    {
+     "word": "synecdoche",
+     "zh": "提喻",
+     "breakdown": "syn+ecdoche"
+    },
+    {
+     "word": "syncopate",
+     "zh": "切分",
+     "breakdown": "syn+cop+-ate"
+    },
+    {
+     "word": "systematic",
+     "zh": "系统的",
+     "breakdown": "system+-atic"
+    },
+    {
+     "word": "systematize",
+     "zh": "系统化",
+     "breakdown": "system+-atize"
+    },
+    {
+     "word": "systole",
+     "zh": "心缩期",
+     "breakdown": "sys+tole(收缩)"
+    },
+    {
+     "word": "systemic",
+     "zh": "全身的；系统的",
+     "breakdown": "system+-ic"
+    },
+    {
+     "word": "syllabify",
+     "zh": "分音节",
+     "breakdown": "syllab+-ify"
+    },
+    {
+     "word": "synodal",
+     "zh": "会议的",
+     "breakdown": "synod+-al"
+    },
+    {
+     "word": "syncline",
+     "zh": "向斜",
+     "breakdown": "syn+cline(斜)"
+    },
+    {
+     "word": "sync",
+     "zh": "同步",
+     "breakdown": "sync←synchron"
+    }
+   ],
+   "example": {
+    "en": "The symphony and the symposium both need sympathy and synchrony.",
+    "zh": "交响乐与研讨会都需要共鸣与同步。"
+   },
+   "illustration": {
+    "scene": "Four musicians locking steps on one shared beat-clock while puzzle pieces click into a single geometric whole",
+    "dominantHue": {
+     "name": "灰绿 grey-green",
+     "rationale": "合奏与拼合的深靛蓝"
+    },
+    "props": [
+     "shared beat-clock",
+     "four stepping musicians",
+     "clicking puzzle whole"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/system",
+    "https://www.etymonline.com/word/syllable",
+    "https://www.etymonline.com/word/synagogue",
+    "https://en.wiktionary.org/wiki/σύν",
+    "https://logeion.uchicago.edu/σύν",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 306,
+   "id": "bol",
+   "root": "bol",
+   "forms": [
+    "bol",
+    "bal",
+    "bl"
+   ],
+   "language": "Greek",
+   "sourceWord": "βάλλειν (ballein)",
+   "meaning": {
+    "en": "to throw, put",
+    "zh": "投，掷"
+   },
+   "originStory": "希腊语 βάλλειν 意为「投、掷」。symbol 是「把两半信物投合在一起」，hyperbole 是「向上抛出的夸张」，metabolism 是「抛过去的变化、新陈代谢」，parable 是「旁边投下的比方」，problem 是「向前抛出的难题」，ballistic 是「弹道的」，diabolic 字面是「对掷、中伤」，后指魔鬼的。飞合的信物与抛出的难题石，紧扣「投掷」。bol／ball／blem 这一串在阅读里超高产：problem 是丢到你面前的题，symbol 是投合的记号，hyperbole 是扔过了头。抓住「抛出去」就能串起来。",
+   "uncertainty": "devil/diabolic 经教会拉丁 diabulus，语义有宗教层引申。",
+   "derivedWords": [
+    {
+     "word": "symbol",
+     "zh": "象征；符号",
+     "breakdown": "sym(一起)+bol(投)"
+    },
+    {
+     "word": "hyperbole",
+     "zh": "夸张",
+     "breakdown": "hyper(上)+bol(投)"
+    },
+    {
+     "word": "metabolism",
+     "zh": "新陈代谢",
+     "breakdown": "meta(变)+bol(投)+-ism"
+    },
+    {
+     "word": "parable",
+     "zh": "寓言",
+     "breakdown": "para(旁)+bol(投)"
+    },
+    {
+     "word": "problem",
+     "zh": "问题",
+     "breakdown": "pro(前)+bl(投)"
+    },
+    {
+     "word": "ballistic",
+     "zh": "弹道的",
+     "breakdown": "bal(投)+-istic"
+    },
+    {
+     "word": "diabolic",
+     "zh": "恶魔般的",
+     "breakdown": "dia(对)+bol(投)+-ic"
+    },
+    {
+     "word": "embolism",
+     "zh": "栓塞",
+     "breakdown": "em-(入)+bol(投)+-ism"
+    },
+    {
+     "word": "parabola",
+     "zh": "抛物线",
+     "breakdown": "para+bol(投)+-a"
+    },
+    {
+     "word": "hyperbolic",
+     "zh": "双曲线的；夸张的",
+     "breakdown": "hyper+bol+-ic"
+    }
+   ],
+   "example": {
+    "en": "The parable used hyperbole as a symbol of the problem.",
+    "zh": "这则寓言用夸张手法象征那个难题。"
+   },
+   "illustration": {
+    "scene": "An archer's token-halves flying to click together mid-air above a thrown puzzle-stone labelled problem, while a curved throw-line arcs past",
+    "dominantHue": {
+     "name": "石板蓝 slate blue",
+     "rationale": "投掷弧线的冷青"
+    },
+    "props": [
+     "flying token-halves",
+     "thrown puzzle-stone",
+     "curved throw-line arc"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/symbol",
+    "https://www.etymonline.com/word/hyperbole",
+    "https://www.etymonline.com/word/metabolism",
+    "https://en.wiktionary.org/wiki/βάλλειν",
+    "https://logeion.uchicago.edu/βάλλειν",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 307,
+   "id": "plas",
+   "root": "plas",
+   "forms": [
+    "plas",
+    "plast",
+    "plasm"
+   ],
+   "language": "Greek",
+   "sourceWord": "πλάσσειν (plassein)",
+   "meaning": {
+    "en": "to mold, form",
+    "zh": "塑造"
+   },
+   "originStory": "希腊语 πλάσσειν 意为「揉塑、成形」。plastic 本义是「可塑的」，后也指塑料；plasma 是「被塑造之物／血浆」；plaster 是「塑形的灰泥」；protoplasm 是「最初的成形物」；cytoplasm 是「细胞的成形质」；rhinoplasty 是「鼻的成形术」。双手把软泥按成人脸，旁边是石膏模与改鼻模板，直接说「塑造」。plastic／plasma／-plasty 都在说「可被揉成形」。医学里的 -plasty 是成形术，生物学里的 -plasm 是成形的质料，日常 plastic 则从「可塑」走到了「塑料」。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "plastic",
+     "zh": "塑料；可塑的",
+     "breakdown": "plast(塑造)+-ic"
+    },
+    {
+     "word": "plasma",
+     "zh": "血浆；等离子体",
+     "breakdown": "plasm(塑造物)"
+    },
+    {
+     "word": "plaster",
+     "zh": "灰泥；石膏",
+     "breakdown": "plast(塑造)+-er"
+    },
+    {
+     "word": "cytoplasm",
+     "zh": "细胞质",
+     "breakdown": "cyto(细胞)+plasm"
+    },
+    {
+     "word": "rhinoplasty",
+     "zh": "鼻成形术",
+     "breakdown": "rhino(鼻)+plasty(成形)"
+    },
+    {
+     "word": "plasticity",
+     "zh": "可塑性",
+     "breakdown": "plast+-icity"
+    },
+    {
+     "word": "cataplasm",
+     "zh": "糊剂",
+     "breakdown": "cata(下)+plasm"
+    },
+    {
+     "word": "plasticine",
+     "zh": "橡皮泥",
+     "breakdown": "plast+-icine"
+    }
+   ],
+   "example": {
+    "en": "The sculptor praised the plasticity of the fresh plaster.",
+    "zh": "雕塑家称赞新鲜灰泥的可塑性。"
+   },
+   "illustration": {
+    "scene": "A sculptor's hands pressing soft clay into a clear face on a cut plinth, spare plaster molds and a tiny nose-reshaping template beside",
+    "dominantHue": {
+     "name": "暮青 dusk cyan",
+     "rationale": "灰泥与塑形的中性冷灰"
+    },
+    "props": [
+     "pressing clay face",
+     "spare plaster molds",
+     "nose-reshaping template"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/plastic",
+    "https://www.etymonline.com/word/plasma",
+    "https://www.etymonline.com/word/plaster",
+    "https://en.wiktionary.org/wiki/πλάσσειν",
+    "https://logeion.uchicago.edu/πλάσσειν",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 308,
+   "id": "hod",
+   "root": "hod",
+   "forms": [
+    "hod",
+    "od",
+    "odo"
+   ],
+   "language": "Greek",
+   "sourceWord": "ὁδός (hodos)",
+   "meaning": {
+    "en": "way, road",
+    "zh": "道路"
+   },
+   "originStory": "希腊语 ὁδός 意为「路、方法」。method 是「沿着一条路去追」，period 是「走一圈回来的周期」，exodus 是「走出去的路」，synod 是「走到一起的会议」，episode 是「额外插进来的一段路」，cathode／anode 是电流的「下路／上路」。odometer「里程表」已被 meter 占用。岔路路标与一圈闭合的周期环，读出「道路／路线」。method／period／exodus 都是「走路」的隐喻：按路径做叫方法，走一圈回来叫周期，集体上路离开叫出走。看到 -od／-hod／-ode 不妨先问「这是哪条路」。",
+   "uncertainty": "anode/cathode 的 hod 成分经 ion 术语固定；日常词以 method、period、exodus 最透明。",
+   "derivedWords": [
+    {
+     "word": "method",
+     "zh": "方法",
+     "breakdown": "met(a)(沿)+hod(路)"
+    },
+    {
+     "word": "period",
+     "zh": "周期；句号",
+     "breakdown": "peri(周围)+od(路)"
+    },
+    {
+     "word": "exodus",
+     "zh": "出走；出埃及记",
+     "breakdown": "ex-(出)+od(路)"
+    },
+    {
+     "word": "synod",
+     "zh": "会议",
+     "breakdown": "syn(一起)+od(路)"
+    },
+    {
+     "word": "episode",
+     "zh": "插曲；一集",
+     "breakdown": "epi(额外)+isod(路)"
+    },
+    {
+     "word": "cathode",
+     "zh": "阴极",
+     "breakdown": "cata(下)+hod(路)"
+    },
+    {
+     "word": "anode",
+     "zh": "阳极",
+     "breakdown": "ana(上)+hod(路)"
+    },
+    {
+     "word": "periodic",
+     "zh": "周期的",
+     "breakdown": "peri+od+-ic"
+    },
+    {
+     "word": "methodology",
+     "zh": "方法论",
+     "breakdown": "method+-ology"
+    }
+   ],
+   "example": {
+    "en": "Their method mapped each period of the exodus route.",
+    "zh": "他们的方法标出了出走路线的每一个周期。"
+   },
+   "illustration": {
+    "scene": "Travellers choosing among marked path-stones on a forking road while a wheeled odometer ticks and a circular period-ring closes the loop",
+    "dominantHue": {
+     "name": "暗绛 dusk magenta",
+     "rationale": "路标与里程的冷静石板蓝"
+    },
+    "props": [
+     "forking path-stones",
+     "ticking wheeled odometer",
+     "circular period-ring"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/method",
+    "https://www.etymonline.com/word/period",
+    "https://www.etymonline.com/word/exodus",
+    "https://en.wiktionary.org/wiki/ὁδός",
+    "https://logeion.uchicago.edu/ὁδός",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 309,
+   "id": "phan",
+   "root": "phan",
+   "forms": [
+    "phan",
+    "phen",
+    "pha"
+   ],
+   "language": "Greek",
+   "sourceWord": "φαίνειν (phainein)",
+   "meaning": {
+    "en": "to show, appear",
+    "zh": "显现"
+   },
+   "originStory": "希腊语 φαίνειν 意为「使显现、发光」。phantom 是「显现的影像」，phenomenon 是「显现出来的事物」，epiphany 是「突然显现的领悟」，fantasy／fancy 是「想象中的显现」，diaphanous 是「能透过去看见的」，emphasis 是「显出来强调」。sycophant 词源有争议，据说与「显示无花果」的告密习俗有关。半透明帘揭开光影，对应「显现」。phan／phen／pha 管「露出来」：phenomenon 是显现的事，phantom 是虚影，epiphany 是猛地亮出来的领悟。emphasis 也是把某一点显出来。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "sycophant 词源有争议，常用「无花果告密者」之说（Etymonline 标 uncertain）。",
+   "derivedWords": [
+    {
+     "word": "phantom",
+     "zh": "幻影",
+     "breakdown": "phan(显现)+-tom"
+    },
+    {
+     "word": "phenomenon",
+     "zh": "现象",
+     "breakdown": "phen(显现)+-omenon"
+    },
+    {
+     "word": "epiphany",
+     "zh": "顿悟；显现",
+     "breakdown": "epi(上)+phan(显现)+-y"
+    },
+    {
+     "word": "fantasy",
+     "zh": "幻想",
+     "breakdown": "fant(显现)+-asy"
+    },
+    {
+     "word": "fancy",
+     "zh": "想象；爱好",
+     "breakdown": "fan(c)y←fantasy"
+    },
+    {
+     "word": "diaphanous",
+     "zh": "半透明的",
+     "breakdown": "dia(穿过)+phan+-ous"
+    },
+    {
+     "word": "emphasis",
+     "zh": "强调",
+     "breakdown": "em-(入)+pha(显现)+-sis"
+    },
+    {
+     "word": "sycophant",
+     "zh": "谄媚者",
+     "breakdown": "syco(无花果)+phan(显示)"
+    },
+    {
+     "word": "phase",
+     "zh": "阶段；相",
+     "breakdown": "pha(显现)+-se"
+    },
+    {
+     "word": "cellophane",
+     "zh": "玻璃纸",
+     "breakdown": "cello(纤维素)+phan(显现)"
+    }
+   ],
+   "example": {
+    "en": "The epiphany felt like a phantom becoming a clear phenomenon.",
+    "zh": "那次顿悟像幻影忽然变成清晰的现象。"
+   },
+   "illustration": {
+    "scene": "A translucent curtain parting to reveal a glowing figure while a magnifying lens emphasises one bright detail and a faint phantom lingers behind",
+    "dominantHue": {
+     "name": "冷灰 cool grey",
+     "rationale": "显灵与薄纱的冷紫雾"
+    },
+    "props": [
+     "parting translucent curtain",
+     "emphasising lens",
+     "faint lingering phantom"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/phantom",
+    "https://www.etymonline.com/word/phenomenon",
+    "https://www.etymonline.com/word/epiphany",
+    "https://en.wiktionary.org/wiki/φαίνειν",
+    "https://logeion.uchicago.edu/φαίνειν",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 310,
+   "id": "troph",
+   "root": "troph",
+   "forms": [
+    "troph"
+   ],
+   "language": "Greek",
+   "sourceWord": "τροφή / τρέφειν",
+   "meaning": {
+    "en": "nourishment, growth",
+    "zh": "营养，生长"
+   },
+   "originStory": "希腊语 τρέφειν 意为「喂养、使生长」，τροφή 是「营养」。atrophy 是「缺乏营养而萎缩」，hypertrophy 是「过度生长」，dystrophy 是「营养不良」，autotroph 是「自己制造养分者」，trophic 是「营养的」。注意 trophy「战利品」实源自 τροπή「转向」，旧目录归 trop，本条不抢。一株枯而复荣、一株疯长、一株挨饿，对照「营养」。troph 专管「喂养与生长」：前缀 a-／dys-／hyper- 分别是没营养、营养不良、营养过猛。生物课本里的 autotroph／phototroph 都是同一幅画面。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "trophy 实源自 τροπή「转向／溃败」，与 τροφή「营养」不同；本条不收录 trophy。",
+   "derivedWords": [
+    {
+     "word": "atrophy",
+     "zh": "萎缩",
+     "breakdown": "a-(无)+troph(营养)+-y"
+    },
+    {
+     "word": "hypertrophy",
+     "zh": "肥大",
+     "breakdown": "hyper(过度)+troph+-y"
+    },
+    {
+     "word": "dystrophy",
+     "zh": "营养不良",
+     "breakdown": "dys(不良)+troph+-y"
+    },
+    {
+     "word": "autotroph",
+     "zh": "自养生物",
+     "breakdown": "auto(自己)+troph"
+    },
+    {
+     "word": "trophic",
+     "zh": "营养的",
+     "breakdown": "troph+-ic"
+    },
+    {
+     "word": "phototroph",
+     "zh": "光养生物",
+     "breakdown": "photo(光)+troph"
+    },
+    {
+     "word": "neurotrophic",
+     "zh": "神经营养的",
+     "breakdown": "neuro+troph+-ic"
+    },
+    {
+     "word": "eutrophy",
+     "zh": "富营养",
+     "breakdown": "eu(好)+troph+-y"
+    },
+    {
+     "word": "oligtrophy",
+     "zh": "贫营养",
+     "breakdown": "olig(少)+troph+-y"
+    }
+   ],
+   "example": {
+    "en": "Muscle atrophy reverses when trophic support returns.",
+    "zh": "营养支持恢复后，肌肉萎缩会逆转。"
+   },
+   "illustration": {
+    "scene": "A wilted plant perking up as nutrient droplets feed its roots, beside an overgrown vine and a pale starved twin in one pot trio",
+    "dominantHue": {
+     "name": "叶绿 leaf green",
+     "rationale": "养分与生长的克制叶绿，避开土黄"
+    },
+    "props": [
+     "perking wilted plant",
+     "nutrient root droplets",
+     "overgrown vs starved twin plants"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/atrophy",
+    "https://www.etymonline.com/word/hypertrophy",
+    "https://www.etymonline.com/word/dystrophy",
+    "https://en.wiktionary.org/wiki/τροφή",
+    "https://logeion.uchicago.edu/τροφή",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 311,
+   "id": "phor",
+   "root": "phor",
+   "forms": [
+    "phor",
+    "pher"
+   ],
+   "language": "Greek",
+   "sourceWord": "φέρειν / φορά",
+   "meaning": {
+    "en": "to bear, carry",
+    "zh": "携带"
+   },
+   "originStory": "希腊语 φέρειν 意为「携带、带来」，φόρος／φορά 是「运载」。metaphor 是「把意义搬运过去」，euphoria 是「好运被带来的幸福感」，semaphore 是「用信号搬运信息」，anaphora 是「向上回指」，pheromone 是「携带的激素信号」，amphora 是「两侧可提的双耳瓶」。phosphorus「磷」已被 phot 占用。信使提双耳瓶挥旗，读出「携带」。phor／pher 是「带着走」：metaphor 把意义搬走，semaphore 把信号搬走，pheromone 把化学信号搬走。和拉丁 fer「携带」可对照记，但词形来自希腊。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "phosphorus 中 phos「光」+ phoros「携带者」；pheromone 是 20 世纪新造词。",
+   "derivedWords": [
+    {
+     "word": "metaphor",
+     "zh": "隐喻",
+     "breakdown": "meta(越过)+phor(携带)"
+    },
+    {
+     "word": "euphoria",
+     "zh": "欣快",
+     "breakdown": "eu(好)+phor(携带)+-ia"
+    },
+    {
+     "word": "semaphore",
+     "zh": "信号旗",
+     "breakdown": "sema(信号)+phor(携带)"
+    },
+    {
+     "word": "anaphora",
+     "zh": "首语重复；回指",
+     "breakdown": "ana(上)+phor(携带)"
+    },
+    {
+     "word": "pheromone",
+     "zh": "信息素",
+     "breakdown": "pher(携带)+omone(激素)"
+    },
+    {
+     "word": "amphora",
+     "zh": "双耳瓶",
+     "breakdown": "amphi(两侧)+phor(携带)"
+    },
+    {
+     "word": "electrophorus",
+     "zh": "起电盘",
+     "breakdown": "electro+phor(携带)"
+    },
+    {
+     "word": "euphoric",
+     "zh": "欣快的",
+     "breakdown": "eu+phor+-ic"
+    },
+    {
+     "word": "metaphorical",
+     "zh": "隐喻的",
+     "breakdown": "metaphor+-ical"
+    }
+   ],
+   "example": {
+    "en": "The metaphor carried euphoria like a semaphore of light.",
+    "zh": "这个隐喻像光的信号旗一样传递着欣快。"
+   },
+   "illustration": {
+    "scene": "A courier with two amphorae signalling with coloured flags while a glowing light-bearer jar trails sparks across the path",
+    "dominantHue": {
+     "name": "靛蓝 deep indigo",
+     "rationale": "信号与光运的清霁蓝"
+    },
+    "props": [
+     "courier with amphorae",
+     "coloured signal flags",
+     "glowing light-bearer jar"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/metaphor",
+    "https://www.etymonline.com/word/euphoria",
+    "https://www.etymonline.com/word/semaphore",
+    "https://en.wiktionary.org/wiki/φέρειν",
+    "https://logeion.uchicago.edu/φέρειν",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 312,
+   "id": "phag",
+   "root": "phag",
+   "forms": [
+    "phag"
+   ],
+   "language": "Greek",
+   "sourceWord": "φαγεῖν (phagein)",
+   "meaning": {
+    "en": "to eat, devour",
+    "zh": "吃"
+   },
+   "originStory": "希腊语 φαγεῖν 意为「吃」。esophagus 是「运食物进去的管道」，sarcophagus 据说因一种会加速尸体分解的石灰岩而得名「吃肉的石头」，phagocyte 是「吃掉异物的细胞」，bacteriophage 是「吃细菌的病毒」，dysphagia 是「吞咽困难」。anthropophagy 已被 anthrop 占用。微微张开的石棺与吞噬病菌的细胞，扣住「吃」。phag 就是「吃」：前半说明吃什么或怎么吃。esophagus 是进食通道，-phage／-phagy 出现在生物学术语里，表示吞噬或食性。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "sarcophagus 的「吃肉石」之说见于古典作家，属传说性得名。",
+   "derivedWords": [
+    {
+     "word": "esophagus",
+     "zh": "食道",
+     "breakdown": "eso(内)+phag(吃)+-us"
+    },
+    {
+     "word": "phagocyte",
+     "zh": "吞噬细胞",
+     "breakdown": "phag(吃)+cyte(细胞)"
+    },
+    {
+     "word": "bacteriophage",
+     "zh": "噬菌体",
+     "breakdown": "bacterio+phage"
+    },
+    {
+     "word": "dysphagia",
+     "zh": "吞咽困难",
+     "breakdown": "dys(难)+phag+-ia"
+    },
+    {
+     "word": "xylophagous",
+     "zh": "食木的",
+     "breakdown": "xylo(木)+phag+-ous"
+    },
+    {
+     "word": "polyphagia",
+     "zh": "多食",
+     "breakdown": "poly(多)+phag+-ia"
+    },
+    {
+     "word": "autophagy",
+     "zh": "自噬",
+     "breakdown": "auto(自己)+phagy"
+    },
+    {
+     "word": "geophagy",
+     "zh": "食土",
+     "breakdown": "geo(土)+phagy"
+    }
+   ],
+   "example": {
+    "en": "Phagocytes act like tiny bacteriophages inside the body.",
+    "zh": "吞噬细胞在体内像微型噬菌体一样工作。"
+   },
+   "illustration": {
+    "scene": "A stone coffin lid slightly ajar beside a giant cell gobbling green germs, and a wood-boring beetle mid-bite on a twig",
+    "dominantHue": {
+     "name": "海雾 sea mist",
+     "rationale": "吞噬与石棺的沉墨青"
+    },
+    "props": [
+     "ajar stone coffin lid",
+     "cell gobbling germs",
+     "wood-boring beetle"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/esophagus",
+    "https://www.etymonline.com/word/sarcophagus",
+    "https://www.etymonline.com/word/phagocyte",
+    "https://en.wiktionary.org/wiki/φαγεῖν",
+    "https://logeion.uchicago.edu/φαγεῖν",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 313,
+   "id": "clar",
+   "root": "clar",
+   "forms": [
+    "clar",
+    "clair"
+   ],
+   "language": "Latin",
+   "sourceWord": "clārus",
+   "meaning": {
+    "en": "clear, bright",
+    "zh": "清楚，明亮"
+   },
+   "originStory": "拉丁语 clārus 意为「明亮的、清楚的、著名的」。clarify 是「使清楚」，clarity 是「清晰」，declare 是「清楚说出来、宣布」，clear 经法语 clair 同源，clairvoyant 是「看得清楚的」，clarinet 因音色清亮得名。演说者把雾蒙蒙的玻璃牌擦亮，灯一照字就清楚，正是「澄清」。clar／clair／clear 一条线：把雾擦掉、把话说明。declare 是当众说清楚，clarify 是解释清楚，clarity 是清楚本身。写作里极常用。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "clear／clair 经古法语，与拉丁 clārus 同源。",
+   "derivedWords": [
+    {
+     "word": "clarify",
+     "zh": "澄清",
+     "breakdown": "clar(清楚)+-ify"
+    },
+    {
+     "word": "clarity",
+     "zh": "清晰",
+     "breakdown": "clar+-ity"
+    },
+    {
+     "word": "declare",
+     "zh": "宣布",
+     "breakdown": "de-(完全)+clar(清楚)"
+    },
+    {
+     "word": "declaration",
+     "zh": "宣言",
+     "breakdown": "de-+clar+-ation"
+    },
+    {
+     "word": "clear",
+     "zh": "清楚的；清除",
+     "breakdown": "clair/clear←clar"
+    },
+    {
+     "word": "clairvoyant",
+     "zh": "有透视力的",
+     "breakdown": "clair(清楚)+voyant(看)"
+    },
+    {
+     "word": "clarification",
+     "zh": "澄清说明",
+     "breakdown": "clar+-ification"
+    },
+    {
+     "word": "declarative",
+     "zh": "陈述的",
+     "breakdown": "de-+clar+-ative"
+    },
+    {
+     "word": "unclear",
+     "zh": "不清楚的",
+     "breakdown": "un-+clear"
+    },
+    {
+     "word": "clarinet",
+     "zh": "单簧管",
+     "breakdown": "clar(明亮)+-inet"
+    }
+   ],
+   "example": {
+    "en": "Please clarify the declaration until its clarity is clear.",
+    "zh": "请把宣言澄清到意思一目了然。"
+   },
+   "illustration": {
+    "scene": "A speaker polishing a fogged glass plaque until the words shine, a bright lamp behind and a tiny spyglass labelled clair",
+    "dominantHue": {
+     "name": "葡萄灰 grape grey",
+     "rationale": "澄明玻璃的青瓷色"
+    },
+    "props": [
+     "polished glass plaque",
+     "bright clarifying lamp",
+     "tiny clair spyglass"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/clarify",
+    "https://www.etymonline.com/word/clarity",
+    "https://www.etymonline.com/word/declare",
+    "https://en.wiktionary.org/wiki/clārus",
+    "https://logeion.uchicago.edu/clarus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 314,
+   "id": "propri",
+   "root": "propri",
+   "forms": [
+    "propri",
+    "proper"
+   ],
+   "language": "Latin",
+   "sourceWord": "proprius",
+   "meaning": {
+    "en": "one's own",
+    "zh": "自己的"
+   },
+   "originStory": "拉丁语 proprius 意为「自己的、特有的」。proper 是「恰当的／自己的」，property 是「属于自己的东西」，appropriate 是「据为己有／合适的」，propriety 是「得体」，proprietor 是「所有者」，expropriate 是「剥夺所有权」，proprietary 是「专有的」。业主挂上门牌、归还借物、锁上保险箱，一眼是「属于自己」。propri／proper 的核心是「属于谁、是否得体」。property 是所属物，appropriate 既可作「恰当」也可作「据为己有」，proprietor 是业主。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "proper",
+     "zh": "恰当的；自己的",
+     "breakdown": "proper←propri"
+    },
+    {
+     "word": "property",
+     "zh": "财产；属性",
+     "breakdown": "propri+-ety"
+    },
+    {
+     "word": "appropriate",
+     "zh": "合适的；占用",
+     "breakdown": "ap-(向)+propri+-ate"
+    },
+    {
+     "word": "propriety",
+     "zh": "得体",
+     "breakdown": "propri+-ety"
+    },
+    {
+     "word": "proprietor",
+     "zh": "业主",
+     "breakdown": "propri+-etor"
+    },
+    {
+     "word": "improper",
+     "zh": "不恰当的",
+     "breakdown": "im-(不)+proper"
+    },
+    {
+     "word": "expropriate",
+     "zh": "征收；剥夺",
+     "breakdown": "ex-(出)+propri+-ate"
+    },
+    {
+     "word": "proprietary",
+     "zh": "专有的",
+     "breakdown": "propri+-etary"
+    },
+    {
+     "word": "appropriation",
+     "zh": "拨款；挪用",
+     "breakdown": "ap-+propri+-ation"
+    },
+    {
+     "word": "impropriety",
+     "zh": "不得体",
+     "breakdown": "im-+propri+-ety"
+    }
+   ],
+   "example": {
+    "en": "The proprietor guarded his property with propriety.",
+    "zh": "业主得体地守护着自己的财产。"
+   },
+   "illustration": {
+    "scene": "A landlord hanging a nameplate on his own small house while politely returning a borrowed tool and locking a labelled strongbox",
+    "dominantHue": {
+     "name": "松烟 pine smoke",
+     "rationale": "私产铭牌的克制灰紫"
+    },
+    "props": [
+     "nameplate on small house",
+     "returned borrowed tool",
+     "labelled strongbox"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/proper",
+    "https://www.etymonline.com/word/property",
+    "https://www.etymonline.com/word/appropriate",
+    "https://en.wiktionary.org/wiki/proprius",
+    "https://logeion.uchicago.edu/proprius",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 315,
+   "id": "semin",
+   "root": "semin",
+   "forms": [
+    "semin"
+   ],
+   "language": "Latin",
+   "sourceWord": "sēmen / sēminis",
+   "meaning": {
+    "en": "seed",
+    "zh": "种子"
+   },
+   "originStory": "拉丁语 sēmen（属格 sēminis）意为「种子」。seminal 是「种子的／开创性的」，seminar 原有「育苗床」式研讨班之义，disseminate 是「撒播种子、传播」，seminary 是「育苗园／神学院」，inseminate 是「注入种子」，seminiferous 是「输精的／产种子的」。园丁扬种、学生围坐苗床，双关「播种／研讨」。semin 把「种子」引申到「传播与培养」：disseminate 是撒出去，seminar／seminary 是育苗式的培养场所，seminal 夸一篇文章像种子一样能长出新思想。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "seminal",
+     "zh": "开创性的；精液的",
+     "breakdown": "semin(种子)+-al"
+    },
+    {
+     "word": "seminar",
+     "zh": "研讨会",
+     "breakdown": "semin+-ar"
+    },
+    {
+     "word": "disseminate",
+     "zh": "传播；散布",
+     "breakdown": "dis-(分开)+semin+-ate"
+    },
+    {
+     "word": "seminary",
+     "zh": "神学院；苗圃",
+     "breakdown": "semin+-ary"
+    },
+    {
+     "word": "inseminate",
+     "zh": "使受精；灌输",
+     "breakdown": "in-(入)+semin+-ate"
+    },
+    {
+     "word": "seminiferous",
+     "zh": "输精的",
+     "breakdown": "semin+-i-+fer(带)+-ous"
+    },
+    {
+     "word": "dissemination",
+     "zh": "传播",
+     "breakdown": "dis-+semin+-ation"
+    },
+    {
+     "word": "semination",
+     "zh": "播种",
+     "breakdown": "semin+-ation"
+    },
+    {
+     "word": "extraseminal",
+     "zh": "精外的",
+     "breakdown": "extra-+semin+-al"
+    },
+    {
+     "word": "seminarist",
+     "zh": "神学院学生",
+     "breakdown": "seminar+-ist"
+    }
+   ],
+   "example": {
+    "en": "The seminal paper was disseminated in every seminar.",
+    "zh": "那篇开创性论文在每个研讨班里传播。"
+   },
+   "illustration": {
+    "scene": "A gardener broadcasting glowing seeds across furrowed earth while students sit in a semicircle nursery bed taking notes",
+    "dominantHue": {
+     "name": "霁蓝 clear blue",
+     "rationale": "苗圃与撒种的克制苔绿"
+    },
+    "props": [
+     "broadcast glowing seeds",
+     "furrowed earth",
+     "student nursery semicircle"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/seminal",
+    "https://www.etymonline.com/word/seminar",
+    "https://www.etymonline.com/word/disseminate",
+    "https://en.wiktionary.org/wiki/sēmen",
+    "https://logeion.uchicago.edu/semen",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 316,
+   "id": "somn",
+   "root": "somn",
+   "forms": [
+    "somn"
+   ],
+   "language": "Latin",
+   "sourceWord": "somnus",
+   "meaning": {
+    "en": "sleep",
+    "zh": "睡眠"
+   },
+   "originStory": "拉丁语 somnus 意为「睡眠」，罗马睡神也叫 Somnus。insomnia 是「无法入睡」，somnolent 是「昏昏欲睡的」，somnambulist 是「梦游者」，somniferous 是「催眠的」，hypersomnia 是「嗜睡」。与希腊 hypn 是同一语义的拉丁对应；somniloquy「梦话」因 loqu 已占而不收。打盹更夫与梦游小人，直接说「睡」。somn 专指睡眠：前缀 in- 是否定（失眠），-ambul 是走（梦游），-fer 是带来（催眠的）。和 insomnia 对照记，比孤立背单词牢。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "insomnia",
+     "zh": "失眠",
+     "breakdown": "in-(不)+somn(睡)+-ia"
+    },
+    {
+     "word": "somnolent",
+     "zh": "昏昏欲睡的",
+     "breakdown": "somn+-olent"
+    },
+    {
+     "word": "somnambulist",
+     "zh": "梦游者",
+     "breakdown": "somn+ambul(走)+-ist"
+    },
+    {
+     "word": "somniferous",
+     "zh": "催眠的",
+     "breakdown": "somn+-i-+fer(带)+-ous"
+    },
+    {
+     "word": "hypersomnia",
+     "zh": "嗜睡",
+     "breakdown": "hyper(过度)+somn+-ia"
+    },
+    {
+     "word": "somnific",
+     "zh": "致睡的",
+     "breakdown": "somn+-ific"
+    },
+    {
+     "word": "insomnious",
+     "zh": "失眠的",
+     "breakdown": "in-+somn+-ious"
+    },
+    {
+     "word": "somnolence",
+     "zh": "睡意",
+     "breakdown": "somn+-olence"
+    },
+    {
+     "word": "somnambulate",
+     "zh": "梦游",
+     "breakdown": "somn+ambul+-ate"
+    }
+   ],
+   "example": {
+    "en": "The somnolent guard fought insomnia with strong tea.",
+    "zh": "昏昏欲睡的卫兵靠浓茶对抗失眠。"
+   },
+   "illustration": {
+    "scene": "A night watchman nodding off on a stool while a tiny sleepwalker with outstretched arms crosses a moonlit plinth, a poppy vial dripping nearby",
+    "dominantHue": {
+     "name": "藤紫 wisteria",
+     "rationale": "夜班与睡意的暮青"
+    },
+    "props": [
+     "nodding night watchman",
+     "tiny sleepwalker",
+     "dripping poppy vial"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/insomnia",
+    "https://www.etymonline.com/word/somnolent",
+    "https://www.etymonline.com/word/somnambulist",
+    "https://en.wiktionary.org/wiki/somnus",
+    "https://logeion.uchicago.edu/somnus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 317,
+   "id": "veh",
+   "root": "veh",
+   "forms": [
+    "veh",
+    "vect"
+   ],
+   "language": "Latin",
+   "sourceWord": "vehere",
+   "meaning": {
+    "en": "to carry, convey",
+    "zh": "运载"
+   },
+   "originStory": "拉丁语 vehere 意为「运载」。vehicle 是「运载工具」，vector 是「运送者／向量」，convection 是「一起运走的热对流」，invective 是「对着运来的痛骂」，inveigh 是「痛斥」，convex 原有「拱起、聚拢承载」相关引申，advection 是「平流输送」。vehement 主流辞书多连到 mens「心」，本条不收。小车顺着箭头、热气上涌，读出「运载」。veh／vect 是「运」：vehicle 运人货，vector 给出运送方向，convection 是热被运走。invective 则是把骂名运到对方头上。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "vehement 有时被民间语源连到 vehere，主流辞书多连到 mens「心」；本条不收 vehement。",
+   "derivedWords": [
+    {
+     "word": "vehicle",
+     "zh": "车辆；媒介",
+     "breakdown": "veh(运载)+-icle"
+    },
+    {
+     "word": "vehicular",
+     "zh": "车辆的",
+     "breakdown": "veh+-icular"
+    },
+    {
+     "word": "vector",
+     "zh": "向量；媒介",
+     "breakdown": "vect(运载)+-or"
+    },
+    {
+     "word": "convection",
+     "zh": "对流",
+     "breakdown": "con-(一起)+vect+-ion"
+    },
+    {
+     "word": "invective",
+     "zh": "痛骂",
+     "breakdown": "in-(向)+vect+-ive"
+    },
+    {
+     "word": "inveigh",
+     "zh": "痛斥",
+     "breakdown": "in-+veigh←veh"
+    },
+    {
+     "word": "convex",
+     "zh": "凸面的",
+     "breakdown": "con-(一起)+vex←veh"
+    },
+    {
+     "word": "advection",
+     "zh": "平流",
+     "breakdown": "ad-(向)+vect+-ion"
+    }
+   ],
+   "example": {
+    "en": "The vehicle followed the convection of the vector field.",
+    "zh": "那辆车顺着向量场的对流前进。"
+   },
+   "illustration": {
+    "scene": "A small cart rolling along glowing direction arrows while warm air swirls upward from a brazier and a herald shouts invective from a balcony",
+    "dominantHue": {
+     "name": "苔绿 moss green",
+     "rationale": "车辙与向量箭头的钢蓝"
+    },
+    "props": [
+     "rolling small cart",
+     "glowing direction arrows",
+     "balcony herald shouting"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/vehicle",
+    "https://www.etymonline.com/word/vehicular",
+    "https://www.etymonline.com/word/vector",
+    "https://en.wiktionary.org/wiki/vehere",
+    "https://logeion.uchicago.edu/vehere",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 318,
+   "id": "vag",
+   "root": "vag",
+   "forms": [
+    "vag"
+   ],
+   "language": "Latin",
+   "sourceWord": "vagārī / vagus",
+   "meaning": {
+    "en": "to wander",
+    "zh": "漫游"
+   },
+   "originStory": "拉丁语 vagus 意为「游荡的」，vagārī 是「漫游」。vague 是「含糊游移的」，vagabond 是「流浪者」，extravagant 是「游荡出界、过分的」，vagrant 是「漂泊的」，vagary 是「奇想」，divagate 是「离题游荡」。旅人离开大道走入雾中歧路，钱袋写着 extra，正是「游荡越界」。vag 是「游荡」：人游荡是 vagabond，意思游荡是 vague，规矩被游荡出界是 extravagant。看到 vag 先想「没有固定路线」。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "vague",
+     "zh": "含糊的",
+     "breakdown": "vag(漫游)+-ue"
+    },
+    {
+     "word": "vagabond",
+     "zh": "流浪者",
+     "breakdown": "vag+-abond"
+    },
+    {
+     "word": "extravagant",
+     "zh": "奢侈的；过分的",
+     "breakdown": "extra-(出)+vag+-ant"
+    },
+    {
+     "word": "vagrant",
+     "zh": "漂泊者",
+     "breakdown": "vag+-rant"
+    },
+    {
+     "word": "vagary",
+     "zh": "奇想",
+     "breakdown": "vag+-ary"
+    },
+    {
+     "word": "divagate",
+     "zh": "离题",
+     "breakdown": "di-(离开)+vag+-ate"
+    },
+    {
+     "word": "extravagance",
+     "zh": "奢侈",
+     "breakdown": "extra-+vag+-ance"
+    },
+    {
+     "word": "vagarious",
+     "zh": "异想天开的",
+     "breakdown": "vag+-arious"
+    }
+   ],
+   "example": {
+    "en": "The vagabond's vague vagary led to extravagant plans.",
+    "zh": "流浪者含糊的奇想通向了过分的计划。"
+   },
+   "illustration": {
+    "scene": "A wanderer with a staff stepping off a paved road into misty side-paths while a purse spills coins marked extra and a foggy signpost spins",
+    "dominantHue": {
+     "name": "墨青 ink teal",
+     "rationale": "迷雾歧路的银灰"
+    },
+    "props": [
+     "wanderer off paved road",
+     "spilling extra coins",
+     "spinning foggy signpost"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/vague",
+    "https://www.etymonline.com/word/vagabond",
+    "https://www.etymonline.com/word/extravagant",
+    "https://en.wiktionary.org/wiki/vagārī",
+    "https://logeion.uchicago.edu/vagari",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 319,
+   "id": "quies",
+   "root": "quies",
+   "forms": [
+    "quies",
+    "quiet",
+    "quit"
+   ],
+   "language": "Latin",
+   "sourceWord": "quiēs / quiētus",
+   "meaning": {
+    "en": "rest, quiet",
+    "zh": "安静，休息"
+   },
+   "originStory": "拉丁语 quiēs 意为「休息、安静」，quiētus 是「平静的」。quiet 是「安静」，quiescent 是「休眠静止的」，acquiesce 是「静静同意」，requiem 是「安息弥撒」，disquiet 是「不安」，quietude 是「宁静」。quit 也同源，原指「使安静／解脱」；coy 经 quietus 有「安静矜持」义。湖边静息与安魂乐谱，读出「静」。quies／quiet 是「静下来」：quiescent 是休眠般静止，acquiesce 是安静地接受，requiem 祈求安息。和喧闹的 disquiet 对着记。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "quit 与 quiet 同源经通俗拉丁；acquit 亦相关。",
+   "derivedWords": [
+    {
+     "word": "quiet",
+     "zh": "安静",
+     "breakdown": "quiet←quies"
+    },
+    {
+     "word": "quiescent",
+     "zh": "静止的",
+     "breakdown": "quies+-cent"
+    },
+    {
+     "word": "acquiesce",
+     "zh": "默许",
+     "breakdown": "ac-(向)+quiesce(休息)"
+    },
+    {
+     "word": "requiem",
+     "zh": "安魂曲",
+     "breakdown": "re-+quiem←quies"
+    },
+    {
+     "word": "disquiet",
+     "zh": "不安",
+     "breakdown": "dis-(不)+quiet"
+    },
+    {
+     "word": "quietude",
+     "zh": "宁静",
+     "breakdown": "quiet+-ude"
+    },
+    {
+     "word": "acquiescence",
+     "zh": "默许",
+     "breakdown": "ac-+quies+-cence"
+    },
+    {
+     "word": "coy",
+     "zh": "害羞的",
+     "breakdown": "coy←quietus"
+    },
+    {
+     "word": "quit",
+     "zh": "离开；停止",
+     "breakdown": "quit←quietus"
+    },
+    {
+     "word": "tranquil",
+     "zh": "平静的",
+     "breakdown": "tran-+quil←quies"
+    }
+   ],
+   "example": {
+    "en": "The quiescent lake restored their quietude.",
+    "zh": "静止的湖面让他们重获宁静。"
+   },
+   "illustration": {
+    "scene": "A silent lakeside chapel with a resting figure on a bench, a closed music book marked requiem, and ripples fading to glass calm",
+    "dominantHue": {
+     "name": "玫灰 rose grey",
+     "rationale": "湖面静息的海雾青"
+    },
+    "props": [
+     "lakeside resting figure",
+     "requiem music book",
+     "fading ripples to calm"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/quiet",
+    "https://www.etymonline.com/word/quiescent",
+    "https://www.etymonline.com/word/acquiesce",
+    "https://en.wiktionary.org/wiki/quiēs",
+    "https://logeion.uchicago.edu/quies",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 320,
+   "id": "vir",
+   "root": "vir",
+   "forms": [
+    "vir"
+   ],
+   "language": "Latin",
+   "sourceWord": "vir",
+   "meaning": {
+    "en": "man, male; valor",
+    "zh": "男人；勇德"
+   },
+   "originStory": "拉丁语 vir 意为「男人」，也引申为「勇气、美德」。virtue 原指「男子气概、德行」，后泛指美德；virile 是「有男子气的」；triumvir 是「三头执政之一」；virtually／virtual 经「就本质／德行而言」引申；virago 原指「有男子气概的女人」。与希腊 andr 对照。三人议事共植月桂，重「德」不重逞强。vir 连着「男人」与「美德」：virtue 从勇武扩到一般德行，virile 偏生理男子气，triumvir 是制度上的「三人」。虚拟义 virtual 是后起哲学引申。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "virtue 语义从「勇武」扩到一般「美德」；virtual 经经院哲学「就本质而言」。",
+   "derivedWords": [
+    {
+     "word": "virtue",
+     "zh": "美德",
+     "breakdown": "virt(ue)←vir"
+    },
+    {
+     "word": "virile",
+     "zh": "有男子气的",
+     "breakdown": "vir+-ile"
+    },
+    {
+     "word": "triumvir",
+     "zh": "三头政治者",
+     "breakdown": "tri(三)+um+vir"
+    },
+    {
+     "word": "virtually",
+     "zh": "几乎；实质上",
+     "breakdown": "virtu+-ally"
+    },
+    {
+     "word": "virago",
+     "zh": "泼妇；女英雄",
+     "breakdown": "vir+-ago"
+    },
+    {
+     "word": "virility",
+     "zh": "男子气概",
+     "breakdown": "vir+-ility"
+    },
+    {
+     "word": "triumvirate",
+     "zh": "三头政治",
+     "breakdown": "triumvir+-ate"
+    },
+    {
+     "word": "decemvir",
+     "zh": "十人委员会成员",
+     "breakdown": "decem(十)+vir"
+    },
+    {
+     "word": "virtuous",
+     "zh": "有德行的",
+     "breakdown": "virtu+-ous"
+    },
+    {
+     "word": "virtual",
+     "zh": "虚拟的；实质的",
+     "breakdown": "virtu+-al"
+    }
+   ],
+   "example": {
+    "en": "The triumvir prized virtue more than virile display.",
+    "zh": "这位三头执政者看重美德胜过逞强。"
+   },
+   "illustration": {
+    "scene": "Three togaed men at a shared council table planting a small virtue laurel, a training weight set aside unused",
+    "dominantHue": {
+     "name": "铅蓝 lead blue",
+     "rationale": "议事与德行的沉靛蓝"
+    },
+    "props": [
+     "three togaed councillors",
+     "shared virtue laurel",
+     "unused training weight"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/virtue",
+    "https://www.etymonline.com/word/virile",
+    "https://www.etymonline.com/word/triumvir",
+    "https://en.wiktionary.org/wiki/vir",
+    "https://logeion.uchicago.edu/vir",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 321,
+   "id": "feder",
+   "root": "feder",
+   "forms": [
+    "feder"
+   ],
+   "language": "Latin",
+   "sourceWord": "foedus / foederis",
+   "meaning": {
+    "en": "league, treaty",
+    "zh": "联盟"
+   },
+   "originStory": "拉丁语 foedus（属格 foederis）意为「条约、同盟」。federal 是「联邦的」，federation 是「联邦」，confederate 是「结成同盟的」，confederacy 是「同盟」，federate 是「结成联邦」。foedus 与 fidēs「信任」是否同源有争议，本条按「条约／联邦」义独立收录。使节把条约丝带编成一股，城市围成一圈，即「联盟」。feder 盯住「订约成盟」：federal 是联邦制的，confederation 是较松的邦联。看到 feder／foeder 不要先想「信任」（那是 fid），而要想「条约」。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "foedus 与 fidēs「信任」可能同源，学界有争议；本条按「条约」义独立收录。",
+   "derivedWords": [
+    {
+     "word": "federal",
+     "zh": "联邦的",
+     "breakdown": "feder(联盟)+-al"
+    },
+    {
+     "word": "federation",
+     "zh": "联邦；联合会",
+     "breakdown": "feder+-ation"
+    },
+    {
+     "word": "confederate",
+     "zh": "同盟的；同盟者",
+     "breakdown": "con-(一起)+feder+-ate"
+    },
+    {
+     "word": "confederacy",
+     "zh": "同盟",
+     "breakdown": "con-+feder+-acy"
+    },
+    {
+     "word": "federate",
+     "zh": "结成联邦",
+     "breakdown": "feder+-ate"
+    },
+    {
+     "word": "federalism",
+     "zh": "联邦制",
+     "breakdown": "feder+-al+-ism"
+    },
+    {
+     "word": "federalist",
+     "zh": "联邦主义者",
+     "breakdown": "feder+-alist"
+    },
+    {
+     "word": "confederation",
+     "zh": "邦联",
+     "breakdown": "con-+feder+-ation"
+    }
+   ],
+   "example": {
+    "en": "The federation grew from a small confederacy of cities.",
+    "zh": "这个联邦由城市小同盟发展而来。"
+   },
+   "illustration": {
+    "scene": "City envoys tying coloured treaty ribbons into one braid on a shared table while miniature city models stand in a ring",
+    "dominantHue": {
+     "name": "翠雾 emerald mist",
+     "rationale": "盟约丝带的雾蓝"
+    },
+    "props": [
+     "braided treaty ribbons",
+     "envoy figures",
+     "ring of city models"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/federal",
+    "https://www.etymonline.com/word/federation",
+    "https://www.etymonline.com/word/confederate",
+    "https://en.wiktionary.org/wiki/foedus",
+    "https://logeion.uchicago.edu/foedus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 322,
+   "id": "calc",
+   "root": "calc",
+   "forms": [
+    "calc",
+    "calcul"
+   ],
+   "language": "Latin",
+   "sourceWord": "calx / calculus",
+   "meaning": {
+    "en": "stone; to reckon",
+    "zh": "石头；计算"
+   },
+   "originStory": "拉丁语 calx 意为「石灰石」，小词 calculus 是「小石子」；罗马人用石子做算筹，于是有「计算」义。calcium 是「钙」，calcify 是「钙化」，calcareous 是「石灰质的」，chalk 也同源。calculate／calculus／calculator 已被 numer 占用，本条用钙／石灰／可计算义补足。石子算盘与粉笔灰，兼顾「石」与「算」。calc 有「石头」和「计算」两层：钙与石灰是物质义，calculable／miscalculate 是算筹义。和 numer 分工：本条侧重钙石与可算，不抢 calculus 主词。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "脚跟义 calx 与石灰石义是否完全同一词，辞书有分条；计算义明确来自 calculus 小石。",
+   "derivedWords": [
+    {
+     "word": "calcium",
+     "zh": "钙",
+     "breakdown": "calc(石灰)+-ium"
+    },
+    {
+     "word": "calcify",
+     "zh": "钙化",
+     "breakdown": "calc+-ify"
+    },
+    {
+     "word": "incalculable",
+     "zh": "不可估量的",
+     "breakdown": "in-(不)+calcul+-able"
+    },
+    {
+     "word": "chalk",
+     "zh": "粉笔",
+     "breakdown": "chalk←calx"
+    },
+    {
+     "word": "calcite",
+     "zh": "方解石",
+     "breakdown": "calc+-ite"
+    },
+    {
+     "word": "recalculate",
+     "zh": "重新计算",
+     "breakdown": "re-+calcul+-ate"
+    },
+    {
+     "word": "calcareous",
+     "zh": "石灰质的",
+     "breakdown": "calc+-areous"
+    },
+    {
+     "word": "calcination",
+     "zh": "煅烧",
+     "breakdown": "calcin+-ation"
+    },
+    {
+     "word": "decalcify",
+     "zh": "脱钙",
+     "breakdown": "de-+calc+-ify"
+    },
+    {
+     "word": "calx",
+     "zh": "煅灰；氧化钙",
+     "breakdown": "calx"
+    },
+    {
+     "word": "calculable",
+     "zh": "可计算的",
+     "breakdown": "calcul+-able"
+    },
+    {
+     "word": "miscalculate",
+     "zh": "算错",
+     "breakdown": "mis-+calcul+-ate"
+    },
+    {
+     "word": "precalculus",
+     "zh": "预备微积分",
+     "breakdown": "pre-+calculus"
+    }
+   ],
+   "example": {
+    "en": "The calculator made the incalculable chalk marks clear.",
+    "zh": "计算器让那些密密麻麻的粉笔算式变得清楚。"
+   },
+   "illustration": {
+    "scene": "A scholar sliding pebble tokens on a counting board while chalk dust forms number-shapes and a small lime crystal glows",
+    "dominantHue": {
+     "name": "绀青 navy teal",
+     "rationale": "石子算盘与粉笔灰的烟灰"
+    },
+    "props": [
+     "pebble counting board",
+     "chalk number-dust",
+     "glowing lime crystal"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/calcium",
+    "https://www.etymonline.com/word/calcify",
+    "https://www.etymonline.com/word/incalculable",
+    "https://en.wiktionary.org/wiki/calx",
+    "https://logeion.uchicago.edu/calx",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 323,
+   "id": "acro",
+   "root": "acro",
+   "forms": [
+    "acro"
+   ],
+   "language": "Greek",
+   "sourceWord": "ἄκρος (akros)",
+   "meaning": {
+    "en": "tip, high, extreme",
+    "zh": "顶端，高"
+   },
+   "originStory": "希腊语 ἄκρος 意为「顶端的、最高的」。acrobat 是「在高处／脚尖表演的人」，acrostic 是「取各行顶端字母的诗」，acromegaly 是「肢端肥大」，acrosome 是「顶体」。acronym／acropolis／acrophobia 已分别被 onym、poli、phob 占用。注意拉丁 acer／acrid「尖酸」是另一词族。尖顶上的杂技演员，读出「顶端／高」。acro 是「尖顶／高处」：acrobat 在高处表演，acrostic 取行首，医学 acro- 常指肢端。别和拉丁 acrid「辛辣」混成一条。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "acrobat",
+     "zh": "杂技演员",
+     "breakdown": "acro(高)+bat(走)"
+    },
+    {
+     "word": "acromegaly",
+     "zh": "肢端肥大症",
+     "breakdown": "acro+megal(大)+-y"
+    },
+    {
+     "word": "acrostic",
+     "zh": "离合诗",
+     "breakdown": "acro+stich(行)"
+    },
+    {
+     "word": "acronymic",
+     "zh": "缩略词的",
+     "breakdown": "acronym+-ic"
+    },
+    {
+     "word": "acrobatic",
+     "zh": "杂技的",
+     "breakdown": "acrobat+-ic"
+    },
+    {
+     "word": "acrobatics",
+     "zh": "杂技",
+     "breakdown": "acrobat+-ics"
+    },
+    {
+     "word": "acrosome",
+     "zh": "顶体",
+     "breakdown": "acro+some(体)"
+    },
+    {
+     "word": "acropetal",
+     "zh": "向顶的",
+     "breakdown": "acro+pet(求)+-al"
+    },
+    {
+     "word": "acrolect",
+     "zh": "上层方言",
+     "breakdown": "acro+lect(说)"
+    },
+    {
+     "word": "acrodont",
+     "zh": "端生齿的",
+     "breakdown": "acro+dont(齿)"
+    },
+    {
+     "word": "acrocentric",
+     "zh": "近端着丝粒的",
+     "breakdown": "acro+centr+-ic"
+    }
+   ],
+   "example": {
+    "en": "The acrobat trained above the acropolis despite acrophobia jokes.",
+    "zh": "尽管有人拿恐高开玩笑，杂技演员仍在卫城高处训练。"
+   },
+   "illustration": {
+    "scene": "A tiny acrobat balancing on a pointed pinnacle above a miniature high-city, letter-tiles stacking into an acronym tower",
+    "dominantHue": {
+     "name": "丁香 lilac grey",
+     "rationale": "尖顶与高城的暗蓝"
+    },
+    "props": [
+     "acrobat on pinnacle",
+     "miniature high-city",
+     "acronym letter tower"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/acrobat",
+    "https://www.etymonline.com/word/acromegaly",
+    "https://www.etymonline.com/word/acrostic",
+    "https://en.wiktionary.org/wiki/ἄκρος",
+    "https://logeion.uchicago.edu/ἄκρος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 324,
+   "id": "alg",
+   "root": "alg",
+   "forms": [
+    "alg",
+    "algia"
+   ],
+   "language": "Greek",
+   "sourceWord": "ἄλγος (algos)",
+   "meaning": {
+    "en": "pain",
+    "zh": "痛"
+   },
+   "originStory": "希腊语 ἄλγος 意为「疼痛」。analgesic 是「止痛的」，nostalgia 原义是「思乡的痛」，后指怀旧；myalgia 是「肌痛」，arthralgia 是「关节痛」，otalgia 是「耳痛」，cephalalgia 是「头痛」。neuralgia 已被 neur 占用。病人指着发光的痛点、护士递上药瓶、打开的思乡小箱，串起「痛」与「怀旧之痛」。alg／algia 就是「痛」：analgesic 去痛，某某algia 是某处痛。nostalgia 把「回家」和「痛」接在一起，后才变成怀旧的温词。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "nostalgia 是 17 世纪新造词（nostos+algos），后引申为怀旧。",
+   "derivedWords": [
+    {
+     "word": "analgesic",
+     "zh": "止痛药；止痛的",
+     "breakdown": "an-(无)+alg(痛)+-esic"
+    },
+    {
+     "word": "nostalgia",
+     "zh": "怀旧；思乡",
+     "breakdown": "nost(回家)+alg+-ia"
+    },
+    {
+     "word": "myalgia",
+     "zh": "肌痛",
+     "breakdown": "my(肌)+algia"
+    },
+    {
+     "word": "arthralgia",
+     "zh": "关节痛",
+     "breakdown": "arthr(关节)+algia"
+    },
+    {
+     "word": "otalgia",
+     "zh": "耳痛",
+     "breakdown": "ot(耳)+algia"
+    },
+    {
+     "word": "analgesia",
+     "zh": "无痛",
+     "breakdown": "an-+alg+-esia"
+    },
+    {
+     "word": "cephalalgia",
+     "zh": "头痛",
+     "breakdown": "cephal(头)+algia"
+    },
+    {
+     "word": "nostalgic",
+     "zh": "怀旧的",
+     "breakdown": "nostalg+-ic"
+    },
+    {
+     "word": "analgetic",
+     "zh": "止痛的",
+     "breakdown": "an-+alg+-etic"
+    },
+    {
+     "word": "antalgic",
+     "zh": "止痛的",
+     "breakdown": "ant-+alg+-ic"
+    },
+    {
+     "word": "podalgia",
+     "zh": "足痛",
+     "breakdown": "pod(足)+algia"
+    },
+    {
+     "word": "algometer",
+     "zh": "测痛计",
+     "breakdown": "alg+-o-+meter"
+    }
+   ],
+   "example": {
+    "en": "An analgesic eased the nostalgia-tinged neuralgia.",
+    "zh": "止痛药减轻了那带着怀旧色彩的神经痛。"
+   },
+   "illustration": {
+    "scene": "A patient holding a glowing pain-spot on the temple while a nurse offers a small vial, a tiny homesick suitcase open beside the couch",
+    "dominantHue": {
+     "name": "湖绿 lake green",
+     "rationale": "痛点与药瓶的克制玫灰，非桃红"
+    },
+    "props": [
+     "glowing temple pain-spot",
+     "analgesic vial",
+     "open homesick suitcase"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/analgesic",
+    "https://www.etymonline.com/word/nostalgia",
+    "https://www.etymonline.com/word/myalgia",
+    "https://en.wiktionary.org/wiki/ἄλγος",
+    "https://logeion.uchicago.edu/ἄλγος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 325,
+   "id": "cyt",
+   "root": "cyt",
+   "forms": [
+    "cyt",
+    "cyto"
+   ],
+   "language": "Greek",
+   "sourceWord": "κύτος (kytos)",
+   "meaning": {
+    "en": "cell, hollow vessel",
+    "zh": "细胞"
+   },
+   "originStory": "希腊语 κύτος 意为「容器、腔」。近代科学用 cyt-／cyto- 专指「细胞」：cytology 是「细胞学」，cytoplasm 是「细胞质」，erythrocyte 是「红细胞」，leukocyte 是「白细胞」，cytotoxic 是「细胞毒性的」，oocyte 是「卵母细胞」。古典 κύτος 并不专指细胞，属学术构词扩展。剖开的透明细胞球与红白细胞珠，直指「细胞」。cyto-／-cyte 是生物课的「细胞」标记：谁被研究（cytology），细胞里是什么（cytoplasm），什么颜色的细胞（erythrocyte／leukocyte）。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "作为生物学术语的 cyt- 是近代构词，古典 κύτος 不专指细胞。",
+   "derivedWords": [
+    {
+     "word": "cytology",
+     "zh": "细胞学",
+     "breakdown": "cyt(细胞)+-ology"
+    },
+    {
+     "word": "erythrocyte",
+     "zh": "红细胞",
+     "breakdown": "erythro(红)+cyte"
+    },
+    {
+     "word": "leukocyte",
+     "zh": "白细胞",
+     "breakdown": "leuko(白)+cyte"
+    },
+    {
+     "word": "cytotoxic",
+     "zh": "细胞毒性的",
+     "breakdown": "cyto+tox(毒)+-ic"
+    },
+    {
+     "word": "oocyte",
+     "zh": "卵母细胞",
+     "breakdown": "oo(卵)+cyte"
+    },
+    {
+     "word": "cytogenesis",
+     "zh": "细胞发生",
+     "breakdown": "cyto+genesis"
+    },
+    {
+     "word": "lymphocyte",
+     "zh": "淋巴细胞",
+     "breakdown": "lympho+cyte"
+    },
+    {
+     "word": "cytokine",
+     "zh": "细胞因子",
+     "breakdown": "cyto+kine(动)"
+    }
+   ],
+   "example": {
+    "en": "Cytology showed damaged leukocytes in the cytoplasm study.",
+    "zh": "细胞学检查在胞质研究中发现白细胞受损。"
+   },
+   "illustration": {
+    "scene": "A cut-open translucent cell globe revealing busy organelles, tiny red and white bead-cells orbiting outside",
+    "dominantHue": {
+     "name": "青灰 blue-grey",
+     "rationale": "细胞质感的翠雾绿"
+    },
+    "props": [
+     "cut-open cell globe",
+     "orbiting red bead-cell",
+     "orbiting white bead-cell"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/cytology",
+    "https://www.etymonline.com/word/cytoplasm",
+    "https://www.etymonline.com/word/erythrocyte",
+    "https://en.wiktionary.org/wiki/κύτος",
+    "https://logeion.uchicago.edu/κύτος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 326,
+   "id": "bibli",
+   "root": "bibli",
+   "forms": [
+    "bibli",
+    "biblio"
+   ],
+   "language": "Greek",
+   "sourceWord": "βιβλίον (biblion)",
+   "meaning": {
+    "en": "book",
+    "zh": "书"
+   },
+   "originStory": "希腊语 βιβλίον 是「小书卷」，据说与腓尼基港口 Byblos 的纸草贸易有关。bible 是「书／圣经」，biblical 是「圣经的」，bibliotheca 是「书库」，bibliomania 是「藏书癖」，bibliopole 是「书商」。bibliography／bibliophile 已分别被 graph、phil 占用。抱着书卷堆写书目的人，读出「书」。biblio- 一看就是「书」：bible 是那本书，bibliotheca 是书库，bibliomania 是爱书过头。和 libr「书」禁区不同，这条用希腊形，不撞 liber。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "与 Byblos 港的联系常见于辞书，带传说色彩。 library 严格说出自拉丁语 liber「书」，不是 βιβλίον；仍收入本条，检索「图书馆」时打开这张书卡，不与 liber「自由」相混。",
+   "derivedWords": [
+    {
+     "word": "bible",
+     "zh": "圣经；权威书",
+     "breakdown": "bibl(书)+-e"
+    },
+    {
+     "word": "biblical",
+     "zh": "圣经的",
+     "breakdown": "bibl+-ical"
+    },
+    {
+     "word": "bibliotheca",
+     "zh": "书库",
+     "breakdown": "biblio+theca(箱)"
+    },
+    {
+     "word": "bibliomania",
+     "zh": "藏书癖",
+     "breakdown": "biblio+mania(狂)"
+    },
+    {
+     "word": "bibliographer",
+     "zh": "书目编制者",
+     "breakdown": "biblio+graph+-er"
+    },
+    {
+     "word": "biblicality",
+     "zh": "合圣经性",
+     "breakdown": "biblical+-ity"
+    },
+    {
+     "word": "bibliopole",
+     "zh": "书商",
+     "breakdown": "biblio+pole(卖)"
+    },
+    {
+     "word": "bibliolatry",
+     "zh": "圣经崇拜",
+     "breakdown": "biblio+latry(拜)"
+    },
+    {
+     "word": "bibliomancy",
+     "zh": "书占",
+     "breakdown": "biblio+mancy(占)"
+    },
+    {
+     "word": "biblicist",
+     "zh": "圣经学者",
+     "breakdown": "biblic+-ist"
+    },
+    {
+     "word": "bibliothecal",
+     "zh": "书库的",
+     "breakdown": "bibliotheca+-al"
+    },
+    {
+     "word": "library",
+     "zh": "图书馆",
+     "breakdown": "libr(书)"
+    }
+   ],
+   "example": {
+    "en": "The bibliophile's bibliography filled a whole bibliotheca shelf.",
+    "zh": "这位藏书家的书目占满了整书架。"
+   },
+   "illustration": {
+    "scene": "A book-lover hugging a tall stack of scrolls while writing a title list, a miniature temple-library behind",
+    "dominantHue": {
+     "name": "紫灰 purple-grey",
+     "rationale": "书卷与墨色的葡萄紫灰"
+    },
+    "props": [
+     "tall scroll stack",
+     "title-list tablet",
+     "miniature temple-library"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/bible",
+    "https://www.etymonline.com/word/biblical",
+    "https://www.etymonline.com/word/bibliotheca",
+    "https://en.wiktionary.org/wiki/βιβλίον",
+    "https://logeion.uchicago.edu/βιβλίον",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 327,
+   "id": "esthes",
+   "root": "esthes",
+   "forms": [
+    "esthes",
+    "aesthes",
+    "esthet",
+    "aesthet"
+   ],
+   "language": "Greek",
+   "sourceWord": "αἴσθησις (aisthēsis)",
+   "meaning": {
+    "en": "feeling, perception",
+    "zh": "感觉"
+   },
+   "originStory": "希腊语 αἴσθησις 意为「感觉、知觉」。aesthetic 是「审美的／感觉的」，anesthesia 是「无感觉」，synesthesia 是「联觉」，aesthete 是「唯美主义者」，anesthetic 是「麻醉剂」，paresthesia 是「感觉异常」。拼写经德语 Ästhetik 传入，a-/ae- 并存。展画面前的观者与一旁的麻醉面罩，对照「有感／无感」。esthes／aesthet 管感觉：aesthetic 把感觉升到审美，anesthesia 把感觉关掉，synesthesia 让感觉串线。医与艺术两边都常见。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "aesthetic 拼写经德语 Ästhetik 传入，a-/ae- 并存。",
+   "derivedWords": [
+    {
+     "word": "aesthetic",
+     "zh": "审美的",
+     "breakdown": "aesthet(感觉)+-ic"
+    },
+    {
+     "word": "anesthesia",
+     "zh": "麻醉；无感觉",
+     "breakdown": "an-(无)+esthes+-ia"
+    },
+    {
+     "word": "synesthesia",
+     "zh": "联觉",
+     "breakdown": "syn(一起)+esthes+-ia"
+    },
+    {
+     "word": "aesthete",
+     "zh": "唯美主义者",
+     "breakdown": "aesthet+-e"
+    },
+    {
+     "word": "anesthetic",
+     "zh": "麻醉剂",
+     "breakdown": "an-+esthet+-ic"
+    },
+    {
+     "word": "paresthesia",
+     "zh": "感觉异常",
+     "breakdown": "par(旁)+esthes+-ia"
+    },
+    {
+     "word": "esthetics",
+     "zh": "美学",
+     "breakdown": "esthet+-ics"
+    },
+    {
+     "word": "anaesthetist",
+     "zh": "麻醉师",
+     "breakdown": "an-+aesthet+-ist"
+    }
+   ],
+   "example": {
+    "en": "Under anesthesia there is no aesthetic experience.",
+    "zh": "麻醉之下没有审美体验。"
+   },
+   "illustration": {
+    "scene": "A museum-goer dazzled by a glowing art panel while a surgeon's quiet mask and a colour-sound swirl hint at lost and mixed senses",
+    "dominantHue": {
+     "name": "碧青 jade teal",
+     "rationale": "审美与感官的丁香灰紫"
+    },
+    "props": [
+     "glowing art panel",
+     "surgeon's quiet mask",
+     "colour-sound swirl"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/aesthetic",
+    "https://www.etymonline.com/word/anesthesia",
+    "https://www.etymonline.com/word/synesthesia",
+    "https://en.wiktionary.org/wiki/αἴσθησις",
+    "https://logeion.uchicago.edu/αἴσθησις",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 328,
+   "id": "eu",
+   "root": "eu",
+   "forms": [
+    "eu"
+   ],
+   "language": "Greek",
+   "sourceWord": "εὖ (eu)",
+   "meaning": {
+    "en": "good, well",
+    "zh": "好，善"
+   },
+   "originStory": "希腊语 εὖ 意为「好、善」，作前缀极高产。euphemism 是「说得好听」，euphoria 是「感觉良好」，eureka 是「我找到了」，euthanasia 是「安乐死」，eudaemonia 是「幸福／兴盛」。eulogy、eugenics、euphony 已分别被 log、gen、phon 占用；eugenics 带沉重历史争议，释义中立列出。把刺耳石板换成柔光板，扣住「说得好／好事」。eu- 是「好」：euphemism 把难听话换好，euphoria 是好心情，eureka 是好发现。遇到 eu- 先往积极义想，再看后半是否反转（如历史争议词）。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "作前缀极高产；eugenics 带沉重历史争议，释义中立列出。",
+   "derivedWords": [
+    {
+     "word": "euphemism",
+     "zh": "委婉语",
+     "breakdown": "eu(好)+phem(说)+-ism"
+    },
+    {
+     "word": "eureka",
+     "zh": "找到了",
+     "breakdown": "eu+rek(找到)"
+    },
+    {
+     "word": "euthanasia",
+     "zh": "安乐死",
+     "breakdown": "eu+than(死)+-asia"
+    },
+    {
+     "word": "euphonious",
+     "zh": "好听的",
+     "breakdown": "eu+phon+-ious"
+    },
+    {
+     "word": "euphemistic",
+     "zh": "委婉的",
+     "breakdown": "euphemist+-ic"
+    },
+    {
+     "word": "eupeptic",
+     "zh": "消化良好的",
+     "breakdown": "eu+pept(消化)+-ic"
+    },
+    {
+     "word": "eudaemonia",
+     "zh": "幸福",
+     "breakdown": "eu+daimon(精灵)+-ia"
+    }
+   ],
+   "example": {
+    "en": "A euphemism cannot hide a lack of euphony in the speech.",
+    "zh": "委婉语掩盖不了演讲的刺耳。"
+   },
+   "illustration": {
+    "scene": "A speaker swapping a harsh stone word-tablet for a soft glowing one while a small 'eureka' lamp lights and sweet-sound waves ripple",
+    "dominantHue": {
+     "name": "暗蓝 dark azure",
+     "rationale": "「说得好」的清薄荷雾绿"
+    },
+    "props": [
+     "harsh vs soft word-tablets",
+     "eureka lamp",
+     "sweet-sound ripples"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/euphemism",
+    "https://www.etymonline.com/word/euphoria",
+    "https://www.etymonline.com/word/eureka",
+    "https://en.wiktionary.org/wiki/εὖ",
+    "https://logeion.uchicago.edu/εὖ",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 329,
+   "id": "mnem",
+   "root": "mnem",
+   "forms": [
+    "mnem",
+    "mne",
+    "mnes"
+   ],
+   "language": "Greek",
+   "sourceWord": "μνήμη / μιμνήσκεσθαι",
+   "meaning": {
+    "en": "memory",
+    "zh": "记忆"
+   },
+   "originStory": "希腊语 μνήμη 意为「记忆」，缪斯之母 Mnemosyne 即记忆女神。amnesia 是「无记忆」，amnesty 原指「忘掉（罪行）」，mnemonics 是「记忆术」，amnesiac 是「失忆者」。mnemonic／anamnesis 已被 mem 占用。手指上的记忆丝线与消散的遗忘纸片，读出「记住／忘掉」。mnem／mnes 是「记忆」：a- 去掉记忆就是 amnesia，赦免是约定一起忘掉。mnemonics 则是把记忆术外置成口诀。和 mem 条目分工，不抢 mnemonic 本字。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "amnesia",
+     "zh": "失忆",
+     "breakdown": "a-(无)+mnes(记忆)+-ia"
+    },
+    {
+     "word": "amnesty",
+     "zh": "大赦",
+     "breakdown": "a-+mnest(记忆)+-y"
+    },
+    {
+     "word": "mnemonics",
+     "zh": "记忆术",
+     "breakdown": "mnem+-onics"
+    },
+    {
+     "word": "amnestic",
+     "zh": "失忆的",
+     "breakdown": "a-+mnest+-ic"
+    },
+    {
+     "word": "Mnemosyne",
+     "zh": "记忆女神",
+     "breakdown": "mnem+-osyme"
+    },
+    {
+     "word": "mnemonicist",
+     "zh": "记忆术专家",
+     "breakdown": "mnemonic+-ist"
+    },
+    {
+     "word": "mnemonical",
+     "zh": "助记的",
+     "breakdown": "mnem+-onical"
+    },
+    {
+     "word": "amnesiac",
+     "zh": "失忆者",
+     "breakdown": "amnesia+-c"
+    },
+    {
+     "word": "mnemonist",
+     "zh": "记忆术专家",
+     "breakdown": "mnem+-onist"
+    },
+    {
+     "word": "mnestic",
+     "zh": "记忆的",
+     "breakdown": "mnest+-ic"
+    },
+    {
+     "word": "hyperamnesia",
+     "zh": "记忆过强",
+     "breakdown": "hyper+a-+mnes+-ia"
+    }
+   ],
+   "example": {
+    "en": "A mnemonic rescued him from exam-day amnesia.",
+    "zh": "一条助记口诀把他从考场失忆里救了出来。"
+   },
+   "illustration": {
+    "scene": "A student tying a glowing memory-thread around a finger while forgotten scraps dissolve into fog and a tiny goddess figure holds a recall scroll",
+    "dominantHue": {
+     "name": "银灰 silver grey",
+     "rationale": "记忆丝线的雾紫——与 phan 区分偏冷"
+    },
+    "props": [
+     "glowing memory-thread on finger",
+     "dissolving forgotten scraps",
+     "tiny recall-scroll goddess"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/amnesia",
+    "https://www.etymonline.com/word/amnesty",
+    "https://www.etymonline.com/word/mnemonics",
+    "https://en.wiktionary.org/wiki/μνήμη",
+    "https://logeion.uchicago.edu/μνήμη",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 330,
+   "id": "ton",
+   "root": "ton",
+   "forms": [
+    "ton",
+    "tono"
+   ],
+   "language": "Greek",
+   "sourceWord": "τόνος (tonos)",
+   "meaning": {
+    "en": "tone, stretch, tension",
+    "zh": "音调，张力"
+   },
+   "originStory": "希腊语 τόνος 原指「弦的绷紧」，引申为「音调、张力」。tone 是「音调／语气」，tonic 是「主音的／滋补的」，catatonic 是「张力异常僵住的」，tonality 是「调性」，baritone 是「重音」，isotonic 是「等张的」，atonal 是「无调性的」。monotone 已被 mono 占用。拧紧的琴弦与音叉，正是「张力／音调」。ton 从弦的松紧来：tone 是音高与语气，tonic／isotonic 谈张力，catatonic 是张力失常的僵住。音乐与医学两头都能用上。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "与拉丁 tend「伸」远亲；英语 tone 经拉丁 tonus。",
+   "derivedWords": [
+    {
+     "word": "tone",
+     "zh": "音调；语气",
+     "breakdown": "ton(张力)"
+    },
+    {
+     "word": "tonic",
+     "zh": "主音的；滋补的",
+     "breakdown": "ton+-ic"
+    },
+    {
+     "word": "catatonic",
+     "zh": "紧张性木僵的",
+     "breakdown": "cata(下)+ton+-ic"
+    },
+    {
+     "word": "tonality",
+     "zh": "调性",
+     "breakdown": "ton+-ality"
+    },
+    {
+     "word": "baritone",
+     "zh": "男中音",
+     "breakdown": "bari(重)+ton"
+    },
+    {
+     "word": "isotonic",
+     "zh": "等张的",
+     "breakdown": "iso(等)+ton+-ic"
+    },
+    {
+     "word": "atonal",
+     "zh": "无调性的",
+     "breakdown": "a-(无)+ton+-al"
+    },
+    {
+     "word": "tonal",
+     "zh": "音调的",
+     "breakdown": "ton+-al"
+    },
+    {
+     "word": "undertone",
+     "zh": "底色；低音",
+     "breakdown": "under+tone"
+    },
+    {
+     "word": "intonation",
+     "zh": "语调",
+     "breakdown": "in-+ton+-ation"
+    }
+   ],
+   "example": {
+    "en": "The baritone's tonality shifted from tonic warmth to an undertone of dread.",
+    "zh": "男中音的调性从主音的温暖转到一丝低沉的不安。"
+   },
+   "illustration": {
+    "scene": "A lyre string being tightened to glow brighter in pitch while a singer holds a tone and a tuning fork vibrates beside",
+    "dominantHue": {
+     "name": "森绿 forest mist",
+     "rationale": "琴弦张力的沧蓝"
+    },
+    "props": [
+     "tightening lyre string",
+     "singer holding a tone",
+     "vibrating tuning fork"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/tone",
+    "https://www.etymonline.com/word/tonic",
+    "https://www.etymonline.com/word/catatonic",
+    "https://en.wiktionary.org/wiki/τόνος",
+    "https://logeion.uchicago.edu/τόνος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 331,
+   "id": "proto",
+   "root": "proto",
+   "forms": [
+    "proto",
+    "prot"
+   ],
+   "language": "Greek",
+   "sourceWord": "πρῶτος (prōtos)",
+   "meaning": {
+    "en": "first, primary",
+    "zh": "第一"
+   },
+   "originStory": "希腊语 πρῶτος 意为「第一的」。proton 是「第一粒子」，protocol 原指「粘在卷轴第一页的手续摘要」，后指规程／议定书；protoplasm 是「最初的质」，protozoan 是「最先的动物」，protagonist 是「第一演员、主角」，protein 原指「首要物质」。prototype 已被 typ 占用。主角踏上「第一页」地毯，扣住「第一」。proto-／prot- 是「第一、最初」：proton 是基本粒子叙事里的「第一」，protocol 从卷首摘要变成办事规程，protagonist 是戏里第一个站出来的人。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "protocol 语义从「第一页胶水条」到「外交议定书」有曲折引申。",
+   "derivedWords": [
+    {
+     "word": "proton",
+     "zh": "质子",
+     "breakdown": "prot(第一)+-on"
+    },
+    {
+     "word": "protocol",
+     "zh": "协议；礼仪",
+     "breakdown": "proto+col(胶)"
+    },
+    {
+     "word": "protoplasm",
+     "zh": "原生质",
+     "breakdown": "proto+plasm"
+    },
+    {
+     "word": "protozoan",
+     "zh": "原生动物",
+     "breakdown": "proto+zo(动物)+-an"
+    },
+    {
+     "word": "protagonist",
+     "zh": "主角",
+     "breakdown": "prot+agonist(竞赛者)"
+    },
+    {
+     "word": "protein",
+     "zh": "蛋白质",
+     "breakdown": "prote(第一)+-in"
+    },
+    {
+     "word": "protist",
+     "zh": "原生生物",
+     "breakdown": "prot+-ist"
+    },
+    {
+     "word": "protohistory",
+     "zh": "原史",
+     "breakdown": "proto+history"
+    },
+    {
+     "word": "protomartyr",
+     "zh": "首位殉道者",
+     "breakdown": "proto+martyr"
+    },
+    {
+     "word": "prototypal",
+     "zh": "原型的",
+     "breakdown": "proto+typ+-al"
+    }
+   ],
+   "example": {
+    "en": "The protagonist followed protocol before the proton test.",
+    "zh": "主角在质子试验前遵守了规程。"
+   },
+   "illustration": {
+    "scene": "A lead actor stepping onto a first-page scroll carpet while a glowing first-particle bead and a sealed procedure ribbon wait at the stage edge",
+    "dominantHue": {
+     "name": "霁紫 clear violet",
+     "rationale": "首位与开场的暗绛——与 bell 区分偏亮"
+    },
+    "props": [
+     "actor on first-page carpet",
+     "glowing first-particle bead",
+     "sealed procedure ribbon"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/proton",
+    "https://www.etymonline.com/word/protocol",
+    "https://www.etymonline.com/word/protoplasm",
+    "https://en.wiktionary.org/wiki/πρῶτος",
+    "https://logeion.uchicago.edu/πρῶτος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 332,
+   "id": "sarc",
+   "root": "sarc",
+   "forms": [
+    "sarc"
+   ],
+   "language": "Greek",
+   "sourceWord": "σάρξ / σαρκός",
+   "meaning": {
+    "en": "flesh",
+    "zh": "肉"
+   },
+   "originStory": "希腊语 σάρξ（属格 σαρκός）意为「肉、肉体」。sarcasm 原指「撕肉般的挖苦」，sarcastic 是「讽刺的」，sarcoma 是「肉瘤」，sarcophagus 是「吃肉的石棺」（见 phag），sarcoid 是「肉样的」。与拉丁 carn 对照。尖刻面具撕布「肉」条，旁边石棺一角，读出「肉／撕咬」。sarc 是希腊的「肉」：sarcasm 像撕肉一样刺人，sarcoma 是肉质肿瘤。和拉丁 carn 成对，阅读里见到 sarc- 先想肉体／皮肉。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "sarcasm 的「撕肉」意象见于古典修辞解释。",
+   "derivedWords": [
+    {
+     "word": "sarcasm",
+     "zh": "讽刺",
+     "breakdown": "sarc(肉)+-asm"
+    },
+    {
+     "word": "sarcastic",
+     "zh": "讽刺的",
+     "breakdown": "sarc+-astic"
+    },
+    {
+     "word": "sarcoma",
+     "zh": "肉瘤",
+     "breakdown": "sarc+-oma"
+    },
+    {
+     "word": "sarcophagus",
+     "zh": "石棺",
+     "breakdown": "sarco+phag(吃)+-us"
+    },
+    {
+     "word": "sarcoptic",
+     "zh": "疥螨的",
+     "breakdown": "sarc+opt+-ic"
+    },
+    {
+     "word": "syssarcosis",
+     "zh": "肌连结",
+     "breakdown": "sys+sarc+-osis"
+    },
+    {
+     "word": "sarcoid",
+     "zh": "肉样的",
+     "breakdown": "sarc+-oid"
+    },
+    {
+     "word": "sarcology",
+     "zh": "软组织解剖学",
+     "breakdown": "sarc+-ology"
+    }
+   ],
+   "example": {
+    "en": "His sarcasm cut sharper than any sarcoma diagnosis joke.",
+    "zh": "他的挖苦比拿肉瘤开玩笑还伤人。"
+   },
+   "illustration": {
+    "scene": "A sharp-tongued mask biting a strip of cloth-flesh beside a stone coffin and a labelled flesh-sample jar on a clinic shelf",
+    "dominantHue": {
+     "name": "沧蓝 ocean blue",
+     "rationale": "皮肉与讽刺的雾蔷薇灰，非桃红"
+    },
+    "props": [
+     "biting sharp-tongued mask",
+     "stone coffin corner",
+     "flesh-sample jar"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/sarcasm",
+    "https://www.etymonline.com/word/sarcastic",
+    "https://www.etymonline.com/word/sarcoma",
+    "https://en.wiktionary.org/wiki/σάρξ",
+    "https://logeion.uchicago.edu/σάρξ",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 333,
+   "id": "drom",
+   "root": "drom",
+   "forms": [
+    "drom"
+   ],
+   "language": "Greek",
+   "sourceWord": "δρόμος (dromos)",
+   "meaning": {
+    "en": "run, course",
+    "zh": "跑，跑道"
+   },
+   "originStory": "希腊语 δρόμος 意为「奔跑、跑道」。hippodrome 是「跑马场」，syndrome 是「一起跑来的症状群」，palindrome 是「来回跑的回文」，aerodrome 是「飞机跑道」，dromedary 是「善跑的单峰驼」，prodrome 是「前驱症状」，anadromous 是「溯河奔跑产卵的」。圆形跑道与正反可读的门，扣住「跑／路程」。drom 是「跑、跑道」：hippodrome 跑马，syndrome 是症状「跑到一起」，palindrome 是文字来回跑。见到 -drome／-dromous 想运动路线。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "hippodrome",
+     "zh": "跑马场",
+     "breakdown": "hippo(马)+drom(跑)"
+    },
+    {
+     "word": "syndrome",
+     "zh": "综合征",
+     "breakdown": "syn(一起)+drom(跑)"
+    },
+    {
+     "word": "palindrome",
+     "zh": "回文",
+     "breakdown": "palin(回)+drom(跑)"
+    },
+    {
+     "word": "aerodrome",
+     "zh": "机场",
+     "breakdown": "aero(空气)+drome"
+    },
+    {
+     "word": "dromedary",
+     "zh": "单峰驼",
+     "breakdown": "drom+-edary"
+    },
+    {
+     "word": "prodrome",
+     "zh": "前驱症状",
+     "breakdown": "pro(前)+drome"
+    },
+    {
+     "word": "anadromous",
+     "zh": "溯河产卵的",
+     "breakdown": "ana(上)+drom+-ous"
+    },
+    {
+     "word": "velodrome",
+     "zh": "自行车赛场",
+     "breakdown": "velo(快)+drome"
+    },
+    {
+     "word": "dromomania",
+     "zh": "漫游癖",
+     "breakdown": "drom+-o-+mania"
+    },
+    {
+     "word": "catadromous",
+     "zh": "降河产卵的",
+     "breakdown": "cata(下)+drom+-ous"
+    }
+   ],
+   "example": {
+    "en": "The syndrome name is almost a palindrome in the hippodrome chart.",
+    "zh": "跑马场图表上那个综合征名字几乎是个回文。"
+   },
+   "illustration": {
+    "scene": "Horses and a dromedary racing a circular track while mirrored letter-gates read the same both ways and symptom-flags run in together",
+    "dominantHue": {
+     "name": "雾蔷薇 mist rose",
+     "rationale": "跑道尘与绿篱的苍绿"
+    },
+    "props": [
+     "circular race track",
+     "mirrored palindrome gates",
+     "symptom-flags clustering"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/hippodrome",
+    "https://www.etymonline.com/word/syndrome",
+    "https://www.etymonline.com/word/palindrome",
+    "https://en.wiktionary.org/wiki/δρόμος",
+    "https://logeion.uchicago.edu/δρόμος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 334,
+   "id": "gam",
+   "root": "gam",
+   "forms": [
+    "gam",
+    "gamy"
+   ],
+   "language": "Greek",
+   "sourceWord": "γάμος (gamos)",
+   "meaning": {
+    "en": "marriage",
+    "zh": "婚姻"
+   },
+   "originStory": "希腊语 γάμος 意为「婚姻」。bigamy 是「重婚」，gamete 是「配子」，endogamy 是「内婚」，exogamy 是「外婚」，misogamy 是「厌婚」，cryptogam 是「隐花植物（隐藏的『婚配』）」。monogamy／polygamy 已分别被 mono、poly 占用。两枚婚戒与硬挤进来的第三枚，配子在显微镜下配对，读出「婚姻／结合」。gam／gamy 是「婚姻／配」：bigamy 是两段婚，gamete 是配子，endo-／exo- 说群体内婚还是外婚。生物与社会词汇共用这一核。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "bigamy",
+     "zh": "重婚",
+     "breakdown": "bi(二)+gamy(婚)"
+    },
+    {
+     "word": "gamete",
+     "zh": "配子",
+     "breakdown": "gam(婚)+-ete"
+    },
+    {
+     "word": "endogamy",
+     "zh": "内婚制",
+     "breakdown": "endo(内)+gamy"
+    },
+    {
+     "word": "exogamy",
+     "zh": "外婚制",
+     "breakdown": "exo(外)+gamy"
+    },
+    {
+     "word": "misogamy",
+     "zh": "厌婚",
+     "breakdown": "miso(恨)+gamy"
+    },
+    {
+     "word": "polygamist",
+     "zh": "多偶者",
+     "breakdown": "poly+gam+-ist"
+    },
+    {
+     "word": "gametoophyte",
+     "zh": "配子体",
+     "breakdown": "gameto+phyte"
+    },
+    {
+     "word": "cryptogam",
+     "zh": "隐花植物",
+     "breakdown": "crypto(隐)+gam"
+    },
+    {
+     "word": "allogamy",
+     "zh": "异花受精",
+     "breakdown": "allo(异)+gamy"
+    }
+   ],
+   "example": {
+    "en": "Laws against bigamy coexist with debates on polygamy.",
+    "zh": "禁止重婚的法律与关于多偶制的争论并存。"
+   },
+   "illustration": {
+    "scene": "Two wedding rings linking, then a third ring trying to join while tiny gamete-beads pair under a microscope lens",
+    "dominantHue": {
+     "name": "石绿 stone green",
+     "rationale": "婚约与配子的丁香灰——与 esthes 拉开偏暖灰"
+    },
+    "props": [
+     "two rings plus intruding third",
+     "microscope over gamete-beads",
+     "marriage contract tablet"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/bigamy",
+    "https://www.etymonline.com/word/gamete",
+    "https://www.etymonline.com/word/endogamy",
+    "https://en.wiktionary.org/wiki/γάμος",
+    "https://logeion.uchicago.edu/γάμος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 335,
+   "id": "mim",
+   "root": "mim",
+   "forms": [
+    "mim",
+    "mime"
+   ],
+   "language": "Greek",
+   "sourceWord": "μῖμος / μιμεῖσθαι",
+   "meaning": {
+    "en": "to imitate",
+    "zh": "模仿"
+   },
+   "originStory": "希腊语 μῖμος 意为「模仿者」，μιμεῖσθαι 是「模仿」。mimic 是「模仿」，mime 是「哑剧」，pantomime 是「全部用模仿表演」，mimicry 是「拟态」，mimetic 是「模仿的」，mimesis 是「摹仿（文艺理论）」，mimeograph 是「油印机」。白面哑剧演员镜像鸟姿，蝴蝶翅上假眼，正是「模仿」。mim／mime 是「照着做」：舞台上的 mime，生物拟态 mimicry，理论里的 mimesis。看到 mim- 先问「在模仿谁」。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "mimic",
+     "zh": "模仿；模仿者",
+     "breakdown": "mim(模仿)+-ic"
+    },
+    {
+     "word": "mime",
+     "zh": "哑剧；模仿",
+     "breakdown": "mime"
+    },
+    {
+     "word": "pantomime",
+     "zh": "哑剧；童话剧",
+     "breakdown": "panto(全)+mime"
+    },
+    {
+     "word": "mimicry",
+     "zh": "拟态；模仿",
+     "breakdown": "mimic+-ry"
+    },
+    {
+     "word": "mimetic",
+     "zh": "模仿的",
+     "breakdown": "mim+-etic"
+    },
+    {
+     "word": "mimesis",
+     "zh": "摹仿",
+     "breakdown": "mim+-esis"
+    },
+    {
+     "word": "mimeograph",
+     "zh": "油印机",
+     "breakdown": "mimeo+graph"
+    },
+    {
+     "word": "mimosa",
+     "zh": "含羞草",
+     "breakdown": "mim+-osa"
+    },
+    {
+     "word": "mimicker",
+     "zh": "模仿者",
+     "breakdown": "mimic+-er"
+    },
+    {
+     "word": "pantomimic",
+     "zh": "哑剧的",
+     "breakdown": "pantomime+-ic"
+    }
+   ],
+   "example": {
+    "en": "The mime's mimicry was pure mimesis on stage.",
+    "zh": "哑剧演员的模仿在台上就是纯粹的摹仿艺术。"
+   },
+   "illustration": {
+    "scene": "A white-faced mime mirroring a bird's pose while a butterfly shows eye-spot mimicry on its wings and a small press copies a page",
+    "dominantHue": {
+     "name": "靛青 indigo teal",
+     "rationale": "白面哑剧的冷灰"
+    },
+    "props": [
+     "white-faced mime mirroring bird",
+     "butterfly eye-spots",
+     "small copying press"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/mimic",
+    "https://www.etymonline.com/word/mime",
+    "https://www.etymonline.com/word/pantomime",
+    "https://en.wiktionary.org/wiki/μῖμος",
+    "https://logeion.uchicago.edu/μῖμος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 336,
+   "id": "foli",
+   "root": "foli",
+   "forms": [
+    "foli",
+    "fol"
+   ],
+   "language": "Latin",
+   "sourceWord": "folium",
+   "meaning": {
+    "en": "leaf",
+    "zh": "叶"
+   },
+   "originStory": "拉丁语 folium 意为「叶子」。foliage 是「叶丛」，exfoliate 是「脱去叶子／脱皮」，folio 是「对开本／页码」，defoliate 是「使落叶」，trefoil 是「三叶」，foliate 是「有叶的」。portfolio 已被 port 占用。叶形书页从枝上落入文件夹，封面三叶饰，双关「叶／页」。foli／fol 是「叶子」也是「书页」：foliage 是叶丛，folio 是页，exfoliate 是脱一层。英文里 leaf／page 的双关，拉丁 folium 早就埋下了。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "foliage",
+     "zh": "叶丛",
+     "breakdown": "foli(叶)+-age"
+    },
+    {
+     "word": "exfoliate",
+     "zh": "脱落；去角质",
+     "breakdown": "ex-(出)+foli+-ate"
+    },
+    {
+     "word": "folio",
+     "zh": "对开本；页码",
+     "breakdown": "foli+-o"
+    },
+    {
+     "word": "defoliate",
+     "zh": "使落叶",
+     "breakdown": "de-(去)+foli+-ate"
+    },
+    {
+     "word": "foliate",
+     "zh": "有叶的；叶状的",
+     "breakdown": "foli+-ate"
+    },
+    {
+     "word": "trefoil",
+     "zh": "三叶草；三叶饰",
+     "breakdown": "tre(三)+foil(叶)"
+    },
+    {
+     "word": "bifoliate",
+     "zh": "两叶的",
+     "breakdown": "bi+foli+-ate"
+    },
+    {
+     "word": "foliation",
+     "zh": "成叶；页理",
+     "breakdown": "foli+-ation"
+    },
+    {
+     "word": "portfolio-case",
+     "zh": "文件夹",
+     "breakdown": "portfolio"
+    }
+   ],
+   "example": {
+    "en": "Autumn foliage filled every folio of her portfolio.",
+    "zh": "秋叶装满了她作品集的每一页。"
+   },
+   "illustration": {
+    "scene": "A binder of leaf-shaped pages opening as real leaves peel from a branch into the case, a trefoil emblem on the cover",
+    "dominantHue": {
+     "name": "灰紫 ash violet",
+     "rationale": "叶片的克制叶绿——与 troph 区分偏黄绿避免"
+    },
+    "props": [
+     "leaf-shaped page binder",
+     "peeling real leaves",
+     "trefoil cover emblem"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/foliage",
+    "https://www.etymonline.com/word/exfoliate",
+    "https://www.etymonline.com/word/folio",
+    "https://en.wiktionary.org/wiki/folium",
+    "https://logeion.uchicago.edu/folium",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 337,
+   "id": "andr",
+   "root": "andr",
+   "forms": [
+    "andr",
+    "andro"
+   ],
+   "language": "Greek",
+   "sourceWord": "ἀνήρ / ἀνδρός",
+   "meaning": {
+    "en": "man, male",
+    "zh": "男人"
+   },
+   "originStory": "希腊语 ἀνήρ（属格 ἀνδρός）意为「男人」。android 是「男人形状的」，philanderer 是「拈花惹草的男人」，androgen 是「雄激素」，polyandry 是「一妻多夫」，androphobia 是「怕男人」，andrology 是「男科学」。androgynous 已被 gyn 占用。与拉丁 vir 对照。人形机立在男女雕像融合处，读出「男人／男性」。andr／andro 是希腊「男人」：android 人形为男形，androgen 促雄，polyandry 多夫。和 vir 对照：一边希腊科技术语，一边拉丁德行／制度。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "android",
+     "zh": "安卓；人形机器人",
+     "breakdown": "andr(男)+-oid"
+    },
+    {
+     "word": "philanderer",
+     "zh": "拈花惹草者",
+     "breakdown": "phil(爱)+ander(男)+-er"
+    },
+    {
+     "word": "androgen",
+     "zh": "雄激素",
+     "breakdown": "andro+gen(产生)"
+    },
+    {
+     "word": "polyandry",
+     "zh": "一妻多夫",
+     "breakdown": "poly(多)+andry"
+    },
+    {
+     "word": "androphobia",
+     "zh": "惧男症",
+     "breakdown": "andro+phobia"
+    },
+    {
+     "word": "andrology",
+     "zh": "男科学",
+     "breakdown": "andro+-logy"
+    },
+    {
+     "word": "androcentric",
+     "zh": "男权中心的",
+     "breakdown": "andro+centric"
+    },
+    {
+     "word": "androgenous",
+     "zh": "产生雄性的",
+     "breakdown": "andro+gen+-ous"
+    },
+    {
+     "word": "misandry",
+     "zh": "厌男",
+     "breakdown": "mis(恨)+andry"
+    }
+   ],
+   "example": {
+    "en": "The android story explored androgynous identity.",
+    "zh": "这个安卓故事探讨了雌雄同体的身份。"
+   },
+   "illustration": {
+    "scene": "A smooth man-shaped automaton standing between male and female statue halves that fuse at the centre, a small hormone vial at its feet",
+    "dominantHue": {
+     "name": "薄荷雾 mint mist",
+     "rationale": "机械人与雕像的钢蓝——与 veh 区分偏紫钢"
+    },
+    "props": [
+     "man-shaped automaton",
+     "fusing male/female statue halves",
+     "hormone vial"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/android",
+    "https://www.etymonline.com/word/philanderer",
+    "https://www.etymonline.com/word/androgen",
+    "https://en.wiktionary.org/wiki/ἀνήρ",
+    "https://logeion.uchicago.edu/ἀνήρ",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 338,
+   "id": "lun",
+   "root": "lun",
+   "forms": [
+    "lun",
+    "luna"
+   ],
+   "language": "Latin",
+   "sourceWord": "lūna",
+   "meaning": {
+    "en": "moon",
+    "zh": "月"
+   },
+   "originStory": "拉丁语 lūna 意为「月亮」。lunar 是「月球的」，lunatic 旧指「受月相影响的精神错乱者」（属古代医学观念），lunacy 是「疯癫」，lunate 是「新月形的」，lunation 是「朔望月」，semilunar 是「半月形的」，sublunar 是「月下的／尘世的」。与希腊 selen 对照。新月灯照着新月形伤疤，读出「月」。lun／luna 是「月亮」：lunar 直接，lunate 取新月形，lunatic 残留古代月相致病观，今天只作历史或比喻义理解。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "lunatic 与月相的联系属古代医学观念，现代已不采信。",
+   "derivedWords": [
+    {
+     "word": "lunar",
+     "zh": "月球的",
+     "breakdown": "lun(月)+-ar"
+    },
+    {
+     "word": "lunatic",
+     "zh": "疯子（旧）",
+     "breakdown": "luna+-tic"
+    },
+    {
+     "word": "lunacy",
+     "zh": "疯癫",
+     "breakdown": "luna+-cy"
+    },
+    {
+     "word": "lunate",
+     "zh": "新月形的",
+     "breakdown": "lun+-ate"
+    },
+    {
+     "word": "lunation",
+     "zh": "朔望月",
+     "breakdown": "lun+-ation"
+    },
+    {
+     "word": "semilunar",
+     "zh": "半月形的",
+     "breakdown": "semi(半)+lun+-ar"
+    },
+    {
+     "word": "sublunar",
+     "zh": "月下的；尘世的",
+     "breakdown": "sub(下)+lun+-ar"
+    },
+    {
+     "word": "lunula",
+     "zh": "半月形甲白",
+     "breakdown": "lun+-ula"
+    },
+    {
+     "word": "interlunar",
+     "zh": "朔月期的",
+     "breakdown": "inter-+lun+-ar"
+    },
+    {
+     "word": "lunarscape",
+     "zh": "月面景观",
+     "breakdown": "lunar+scape"
+    }
+   ],
+   "example": {
+    "en": "A lunate scar shone under the lunar lamp.",
+    "zh": "新月形伤疤在月球灯下发亮。"
+   },
+   "illustration": {
+    "scene": "A crescent moon lamp lighting a night terrace where a figure points at a lunate scar, tide marks rising on a mini shore",
+    "dominantHue": {
+     "name": "深青 deep cyan",
+     "rationale": "月光的冷铅蓝——与 termin 区分偏银"
+    },
+    "props": [
+     "crescent moon lamp",
+     "lunate scar on hand",
+     "mini shore tide marks"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/lunar",
+    "https://www.etymonline.com/word/lunatic",
+    "https://www.etymonline.com/word/lunacy",
+    "https://en.wiktionary.org/wiki/lūna",
+    "https://logeion.uchicago.edu/luna",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 339,
+   "id": "tim",
+   "root": "tim",
+   "forms": [
+    "tim"
+   ],
+   "language": "Latin",
+   "sourceWord": "timēre",
+   "meaning": {
+    "en": "to fear",
+    "zh": "怕"
+   },
+   "originStory": "拉丁语 timēre 意为「害怕」。timid 是「胆怯的」，intimidate 是「使害怕」，timorous 是「畏怯的」，intimidation 是「恐吓」，timidity 是「胆怯」。词族不大但学测极常见。小人躲在柱后、巨人指着他、叶子盾牌发抖，不看说明也能猜「怕」。tim 词族短但极常用：timid 是自己怕，intimidate 是把怕塞给别人。阅读理解里出现，态度题常靠它定位。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "timid",
+     "zh": "胆怯的",
+     "breakdown": "tim(怕)+-id"
+    },
+    {
+     "word": "intimidate",
+     "zh": "恐吓",
+     "breakdown": "in-(使)+timid+-ate"
+    },
+    {
+     "word": "timorous",
+     "zh": "畏怯的",
+     "breakdown": "tim+-orous"
+    },
+    {
+     "word": "intimidation",
+     "zh": "恐吓",
+     "breakdown": "in-+timid+-ation"
+    },
+    {
+     "word": "timidity",
+     "zh": "胆怯",
+     "breakdown": "timid+-ity"
+    },
+    {
+     "word": "intimidator",
+     "zh": "恐吓者",
+     "breakdown": "intimidate+-or"
+    },
+    {
+     "word": "timidly",
+     "zh": "胆怯地",
+     "breakdown": "timid+-ly"
+    },
+    {
+     "word": "untimid",
+     "zh": "不胆怯的",
+     "breakdown": "un-+timid"
+    }
+   ],
+   "example": {
+    "en": "The timid intern refused to be intimidated.",
+    "zh": "胆怯的实习生拒绝被吓住。"
+   },
+   "illustration": {
+    "scene": "A small figure shrinking behind a column while a towering speaker shakes a finger, a trembling leaf shield in the figure's hands",
+    "dominantHue": {
+     "name": "堇紫 iris purple",
+     "rationale": "怯意阴影的雾青"
+    },
+    "props": [
+     "shrinking figure behind column",
+     "towering pointing speaker",
+     "trembling leaf shield"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/timid",
+    "https://www.etymonline.com/word/intimidate",
+    "https://www.etymonline.com/word/timorous",
+    "https://en.wiktionary.org/wiki/timēre",
+    "https://logeion.uchicago.edu/timere",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 340,
+   "id": "tenu",
+   "root": "tenu",
+   "forms": [
+    "tenu"
+   ],
+   "language": "Latin",
+   "sourceWord": "tenuis",
+   "meaning": {
+    "en": "thin, stretched thin",
+    "zh": "薄"
+   },
+   "originStory": "拉丁语 tenuis 意为「细的、薄的」。tenuous 是「纤细的／站不住脚的」，attenuate 是「使变薄／衰减」，extenuate 是「减轻（过错）」，attenuation 是「衰减」，tenuity 是「稀薄」。与 tend「伸」有远亲关系。玻璃吹成几乎要断的细丝、信号灯变暗，读出「薄／变弱」。tenu 是「薄、细」：tenuous 论据薄弱，attenuate 信号变弱，extenuate 把过错「削薄」。抽象义都从厚度来。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "tenuous",
+     "zh": "纤细的；脆弱的",
+     "breakdown": "tenu(薄)+-ous"
+    },
+    {
+     "word": "attenuate",
+     "zh": "使变薄；衰减",
+     "breakdown": "at-(向)+tenu+-ate"
+    },
+    {
+     "word": "extenuate",
+     "zh": "减轻；掩饰",
+     "breakdown": "ex-(出)+tenu+-ate"
+    },
+    {
+     "word": "attenuation",
+     "zh": "衰减",
+     "breakdown": "at-+tenu+-ation"
+    },
+    {
+     "word": "tenuity",
+     "zh": "稀薄",
+     "breakdown": "tenu+-ity"
+    },
+    {
+     "word": "attenuator",
+     "zh": "衰减器",
+     "breakdown": "attenuate+-or"
+    },
+    {
+     "word": "extenuating",
+     "zh": "情有可原的",
+     "breakdown": "ex-+tenu+-ating"
+    },
+    {
+     "word": "tenuously",
+     "zh": "脆弱地",
+     "breakdown": "tenu+-ously"
+    }
+   ],
+   "example": {
+    "en": "Their tenuous excuse could not extenuate the delay.",
+    "zh": "站不住脚的借口减轻不了延误。"
+   },
+   "illustration": {
+    "scene": "A glassblower drawing glass into an ultra-thin thread that nearly snaps, a dimmed signal lamp showing attenuation",
+    "dominantHue": {
+     "name": "青瓷 celadon",
+     "rationale": "细丝将断的银灰——与 vag 区分偏亮"
+    },
+    "props": [
+     "ultra-thin glass thread",
+     "nearly snapping filament",
+     "dimmed attenuation lamp"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/tenuous",
+    "https://www.etymonline.com/word/attenuate",
+    "https://www.etymonline.com/word/extenuate",
+    "https://en.wiktionary.org/wiki/tenuis",
+    "https://logeion.uchicago.edu/tenuis",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 341,
+   "id": "fum",
+   "root": "fum",
+   "forms": [
+    "fum"
+   ],
+   "language": "Latin",
+   "sourceWord": "fūmus / fūmāre",
+   "meaning": {
+    "en": "smoke, vapor",
+    "zh": "烟"
+   },
+   "originStory": "拉丁语 fūmus 意为「烟」，fūmāre 是「冒烟」。fume 是「烟／愤怒」，fumigate 是「烟熏消毒」，perfume 原指「透过烟熏的香味」，今义偏香水；fumigation 是「熏蒸」。祭司摇香炉穿过粮袋，香水瓶接住一缕香烟，扣住「烟／熏」。fum 是「烟」：fumigate 用烟消毒，perfume 从烟熏取香走到香水，fume 既是烟气也可指怒气。闻到 fum- 先想烟雾。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "perfume 经法语 parfumer「透过烟熏」；今义偏「香水」。",
+   "derivedWords": [
+    {
+     "word": "fume",
+     "zh": "烟；愤怒",
+     "breakdown": "fum(烟)"
+    },
+    {
+     "word": "fumigate",
+     "zh": "烟熏消毒",
+     "breakdown": "fum+-igate"
+    },
+    {
+     "word": "perfume",
+     "zh": "香水；香味",
+     "breakdown": "per-(透过)+fum(烟)"
+    },
+    {
+     "word": "fumigation",
+     "zh": "熏蒸",
+     "breakdown": "fum+-igation"
+    },
+    {
+     "word": "fumigator",
+     "zh": "熏蒸器",
+     "breakdown": "fumigate+-or"
+    },
+    {
+     "word": "fumy",
+     "zh": "烟雾的",
+     "breakdown": "fum+-y"
+    },
+    {
+     "word": "perfumery",
+     "zh": "香水业",
+     "breakdown": "perfume+-ry"
+    },
+    {
+     "word": "fumatory",
+     "zh": "熏蒸室",
+     "breakdown": "fum+-atory"
+    }
+   ],
+   "example": {
+    "en": "They fumigated the storehouse until the last fume cleared.",
+    "zh": "他们熏蒸库房直到最后一缕烟散尽。"
+   },
+   "illustration": {
+    "scene": "A priest waving a smoking censer through grain sacks while a perfume vial catches a ribbon of scent-smoke",
+    "dominantHue": {
+     "name": "钢蓝 steel blue",
+     "rationale": "烟熏的烟灰——与 calc 区分偏青灰"
+    },
+    "props": [
+     "smoking censer",
+     "grain sacks",
+     "perfume vial catching scent"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/fume",
+    "https://www.etymonline.com/word/fumigate",
+    "https://www.etymonline.com/word/perfume",
+    "https://en.wiktionary.org/wiki/fūmus",
+    "https://logeion.uchicago.edu/fumus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 342,
+   "id": "grand",
+   "root": "grand",
+   "forms": [
+    "grand"
+   ],
+   "language": "Latin",
+   "sourceWord": "grandis",
+   "meaning": {
+    "en": "great, large",
+    "zh": "大，宏大"
+   },
+   "originStory": "拉丁语 grandis 意为「大的、宏伟的」。grand 是「盛大的」，grandeur 是「宏伟」，aggrandize 是「扩大权势」，grandiose 是「浮夸宏大的」。grandiloquent 已被 loqu 占用；grandfather 等亲属词同形，本条以「宏大」义为主。小人仰望过大的柱廊，一枚「排场」气泡飘走，对照真宏伟与假排场。grand 是「大」：grandeur 是真大，grandiose 是装大，aggrandize 是把权势做大。语气上要分清褒贬。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "英语 grand 经法语；grandfather 等亲属词里的 grand- 同形，本条以「宏大」义为主。",
+   "derivedWords": [
+    {
+     "word": "grand",
+     "zh": "盛大的；宏大的",
+     "breakdown": "grand(大)"
+    },
+    {
+     "word": "grandeur",
+     "zh": "宏伟",
+     "breakdown": "grand+-eur"
+    },
+    {
+     "word": "aggrandize",
+     "zh": "扩大；抬高",
+     "breakdown": "ag-(向)+grand+-ize"
+    },
+    {
+     "word": "grandiose",
+     "zh": "浮夸的",
+     "breakdown": "grand+-iose"
+    },
+    {
+     "word": "grandiosity",
+     "zh": "浮夸",
+     "breakdown": "grandiose+-ity"
+    },
+    {
+     "word": "aggrandizement",
+     "zh": "扩张",
+     "breakdown": "aggrandize+-ment"
+    },
+    {
+     "word": "grandly",
+     "zh": "堂皇地",
+     "breakdown": "grand+-ly"
+    },
+    {
+     "word": "grandee",
+     "zh": "大公；显贵",
+     "breakdown": "grand+-ee"
+    },
+    {
+     "word": "megagrandeur",
+     "zh": "超宏伟",
+     "breakdown": "mega+grandeur"
+    }
+   ],
+   "example": {
+    "en": "The grandiose palace lacked true grandeur.",
+    "zh": "那座浮夸的宫殿缺少真正的宏伟。"
+   },
+   "illustration": {
+    "scene": "A tiny visitor dwarfed by an oversized columned facade, a sculptor chiselling the pediment, a hot-air bubble of empty show floating off",
+    "dominantHue": {
+     "name": "烟灰 smoke ash",
+     "rationale": "殿堂阴影的深靛蓝——与 syn/vir 区分偏紫靛"
+    },
+    "props": [
+     "oversized columned facade",
+     "sculptor at pediment",
+     "floating show bubble"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/grand",
+    "https://www.etymonline.com/word/grandeur",
+    "https://www.etymonline.com/word/aggrandize",
+    "https://en.wiktionary.org/wiki/grandis",
+    "https://logeion.uchicago.edu/grandis",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 343,
+   "id": "trem",
+   "root": "trem",
+   "forms": [
+    "trem"
+   ],
+   "language": "Latin",
+   "sourceWord": "tremere",
+   "meaning": {
+    "en": "to tremble",
+    "zh": "颤抖"
+   },
+   "originStory": "拉丁语 tremere 意为「颤抖」。tremble 是「发抖」，tremor 是「震颤」，tremendous 原指「令人发抖的、可怕的」，后常指「巨大的」；tremulous 是「震颤的」，tremolo 是「颤音」。桌面一震、酒杯涟漪、地震仪乱跳，直接是「颤」。trem 是「颤」：tremor 是颤动本身，tremble 是发抖，tremendous 从「吓得发抖」虚化成「极大」。身体反应是最好的记忆钩。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "tremendous 语义从「可怕得发抖」弱化为「极大」。",
+   "derivedWords": [
+    {
+     "word": "tremble",
+     "zh": "发抖",
+     "breakdown": "trem(颤)+-ble"
+    },
+    {
+     "word": "tremor",
+     "zh": "震颤",
+     "breakdown": "trem+-or"
+    },
+    {
+     "word": "tremendous",
+     "zh": "巨大的；极好的",
+     "breakdown": "trem+-endous"
+    },
+    {
+     "word": "tremulous",
+     "zh": "震颤的",
+     "breakdown": "trem+-ulous"
+    },
+    {
+     "word": "tremolo",
+     "zh": "颤音",
+     "breakdown": "trem+-olo"
+    },
+    {
+     "word": "tremblement",
+     "zh": "震颤",
+     "breakdown": "tremble+-ment"
+    },
+    {
+     "word": "intremulous",
+     "zh": "微颤的",
+     "breakdown": "in-+tremulous"
+    },
+    {
+     "word": "tremorless",
+     "zh": "无震颤的",
+     "breakdown": "tremor+-less"
+    }
+   ],
+   "example": {
+    "en": "A tremendous tremor left the glass tremulous.",
+    "zh": "一次巨大的震颤让玻璃杯余悸微颤。"
+   },
+   "illustration": {
+    "scene": "A table shaking as concentric ripples run through a wine glass, a seismograph needle scribbling beside a tiny frightened mouse",
+    "dominantHue": {
+     "name": "苍绿 pale forest",
+     "rationale": "震动涟漪的暮蓝"
+    },
+    "props": [
+     "rippling wine glass",
+     "seismograph needle",
+     "tiny frightened mouse"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/tremble",
+    "https://www.etymonline.com/word/tremor",
+    "https://www.etymonline.com/word/tremendous",
+    "https://en.wiktionary.org/wiki/tremere",
+    "https://logeion.uchicago.edu/tremere",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 344,
+   "id": "proxim",
+   "root": "proxim",
+   "forms": [
+    "proxim"
+   ],
+   "language": "Latin",
+   "sourceWord": "proximus",
+   "meaning": {
+    "en": "nearest",
+    "zh": "近"
+   },
+   "originStory": "拉丁语 proximus 是 prope「近」的最高级，意为「最近的」。proximate 是「最接近的」，proximity 是「接近」，approximate 是「接近／近似」，proximal 是「近端的」，approximation 是「近似值」。两根测杆几乎碰上靶心，第三根远远闲置，读出「最近／近似」。proxim 是「最近」：proximity 是距离近，approximate 是数值上靠过去，proximal 是解剖上靠近躯干的一端。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "proximate",
+     "zh": "最接近的",
+     "breakdown": "proxim(近)+-ate"
+    },
+    {
+     "word": "proximity",
+     "zh": "接近",
+     "breakdown": "proxim+-ity"
+    },
+    {
+     "word": "approximate",
+     "zh": "近似的；接近",
+     "breakdown": "ap-(向)+proxim+-ate"
+    },
+    {
+     "word": "proximal",
+     "zh": "近端的",
+     "breakdown": "proxim+-al"
+    },
+    {
+     "word": "approximation",
+     "zh": "近似",
+     "breakdown": "ap-+proxim+-ation"
+    },
+    {
+     "word": "approximately",
+     "zh": "大约",
+     "breakdown": "approximate+-ly"
+    },
+    {
+     "word": "proximate-cause",
+     "zh": "近因",
+     "breakdown": "proximate+cause"
+    },
+    {
+     "word": "approximant",
+     "zh": "近音",
+     "breakdown": "approximate+-ant"
+    }
+   ],
+   "example": {
+    "en": "In proximity to the core, proximal readings are approximate.",
+    "zh": "靠近核心时，近端读数只是近似值。"
+   },
+   "illustration": {
+    "scene": "Two measuring rods almost touching at a bullseye while a third rod stands far off, a label reading 'nearest' on the close pair",
+    "dominantHue": {
+     "name": "幽蓝 abyss blue",
+     "rationale": "测杆贴近的青灰"
+    },
+    "props": [
+     "two almost-touching rods",
+     "bullseye target",
+     "distant unused rod"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/proximate",
+    "https://www.etymonline.com/word/proximity",
+    "https://www.etymonline.com/word/approximate",
+    "https://en.wiktionary.org/wiki/proximus",
+    "https://logeion.uchicago.edu/proximus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 345,
+   "id": "plan",
+   "root": "plan",
+   "forms": [
+    "plan",
+    "plain"
+   ],
+   "language": "Latin",
+   "sourceWord": "plānus",
+   "meaning": {
+    "en": "flat, level",
+    "zh": "平坦"
+   },
+   "originStory": "拉丁语 plānus 意为「平坦的」。plane 是「平面／飞机」，plain 是「平原／清楚」，plan 是「平面图／计划」，explain 是「摊平说清楚」，planar 是「平面的」，esplanade 是「平坦散步道」。希腊 plan「漫游」（planet）是另一词，勿混；piano 经意大利语与 plānus 相关。蓝图摊在平台上，刨子刨平木板，即「平」。plan／plain／plane 共用「平」：地面平是 plain，几何平是 plane，把道理摊平是 explain，画出来的平面图是 plan。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "piano 经意大利语 piano「轻」，与 plānus 相关；planet 来自希腊「漫游者」，勿混。",
+   "derivedWords": [
+    {
+     "word": "plane",
+     "zh": "平面；飞机",
+     "breakdown": "plan(平)"
+    },
+    {
+     "word": "plain",
+     "zh": "平原；清楚的",
+     "breakdown": "plain←plan"
+    },
+    {
+     "word": "plan",
+     "zh": "平面图；计划",
+     "breakdown": "plan"
+    },
+    {
+     "word": "explain",
+     "zh": "解释",
+     "breakdown": "ex-(出)+plain(平)"
+    },
+    {
+     "word": "planar",
+     "zh": "平面的",
+     "breakdown": "plan+-ar"
+    },
+    {
+     "word": "esplanade",
+     "zh": "滨河大道",
+     "breakdown": "es-+plan+-ade"
+    },
+    {
+     "word": "explanation",
+     "zh": "解释",
+     "breakdown": "ex-+plan+-ation"
+    },
+    {
+     "word": "planarity",
+     "zh": "平面性",
+     "breakdown": "planar+-ity"
+    },
+    {
+     "word": "plainly",
+     "zh": "清楚地",
+     "breakdown": "plain+-ly"
+    },
+    {
+     "word": "complanar",
+     "zh": "共面的",
+     "breakdown": "com-+plan+-ar"
+    }
+   ],
+   "example": {
+    "en": "She used a planar diagram to explain the plain plan.",
+    "zh": "她用平面图解释那个清楚的计划。"
+   },
+   "illustration": {
+    "scene": "An architect rolling a flat blueprint across a level terrace while a small plane-tool shaves a board smooth and a plain stretches beyond",
+    "dominantHue": {
+     "name": "霞灰 dusk ash",
+     "rationale": "平坦台地的石绿"
+    },
+    "props": [
+     "rolled flat blueprint",
+     "smoothing plane-tool",
+     "distant plain vista"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/plane",
+    "https://www.etymonline.com/word/plain",
+    "https://www.etymonline.com/word/plan",
+    "https://en.wiktionary.org/wiki/plānus",
+    "https://logeion.uchicago.edu/planus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 346,
+   "id": "null",
+   "root": "null",
+   "forms": [
+    "null"
+   ],
+   "language": "Latin",
+   "sourceWord": "nūllus",
+   "meaning": {
+    "en": "none, not any",
+    "zh": "无，零"
+   },
+   "originStory": "拉丁语 nūllus 意为「没有一个」，由 ne「不」+ ūllus「任何一个」组成。null 是「空值／无效」，nullify 是「使无效」，annul 是「废除」，nullity 是「无效」，nullification 是「废止」。法官把合同盖上 VOID、石板上数字抹成零、空集圆圈，读出「无／作废」。null 是「没有」：计算机里的空值、法律里的无效、annul 的废除，都是把存在抹成零。见到 null／annul 想「作废」。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "null",
+     "zh": "无效的；空值",
+     "breakdown": "null(无)"
+    },
+    {
+     "word": "nullify",
+     "zh": "使无效",
+     "breakdown": "null+-ify"
+    },
+    {
+     "word": "annul",
+     "zh": "废除",
+     "breakdown": "an-(向)+nul(无)"
+    },
+    {
+     "word": "nullity",
+     "zh": "无效",
+     "breakdown": "null+-ity"
+    },
+    {
+     "word": "nullification",
+     "zh": "废止",
+     "breakdown": "nullify+-ication"
+    },
+    {
+     "word": "nulliparous",
+     "zh": "未经产的",
+     "breakdown": "null+-i-+par(生)+-ous"
+    },
+    {
+     "word": "nonnull",
+     "zh": "非空的",
+     "breakdown": "non-+null"
+    },
+    {
+     "word": "nullifier",
+     "zh": "废止者",
+     "breakdown": "nullify+-er"
+    }
+   ],
+   "example": {
+    "en": "The court annulled the contract as a nullity.",
+    "zh": "法院以无效为由废除了合同。"
+   },
+   "illustration": {
+    "scene": "A judge stamping VOID on a contract while numbers on a slate wipe to zero and an empty set-circle sits on the desk",
+    "dominantHue": {
+     "name": "碧空 sky teal",
+     "rationale": "作废戳记的冷灰——与 mim 区分偏蓝冷灰"
+    },
+    "props": [
+     "VOID stamp on contract",
+     "slate wiped to zero",
+     "empty set-circle"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/null",
+    "https://www.etymonline.com/word/nullify",
+    "https://www.etymonline.com/word/annul",
+    "https://en.wiktionary.org/wiki/nūllus",
+    "https://logeion.uchicago.edu/nullus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 347,
+   "id": "oct",
+   "root": "oct",
+   "forms": [
+    "oct",
+    "octa",
+    "octo"
+   ],
+   "language": "Latin + Greek",
+   "sourceWord": "octō / ὀκτώ",
+   "meaning": {
+    "en": "eight",
+    "zh": "八"
+   },
+   "originStory": "拉丁 octō 与希腊 ὀκτώ 都是「八」。octopus 是「八足」，October 原是罗马历第八月（历法改革后名实错位），octave 是「八度」，octet 是「八重奏／八位组」，octogenarian 是「八十多岁的人」，octahedron 是「八面体」。octagon 已被 gon 占用。八腕章鱼缠着八面宝石、八位乐手围坐，一眼是「八」。oct／octa／octo 是「八」：生物 octopus，音乐 octave，年龄 octogenarian，历法 October 名字里还留着「八月」的旧账。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "October 在历法改革后变成第十月，名实错位。",
+   "derivedWords": [
+    {
+     "word": "octopus",
+     "zh": "章鱼",
+     "breakdown": "octo(八)+pus(足)"
+    },
+    {
+     "word": "October",
+     "zh": "十月",
+     "breakdown": "October←octo"
+    },
+    {
+     "word": "octave",
+     "zh": "八度",
+     "breakdown": "oct+-ave"
+    },
+    {
+     "word": "octet",
+     "zh": "八重奏；八位字节",
+     "breakdown": "oct+-et"
+    },
+    {
+     "word": "octogenarian",
+     "zh": "八旬老人",
+     "breakdown": "octo+genar+-ian"
+    },
+    {
+     "word": "octangular",
+     "zh": "八角的",
+     "breakdown": "oct+angular"
+    },
+    {
+     "word": "octopod",
+     "zh": "八足类",
+     "breakdown": "octo+pod"
+    },
+    {
+     "word": "octahedron",
+     "zh": "八面体",
+     "breakdown": "octa+hedron(面)"
+    },
+    {
+     "word": "octane",
+     "zh": "辛烷",
+     "breakdown": "oct+-ane"
+    },
+    {
+     "word": "octant",
+     "zh": "八分圆",
+     "breakdown": "oct+-ant"
+    },
+    {
+     "word": "octavo",
+     "zh": "八开本",
+     "breakdown": "oct+-avo"
+    },
+    {
+     "word": "octonary",
+     "zh": "八进制的",
+     "breakdown": "oct+-onary"
+    }
+   ],
+   "example": {
+    "en": "The octet played an octave above the octopus mural.",
+    "zh": "八重奏在章鱼壁画上方高八度演奏。"
+   },
+   "illustration": {
+    "scene": "An eight-armed octopus curling around an eight-sided gem while eight tiny musicians sit in a ring",
+    "dominantHue": {
+     "name": "葡萄紫 grape violet",
+     "rationale": "章鱼与八角的沧蓝——与 ton 区分偏绿沧"
+    },
+    "props": [
+     "eight-armed octopus",
+     "eight-sided gem",
+     "ring of eight musicians"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/octopus",
+    "https://www.etymonline.com/word/October",
+    "https://www.etymonline.com/word/octave",
+    "https://en.wiktionary.org/wiki/octō",
+    "https://logeion.uchicago.edu/octo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 348,
+   "id": "quadr",
+   "root": "quadr",
+   "forms": [
+    "quadr",
+    "quad",
+    "quart"
+   ],
+   "language": "Latin",
+   "sourceWord": "quattuor / quadr-",
+   "meaning": {
+    "en": "four",
+    "zh": "四"
+   },
+   "originStory": "拉丁语 quattuor 意为「四」，词干 quadr-／quart-。quadrant 是「四分之一圆／象限」，quadruple 是「四倍」，quadratic 是「二次的」，quadruped 是「四足动物」，quarter 是「四分之一」，quartet 是「四重奏」，quadrangle／quadrilateral 是「四边形」，square 经古法语与 quadrum 相关。四足动物走过四个扇形象限，扣住「四」。quadr／quart 是「四」：空间上的 quadrant，倍数上的 quadruple，动物 quadruped，音乐 quartet。square 也与「四方」有关。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "square 经古法语，与 quadrum「方形」相关。",
+   "derivedWords": [
+    {
+     "word": "quadrant",
+     "zh": "象限",
+     "breakdown": "quadr(四)+-ant"
+    },
+    {
+     "word": "quadruple",
+     "zh": "四倍的",
+     "breakdown": "quadr+-uple"
+    },
+    {
+     "word": "quadratic",
+     "zh": "二次的",
+     "breakdown": "quadr+-atic"
+    },
+    {
+     "word": "quarter",
+     "zh": "四分之一",
+     "breakdown": "quart+-er"
+    },
+    {
+     "word": "quartet",
+     "zh": "四重奏",
+     "breakdown": "quart+-et"
+    },
+    {
+     "word": "quadrangle",
+     "zh": "四边形；四方院",
+     "breakdown": "quadr+angle"
+    },
+    {
+     "word": "quadrilateral",
+     "zh": "四边形",
+     "breakdown": "quadr+-i-+lateral"
+    },
+    {
+     "word": "squad",
+     "zh": "小队",
+     "breakdown": "squad←exquad"
+    },
+    {
+     "word": "square",
+     "zh": "正方形",
+     "breakdown": "square←quadrum"
+    }
+   ],
+   "example": {
+    "en": "The quadruped crossed each quadrant of the square.",
+    "zh": "那只四足动物穿过正方形的每一个象限。"
+   },
+   "illustration": {
+    "scene": "A four-footed animal stepping through four pie-slices of a circle inscribed in a square, four musicians in the corners",
+    "dominantHue": {
+     "name": "冷绿 cool green",
+     "rationale": "方阵与四分的苔绿——与 semin 区分偏蓝苔"
+    },
+    "props": [
+     "four-footed animal",
+     "four pie-slice quadrants",
+     "corner quartet"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/quadrant",
+    "https://www.etymonline.com/word/quadruple",
+    "https://www.etymonline.com/word/quadratic",
+    "https://en.wiktionary.org/wiki/quattuor",
+    "https://logeion.uchicago.edu/quattuor",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 349,
+   "id": "semi",
+   "root": "semi",
+   "forms": [
+    "semi"
+   ],
+   "language": "Latin",
+   "sourceWord": "sēmi-",
+   "meaning": {
+    "en": "half",
+    "zh": "半"
+   },
+   "originStory": "拉丁语 sēmi- 意为「一半」，作前缀极高产。semicircle 是「半圆」，semicolon 是「分号（半个冒号）」，semiconductor 是「半导体」，semifinal 是「半决赛」，semiannual 是「半年一次」，semitone 是「半音」。与希腊 hemi 对照；hemisphere 已被 sphere 占用故留 semi。圆被整齐切成两半，切口亮着分号，读出「半」。semi- 是「半」：形状 semicircle，比赛 semifinal，材料 semiconductor，标点 semicolon。几乎可加在任何名词前，但本图鉴收最稳的一批。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "作前缀极高产；收作词根因学测词族透明。",
+   "derivedWords": [
+    {
+     "word": "semicircle",
+     "zh": "半圆",
+     "breakdown": "semi(半)+circle"
+    },
+    {
+     "word": "semicolon",
+     "zh": "分号",
+     "breakdown": "semi+colon"
+    },
+    {
+     "word": "semiconductor",
+     "zh": "半导体",
+     "breakdown": "semi+conductor"
+    },
+    {
+     "word": "semifinal",
+     "zh": "半决赛",
+     "breakdown": "semi+final"
+    },
+    {
+     "word": "semiannual",
+     "zh": "半年一次的",
+     "breakdown": "semi+annual"
+    },
+    {
+     "word": "semiprecious",
+     "zh": "半宝石的",
+     "breakdown": "semi+precious"
+    },
+    {
+     "word": "semitone",
+     "zh": "半音",
+     "breakdown": "semi+tone"
+    },
+    {
+     "word": "semiconscious",
+     "zh": "半意识的",
+     "breakdown": "semi+conscious"
+    },
+    {
+     "word": "semitrailer",
+     "zh": "半挂车",
+     "breakdown": "semi+trailer"
+    },
+    {
+     "word": "semiskilled",
+     "zh": "半熟练的",
+     "breakdown": "semi+skilled"
+    }
+   ],
+   "example": {
+    "en": "A semicolon split the sentence like a semicircle pause.",
+    "zh": "分号像半圆停顿一样切开句子。"
+   },
+   "illustration": {
+    "scene": "A circle cut cleanly in half on the plinth, a punctuation mark glowing at the cut, a finish-line ribbon marked semi-final beyond",
+    "dominantHue": {
+     "name": "暮蓝 dusk blue",
+     "rationale": "半圆切开的霁紫"
+    },
+    "props": [
+     "circle cut in half",
+     "glowing semicolon",
+     "semi-final ribbon"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/semicircle",
+    "https://www.etymonline.com/word/semicolon",
+    "https://www.etymonline.com/word/semiconductor",
+    "https://en.wiktionary.org/wiki/sēmi-",
+    "https://logeion.uchicago.edu/semi-",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 350,
+   "id": "digit",
+   "root": "digit",
+   "forms": [
+    "digit"
+   ],
+   "language": "Latin",
+   "sourceWord": "digitus",
+   "meaning": {
+    "en": "finger, toe; numeral",
+    "zh": "手指；数字"
+   },
+   "originStory": "拉丁语 digitus 意为「手指、脚趾」。人用手指计数，于是 digit 也指「0–9 的数位」。digital 是「数字的／手指的」，digitize 是「数字化」，prestidigitation 是「敏捷的手指戏法」，digitate 是「有指状裂片的」，digitalis「洋地黄」因花形如指。手按发光的 0–9 珠、魔术师把纸牌变像素，双关「指／数」。digit 从「手指」到「数位」：digital 时代仍保留指头计数的影子，digitize 是把连续世界收成 0–9，prestidigitation 炫耀的是快手。本条按辞典与学测常见派生收录，传说或争议处已在 uncertainty 中标明，故事里用据说／可能等语气。",
+   "uncertainty": "",
+   "derivedWords": [
+    {
+     "word": "digit",
+     "zh": "数字；手指",
+     "breakdown": "digit(指)"
+    },
+    {
+     "word": "digital",
+     "zh": "数字的；手指的",
+     "breakdown": "digit+-al"
+    },
+    {
+     "word": "digitize",
+     "zh": "数字化",
+     "breakdown": "digit+-ize"
+    },
+    {
+     "word": "prestidigitation",
+     "zh": "戏法",
+     "breakdown": "presti(敏捷)+digit+-ation"
+    },
+    {
+     "word": "digitate",
+     "zh": "指状的",
+     "breakdown": "digit+-ate"
+    },
+    {
+     "word": "digitisation",
+     "zh": "数字化",
+     "breakdown": "digit+-isation"
+    },
+    {
+     "word": "interdigital",
+     "zh": "指间的",
+     "breakdown": "inter-+digit+-al"
+    },
+    {
+     "word": "digitiform",
+     "zh": "指形的",
+     "breakdown": "digit+-i-+form"
+    },
+    {
+     "word": "digitalis",
+     "zh": "洋地黄",
+     "breakdown": "digitalis"
+    },
+    {
+     "word": "digitizer",
+     "zh": "数字化仪",
+     "breakdown": "digitize+-er"
+    }
+   ],
+   "example": {
+    "en": "Digital tools digitize what fingers once counted as digits.",
+    "zh": "数字工具把从前用手指点的数位数字化了。"
+   },
+   "illustration": {
+    "scene": "A hand pressing glowing 0–9 beads while a magician's quick fingers shuffle cards into pixel squares",
+    "dominantHue": {
+     "name": "雾翡翠 jade mist",
+     "rationale": "指尖光珠的雾蓝——与 feder 区分偏青"
+    },
+    "props": [
+     "hand with 0–9 glowing beads",
+     "magician's quick fingers",
+     "cards becoming pixels"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, generous cream negative space"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/digit",
+    "https://www.etymonline.com/word/digital",
+    "https://www.etymonline.com/word/digitize",
+    "https://en.wiktionary.org/wiki/digitus",
+    "https://logeion.uchicago.edu/digitus",
     "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
    ],
    "inCurrentApp": false,
