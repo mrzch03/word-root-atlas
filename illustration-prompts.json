@@ -1498,5 +1498,305 @@
     "root": "hem",
     "meaning": "blood",
     "scene": "A man holds up a vial of blood beside a seated patient and a drawing of a heart."
+  },
+  {
+    "rootId": "pot",
+    "root": "pot",
+    "meaning": "to be able, power",
+    "scene": "A strongman presses a straight bronze barbell overhead, beside a sprouting acorn and a sleeping lion cub."
+  },
+  {
+    "rootId": "anim",
+    "root": "anim",
+    "meaning": "life, breath, mind",
+    "scene": "A sculptor breathes life into a clay bird while the clay animals beside him begin to wake."
+  },
+  {
+    "rootId": "us",
+    "root": "us",
+    "meaning": "to use",
+    "scene": "A cook reaches for hanging utensils, with a worn ladle and an oil lamp beside the hearth."
+  },
+  {
+    "rootId": "dur",
+    "root": "dur",
+    "meaning": "hard; to last",
+    "scene": "A stone arch bridge still stands beside a broken wooden bridge, an hourglass on the ground."
+  },
+  {
+    "rootId": "her",
+    "root": "her",
+    "meaning": "to stick",
+    "scene": "A mosaic maker presses tiles into the picture, a honey jar nearby and one tile stuck to a fingertip."
+  },
+  {
+    "rootId": "lud",
+    "root": "lud",
+    "meaning": "to play",
+    "scene": "Masked players juggle on a stage, with a dice board and a trick mirror beside them."
+  },
+  {
+    "rootId": "vest",
+    "root": "vest",
+    "meaning": "garment; to clothe",
+    "scene": "Tailors drape a robe onto a kneeling official, beside a dress form and a chest of clothes."
+  },
+  {
+    "rootId": "rid",
+    "root": "rid",
+    "meaning": "to laugh",
+    "scene": "A jester slips on a peel while the guests laugh and the cups tip over."
+  },
+  {
+    "rootId": "rog",
+    "root": "rog",
+    "meaning": "to ask",
+    "scene": "A magistrate questions a suspect, a scribe and a lamp beside the chair."
+  },
+  {
+    "rootId": "civ",
+    "root": "civ",
+    "meaning": "citizen",
+    "scene": "Citizens drop pebbles into voting urns, with a rostrum and a bronze tablet nearby."
+  },
+  {
+    "rootId": "art",
+    "root": "art",
+    "meaning": "skill, craft",
+    "scene": "A jeweller, a weaver, and a mosaicist share one workshop, finished pieces on the shelf."
+  },
+  {
+    "rootId": "alt",
+    "root": "alt",
+    "meaning": "high",
+    "scene": "A climber plants a flag on a peak above the clouds, an eagle and a measuring pole beside the summit."
+  },
+  {
+    "rootId": "am",
+    "root": "am",
+    "meaning": "to love; friend",
+    "scene": "Two friends share bread under a fig tree, a rose and a pair of doves nearby."
+  },
+  {
+    "rootId": "dign",
+    "root": "dign",
+    "meaning": "worthy",
+    "scene": "An elderly envoy stands on a crimson carpet while courtiers bow, a laurel crown set beside him."
+  },
+  {
+    "rootId": "err",
+    "root": "err",
+    "meaning": "to wander, stray",
+    "scene": "A traveller leaves the road for a maze of paths, a dropped map on the ground and a tower beyond."
+  },
+  {
+    "rootId": "fals",
+    "root": "fals",
+    "meaning": "to deceive, fail",
+    "scene": "A trickster holds a cheerful theatre mask and hides a stick, while a trusting friend shakes his hand."
+  },
+  {
+    "rootId": "firm",
+    "root": "firm",
+    "meaning": "strong, steady",
+    "scene": "Builders seat a column with a spirit level beside them, and two people shake hands."
+  },
+  {
+    "rootId": "merc",
+    "root": "merc",
+    "meaning": "goods; to trade",
+    "scene": "Traders weigh goods, spice sacks and coins piled beside the scale."
+  },
+  {
+    "rootId": "pen",
+    "root": "pen",
+    "meaning": "penalty; to punish",
+    "scene": "A boy stands in the stocks while a magistrate holds a scroll, fine coins on the ground."
+  },
+  {
+    "rootId": "preci",
+    "root": "preci",
+    "meaning": "price, value",
+    "scene": "An appraiser studies a pearl through a loupe, a jeweller's scale and a velvet tray beside it."
+  },
+  {
+    "rootId": "rap",
+    "root": "rap",
+    "meaning": "to seize, snatch",
+    "scene": "An eagle snatches a fish as the fisherman starts and the net rips."
+  },
+  {
+    "rootId": "sat",
+    "root": "sat",
+    "meaning": "enough",
+    "scene": "A full guest leans back beside a dripping sponge and an overflowing goblet."
+  },
+  {
+    "rootId": "sen",
+    "root": "sen",
+    "meaning": "old man",
+    "scene": "White-bearded elders sit in a circle, one with a cane, an amphora clepsydra beside them."
+  },
+  {
+    "rootId": "sert",
+    "root": "sert",
+    "meaning": "to join, link in a row",
+    "scene": "Bead stringers join a long row of beads, spools of thread beside the line."
+  },
+  {
+    "rootId": "trud",
+    "root": "trud",
+    "meaning": "to push, thrust",
+    "scene": "A burly figure shoves a heavy cart into a crowd and a basket spills."
+  },
+  {
+    "rootId": "und",
+    "root": "und",
+    "meaning": "wave",
+    "scene": "A fisherman hauls a net of fish while waves break over a breakwater."
+  },
+  {
+    "rootId": "verb",
+    "root": "verb",
+    "meaning": "word",
+    "scene": "An orator speaks from a podium, a scroll and a speaking trumpet beside him."
+  },
+  {
+    "rootId": "carn",
+    "root": "carn",
+    "meaning": "flesh, meat",
+    "scene": "A lion flees with a cut of meat while a butcher gives chase, hams and a carnation hanging nearby."
+  },
+  {
+    "rootId": "vor",
+    "root": "vor",
+    "meaning": "to devour, swallow",
+    "scene": "A feaster devours a roast, the plates emptied and crumbs across the table."
+  },
+  {
+    "rootId": "cub",
+    "root": "cub",
+    "meaning": "to lie down",
+    "scene": "Dice players throw, stacked cubes and gambling cups beside the board."
+  },
+  {
+    "rootId": "culp",
+    "root": "culp",
+    "meaning": "fault, blame",
+    "scene": "A circle accuses a guilty cat beside a broken pot, muddy paw prints on the ground."
+  },
+  {
+    "rootId": "umbr",
+    "root": "umbr",
+    "meaning": "shade, shadow",
+    "scene": "Figures stand in the shade of a large parasol."
+  },
+  {
+    "rootId": "rot",
+    "root": "rot",
+    "meaning": "wheel",
+    "scene": "A potter turns a wheel, another wheel and coils of clay beside the bench."
+  },
+  {
+    "rootId": "fla",
+    "root": "fla",
+    "meaning": "to blow",
+    "scene": "Wind billows a cloak and a row of flags."
+  },
+  {
+    "rootId": "flam",
+    "root": "flam",
+    "meaning": "flame; to burn",
+    "scene": "A torchbearer stands beside open flames and a brazier."
+  },
+  {
+    "rootId": "hosp",
+    "root": "hosp",
+    "meaning": "guest; host",
+    "scene": "A host washes a guest's feet, bread and a bed alcove nearby."
+  },
+  {
+    "rootId": "med",
+    "root": "med",
+    "meaning": "to heal; doctor",
+    "scene": "A healer holds herbs, a mortar and a bandage on the table."
+  },
+  {
+    "rootId": "nutri",
+    "root": "nutri",
+    "meaning": "to nourish, suckle",
+    "scene": "A nurse feeds a child, a bowl and a milk jug beside them."
+  },
+  {
+    "rootId": "plu",
+    "root": "plu",
+    "meaning": "more",
+    "scene": "Coins fall like rain."
+  },
+  {
+    "rootId": "mens",
+    "root": "mens",
+    "meaning": "to measure",
+    "scene": "A surveyor holds a measuring rod over a rope marked with knots."
+  },
+  {
+    "rootId": "electr",
+    "root": "electr",
+    "meaning": "amber; electricity",
+    "scene": "An amber rod draws feathers to it, a spark jumping nearby."
+  },
+  {
+    "rootId": "neo",
+    "root": "neo",
+    "meaning": "new",
+    "scene": "A new sapling rises from a cracked old vase, a ribbon tied at the stem."
+  },
+  {
+    "rootId": "du",
+    "root": "du",
+    "meaning": "two",
+    "scene": "Twins stand mirrored in front of two doors."
+  },
+  {
+    "rootId": "tri",
+    "root": "tri",
+    "meaning": "three",
+    "scene": "A sea king holds a trident beside a bronze tripod and three dancers."
+  },
+  {
+    "rootId": "cent",
+    "root": "cent",
+    "meaning": "hundred",
+    "scene": "A centurion stands before a clear block of ten by ten soldiers, coins and a centipede nearby."
+  },
+  {
+    "rootId": "mill",
+    "root": "mill",
+    "meaning": "thousand",
+    "scene": "A miller carries a sack of grain beside a millstone."
+  },
+  {
+    "rootId": "nect",
+    "root": "nect",
+    "meaning": "to tie, bind",
+    "scene": "Rope-makers knot a bridge between two cliffs, a giant knot and a spool beside them."
+  },
+  {
+    "rootId": "tox",
+    "root": "tox",
+    "meaning": "poison",
+    "scene": "An archer dips an arrow into a flask of poison."
+  },
+  {
+    "rootId": "plaud",
+    "root": "plaud",
+    "meaning": "to clap",
+    "scene": "An audience claps for a performer on stage."
+  },
+  {
+    "rootId": "long",
+    "root": "long",
+    "meaning": "long",
+    "scene": "A road runs to the horizon, a mile marker standing beside it."
   }
 ]
