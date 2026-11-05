@@ -130,3 +130,7 @@ A signature colour has to be a block you can still read when the card is a thumb
 The next twelve paintings, plus redraws of curr, press, and fer, bring the illustrated set to sixty-six. Asking for a signature colour of about eight percent of the card worked on the redraws: curr's magenta track, press's wax and signet, and fer's apricot cloth are readable as thumbnails. junct is still under that, about six percent, and can grow later. The album and the count are unchanged.
 
 New acceptance test, user-approved: guess the meaning from the picture alone, without the caption.
+
+## v10 — three hundred cards
+
+Three hundred roots have a picture. A global OKLab gap of 0.07 between every pair no longer fits on one hue-sorted wall. What still matters is the neighbour you actually see, and that two cards from the same batch can be told apart. Batches 19 and 20 (ranks 251–300) follow that narrower rule. Their floor colours are the measured accents. They are not pushed off those hues to clear every earlier card. The closest new pairs sit near an existing swatch (firm beside crypt, merc beside sign) or inside the batch (civ beside electr). The first forty-two hues stay where they were.

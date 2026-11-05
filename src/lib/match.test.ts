@@ -13,11 +13,11 @@ const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
 const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships 250 roots, all illustrated, with the original 42 still fully written', () => {
-    expect(roots.length).toBe(250);
-    expect(illustrated).toHaveLength(250);
+  it('ships 300 roots, all illustrated, with the original 42 still fully written', () => {
+    expect(roots.length).toBe(300);
+    expect(illustrated).toHaveLength(300);
     expect(authored).toHaveLength(42);
-    expect(batch).toHaveLength(208);
+    expect(batch).toHaveLength(258);
     expect(cream).toHaveLength(0);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
@@ -42,6 +42,7 @@ describe('dataset', () => {
     }
     for (const root of batch) {
       expect(root.words.length).toBeGreaterThanOrEqual(2);
+      expect(root.words.length).toBeLessThanOrEqual(20);
       expect(root.artAlt.length).toBeGreaterThan(8);
       expect(existsSync(`public/illustrations/${root.id}.webp`)).toBe(true);
       expect(existsSync(`public/thumbs/${root.id}.webp`)).toBe(true);
@@ -163,6 +164,31 @@ describe('lookup', () => {
     expect(lookup('ped')).toMatchObject({ kind: 'root', root: { id: 'ped', illustrated: true } });
     expect(lookup('paed')).toMatchObject({ kind: 'root', root: { id: 'paed', root: 'paed' } });
     expect(lookup('manufacture')).toMatchObject({ kind: 'word', hit: { root: { id: 'manu' } } });
+    expect(lookup('potent')).toMatchObject({ kind: 'word', hit: { word: 'potent', root: { id: 'pot', illustrated: true } } });
+    expect(lookup('falsify')).toMatchObject({ kind: 'word', hit: { word: 'falsify', root: { id: 'fals', illustrated: true } } });
+    expect(lookup('century')).toMatchObject({ kind: 'word', hit: { word: 'century', root: { id: 'cent', illustrated: true } } });
+    expect(lookup('toxic')).toMatchObject({ kind: 'word', hit: { word: 'toxic', root: { id: 'tox', illustrated: true } } });
+    expect(lookup('millimetre')).toMatchObject({ kind: 'word', hit: { word: 'millimeter', root: { id: 'mill' } } });
+    // med is medicine; medi stays the middle. lud is play and does not take luc's lus.
+    expect(lookup('med')).toMatchObject({ kind: 'root', root: { id: 'med', root: 'med' } });
+    expect(lookup('medi')).toMatchObject({ kind: 'root', root: { id: 'medi', root: 'medi' } });
+    expect(lookup('medium')).toMatchObject({ kind: 'word', hit: { word: 'medium', root: { id: 'medi' } } });
+    expect(lookup('medicine')).toMatchObject({ kind: 'word', hit: { word: 'medicine', root: { id: 'med' } } });
+    expect(lookup('lud')).toMatchObject({ kind: 'root', root: { id: 'lud' } });
+    expect(lookup('luc')).toMatchObject({ kind: 'root', root: { id: 'luc' } });
+    expect(lookup('illusion')).toMatchObject({ kind: 'word', hit: { word: 'illusion', root: { id: 'lud' } } });
+    expect(lookup('lucid')).toMatchObject({ kind: 'word', hit: { word: 'lucid', root: { id: 'luc' } } });
+    expect(lookup('lus').kind).not.toBe('root');
+    // Number roots open themselves. Compounds already kept by an earlier root stay there.
+    expect(lookup('du')).toMatchObject({ kind: 'root', root: { id: 'du' } });
+    expect(lookup('tri')).toMatchObject({ kind: 'root', root: { id: 'tri' } });
+    expect(lookup('cent')).toMatchObject({ kind: 'word', hit: { word: 'cent', root: { id: 'cent' } } });
+    expect(lookup('mill')).toMatchObject({ kind: 'root', root: { id: 'mill' } });
+    expect(lookup('duplicate')).toMatchObject({ kind: 'word', hit: { word: 'duplicate', root: { id: 'plic' } } });
+    expect(lookup('tripod')).toMatchObject({ kind: 'word', hit: { word: 'tripod', root: { id: 'ped' } } });
+    expect(lookup('centipede')).toMatchObject({ kind: 'word', hit: { word: 'centipede', root: { id: 'ped' } } });
+    expect(lookup('centennial')).toMatchObject({ kind: 'word', hit: { word: 'centennial', root: { id: 'ann' } } });
+    expect(lookup('millennium')).toMatchObject({ kind: 'word', hit: { word: 'millennium', root: { id: 'ann' } } });
   });
 
   it('suggests neighbours instead of dying', () => {
