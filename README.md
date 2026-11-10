@@ -2,6 +2,8 @@
 
 **[https://mrzch03.github.io/word-root-atlas/](https://mrzch03.github.io/word-root-atlas/)** — 手机上打开最好看。 Best on a phone.
 
+[日本語の語源図鑑](https://mrzch03.github.io/word-root-atlas/ja/) · [한국어 어원 도감](https://mrzch03.github.io/word-root-atlas/ko/)
+
 [![license](https://img.shields.io/badge/license-MIT-f4f1ea?style=flat-square)](LICENSE)
 [![pages](https://img.shields.io/badge/deploy-GitHub%20Pages-f4f1ea?style=flat-square)](https://mrzch03.github.io/word-root-atlas/)
 [![stack](https://img.shields.io/badge/stack-Vite%20·%20React%20·%20TypeScript-f4f1ea?style=flat-square)](package.json)
