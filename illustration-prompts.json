@@ -2098,5 +2098,305 @@
     "root": "digit",
     "meaning": "finger, toe; numeral",
     "scene": "A hand pressing glowing 0–9 beads while a magician's quick fingers shuffle cards into pixel squares"
+  },
+  {
+    "rootId": "lig",
+    "root": "lig",
+    "meaning": "to bind, tie",
+    "scene": "A rope-maker binding a bundle of reeds tight with a knotted cord while a second figure ties a bandage around a friend's arm"
+  },
+  {
+    "rootId": "mun",
+    "root": "mun",
+    "meaning": "duty, gift; shared",
+    "scene": "Townspeople each place a gift into one shared communal chest by the town well, passing goods hand to hand"
+  },
+  {
+    "rootId": "norm",
+    "root": "norm",
+    "meaning": "carpenter's square; rule",
+    "scene": "A carpenter holds a large right-angle carpenter's square against a neat row of identical blocks while one oversized block bulges out of line"
+  },
+  {
+    "rootId": "or",
+    "root": "or",
+    "meaning": "mouth; to speak, pray",
+    "scene": "An orator on a small stone rostrum speaks with wide open mouth, visible sound ripples flowing to three listeners"
+  },
+  {
+    "rootId": "ori",
+    "root": "ori",
+    "meaning": "to rise, arise, begin",
+    "scene": "The sun disc rises over the east edge of the plinth while a traveller turns to face it and a spring wells up from the ground"
+  },
+  {
+    "rootId": "priv",
+    "root": "priv",
+    "meaning": "one's own, single; to deprive",
+    "scene": "One person sits alone inside a small walled private garden with the gate shut and locked while curious neighbours stand outside the wall"
+  },
+  {
+    "rootId": "vot",
+    "root": "vot",
+    "meaning": "to vow, pledge",
+    "scene": "Citizens drop pebbles into a tall voting urn while a kneeling figure lights a small votive lamp at an altar"
+  },
+  {
+    "rootId": "idio",
+    "root": "idio",
+    "meaning": "one's own, private, peculiar",
+    "scene": "In a row of identical grey robed figures walking one way, one person in a uniquely patterned bright robe and odd hat walks their own curving path"
+  },
+  {
+    "rootId": "coron",
+    "root": "coron",
+    "meaning": "crown, garland",
+    "scene": "A kneeling young ruler receives a laurel crown lowered onto the head while a golden ring of light like a corona glows behind"
+  },
+  {
+    "rootId": "pseud",
+    "root": "pseud",
+    "meaning": "false, sham",
+    "scene": "A figure holds a smiling mask in front of the face while the shadow on the wall shows a different scowling shape, a fake coin cracked open on a table"
+  },
+  {
+    "rootId": "paleo",
+    "root": "paleo",
+    "meaning": "old, ancient",
+    "scene": "An excavator kneels brushing a large dinosaur fossil skeleton out of the plinth while an ancient cracked amphora rests nearby"
+  },
+  {
+    "rootId": "xen",
+    "root": "xen",
+    "meaning": "stranger, foreigner; guest",
+    "scene": "A stranger in exotic foreign clothing steps off a small boat with an unusual striped animal while wary locals peek from behind a hut"
+  },
+  {
+    "rootId": "hol",
+    "root": "hol",
+    "meaning": "whole, entire",
+    "scene": "A figure clicks the last missing piece into a large puzzle sphere, making it whole and complete, scattered nothing left"
+  },
+  {
+    "rootId": "myth",
+    "root": "myth",
+    "meaning": "story, legend",
+    "scene": "A storyteller beside a small campfire tells a tale as the smoke curls into a winged horse and a many-headed serpent above two listening children"
+  },
+  {
+    "rootId": "pent",
+    "root": "pent",
+    "meaning": "five",
+    "scene": "Five athletes stand evenly spaced on the points of a pentagon, each with a distinct event prop: discus, javelin, jumping weights, running pose, wrestling stance"
+  },
+  {
+    "rootId": "hex",
+    "root": "hex",
+    "meaning": "six",
+    "scene": "A large six-sided honeycomb sits in the middle while a single bee clearly showing six legs walks across it and six hexagonal cells glow with honey"
+  },
+  {
+    "rootId": "dec",
+    "root": "dec",
+    "meaning": "ten",
+    "scene": "Ten clay figures stand in two neat rows of five, and in front a crab with ten legs walks beside a counting rod with ten beads"
+  },
+  {
+    "rootId": "cav",
+    "root": "cav",
+    "meaning": "hollow",
+    "scene": "A digger with a pick has hollowed a deep cave into the side of a rock mound, a dark hollow mouth opening, a concave bowl at its entrance"
+  },
+  {
+    "rootId": "circ",
+    "root": "circ",
+    "meaning": "ring, circle; around",
+    "scene": "Two small horse chariots race around an oval ring track while a ring of dancers circles a central post"
+  },
+  {
+    "rootId": "cruc",
+    "root": "cruc",
+    "meaning": "cross",
+    "scene": "A traveller stands exactly at a crossroads where two paved roads cross at right angles, beside an X-shaped wooden cross marker, choosing a way"
+  },
+  {
+    "rootId": "tect",
+    "root": "tect",
+    "meaning": "to cover",
+    "scene": "A figure holds a wide tiled roof shelter over a mother and child in the rain while another lifts a lid to uncover a hidden pot"
+  },
+  {
+    "rootId": "di",
+    "root": "di",
+    "meaning": "day",
+    "scene": "A small sun travels a visible arc from dawn to dusk over the plinth, a sundial casts a shadow and a figure writes in a day-book at a table"
+  },
+  {
+    "rootId": "empt",
+    "root": "empt",
+    "meaning": "to take, buy",
+    "scene": "At a tiny market stall a buyer hands coins to a seller and takes a jar while another customer scoops a sample from a grain sack"
+  },
+  {
+    "rootId": "apt",
+    "root": "apt",
+    "meaning": "fitted, suitable",
+    "scene": "A figure slides a carved key perfectly into a matching lock while a puzzle piece drops exactly into its slot"
+  },
+  {
+    "rootId": "ferv",
+    "root": "ferv",
+    "meaning": "to boil, be hot",
+    "scene": "A bronze cauldron boils furiously over a fire, bubbles and steam rising, a jar beside it fizzing with froth"
+  },
+  {
+    "rootId": "fil",
+    "root": "fil",
+    "meaning": "thread",
+    "scene": "A spinner draws one long thread from a distaff that winds across the plinth through a needle and onto a spool"
+  },
+  {
+    "rootId": "fix",
+    "root": "fix",
+    "meaning": "to fasten, fix",
+    "scene": "A craftsman hammers a big wooden peg to fasten a plank firmly onto a post, a second plank already pinned in place"
+  },
+  {
+    "rootId": "frater",
+    "root": "frater",
+    "meaning": "brother",
+    "scene": "Two young brothers in matching tunics, arm in arm, share one cloak and carry a basket together"
+  },
+  {
+    "rootId": "front",
+    "root": "front",
+    "meaning": "forehead, front",
+    "scene": "Two rams butt foreheads at a low frontier fence while a guard with a banner stands at the very front of the line"
+  },
+  {
+    "rootId": "gran",
+    "root": "gran",
+    "meaning": "grain, seed",
+    "scene": "A farmer pours a stream of golden grains into a round granary, a sack of grain beside it and a split pomegranate full of seeds"
+  },
+  {
+    "rootId": "centr",
+    "root": "centr",
+    "meaning": "center, sharp point",
+    "scene": "A giant compass has its sharp point stuck in the exact centre of the floor, concentric circles drawn around it, a figure standing on the bullseye"
+  },
+  {
+    "rootId": "insul",
+    "root": "insul",
+    "meaning": "island",
+    "scene": "A tiny island with one hut and palm stands alone in a calm lake on the plinth, a lone boatman rowing towards it"
+  },
+  {
+    "rootId": "acu",
+    "root": "acu",
+    "meaning": "needle; sharp",
+    "scene": "A sharpener grinds a blade on a round whetstone until its edge sparkles, a fine needle and a cut lemon beside him"
+  },
+  {
+    "rootId": "juven",
+    "root": "juven",
+    "meaning": "young",
+    "scene": "An old man drinks from a fountain and his reflection in the water is a young boy, while children roll a hoop nearby"
+  },
+  {
+    "rootId": "later",
+    "root": "later",
+    "meaning": "side",
+    "scene": "A crab scuttles sideways along a wall while a small house has doors swung open on both of its sides"
+  },
+  {
+    "rootId": "lav",
+    "root": "lav",
+    "meaning": "to wash",
+    "scene": "A washerwoman scrubs cloth in a stone basin while water pours from a jug and clean laundry hangs on a line"
+  },
+  {
+    "rootId": "cant",
+    "root": "cant",
+    "meaning": "to sing",
+    "scene": "A cantor sings with head raised and mouth open, musical note-shaped ribbons flowing out and enchanting three birds to circle him"
+  },
+  {
+    "rootId": "misc",
+    "root": "misc",
+    "meaning": "to mix",
+    "scene": "A cook pours a blue liquid and a red liquid from two jugs into one bowl where they swirl together, an assorted basket of odds and ends beside"
+  },
+  {
+    "rootId": "mor",
+    "root": "mor",
+    "meaning": "custom, manner",
+    "scene": "A child bows politely to an elder at a doorway following custom while a family offers bread to a guest at a table"
+  },
+  {
+    "rootId": "mur",
+    "root": "mur",
+    "meaning": "wall",
+    "scene": "A painter on a small scaffold paints a mural on a tall stone city wall while a mason stacks the next wall stones"
+  },
+  {
+    "rootId": "ego",
+    "root": "ego",
+    "meaning": "I, self",
+    "scene": "A figure admires himself in a large mirror while standing beside a giant statue of himself, pointing to his own chest"
+  },
+  {
+    "rootId": "ode",
+    "root": "ode",
+    "meaning": "song",
+    "scene": "On a small theatre stage a singer plays a lyre while a comic mask and a tragic mask hang on the stage pillars"
+  },
+  {
+    "rootId": "orn",
+    "root": "orn",
+    "meaning": "to decorate, equip",
+    "scene": "A decorator wraps garlands, ribbons and flower wreaths around a plain column, half of it already richly adorned"
+  },
+  {
+    "rootId": "past",
+    "root": "past",
+    "meaning": "to feed, graze",
+    "scene": "A shepherd with a crook leads sheep grazing on a green pasture to a trough of feed"
+  },
+  {
+    "rootId": "pug",
+    "root": "pug",
+    "meaning": "fist; to fight",
+    "scene": "Two boxers with leather-wrapped fists spar inside a roped ring, fists raised"
+  },
+  {
+    "rootId": "pur",
+    "root": "pur",
+    "meaning": "pure, clean; to cleanse",
+    "scene": "A figure pours muddy water through a cloth filter into a crystal-clear bowl, sparkling clean water below and muddy water above"
+  },
+  {
+    "rootId": "quot",
+    "root": "quot",
+    "meaning": "how many; which in number",
+    "scene": "A clerk counts out grain into equal portions, one bowl for each waiting person, pointing as he counts"
+  },
+  {
+    "rootId": "salv",
+    "root": "salv",
+    "meaning": "safe, healthy",
+    "scene": "A rescuer on a small raft pulls a swimmer safely out of the waves with a ring float"
+  },
+  {
+    "rootId": "ambul",
+    "root": "ambul",
+    "meaning": "to walk",
+    "scene": "A traveller with a walking stick strolls along a long winding garden path, footprints trailing behind"
+  },
+  {
+    "rootId": "agr",
+    "root": "agr",
+    "meaning": "field",
+    "scene": "A farmer ploughs straight furrows across a field with two oxen, rows of sprouting crops behind"
   }
 ]

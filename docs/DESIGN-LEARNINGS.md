@@ -138,3 +138,7 @@ Three hundred roots have a picture. A global OKLab gap of 0.07 between every pai
 ## v11 — three hundred and fifty cards
 
 Ranks 301–350 keep the same floor. The colour is a muted mid-chroma block, readable on the card and quiet in the stack, not a shout. The hues are the measured floor accents. They are not pushed apart to clear every earlier swatch. The acceptance test is unchanged: guess the meaning from the picture alone, without the caption.
+
+## v12 — four hundred cards, transparent
+
+Ranks 351–400 are the first cards cut onto alpha. The cream behind the plinth is gone; the plinth, its pale bottom stratum and every light prop stay opaque, and the soft contact shadow is kept as a dark multiplicative layer (#14110E, alpha ≈ 1 − brightness ratio), so it reads as a shadow on cream, on a light page and on the warm near-black. Smoke, glows and pale props above the plinth's top edge are unmixed against the cream, never darkened. A muted floor meets the cream with a sharp edge, while a shadow fades softly; the cutout uses that gradient to keep low-chroma floors from leaking into the shadow. The generator collapsed several requested floors onto the same slate blue, sage and mauve, so the floor colour of each card was shifted in OKLab (shading kept) to an even spread over the non-brown hues, with three alternating lightness steps between neighbours.

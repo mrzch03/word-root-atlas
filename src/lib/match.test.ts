@@ -13,11 +13,11 @@ const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
 const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships 350 roots, all illustrated, with the original 42 still fully written', () => {
-    expect(roots.length).toBe(350);
-    expect(illustrated).toHaveLength(350);
+  it('ships 400 roots, all illustrated, with the original 42 still fully written', () => {
+    expect(roots.length).toBe(400);
+    expect(illustrated).toHaveLength(400);
     expect(authored).toHaveLength(42);
-    expect(batch).toHaveLength(308);
+    expect(batch).toHaveLength(358);
     expect(cream).toHaveLength(0);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
@@ -214,6 +214,20 @@ describe('lookup', () => {
     expect(lookup('phagocyte')).toMatchObject({ kind: 'word', hit: { word: 'phagocyte', root: { id: 'phag' } } });
     expect(lookup('protoplasm')).toMatchObject({ kind: 'word', hit: { word: 'protoplasm', root: { id: 'proto' } } });
     expect(lookup('sarcophagus')).toMatchObject({ kind: 'word', hit: { word: 'sarcophagus', root: { id: 'sarc' } } });
+    // Ranks 351–400. Compounds already kept by an earlier root stay there.
+    expect(lookup('obligation')).toMatchObject({ kind: 'word', hit: { word: 'obligation', root: { id: 'lig' } } });
+    expect(lookup('immune')).toMatchObject({ kind: 'word', hit: { word: 'immune', root: { id: 'mun' } } });
+    expect(lookup('enormous')).toMatchObject({ kind: 'word', hit: { word: 'enormous', root: { id: 'norm' } } });
+    expect(lookup('origin')).toMatchObject({ kind: 'word', hit: { word: 'origin', root: { id: 'ori' } } });
+    expect(lookup('crucial')).toMatchObject({ kind: 'word', hit: { word: 'crucial', root: { id: 'cruc' } } });
+    expect(lookup('detect')).toMatchObject({ kind: 'word', hit: { word: 'detect', root: { id: 'tect' } } });
+    expect(lookup('journey')).toMatchObject({ kind: 'word', hit: { word: 'journey', root: { id: 'di' } } });
+    expect(lookup('peninsula')).toMatchObject({ kind: 'word', hit: { word: 'peninsula', root: { id: 'insul' } } });
+    expect(lookup('ambulance')).toMatchObject({ kind: 'word', hit: { word: 'ambulance', root: { id: 'ambul' } } });
+    expect(lookup('Paleozoic')).toMatchObject({ kind: 'word', hit: { root: { id: 'zo' } } });
+    expect(lookup('circumstance')).toMatchObject({ kind: 'word', hit: { root: { id: 'sta' } } });
+    expect(lookup('somnambulist')).toMatchObject({ kind: 'word', hit: { root: { id: 'somn' } } });
+    expect(lookup('xenophobia')).toMatchObject({ kind: 'word', hit: { root: { id: 'phob' } } });
     expect(lookup('mnemonic')).toMatchObject({ kind: 'word', hit: { word: 'mnemonic', root: { id: 'mem' } } });
     expect(lookup('mnemonics')).toMatchObject({ kind: 'word', hit: { word: 'mnemonics', root: { id: 'mnem' } } });
   });
