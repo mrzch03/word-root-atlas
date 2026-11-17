@@ -2,7 +2,7 @@
  "meta": {
   "title": "词根图鉴 Word Root Atlas — core roots v1",
   "generated": "2026-10-26",
-  "count": 350,
+  "count": 400,
   "fullRecords": 220,
   "lightRecords": 130,
   "ranking": "Editorial ranking by productivity in CET/IELTS/GRE/SAT vocabulary (not corpus-computed).",
@@ -13,7 +13,8 @@
    "Any claim that is legendary, disputed or uncertain is marked in the uncertainty field and hedged in the story text (据说/传说/可能).",
    "Germanic/Old English roots were not included: native English words rarely form transparent root families comparable to Latin/Greek.",
    "Ranks 251–300 are full records (2026-11-05). Wordbank headwords are merged into derivedWords, capped at 20. A headword already kept by an earlier root stays there; millimetre is an alias of millimeter.",
-   "Ranks 301–350 are full records (2026-11-05). Wordbank headwords are merged into derivedWords, capped at 20. A headword already kept by an earlier root stays there. Inside this batch, cytoplasm, euphoria, and phagocyte stay with the earlier root; protoplasm moves to proto and sarcophagus to sarc, because that later id is longer and the word starts with it. library is filed on bibli so a search for the book card resolves, with the Latin liber distinction kept in uncertainty."
+   "Ranks 301–350 are full records (2026-11-05). Wordbank headwords are merged into derivedWords, capped at 20. A headword already kept by an earlier root stays there. Inside this batch, cytoplasm, euphoria, and phagocyte stay with the earlier root; protoplasm moves to proto and sarcophagus to sarc, because that later id is longer and the word starts with it. library is filed on bibli so a search for the book card resolves, with the Latin liber distinction kept in uncertainty.",
+   "Ranks 351–400 are full records (2026-11-17). Headwords already kept by an earlier root were left out (e.g. Paleozoic stays on zo, circumstance on sta, multilateral on mult, alter ego and aliquot on ali). The cards are the first batch with transparent backgrounds: the plinth and its soft contact shadow sit on alpha, and the floor colours are spread evenly across the non-brown hues."
   ]
  },
  "roots": [
@@ -46267,6 +46268,4635 @@
    "inCurrentApp": false,
    "tier": "full",
    "similarInCatalog": []
+  },
+  {
+   "rank": 351,
+   "id": "lig",
+   "root": "lig",
+   "forms": [
+    "lig",
+    "ly",
+    "li"
+   ],
+   "language": "Latin",
+   "sourceWord": "ligāre",
+   "meaning": {
+    "en": "to bind, tie",
+    "zh": "捆、绑、系"
+   },
+   "originStory": "拉丁语 ligāre 意为「捆、绑」。oblige 是「把人绑向（ob-）某事」，于是有「使负义务」；ligament 是把骨头系在一起的「韧带」，ligature 是外科「结扎线」。经古法语，ligāre 变成 lier，于是有 liable「受约束的、有责任的」、ally「绑在一起的盟友」、rely「再绑回去、依靠」。religion 一说来自 religāre「把人重新系于神」，但古人西塞罗认为来自 relegere「反复诵读」，学界至今两说并存。画面里一人用打结的绳把芦苇扎紧，另一人给朋友包扎手臂：一看就是「绑」。",
+   "uncertainty": "religion 的来源有 religāre（重新系紧）与 relegere（反复诵读）两说，故事已用「一说」标明；ally/rely 经古法语 lier 转来，拼写已不见 lig。",
+   "derivedWords": [
+    {
+     "word": "oblige",
+     "zh": "迫使；使感激",
+     "breakdown": "ob-(向)+lig+-e"
+    },
+    {
+     "word": "obligation",
+     "zh": "义务",
+     "breakdown": "ob-+lig+-ation"
+    },
+    {
+     "word": "ligament",
+     "zh": "韧带",
+     "breakdown": "lig+-ament"
+    },
+    {
+     "word": "ligature",
+     "zh": "结扎线；连字",
+     "breakdown": "lig+-ature"
+    },
+    {
+     "word": "league",
+     "zh": "联盟",
+     "breakdown": "lig→leag+-ue"
+    },
+    {
+     "word": "liable",
+     "zh": "有责任的；易于",
+     "breakdown": "li(=lig)+-able"
+    },
+    {
+     "word": "rely",
+     "zh": "依赖",
+     "breakdown": "re-+ly(=lig)"
+    },
+    {
+     "word": "ally",
+     "zh": "盟友",
+     "breakdown": "al-(ad)+ly(=lig)"
+    },
+    {
+     "word": "alloy",
+     "zh": "合金",
+     "breakdown": "al-+loy(=lig)"
+    },
+    {
+     "word": "religion",
+     "zh": "宗教",
+     "breakdown": "re-+lig+-ion"
+    },
+    {
+     "word": "obligatory",
+     "zh": "强制的",
+     "breakdown": "ob-+lig+-atory"
+    },
+    {
+     "word": "liability",
+     "zh": "责任；负债",
+     "breakdown": "li+-ability"
+    }
+   ],
+   "example": {
+    "en": "An obligation binds you like a ligament binds a bone.",
+    "zh": "义务把你系住，就像韧带系住骨头。"
+   },
+   "illustration": {
+    "scene": "A rope-maker binding a bundle of reeds tight with a knotted cord while a second figure ties a bandage around a friend's arm",
+    "dominantHue": {
+     "name": "深湖蓝 deep lake blue",
+     "rationale": "绳结的冷静收束感；与 nect 偏暖区分"
+    },
+    "props": [
+     "tightly knotted rope bundle",
+     "bandage tied on an arm",
+     "coil of cord"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/oblige",
+    "https://www.etymonline.com/word/obligation",
+    "https://www.etymonline.com/word/ligament",
+    "https://en.wiktionary.org/wiki/ligo",
+    "https://logeion.uchicago.edu/ligo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "leg",
+    "nect"
+   ]
+  },
+  {
+   "rank": 352,
+   "id": "mun",
+   "root": "mun",
+   "forms": [
+    "mun",
+    "muni"
+   ],
+   "language": "Latin",
+   "sourceWord": "mūnus / commūnis",
+   "meaning": {
+    "en": "duty, gift; shared",
+    "zh": "职责、礼物；共同的"
+   },
+   "originStory": "拉丁语 mūnus 指「公共职责」，也指「礼物、公益捐献」；commūnis 是「共同承担职责的」。于是 community 是「共同体」，communicate 是「把东西变成共有」——也就是传达、沟通。immune 原意是「免于（in-）公共义务的」，罗马人用它指免税免役，后来医学借去说「免疫」。municipal 是「承担城邦职责的市镇」，remuneration 是「回报的礼物、酬劳」，munificent 是「出手大方、慷慨的」。画面：井边的镇民把各自的礼物传手放进一只公用木箱——共同承担、共同拥有。",
+   "uncertainty": "mūnus 的「职责」与「礼物」两义在拉丁语里本就并存；common 经古法语 comun 转来。",
+   "derivedWords": [
+    {
+     "word": "community",
+     "zh": "社区；共同体",
+     "breakdown": "com-+mun+-ity"
+    },
+    {
+     "word": "communicate",
+     "zh": "交流；传达",
+     "breakdown": "com-+mun+-icate"
+    },
+    {
+     "word": "common",
+     "zh": "共同的；普通的",
+     "breakdown": "com-+mon(=mun)"
+    },
+    {
+     "word": "immune",
+     "zh": "免疫的",
+     "breakdown": "im-(无)+mune"
+    },
+    {
+     "word": "immunity",
+     "zh": "免疫力；豁免",
+     "breakdown": "im-+mun+-ity"
+    },
+    {
+     "word": "municipal",
+     "zh": "市政的",
+     "breakdown": "mun+i+cip(取)+-al"
+    },
+    {
+     "word": "remuneration",
+     "zh": "报酬",
+     "breakdown": "re-+mun+-eration"
+    },
+    {
+     "word": "munificent",
+     "zh": "慷慨的",
+     "breakdown": "mun+i+fic(做)+-ent"
+    },
+    {
+     "word": "communion",
+     "zh": "共享；圣餐",
+     "breakdown": "com-+mun+-ion"
+    },
+    {
+     "word": "excommunicate",
+     "zh": "开除教籍",
+     "breakdown": "ex-+com-+mun+-icate"
+    },
+    {
+     "word": "communal",
+     "zh": "公共的",
+     "breakdown": "com-+mun+-al"
+    },
+    {
+     "word": "municipality",
+     "zh": "自治市",
+     "breakdown": "mun+i+cip+-ality"
+    }
+   ],
+   "example": {
+    "en": "The community shares the well, and every family communicates there.",
+    "zh": "全村共用那口井，每家人都在那里交流消息。"
+   },
+   "illustration": {
+    "scene": "Townspeople each place a gift into one shared communal chest by the town well, passing goods hand to hand",
+    "dominantHue": {
+     "name": "浅湖蓝 soft lake blue",
+     "rationale": "共享水井的清淡蓝；与 civ 区分偏灰"
+    },
+    "props": [
+     "shared communal chest",
+     "gifts passed hand to hand",
+     "town well"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/community",
+    "https://www.etymonline.com/word/communicate",
+    "https://www.etymonline.com/word/common",
+    "https://en.wiktionary.org/wiki/munus",
+    "https://logeion.uchicago.edu/munus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "civ",
+    "dem"
+   ]
+  },
+  {
+   "rank": 353,
+   "id": "norm",
+   "root": "norm",
+   "forms": [
+    "norm"
+   ],
+   "language": "Latin",
+   "sourceWord": "norma",
+   "meaning": {
+    "en": "carpenter's square; rule",
+    "zh": "直角尺；规范"
+   },
+   "originStory": "拉丁语 norma 原指木匠的「直角尺」，用来检查角是不是正的。合乎角尺就是 normal「正常的、标准的」，不合就是 abnormal「反常的」。enormous 来自 e-（出）+ norma：大到「超出了尺」，于是是「巨大的」；enormity 起初指「出格的恶行」，后来也被用来说「巨大」。norm 是「规范、常态」，normative 是「规范性的」，paranormal 则是「超出常规的」。画面：木匠用直角尺比对一排一样的木块，那块凸出队列的立刻显出来——一看就是「按尺定规」。",
+   "uncertainty": "norma 可能借自希腊语 gnōmōn（日晷针、角尺），但并非定论；enormity 「巨大」义在规范用法中仍有争议。",
+   "derivedWords": [
+    {
+     "word": "normal",
+     "zh": "正常的",
+     "breakdown": "norm+-al"
+    },
+    {
+     "word": "abnormal",
+     "zh": "反常的",
+     "breakdown": "ab-(离)+norm+-al"
+    },
+    {
+     "word": "enormous",
+     "zh": "巨大的",
+     "breakdown": "e-(出)+norm+-ous"
+    },
+    {
+     "word": "norm",
+     "zh": "规范；常态",
+     "breakdown": "norm"
+    },
+    {
+     "word": "normalize",
+     "zh": "使正常化",
+     "breakdown": "norm+-al+-ize"
+    },
+    {
+     "word": "normative",
+     "zh": "规范性的",
+     "breakdown": "norm+-ative"
+    },
+    {
+     "word": "subnormal",
+     "zh": "低于正常的",
+     "breakdown": "sub-+norm+-al"
+    },
+    {
+     "word": "paranormal",
+     "zh": "超自然的",
+     "breakdown": "para-(超出)+norm+-al"
+    },
+    {
+     "word": "enormity",
+     "zh": "严重性；暴行",
+     "breakdown": "e-+norm+-ity"
+    },
+    {
+     "word": "normality",
+     "zh": "正常状态",
+     "breakdown": "norm+-ality"
+    }
+   ],
+   "example": {
+    "en": "One block failed the norm: it was abnormal, not enormous.",
+    "zh": "有一块不合规范：它是不正常，不是巨大。"
+   },
+   "illustration": {
+    "scene": "A carpenter holds a large right-angle carpenter's square against a neat row of identical blocks while one oversized block bulges out of line",
+    "dominantHue": {
+     "name": "深雾紫红 deep mauve",
+     "rationale": "角尺规矩的沉稳紫；与 reg 区分"
+    },
+    "props": [
+     "big L-shaped carpenter's square",
+     "row of identical blocks",
+     "one oversized out-of-line block"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/normal",
+    "https://www.etymonline.com/word/abnormal",
+    "https://www.etymonline.com/word/enormous",
+    "https://en.wiktionary.org/wiki/norma",
+    "https://logeion.uchicago.edu/norma",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "reg"
+   ]
+  },
+  {
+   "rank": 354,
+   "id": "or",
+   "root": "or",
+   "forms": [
+    "or",
+    "ora",
+    "oro"
+   ],
+   "language": "Latin",
+   "sourceWord": "ōs, ōris / ōrāre",
+   "meaning": {
+    "en": "mouth; to speak, pray",
+    "zh": "嘴；说、祈祷"
+   },
+   "originStory": "拉丁语 ōs（属格 ōris）是「嘴」，由此有动词 ōrāre「开口说、祈求」。oral 是「口头的、口腔的」，oration 是「正式演说」，orator 是「演说家」，oracle 是神「开口」给出的神谕。adore 原是「对着（ad-）神开口祈祷」，后来变成「崇拜、热爱」。inexorable 是「怎么恳求（ex-ōrāre）都不动的」，即「无法阻挡的」。orifice 是「做成嘴一样的口」——孔、洞口。画面：演说者站在台上张口讲，声浪传出，人群侧耳倾听。",
+   "uncertainty": "oscillate、osculate 也与 ōs 有关，但拼写已变，未收入；adore 的「热爱」义是后起引申。",
+   "derivedWords": [
+    {
+     "word": "oral",
+     "zh": "口头的；口腔的",
+     "breakdown": "or+-al"
+    },
+    {
+     "word": "oration",
+     "zh": "演说",
+     "breakdown": "or+-ation"
+    },
+    {
+     "word": "orator",
+     "zh": "演说家",
+     "breakdown": "or+-ator"
+    },
+    {
+     "word": "oracle",
+     "zh": "神谕",
+     "breakdown": "or+-acle"
+    },
+    {
+     "word": "adore",
+     "zh": "崇拜；热爱",
+     "breakdown": "ad-(向)+or+-e"
+    },
+    {
+     "word": "inexorable",
+     "zh": "无法阻挡的",
+     "breakdown": "in-+ex-+or+-able"
+    },
+    {
+     "word": "oratory",
+     "zh": "演讲术；祈祷室",
+     "breakdown": "or+-atory"
+    },
+    {
+     "word": "peroration",
+     "zh": "结束语",
+     "breakdown": "per-+or+-ation"
+    },
+    {
+     "word": "orifice",
+     "zh": "孔；口",
+     "breakdown": "or+i+fic(做)+-e"
+    },
+    {
+     "word": "adoration",
+     "zh": "崇拜",
+     "breakdown": "ad-+or+-ation"
+    },
+    {
+     "word": "oracular",
+     "zh": "神谕般的",
+     "breakdown": "or+-acular"
+    }
+   ],
+   "example": {
+    "en": "The orator's oration was oral, yet the crowd adored it like an oracle.",
+    "zh": "演说家只是口头演讲，人群却像崇拜神谕一样崇拜它。"
+   },
+   "illustration": {
+    "scene": "An orator on a small stone rostrum speaks with wide open mouth, visible sound ripples flowing to three listeners",
+    "dominantHue": {
+     "name": "浅蕨绿 soft fern green",
+     "rationale": "讲台下草地般的中绿；与 voc 区分"
+    },
+    "props": [
+     "stone rostrum",
+     "open speaking mouth with sound ripples",
+     "listeners cupping ears"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/oral",
+    "https://www.etymonline.com/word/oration",
+    "https://www.etymonline.com/word/orator",
+    "https://en.wiktionary.org/wiki/os",
+    "https://logeion.uchicago.edu/os",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "voc",
+    "dict",
+    "loqu"
+   ]
+  },
+  {
+   "rank": 355,
+   "id": "ori",
+   "root": "ori",
+   "forms": [
+    "ori",
+    "ort"
+   ],
+   "language": "Latin",
+   "sourceWord": "orīrī",
+   "meaning": {
+    "en": "to rise, arise, begin",
+    "zh": "升起；起源"
+   },
+   "originStory": "拉丁语 orīrī 意为「升起、出现」。太阳升起的方向就是 orient「东方」，后来 orient 作动词表示「定方向」——古人绘地图常把东方放在上面。origin 是事物「升起之处」：起源；original 是「最初的、原创的」，aboriginal 是「从一开始（ab origine）就在此的」原住民。abort 来自 ab- + orīrī：「没能升起、中途夭折」，于是是「中止、流产」。画面：一人朝刚升起的太阳张开双臂，泉水从石中涌出——日出与源头，一看就是「升起、起源」。",
+   "uncertainty": "orient 指「东方」源自 oriens「正在升起的（太阳）」；abort 的构词为 ab-（偏离）+ ortus（orīrī 的过去分词）。",
+   "derivedWords": [
+    {
+     "word": "orient",
+     "zh": "东方；定方向",
+     "breakdown": "ori+-ent"
+    },
+    {
+     "word": "origin",
+     "zh": "起源",
+     "breakdown": "ori+-gin"
+    },
+    {
+     "word": "original",
+     "zh": "最初的；原创的",
+     "breakdown": "ori+-gin+-al"
+    },
+    {
+     "word": "aboriginal",
+     "zh": "原住民的",
+     "breakdown": "ab-+ori+-gin+-al"
+    },
+    {
+     "word": "abort",
+     "zh": "中止；流产",
+     "breakdown": "ab-+or(=ori)+-t"
+    },
+    {
+     "word": "oriental",
+     "zh": "东方的",
+     "breakdown": "ori+-ent+-al"
+    },
+    {
+     "word": "orientation",
+     "zh": "方向；定向",
+     "breakdown": "ori+-ent+-ation"
+    },
+    {
+     "word": "originate",
+     "zh": "起源于",
+     "breakdown": "ori+-gin+-ate"
+    },
+    {
+     "word": "disorient",
+     "zh": "使迷失方向",
+     "breakdown": "dis-+ori+-ent"
+    },
+    {
+     "word": "abortive",
+     "zh": "失败的",
+     "breakdown": "ab-+or+-tive"
+    },
+    {
+     "word": "originality",
+     "zh": "独创性",
+     "breakdown": "ori+-gin+-ality"
+    }
+   ],
+   "example": {
+    "en": "To orient yourself, face where the sun originates at dawn.",
+    "zh": "想辨方向，就面向黎明太阳升起的地方。"
+   },
+   "illustration": {
+    "scene": "The sun disc rises over the east edge of the plinth while a traveller turns to face it and a spring wells up from the ground",
+    "dominantHue": {
+     "name": "深石板蓝 deep slate blue",
+     "rationale": "日出前天色的灰蓝；与 luc 区分"
+    },
+    "props": [
+     "rising sun disc",
+     "traveller turning toward the dawn",
+     "spring welling up from a rock"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/orient",
+    "https://www.etymonline.com/word/origin",
+    "https://www.etymonline.com/word/original",
+    "https://en.wiktionary.org/wiki/orior",
+    "https://logeion.uchicago.edu/orior",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "nat",
+    "gen"
+   ]
+  },
+  {
+   "rank": 356,
+   "id": "priv",
+   "root": "priv",
+   "forms": [
+    "priv"
+   ],
+   "language": "Latin",
+   "sourceWord": "prīvus / prīvāre",
+   "meaning": {
+    "en": "one's own, single; to deprive",
+    "zh": "个人的、单独的；剥夺"
+   },
+   "originStory": "拉丁语 prīvus 意为「单独的、属于个人的」。prīvātus 原指「不担任公职的普通人」，于是 private 是「私人的」，privacy 是「隐私」。动词 prīvāre 是「使单独、拿走」，deprive 便是「彻底拿走、剥夺」，privation 是「匮乏」。privilege 来自 prīvus + lēx（法）：原本是「只针对个人的法律」，后来成了「特权」。privy 是「私下知情的」，英国的 Privy Council 是「枢密院」。画面：矮墙围出一个私人小院，墙外的人只能张望——一看就是「私人的」。",
+   "uncertainty": "privilege 的构词 prīvus + lēx 是辞典通说；privy 经古法语 privé 转来。",
+   "derivedWords": [
+    {
+     "word": "private",
+     "zh": "私人的",
+     "breakdown": "priv+-ate"
+    },
+    {
+     "word": "privacy",
+     "zh": "隐私",
+     "breakdown": "priv+-acy"
+    },
+    {
+     "word": "deprive",
+     "zh": "剥夺",
+     "breakdown": "de-(完全)+priv+-e"
+    },
+    {
+     "word": "privilege",
+     "zh": "特权",
+     "breakdown": "priv+i+leg(法)+-e"
+    },
+    {
+     "word": "privy",
+     "zh": "私下知情的",
+     "breakdown": "priv+-y"
+    },
+    {
+     "word": "privation",
+     "zh": "匮乏",
+     "breakdown": "priv+-ation"
+    },
+    {
+     "word": "privatize",
+     "zh": "私有化",
+     "breakdown": "priv+-ate+-ize"
+    },
+    {
+     "word": "deprivation",
+     "zh": "剥夺；匮乏",
+     "breakdown": "de-+priv+-ation"
+    },
+    {
+     "word": "privileged",
+     "zh": "享有特权的",
+     "breakdown": "priv+i+leg+-ed"
+    },
+    {
+     "word": "privately",
+     "zh": "私下地",
+     "breakdown": "priv+-ate+-ly"
+    }
+   ],
+   "example": {
+    "en": "Privacy is a privilege; to deprive someone of it is cruel.",
+    "zh": "隐私是一种特权，剥夺别人的隐私很残忍。"
+   },
+   "illustration": {
+    "scene": "One person sits alone inside a small walled private garden with the gate shut and locked while curious neighbours stand outside the wall",
+    "dominantHue": {
+     "name": "莓灰 berry",
+     "rationale": "私家院墙内的柔玫；与 dom 区分"
+    },
+    "props": [
+     "closed locked gate",
+     "small walled garden",
+     "neighbours peering from outside"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/private",
+    "https://www.etymonline.com/word/privacy",
+    "https://www.etymonline.com/word/deprive",
+    "https://en.wiktionary.org/wiki/privus",
+    "https://logeion.uchicago.edu/privus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "dom",
+    "ego"
+   ]
+  },
+  {
+   "rank": 357,
+   "id": "vot",
+   "root": "vot",
+   "forms": [
+    "vot"
+   ],
+   "language": "Latin",
+   "sourceWord": "vovēre, vōtum",
+   "meaning": {
+    "en": "to vow, pledge",
+    "zh": "许愿、发誓"
+   },
+   "originStory": "拉丁语 vovēre 是「向神许愿」，过去分词 vōtum 指「誓愿、许下的供品」。古罗马人常在神庙放一只 votive「还愿的」小罐。vote 起初是「誓言、心愿」，后来专指「投票」——把自己的意愿投进罐里。devote 是「全心许给（de-）」，devotion 是「奉献、虔诚」，devout 是「虔诚的」。vow「誓言」则是 vōtum 经古法语 vou 转成的姐妹词。画面：市民把石子投进高高的投票瓮，一人跪在祭坛前点亮还愿小灯——许愿与投票，一看就懂。",
+   "uncertainty": "vote 的「投票」义在 15–16 世纪才普遍；vow 与 vote 同源但走了法语路线。",
+   "derivedWords": [
+    {
+     "word": "vote",
+     "zh": "投票；选票",
+     "breakdown": "vot+-e"
+    },
+    {
+     "word": "devote",
+     "zh": "献身；致力",
+     "breakdown": "de-+vot+-e"
+    },
+    {
+     "word": "devotion",
+     "zh": "奉献；虔诚",
+     "breakdown": "de-+vot+-ion"
+    },
+    {
+     "word": "devout",
+     "zh": "虔诚的",
+     "breakdown": "de-+vout(=vot)"
+    },
+    {
+     "word": "votive",
+     "zh": "还愿的",
+     "breakdown": "vot+-ive"
+    },
+    {
+     "word": "voter",
+     "zh": "投票人",
+     "breakdown": "vot+-er"
+    },
+    {
+     "word": "devotee",
+     "zh": "热爱者",
+     "breakdown": "de-+vot+-ee"
+    },
+    {
+     "word": "votary",
+     "zh": "信徒",
+     "breakdown": "vot+-ary"
+    },
+    {
+     "word": "vow",
+     "zh": "誓言",
+     "breakdown": "vow(=vot)"
+    },
+    {
+     "word": "devoted",
+     "zh": "忠诚的",
+     "breakdown": "de-+vot+-ed"
+    }
+   ],
+   "example": {
+    "en": "A devout voter makes a vow, then casts a vote.",
+    "zh": "虔诚的选民先许下誓言，再投下选票。"
+   },
+   "illustration": {
+    "scene": "Citizens drop pebbles into a tall voting urn while a kneeling figure lights a small votive lamp at an altar",
+    "dominantHue": {
+     "name": "深海青 deep sea teal",
+     "rationale": "陶瓮投石的沉静青；与 lig 拉开明度"
+    },
+    "props": [
+     "tall voting urn",
+     "handful of pebbles",
+     "votive oil lamp"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/vote",
+    "https://www.etymonline.com/word/devote",
+    "https://www.etymonline.com/word/devotion",
+    "https://en.wiktionary.org/wiki/voveo",
+    "https://logeion.uchicago.edu/voveo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "sacr"
+   ]
+  },
+  {
+   "rank": 358,
+   "id": "idio",
+   "root": "idio",
+   "forms": [
+    "idio",
+    "idi"
+   ],
+   "language": "Greek",
+   "sourceWord": "ἴδιος (ídios)",
+   "meaning": {
+    "en": "one's own, private, peculiar",
+    "zh": "自己的、独特的"
+   },
+   "originStory": "希腊语 ídios 意为「自己的、私人的、特有的」。idiom 是「一种语言自己特有的说法」——习语；idiosyncrasy 加上 syn（一起）和 krasis（混合）：一个人「自己特有的气质混合」，即「癖性」。idiot 很有意思：古希腊的 idiōtēs 指「只顾私事、不参与公共事务的平民」，后来才贬成「白痴」。医学上 idiopathic 是「自发的、原因不明的」，语言学上 idiolect 是「个人特有的语言习惯」。画面：一排灰袍人整齐地朝同一方向走，只有一人穿花袍、戴怪帽，走自己弯弯的路——一看就是「独特的」。",
+   "uncertainty": "idiot 从「平民、外行」到「白痴」的语义下滑是历史演变，不可简单当作古义。",
+   "derivedWords": [
+    {
+     "word": "idiom",
+     "zh": "习语",
+     "breakdown": "idio+-m"
+    },
+    {
+     "word": "idiomatic",
+     "zh": "符合习语的",
+     "breakdown": "idio+-matic"
+    },
+    {
+     "word": "idiosyncrasy",
+     "zh": "癖性",
+     "breakdown": "idio+syn(一起)+cras(混合)+-y"
+    },
+    {
+     "word": "idiot",
+     "zh": "白痴（原指平民）",
+     "breakdown": "idio+-t"
+    },
+    {
+     "word": "idiopathic",
+     "zh": "特发的",
+     "breakdown": "idio+path(病)+-ic"
+    },
+    {
+     "word": "idiolect",
+     "zh": "个人语型",
+     "breakdown": "idio+lect(说)"
+    },
+    {
+     "word": "idiosyncratic",
+     "zh": "特异的",
+     "breakdown": "idio+syn+crat+-ic"
+    },
+    {
+     "word": "idiotic",
+     "zh": "愚蠢的",
+     "breakdown": "idio+-tic"
+    }
+   ],
+   "example": {
+    "en": "In a line of grey robes, his idiosyncrasy was plain to see.",
+    "zh": "在一排灰袍中，他的怪癖一眼就能看出。"
+   },
+   "illustration": {
+    "scene": "In a row of identical grey robed figures walking one way, one person in a uniquely patterned bright robe and odd hat walks their own curving path",
+    "dominantHue": {
+     "name": "长春花蓝紫 periwinkle",
+     "rationale": "个性独特的冷紫；与 priv 区分偏蓝"
+    },
+    "props": [
+     "row of identical grey figures",
+     "one uniquely patterned figure",
+     "own curving footpath"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/idiom",
+    "https://www.etymonline.com/word/idiomatic",
+    "https://www.etymonline.com/word/idiosyncrasy",
+    "https://en.wiktionary.org/wiki/ἴδιος",
+    "https://logeion.uchicago.edu/ιδιος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "priv",
+    "auto",
+    "ego"
+   ]
+  },
+  {
+   "rank": 359,
+   "id": "coron",
+   "root": "coron",
+   "forms": [
+    "coron",
+    "crown"
+   ],
+   "language": "Latin",
+   "sourceWord": "corōna",
+   "meaning": {
+    "en": "crown, garland",
+    "zh": "王冠、花环"
+   },
+   "originStory": "拉丁语 corōna 意为「花环、王冠」，借自希腊语 korōnē（弯曲之物）。coronation 是「加冕礼」，corona 是日食时环绕太阳的「日冕」，冠状病毒也因电镜下像王冠而得名。coroner「验尸官」原是英国「王室官员」（crowner），负责保护王室财产与调查死因。coronary 指环绕心脏如花冠的「冠状」动脉。crown 本身也是 corōna 经古法语 corone 演变而来。画面：年轻的统治者跪下，桂冠正落到他头上，背后金色光环如日冕——一看就是「冠」。",
+   "uncertainty": "coroner 原称 crowner，指「王室事务官」；corona virus 的命名依据电镜下的冠状外观。",
+   "derivedWords": [
+    {
+     "word": "coronation",
+     "zh": "加冕礼",
+     "breakdown": "coron+-ation"
+    },
+    {
+     "word": "corona",
+     "zh": "日冕；冠",
+     "breakdown": "coron+-a"
+    },
+    {
+     "word": "coroner",
+     "zh": "验尸官",
+     "breakdown": "coron+-er"
+    },
+    {
+     "word": "coronary",
+     "zh": "冠状动脉的",
+     "breakdown": "coron+-ary"
+    },
+    {
+     "word": "crown",
+     "zh": "王冠",
+     "breakdown": "crown(=coron)"
+    },
+    {
+     "word": "coronet",
+     "zh": "小冠冕",
+     "breakdown": "coron+-et"
+    },
+    {
+     "word": "coronavirus",
+     "zh": "冠状病毒",
+     "breakdown": "coron+-a+virus"
+    },
+    {
+     "word": "coronal",
+     "zh": "冠状的；日冕的",
+     "breakdown": "coron+-al"
+    }
+   ],
+   "example": {
+    "en": "At the coronation, the corona of light framed the new crown.",
+    "zh": "加冕礼上，一圈光晕衬着新的王冠。"
+   },
+   "illustration": {
+    "scene": "A kneeling young ruler receives a laurel crown lowered onto the head while a golden ring of light like a corona glows behind",
+    "dominantHue": {
+     "name": "深苔绿 deep moss green",
+     "rationale": "桂冠叶的深绿；与 or 拉开明度"
+    },
+    "props": [
+     "laurel crown being lowered",
+     "kneeling ruler",
+     "glowing ring halo behind"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/coronation",
+    "https://www.etymonline.com/word/corona",
+    "https://www.etymonline.com/word/coroner",
+    "https://en.wiktionary.org/wiki/corona",
+    "https://logeion.uchicago.edu/corona",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "reg"
+   ]
+  },
+  {
+   "rank": 360,
+   "id": "pseud",
+   "root": "pseud",
+   "forms": [
+    "pseud",
+    "pseudo"
+   ],
+   "language": "Greek",
+   "sourceWord": "ψευδής (pseudḗs)",
+   "meaning": {
+    "en": "false, sham",
+    "zh": "假的、伪的"
+   },
+   "originStory": "希腊语 pseudḗs 意为「假的、骗人的」，来自 pseudein「欺骗」。pseudo- 加在词前就是「伪、冒充」：pseudoscience「伪科学」、pseudo-intellectual「伪知识分子」、pseudocode「伪代码」（像代码却不能运行）。生物学里 pseudopodium 是变形虫伸出的「伪足」，矿物学里 pseudomorph 是「假晶」，古典学里 pseudepigrapha 是「托名伪作」。画面：一人手持笑脸面具挡在脸前，墙上的影子却是另一副怒容，桌上还有一枚裂开的假币——一看就是「假的」。",
+   "uncertainty": "pseudonym（笔名）已归 onym 条，此处不重复收录。",
+   "derivedWords": [
+    {
+     "word": "pseudo",
+     "zh": "假的；虚伪的",
+     "breakdown": "pseudo"
+    },
+    {
+     "word": "pseudoscience",
+     "zh": "伪科学",
+     "breakdown": "pseudo+science"
+    },
+    {
+     "word": "pseudocode",
+     "zh": "伪代码",
+     "breakdown": "pseudo+code"
+    },
+    {
+     "word": "pseudopodium",
+     "zh": "伪足",
+     "breakdown": "pseudo+pod(足)+-ium"
+    },
+    {
+     "word": "pseudointellectual",
+     "zh": "伪知识分子",
+     "breakdown": "pseudo+intellectual"
+    },
+    {
+     "word": "pseudomorph",
+     "zh": "假晶",
+     "breakdown": "pseudo+morph(形)"
+    },
+    {
+     "word": "pseudepigrapha",
+     "zh": "托名伪作",
+     "breakdown": "pseud+epi+graph+-a"
+    },
+    {
+     "word": "pseudorandom",
+     "zh": "伪随机的",
+     "breakdown": "pseudo+random"
+    }
+   ],
+   "example": {
+    "en": "Behind the smiling mask hid a pseudo friend selling pseudoscience.",
+    "zh": "笑脸面具后面，藏着一个兜售伪科学的假朋友。"
+   },
+   "illustration": {
+    "scene": "A figure holds a smiling mask in front of the face while the shadow on the wall shows a different scowling shape, a fake coin cracked open on a table",
+    "dominantHue": {
+     "name": "钢蓝 steel blue",
+     "rationale": "面具阴影的冷蓝；与 idio 区分"
+    },
+    "props": [
+     "smiling handheld mask",
+     "mismatched shadow",
+     "cracked counterfeit coin"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/pseudo",
+    "https://www.etymonline.com/word/pseudoscience",
+    "https://www.etymonline.com/word/pseudocode",
+    "https://en.wiktionary.org/wiki/ψευδής",
+    "https://logeion.uchicago.edu/ψευδης",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "onym"
+   ]
+  },
+  {
+   "rank": 361,
+   "id": "paleo",
+   "root": "paleo",
+   "forms": [
+    "paleo",
+    "palaeo",
+    "pale"
+   ],
+   "language": "Greek",
+   "sourceWord": "παλαιός (palaiós)",
+   "meaning": {
+    "en": "old, ancient",
+    "zh": "古老的"
+   },
+   "originStory": "希腊语 palaiós 意为「古老的、很久以前的」。paleontology 加上 ont（存在物）和 -logy（学）：研究远古生物的「古生物学」；paleography 是「古文字学」，研究古代手稿的笔迹。地质年代里 Paleocene 是「古新世」（cene = 新）。英式拼法写作 palaeo-。paleoclimate 是「古气候」，paleoanthropology 是「古人类学」。画面：发掘者跪在地上，用刷子把一具巨大的化石骨架从土里刷出来，旁边一只裂纹古陶罐——一看就是「古老的」。",
+   "uncertainty": "paleolithic（旧石器时代）已归 lith 条，Paleozoic 已归 zo 条，此处不重复。",
+   "derivedWords": [
+    {
+     "word": "paleontology",
+     "zh": "古生物学",
+     "breakdown": "paleo+ont(存在)+-ology"
+    },
+    {
+     "word": "paleography",
+     "zh": "古文字学",
+     "breakdown": "paleo+graph(写)+-y"
+    },
+    {
+     "word": "paleoecology",
+     "zh": "古生态学",
+     "breakdown": "paleo+eco+-logy"
+    },
+    {
+     "word": "paleoclimate",
+     "zh": "古气候",
+     "breakdown": "paleo+climate"
+    },
+    {
+     "word": "Paleocene",
+     "zh": "古新世",
+     "breakdown": "paleo+cene(新)"
+    },
+    {
+     "word": "paleobotany",
+     "zh": "古植物学",
+     "breakdown": "paleo+botany"
+    },
+    {
+     "word": "paleontologist",
+     "zh": "古生物学家",
+     "breakdown": "paleo+ont+-ologist"
+    },
+    {
+     "word": "paleoanthropology",
+     "zh": "古人类学",
+     "breakdown": "paleo+anthrop(人)+-ology"
+    }
+   ],
+   "example": {
+    "en": "The paleontologist brushed off a fossil older than any myth.",
+    "zh": "古生物学家刷出一块比任何神话都古老的化石。"
+   },
+   "illustration": {
+    "scene": "An excavator kneels brushing a large dinosaur fossil skeleton out of the plinth while an ancient cracked amphora rests nearby",
+    "dominantHue": {
+     "name": "浅雾紫红 soft mauve",
+     "rationale": "古旧泥土上的雾紫；与 archae 区分"
+    },
+    "props": [
+     "fossil skeleton in the ground",
+     "soft brush",
+     "ancient amphora"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/paleontology",
+    "https://www.etymonline.com/word/paleography",
+    "https://www.etymonline.com/word/paleoecology",
+    "https://en.wiktionary.org/wiki/παλαιός",
+    "https://logeion.uchicago.edu/παλαιος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 362,
+   "id": "xen",
+   "root": "xen",
+   "forms": [
+    "xen",
+    "xeno"
+   ],
+   "language": "Greek",
+   "sourceWord": "ξένος (xénos)",
+   "meaning": {
+    "en": "stranger, foreigner; guest",
+    "zh": "陌生人、外来的；客人"
+   },
+   "originStory": "希腊语 xénos 同时有「陌生人」和「客人」两义：古希腊人重视 xenia「待客之道」，相信神会扮作陌生人来考验主人。xenon「氙」是 1898 年新发现的稀有气体，被命名为「陌生的」元素；xenolith 是嵌在岩浆岩里的「捕虏岩」——外来的石头。医学里 xenograft 是「异种移植」。xenophile 是「喜爱外国事物的人」，相反 xenophobe 是「惧外者」。画面：一个穿异国服饰的陌生人带着条纹怪兽下了小船，本地人躲在小屋后面偷看——一看就是「外来者」。",
+   "uncertainty": "xenophobia 已归 phob 条；xenia 待客之道的宗教意义来自荷马史诗等文献。",
+   "derivedWords": [
+    {
+     "word": "xenon",
+     "zh": "氙",
+     "breakdown": "xen+-on"
+    },
+    {
+     "word": "xenial",
+     "zh": "待客的",
+     "breakdown": "xen+-ial"
+    },
+    {
+     "word": "xenograft",
+     "zh": "异种移植",
+     "breakdown": "xeno+graft"
+    },
+    {
+     "word": "xenolith",
+     "zh": "捕虏岩",
+     "breakdown": "xeno+lith(石)"
+    },
+    {
+     "word": "xenophile",
+     "zh": "亲外者",
+     "breakdown": "xeno+phil(爱)+-e"
+    },
+    {
+     "word": "xenophobe",
+     "zh": "惧外者",
+     "breakdown": "xeno+phob(怕)+-e"
+    },
+    {
+     "word": "xenophobic",
+     "zh": "仇外的",
+     "breakdown": "xeno+phob+-ic"
+    },
+    {
+     "word": "xenotransplantation",
+     "zh": "异种器官移植",
+     "breakdown": "xeno+transplant+-ation"
+    }
+   ],
+   "example": {
+    "en": "A xenophile welcomes the stranger; a xenophobe hides behind the hut.",
+    "zh": "亲外者欢迎陌生人，惧外者却躲在小屋后面。"
+   },
+   "illustration": {
+    "scene": "A stranger in exotic foreign clothing steps off a small boat with an unusual striped animal while wary locals peek from behind a hut",
+    "dominantHue": {
+     "name": "玉绿 jade",
+     "rationale": "异乡海岸的青绿；与 nav 区分"
+    },
+    "props": [
+     "foreign traveller with unfamiliar dress",
+     "small boat at a jetty",
+     "unusual exotic animal"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/xenon",
+    "https://www.etymonline.com/word/xenial",
+    "https://www.etymonline.com/word/xenograft",
+    "https://en.wiktionary.org/wiki/ξένος",
+    "https://logeion.uchicago.edu/ξενος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 363,
+   "id": "hol",
+   "root": "hol",
+   "forms": [
+    "hol",
+    "holo"
+   ],
+   "language": "Greek",
+   "sourceWord": "ὅλος (hólos)",
+   "meaning": {
+    "en": "whole, entire",
+    "zh": "整体的、全部的"
+   },
+   "originStory": "希腊语 hólos 意为「完整的、全部的」。holistic 是「整体的」，主张看事物要看全体而不是零件；hologram 来自 holo + gram（写）：一张把物体「整个」三维信息记录下来的「全息图」。catholic 来自 kata（遍及）+ holos：「普遍的」，后来专指天主教。Holocene 是「全新世」——最近、完整的一个地质世。holocaust 原是「整个烧掉的献祭」（kaustos = 烧），二战后专指纳粹大屠杀，使用时需格外慎重。画面：一人把最后一块拼图按进巨大的拼图球，球终于完整——一看就是「整体」。",
+   "uncertainty": "holocaust 在现代英语中专指纳粹大屠杀，语义沉重；Holocene 中的 hol 取「全部、完整」义，命名带有约定性质。",
+   "derivedWords": [
+    {
+     "word": "holistic",
+     "zh": "整体的",
+     "breakdown": "hol+-istic"
+    },
+    {
+     "word": "hologram",
+     "zh": "全息图",
+     "breakdown": "holo+gram(写)"
+    },
+    {
+     "word": "holocaust",
+     "zh": "大屠杀（原：全燔祭）",
+     "breakdown": "holo+caust(烧)"
+    },
+    {
+     "word": "catholic",
+     "zh": "普遍的；天主教的",
+     "breakdown": "cat(遍)+hol+-ic"
+    },
+    {
+     "word": "holism",
+     "zh": "整体论",
+     "breakdown": "hol+-ism"
+    },
+    {
+     "word": "Holocene",
+     "zh": "全新世",
+     "breakdown": "holo+cene(新)"
+    },
+    {
+     "word": "holograph",
+     "zh": "亲笔文件",
+     "breakdown": "holo+graph"
+    }
+   ],
+   "example": {
+    "en": "Only a holistic view sees the sphere as a whole.",
+    "zh": "只有整体的眼光才能把这个球看成一个整体。"
+   },
+   "illustration": {
+    "scene": "A figure clicks the last missing piece into a large puzzle sphere, making it whole and complete, scattered nothing left",
+    "dominantHue": {
+     "name": "浅石板蓝 soft slate blue",
+     "rationale": "完整球体的冷静灰蓝；与 omni 区分"
+    },
+    "props": [
+     "complete puzzle sphere",
+     "last piece clicking in",
+     "empty tray where pieces were"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/holistic",
+    "https://www.etymonline.com/word/hologram",
+    "https://www.etymonline.com/word/holocaust",
+    "https://en.wiktionary.org/wiki/ὅλος",
+    "https://logeion.uchicago.edu/ολος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "omni",
+    "pan"
+   ]
+  },
+  {
+   "rank": 364,
+   "id": "myth",
+   "root": "myth",
+   "forms": [
+    "myth",
+    "mytho"
+   ],
+   "language": "Greek",
+   "sourceWord": "μῦθος (mŷthos)",
+   "meaning": {
+    "en": "story, legend",
+    "zh": "神话、故事"
+   },
+   "originStory": "希腊语 mŷthos 原本只是「话语、故事」，后来特指关于神和英雄的「神话」，与讲求论证的 logos 相对。myth 是「神话；无根据的说法」，mythical 是「神话里的、虚构的」，mythos 是一个文化的「神话体系」。demythologize 是「去神话化」，把宗教文本里的神话成分剥离来解读。画面：讲故事的老人坐在篝火旁，烟雾升起化作飞禽与多头蛇的形状，两个孩子听得入迷——一看就是「神话故事」。",
+   "uncertainty": "mythology 已归其他条目；myth 在英语中直到 19 世纪才普及。",
+   "derivedWords": [
+    {
+     "word": "myth",
+     "zh": "神话；谬见",
+     "breakdown": "myth"
+    },
+    {
+     "word": "mythical",
+     "zh": "神话的；虚构的",
+     "breakdown": "myth+-ical"
+    },
+    {
+     "word": "mythic",
+     "zh": "神话般的",
+     "breakdown": "myth+-ic"
+    },
+    {
+     "word": "mythos",
+     "zh": "神话体系",
+     "breakdown": "myth+-os"
+    },
+    {
+     "word": "demythologize",
+     "zh": "去神话化",
+     "breakdown": "de-+myth+-ologize"
+    },
+    {
+     "word": "mythologize",
+     "zh": "使神话化",
+     "breakdown": "myth+-ologize"
+    },
+    {
+     "word": "mythmaker",
+     "zh": "神话制造者",
+     "breakdown": "myth+maker"
+    },
+    {
+     "word": "mythography",
+     "zh": "神话记述",
+     "breakdown": "myth+-o-+graph+-y"
+    }
+   ],
+   "example": {
+    "en": "By the fire, the old man's myth grew wings in the smoke.",
+    "zh": "篝火旁，老人的神话在烟雾里长出了翅膀。"
+   },
+   "illustration": {
+    "scene": "A storyteller beside a small campfire tells a tale as the smoke curls into a winged horse and a many-headed serpent above two listening children",
+    "dominantHue": {
+     "name": "深雾玫 deep muted rose",
+     "rationale": "篝火夜色里的暗玫；与 fab 区分"
+    },
+    "props": [
+     "campfire",
+     "smoke shaped as winged horse",
+     "listening children"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/myth",
+    "https://www.etymonline.com/word/mythical",
+    "https://www.etymonline.com/word/mythic",
+    "https://en.wiktionary.org/wiki/μῦθος",
+    "https://logeion.uchicago.edu/μυθος",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 365,
+   "id": "pent",
+   "root": "pent",
+   "forms": [
+    "pent",
+    "penta"
+   ],
+   "language": "Greek",
+   "sourceWord": "πέντε (pénte)",
+   "meaning": {
+    "en": "five",
+    "zh": "五"
+   },
+   "originStory": "希腊语 pénte 意为「五」。pentathlon 是「五项全能」，古希腊奥运的五项是赛跑、跳远、掷铁饼、掷标枪和摔跤（athlon = 比赛）。pentagram 是「五角星」，Pentateuch 是《圣经》开头的「摩西五经」，Pentecost 是复活节后第五十天的「五旬节」。音乐里 pentatonic 是「五声音阶」，几何里 pentahedron 是「五面体」，化学里 pentane 是含五个碳的「戊烷」。画面：五名运动员各持一项器具——铁饼、标枪、盾与摔跤姿势——分站五处，一看就是「五」。",
+   "uncertainty": "pentagon 已归 gon 条，pentameter 已归其他条目；古代五项全能的具体项目据文献记载。",
+   "derivedWords": [
+    {
+     "word": "pentathlon",
+     "zh": "五项全能",
+     "breakdown": "pent+athl(比赛)+-on"
+    },
+    {
+     "word": "pentagram",
+     "zh": "五角星",
+     "breakdown": "penta+gram(画)"
+    },
+    {
+     "word": "Pentateuch",
+     "zh": "摩西五经",
+     "breakdown": "penta+teuch(书卷)"
+    },
+    {
+     "word": "Pentecost",
+     "zh": "五旬节",
+     "breakdown": "pente+cost(第十)"
+    },
+    {
+     "word": "pentad",
+     "zh": "五个一组",
+     "breakdown": "pent+-ad"
+    },
+    {
+     "word": "pentatonic",
+     "zh": "五声音阶的",
+     "breakdown": "penta+ton(音)+-ic"
+    },
+    {
+     "word": "pentahedron",
+     "zh": "五面体",
+     "breakdown": "penta+hedr(面)+-on"
+    },
+    {
+     "word": "pentane",
+     "zh": "戊烷",
+     "breakdown": "pent+-ane"
+    }
+   ],
+   "example": {
+    "en": "In the pentathlon, five athletes each master one event.",
+    "zh": "五项全能里，五名运动员各精一项。"
+   },
+   "illustration": {
+    "scene": "Five athletes stand evenly spaced on the points of a pentagon, each with a distinct event prop: discus, javelin, jumping weights, running pose, wrestling stance",
+    "dominantHue": {
+     "name": "浅海青 soft sea teal",
+     "rationale": "竞技场的清新青；与 hex 区分"
+    },
+    "props": [
+     "exactly five athletes",
+     "pentagon of floor marks",
+     "five different event props"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/pentathlon",
+    "https://www.etymonline.com/word/pentagram",
+    "https://www.etymonline.com/word/pentateuch",
+    "https://en.wiktionary.org/wiki/πέντε",
+    "https://logeion.uchicago.edu/πεντε",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "tri"
+   ]
+  },
+  {
+   "rank": 366,
+   "id": "hex",
+   "root": "hex",
+   "forms": [
+    "hex",
+    "hexa"
+   ],
+   "language": "Greek",
+   "sourceWord": "ἕξ (héx)",
+   "meaning": {
+    "en": "six",
+    "zh": "六"
+   },
+   "originStory": "希腊语 héx 意为「六」，与拉丁语 sex（六）同源。hexameter 是古希腊史诗用的「六音步诗行」，荷马的《伊利亚特》就是用它写的。hexapod 是「六足动物」——昆虫正是六条腿。hexahedron 是「六面体」（立方体即一种），hexagram 是「六芒星」，也是《易经》「六爻卦」的英译。化学里 hexane 是含六个碳的「己烷」。蜂巢每个格子都是正六边形，这是最省蜡又最结实的结构。画面：中央一块六格的六边形蜂巢，蜜蜂爬过，旁边站着养蜂人——一看就是「六」。",
+   "uncertainty": "hexagon 已归 gon 条；hexagram 译《易经》卦象是后起用法。",
+   "derivedWords": [
+    {
+     "word": "hexameter",
+     "zh": "六音步诗行",
+     "breakdown": "hexa+meter(量)"
+    },
+    {
+     "word": "hexapod",
+     "zh": "六足动物",
+     "breakdown": "hexa+pod(足)"
+    },
+    {
+     "word": "hexahedron",
+     "zh": "六面体",
+     "breakdown": "hexa+hedr(面)+-on"
+    },
+    {
+     "word": "hexagram",
+     "zh": "六芒星；六爻卦",
+     "breakdown": "hexa+gram(画)"
+    },
+    {
+     "word": "hexad",
+     "zh": "六个一组",
+     "breakdown": "hex+-ad"
+    },
+    {
+     "word": "hexane",
+     "zh": "己烷",
+     "breakdown": "hex+-ane"
+    },
+    {
+     "word": "hexachord",
+     "zh": "六声音列",
+     "breakdown": "hexa+chord(弦)"
+    }
+   ],
+   "example": {
+    "en": "A hexapod bee walks across a honeycomb of hexagonal cells.",
+    "zh": "一只六足的蜜蜂走过六边形格子的蜂巢。"
+   },
+   "illustration": {
+    "scene": "A large six-sided honeycomb sits in the middle while a single bee clearly showing six legs walks across it and six hexagonal cells glow with honey",
+    "dominantHue": {
+     "name": "深薰衣草紫 deep lavender",
+     "rationale": "蜂巢金色的互补紫；与 pent 区分"
+    },
+    "props": [
+     "big hexagonal honeycomb",
+     "bee with six legs",
+     "six honey cells"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/hexameter",
+    "https://www.etymonline.com/word/hexapod",
+    "https://www.etymonline.com/word/hexahedron",
+    "https://en.wiktionary.org/wiki/ἕξ",
+    "https://logeion.uchicago.edu/εξ",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "pent"
+   ]
+  },
+  {
+   "rank": 367,
+   "id": "dec",
+   "root": "dec",
+   "forms": [
+    "dec",
+    "deci",
+    "deca",
+    "decim"
+   ],
+   "language": "Latin + Greek",
+   "sourceWord": "decem / δέκα (déka)",
+   "meaning": {
+    "en": "ten",
+    "zh": "十"
+   },
+   "originStory": "拉丁语 decem 与希腊语 déka 都表示「十」，二者同源。decade 是「十年」，decimal 是「十进制的」；December 原是罗马旧历的「第十个月」，后来历法改革加了两个月，才成了十二月。decimate 本指罗马军团惩罚哗变：「十人抽一处死」，今天多指「大量杀死」。希腊来源的 deca- 有 decathlon「十项全能」、decagon「十边形」、decapod「十足动物」（虾蟹）。decibel 是「十分之一贝尔」，即「分贝」。画面：十个泥人排成一行，前面一只十条腿的螃蟹，旁边一根计数杆——一看就是「十」。",
+   "uncertainty": "decimate 的「十一抽杀」是古罗马军纪记载，现代多用作「大量毁灭」，其「准确用法」仍有争论；拉丁 dec- 与希腊 deca- 同源但分属两种语言。",
+   "derivedWords": [
+    {
+     "word": "decade",
+     "zh": "十年",
+     "breakdown": "dec+-ade"
+    },
+    {
+     "word": "decimal",
+     "zh": "十进制的；小数",
+     "breakdown": "decim+-al"
+    },
+    {
+     "word": "December",
+     "zh": "十二月（原第十月）",
+     "breakdown": "decem+-ber"
+    },
+    {
+     "word": "decimate",
+     "zh": "大量杀死",
+     "breakdown": "decim+-ate"
+    },
+    {
+     "word": "decathlon",
+     "zh": "十项全能",
+     "breakdown": "deca+athl+-on"
+    },
+    {
+     "word": "decagon",
+     "zh": "十边形",
+     "breakdown": "deca+gon(角)"
+    },
+    {
+     "word": "decapod",
+     "zh": "十足动物",
+     "breakdown": "deca+pod(足)"
+    },
+    {
+     "word": "decibel",
+     "zh": "分贝",
+     "breakdown": "deci+bel"
+    },
+    {
+     "word": "decennial",
+     "zh": "每十年的",
+     "breakdown": "dec+enn(年)+-ial"
+    },
+    {
+     "word": "decalogue",
+     "zh": "十诫",
+     "breakdown": "deca+logue(言)"
+    }
+   ],
+   "example": {
+    "en": "A decapod crab counts with ten legs; a decade counts with ten years.",
+    "zh": "十足的螃蟹用十条腿来数，十年用十个年头来数。"
+   },
+   "illustration": {
+    "scene": "Ten clay figures stand in two neat rows of five, and in front a crab with ten legs walks beside a counting rod with ten beads",
+    "dominantHue": {
+     "name": "浅苔绿 soft moss green",
+     "rationale": "算筹与草地的淡绿；与 cent 区分"
+    },
+    "props": [
+     "ten figures in two rows of five",
+     "ten-legged crab",
+     "rod with ten beads"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/decade",
+    "https://www.etymonline.com/word/decimal",
+    "https://www.etymonline.com/word/december",
+    "https://en.wiktionary.org/wiki/decem",
+    "https://logeion.uchicago.edu/decem",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "cent",
+    "mill"
+   ]
+  },
+  {
+   "rank": 368,
+   "id": "cav",
+   "root": "cav",
+   "forms": [
+    "cav"
+   ],
+   "language": "Latin",
+   "sourceWord": "cavus",
+   "meaning": {
+    "en": "hollow",
+    "zh": "空的、洞"
+   },
+   "originStory": "拉丁语 cavus 意为「空心的、凹的」。cave 是「洞穴」，cavity 是「腔、洞」（如蛀牙的龋洞），cavern 是「大山洞」。excavate 是「把里面挖空（ex-）」：「挖掘、发掘」，考古工地就叫 excavation。concave 是「向内凹的」，与 convex（凸）相对；concavity 是「凹度、凹面」。画面：挖掘者手握镐头，在一座石丘侧面挖出一个深深的洞穴，洞口还放着一只凹形的碗——一看就是「空、凹」。",
+   "uncertainty": "cage、jail（gaol）也可追溯至 cavea，但拼写变化大，未收入。",
+   "derivedWords": [
+    {
+     "word": "cave",
+     "zh": "洞穴",
+     "breakdown": "cav+-e"
+    },
+    {
+     "word": "cavity",
+     "zh": "腔；洞",
+     "breakdown": "cav+-ity"
+    },
+    {
+     "word": "excavate",
+     "zh": "挖掘",
+     "breakdown": "ex-(出)+cav+-ate"
+    },
+    {
+     "word": "concave",
+     "zh": "凹的",
+     "breakdown": "con-+cav+-e"
+    },
+    {
+     "word": "cavern",
+     "zh": "大山洞",
+     "breakdown": "cav+-ern"
+    },
+    {
+     "word": "cavernous",
+     "zh": "洞穴般的",
+     "breakdown": "cav+-ern+-ous"
+    },
+    {
+     "word": "excavation",
+     "zh": "发掘",
+     "breakdown": "ex-+cav+-ation"
+    },
+    {
+     "word": "concavity",
+     "zh": "凹度",
+     "breakdown": "con-+cav+-ity"
+    }
+   ],
+   "example": {
+    "en": "He excavated a cave until the cavity was deep and concave.",
+    "zh": "他一直挖，直到洞变得又深又凹。"
+   },
+   "illustration": {
+    "scene": "A digger with a pick has hollowed a deep cave into the side of a rock mound, a dark hollow mouth opening, a concave bowl at its entrance",
+    "dominantHue": {
+     "name": "深钢蓝 deep steel blue",
+     "rationale": "洞穴阴影的深蓝；与 fund 区分"
+    },
+    "props": [
+     "deep cave hollow",
+     "pickaxe and digger",
+     "concave bowl"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/cave",
+    "https://www.etymonline.com/word/cavity",
+    "https://www.etymonline.com/word/excavate",
+    "https://en.wiktionary.org/wiki/cavus",
+    "https://logeion.uchicago.edu/cavus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 369,
+   "id": "circ",
+   "root": "circ",
+   "forms": [
+    "circ",
+    "circum",
+    "circu"
+   ],
+   "language": "Latin",
+   "sourceWord": "circus / circum",
+   "meaning": {
+    "en": "ring, circle; around",
+    "zh": "圆圈；环绕"
+   },
+   "originStory": "拉丁语 circus 意为「圆环」，也指罗马的环形赛车场 Circus Maximus；circum 是「环绕地」。circle 来自它的小称 circulus「小圈」。circus 今天是「马戏团」，表演仍在圆形场地里；circulate 是「循环、流通」，circulation 是「血液循环、发行量」。circa 是「大约」（年份前常写 c.）；circumvent 是「绕过去（venīre 来）」：规避。画面：两辆小马车绕着环形跑道比赛，舞者手拉手围成一圈——一看就是「圈、绕」。",
+   "uncertainty": "circumference 已归 fer 条，circuit 已归 it 条，circumstance 已归 sta 条，circumnavigate 已归 nav 条，此处不重复。",
+   "derivedWords": [
+    {
+     "word": "circle",
+     "zh": "圆圈",
+     "breakdown": "circ+-le"
+    },
+    {
+     "word": "circus",
+     "zh": "马戏团；环形场",
+     "breakdown": "circ+-us"
+    },
+    {
+     "word": "circular",
+     "zh": "圆形的",
+     "breakdown": "circ+-ular"
+    },
+    {
+     "word": "circulate",
+     "zh": "循环；流通",
+     "breakdown": "circ+-ulate"
+    },
+    {
+     "word": "circulation",
+     "zh": "循环；发行量",
+     "breakdown": "circ+-ulation"
+    },
+    {
+     "word": "circumvent",
+     "zh": "规避",
+     "breakdown": "circum+vent(来)"
+    },
+    {
+     "word": "circulatory",
+     "zh": "循环的",
+     "breakdown": "circ+-ulatory"
+    },
+    {
+     "word": "encircle",
+     "zh": "环绕",
+     "breakdown": "en-+circ+-le"
+    },
+    {
+     "word": "circlet",
+     "zh": "小环；头箍",
+     "breakdown": "circ+-let"
+    },
+    {
+     "word": "circa",
+     "zh": "大约（年份）",
+     "breakdown": "circa"
+    }
+   ],
+   "example": {
+    "en": "The chariots circulate round the circus as dancers encircle the post.",
+    "zh": "马车绕着环形场循环奔跑，舞者围住立柱。"
+   },
+   "illustration": {
+    "scene": "Two small horse chariots race around an oval ring track while a ring of dancers circles a central post",
+    "dominantHue": {
+     "name": "梅紫 plum",
+     "rationale": "赛场环道的梅色；与 rot 区分"
+    },
+    "props": [
+     "oval ring racetrack",
+     "racing chariots",
+     "dancers in a circle"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/circle",
+    "https://www.etymonline.com/word/circus",
+    "https://www.etymonline.com/word/circular",
+    "https://en.wiktionary.org/wiki/circus",
+    "https://logeion.uchicago.edu/circus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "rot",
+    "cycl"
+   ]
+  },
+  {
+   "rank": 370,
+   "id": "cruc",
+   "root": "cruc",
+   "forms": [
+    "cruc",
+    "crux",
+    "crus",
+    "cross"
+   ],
+   "language": "Latin",
+   "sourceWord": "crux, crucis",
+   "meaning": {
+    "en": "cross",
+    "zh": "十字、十字架"
+   },
+   "originStory": "拉丁语 crux（属格 crucis）意为「十字架、十字形」。crux 在英语里指问题的「关键、症结」——就像道路交叉的那一点。crucial 原指「十字路口般决定方向的」，于是是「关键的」；这一义据说由培根「十字路标实验」（instantia crucis）的说法流传开来。crucify 是「钉上十字架」，excruciating 是「像受十字架刑一样折磨的」：极痛苦的。crusade「十字军东征」是「佩戴十字的远征」，cruciform 是「十字形的」。画面：旅人站在两条石路正交的十字路口，旁边一个 X 形木标，正在选路——一看就是「十字」。",
+   "uncertainty": "crucial 的「关键」义据说出自培根的 instantia crucis（十字路标式的判决性实例），经牛顿、波义耳等人使用后普及。",
+   "derivedWords": [
+    {
+     "word": "crucial",
+     "zh": "关键的",
+     "breakdown": "cruc+-ial"
+    },
+    {
+     "word": "crucify",
+     "zh": "钉上十字架",
+     "breakdown": "cruc+i+fy"
+    },
+    {
+     "word": "excruciating",
+     "zh": "极痛苦的",
+     "breakdown": "ex-+cruc+-iating"
+    },
+    {
+     "word": "crusade",
+     "zh": "十字军东征；运动",
+     "breakdown": "crus(=cruc)+-ade"
+    },
+    {
+     "word": "crux",
+     "zh": "关键；症结",
+     "breakdown": "crux"
+    },
+    {
+     "word": "cruciform",
+     "zh": "十字形的",
+     "breakdown": "cruc+i+form(形)"
+    },
+    {
+     "word": "crucifix",
+     "zh": "耶稣受难像",
+     "breakdown": "cruc+i+fix(固定)"
+    },
+    {
+     "word": "crusader",
+     "zh": "十字军战士；倡导者",
+     "breakdown": "crus+-ader"
+    }
+   ],
+   "example": {
+    "en": "At the crossroads lay the crux of his journey: a crucial choice.",
+    "zh": "在十字路口，他旅程的关键是一个至关重要的选择。"
+   },
+   "illustration": {
+    "scene": "A traveller stands exactly at a crossroads where two paved roads cross at right angles, beside an X-shaped wooden cross marker, choosing a way",
+    "dominantHue": {
+     "name": "深玉绿 deep jade",
+     "rationale": "十字路口石路边的深青；与 via 区分"
+    },
+    "props": [
+     "two roads crossing",
+     "X-shaped cross marker post",
+     "traveller at the crossing point"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/crucial",
+    "https://www.etymonline.com/word/crucify",
+    "https://www.etymonline.com/word/excruciating",
+    "https://en.wiktionary.org/wiki/crux",
+    "https://logeion.uchicago.edu/crux",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "via"
+   ]
+  },
+  {
+   "rank": 371,
+   "id": "tect",
+   "root": "tect",
+   "forms": [
+    "tect"
+   ],
+   "language": "Latin",
+   "sourceWord": "tegere, tēctum",
+   "meaning": {
+    "en": "to cover",
+    "zh": "覆盖、遮盖"
+   },
+   "originStory": "拉丁语 tegere 意为「覆盖」，过去分词 tēctum 还指「屋顶」。protect 是「在前面（pro-）盖住」：保护；protector 是「保护者」，protectorate 是「保护国」。detect 很巧妙：de-（去除）+ tegere，「把盖子揭开」，于是是「发现、侦查」，detective 是揭开秘密的「侦探」。integument 是覆盖身体的「外皮」。画面：一人撑起一座瓦顶棚，为雨中的母子遮雨；另一人掀开盖子，发现藏着的罐子——盖住就是 protect，揭开就是 detect，一看就懂。",
+   "uncertainty": "tile（瓦）也可追溯至 tēgula（屋瓦），但拼写已变，未收入。",
+   "derivedWords": [
+    {
+     "word": "protect",
+     "zh": "保护",
+     "breakdown": "pro-(前)+tect"
+    },
+    {
+     "word": "protection",
+     "zh": "保护",
+     "breakdown": "pro-+tect+-ion"
+    },
+    {
+     "word": "detect",
+     "zh": "发现；侦查",
+     "breakdown": "de-(去)+tect"
+    },
+    {
+     "word": "detective",
+     "zh": "侦探",
+     "breakdown": "de-+tect+-ive"
+    },
+    {
+     "word": "protector",
+     "zh": "保护者",
+     "breakdown": "pro-+tect+-or"
+    },
+    {
+     "word": "protective",
+     "zh": "保护性的",
+     "breakdown": "pro-+tect+-ive"
+    },
+    {
+     "word": "detection",
+     "zh": "侦查；探测",
+     "breakdown": "de-+tect+-ion"
+    },
+    {
+     "word": "integument",
+     "zh": "外皮；外壳",
+     "breakdown": "in-+teg+-ument"
+    },
+    {
+     "word": "protectorate",
+     "zh": "保护国",
+     "breakdown": "pro-+tect+-orate"
+    },
+    {
+     "word": "detector",
+     "zh": "探测器",
+     "breakdown": "de-+tect+-or"
+    }
+   ],
+   "example": {
+    "en": "He protected them under a roof while the detective detected the hidden pot.",
+    "zh": "他用屋顶护住他们，侦探则揭开了藏起来的罐子。"
+   },
+   "illustration": {
+    "scene": "A figure holds a wide tiled roof shelter over a mother and child in the rain while another lifts a lid to uncover a hidden pot",
+    "dominantHue": {
+     "name": "长春花蓝紫 periwinkle",
+     "rationale": "屋檐雨幕的蓝紫；与 cav 区分"
+    },
+    "props": [
+     "tiled roof shelter",
+     "rain drops bouncing off",
+     "lifted lid uncovering a pot"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/protect",
+    "https://www.etymonline.com/word/protection",
+    "https://www.etymonline.com/word/detect",
+    "https://en.wiktionary.org/wiki/tego",
+    "https://logeion.uchicago.edu/tego",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 372,
+   "id": "di",
+   "root": "di",
+   "forms": [
+    "di",
+    "diurn",
+    "journ"
+   ],
+   "language": "Latin",
+   "sourceWord": "diēs / diurnus",
+   "meaning": {
+    "en": "day",
+    "zh": "日、白天"
+   },
+   "originStory": "拉丁语 diēs 意为「日、一天」，形容词 diurnus 是「每日的、白天的」。diary 是「每日的记录」——日记；diurnal 是「白天活动的」，与 nocturnal（夜行的）相对。diurnus 经古法语变成 jour（日），于是 journal 原是「每日的记录」，journey 原是「一天走的路程」，sojourn 是「逗留（几日）」，adjourn 是「推到（ad-）另一天」：休会。meridian 是「一天的正中」——正午、子午线。画面：一枚小太阳沿着弧线从东到西划过，日晷投下影子，一人伏案写日记——一看就是「一天」。",
+   "uncertainty": "dismal 一说来自 diēs malī「不吉之日」，但并不确定，未收入。journal/journey 经古法语 jour 转来，拼写已不见 di。",
+   "derivedWords": [
+    {
+     "word": "diary",
+     "zh": "日记",
+     "breakdown": "di+-ary"
+    },
+    {
+     "word": "diurnal",
+     "zh": "白天的；每日的",
+     "breakdown": "di+urn+-al"
+    },
+    {
+     "word": "journal",
+     "zh": "日志；期刊",
+     "breakdown": "journ(=diurn)+-al"
+    },
+    {
+     "word": "journey",
+     "zh": "旅程",
+     "breakdown": "journ+-ey"
+    },
+    {
+     "word": "sojourn",
+     "zh": "逗留",
+     "breakdown": "so-(sub)+journ"
+    },
+    {
+     "word": "meridian",
+     "zh": "子午线；正午",
+     "breakdown": "meri(中)+di+-an"
+    },
+    {
+     "word": "adjourn",
+     "zh": "休会",
+     "breakdown": "ad-+journ"
+    },
+    {
+     "word": "journalist",
+     "zh": "记者",
+     "breakdown": "journ+-al+-ist"
+    }
+   ],
+   "example": {
+    "en": "Each evening he wrote his diary as the diurnal sun set.",
+    "zh": "每天傍晚，太阳一落，他就写日记。"
+   },
+   "illustration": {
+    "scene": "A small sun travels a visible arc from dawn to dusk over the plinth, a sundial casts a shadow and a figure writes in a day-book at a table",
+    "dominantHue": {
+     "name": "浅雾玫 soft muted rose",
+     "rationale": "黄昏日光的柔玫；与 temp 区分"
+    },
+    "props": [
+     "sun arc from sunrise to sunset",
+     "sundial",
+     "writer with a day-book"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/diary",
+    "https://www.etymonline.com/word/diurnal",
+    "https://www.etymonline.com/word/journal",
+    "https://en.wiktionary.org/wiki/dies",
+    "https://logeion.uchicago.edu/dies",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "temp",
+    "chron"
+   ]
+  },
+  {
+   "rank": 373,
+   "id": "empt",
+   "root": "empt",
+   "forms": [
+    "empt",
+    "emp"
+   ],
+   "language": "Latin",
+   "sourceWord": "emere, ēmptum",
+   "meaning": {
+    "en": "to take, buy",
+    "zh": "取、买"
+   },
+   "originStory": "拉丁语 emere 最早意为「拿取」，后来专指「买」，过去分词 ēmptum。exempt 是「被取出（ex-）」于义务之外：免除的；preempt 是「抢先（prae-）买下」：先发制人。redeem 来自 red-（回）+ emere：「买回来」，于是是「赎回、弥补」，名词 redemption 是「救赎」。example 来自 eximere「取出一个来」——拿出来的样本，sample 是它的缩略；prompt 来自 promere「拿出来」，所以是「及时的、提示」。画面：小市集摊位前，买主递上硬币接过罐子，另一位顾客从粮袋里舀出一点样品——一看就是「买、取」。",
+   "uncertainty": "example/sample/prompt 由 emere 的复合动词 eximere、promere 演变而来，拼写里 empt 已变形。",
+   "derivedWords": [
+    {
+     "word": "exempt",
+     "zh": "免除的",
+     "breakdown": "ex-+empt"
+    },
+    {
+     "word": "preempt",
+     "zh": "先发制人",
+     "breakdown": "pre-+empt"
+    },
+    {
+     "word": "redemption",
+     "zh": "救赎；赎回",
+     "breakdown": "red-+empt+-ion"
+    },
+    {
+     "word": "redeem",
+     "zh": "赎回；弥补",
+     "breakdown": "red-+eem(=em)"
+    },
+    {
+     "word": "peremptory",
+     "zh": "专横的",
+     "breakdown": "per-+empt+-ory"
+    },
+    {
+     "word": "example",
+     "zh": "例子",
+     "breakdown": "ex-+am(=em)+-ple"
+    },
+    {
+     "word": "sample",
+     "zh": "样品",
+     "breakdown": "s(ex)+am+-ple"
+    },
+    {
+     "word": "prompt",
+     "zh": "及时的；提示",
+     "breakdown": "pro-+mpt(=empt)"
+    },
+    {
+     "word": "exemption",
+     "zh": "豁免",
+     "breakdown": "ex-+empt+-ion"
+    },
+    {
+     "word": "impromptu",
+     "zh": "即兴的",
+     "breakdown": "in-+promptu"
+    },
+    {
+     "word": "preemptive",
+     "zh": "先发制人的",
+     "breakdown": "pre-+empt+-ive"
+    }
+   ],
+   "example": {
+    "en": "She redeemed her coins for a jar and took a free sample.",
+    "zh": "她用硬币换来一罐东西，还拿了一份免费样品。"
+   },
+   "illustration": {
+    "scene": "At a tiny market stall a buyer hands coins to a seller and takes a jar while another customer scoops a sample from a grain sack",
+    "dominantHue": {
+     "name": "雾紫红 mauve",
+     "rationale": "市集布棚下的雾紫；与 merc 区分"
+    },
+    "props": [
+     "coins changing hands",
+     "jar being taken",
+     "sample scoop from a sack"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/exempt",
+    "https://www.etymonline.com/word/preempt",
+    "https://www.etymonline.com/word/redemption",
+    "https://en.wiktionary.org/wiki/emo",
+    "https://logeion.uchicago.edu/emo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "merc"
+   ]
+  },
+  {
+   "rank": 374,
+   "id": "apt",
+   "root": "apt",
+   "forms": [
+    "apt",
+    "ept"
+   ],
+   "language": "Latin",
+   "sourceWord": "aptus",
+   "meaning": {
+    "en": "fitted, suitable",
+    "zh": "适合的、契合的"
+   },
+   "originStory": "拉丁语 aptus 意为「被装配好的、合适的」。apt 是「恰当的；易于……的」，aptitude 是「天资」——天生适合做某事。adapt 是「使适合（ad-）」：适应、改编，adaptation 是「适应、改编本」。在复合词里 a 弱化成 e：inept 是「不合适的、笨拙的」，ineptitude 是「无能」；adept 来自 adeptus「已经达到的」，炼金术士用它称「得道者」，于是是「熟练的」。画面：一人把方、圆、星形的木块一一放进形状恰好相同的槽孔——一看就是「契合」。",
+   "uncertainty": "adept 来自 adipīscī（获得）的过去分词 adeptus，与 aptus 同源但不是直接派生，辞典常并列讲解。",
+   "derivedWords": [
+    {
+     "word": "aptitude",
+     "zh": "天资",
+     "breakdown": "apt+-itude"
+    },
+    {
+     "word": "adapt",
+     "zh": "适应；改编",
+     "breakdown": "ad-+apt"
+    },
+    {
+     "word": "inept",
+     "zh": "笨拙的",
+     "breakdown": "in-+ept(=apt)"
+    },
+    {
+     "word": "adept",
+     "zh": "熟练的",
+     "breakdown": "ad-+ept"
+    },
+    {
+     "word": "apt",
+     "zh": "恰当的；易于",
+     "breakdown": "apt"
+    },
+    {
+     "word": "adaptation",
+     "zh": "适应；改编",
+     "breakdown": "ad-+apt+-ation"
+    },
+    {
+     "word": "ineptitude",
+     "zh": "无能",
+     "breakdown": "in-+ept+-itude"
+    },
+    {
+     "word": "adaptable",
+     "zh": "适应性强的",
+     "breakdown": "ad-+apt+-able"
+    },
+    {
+     "word": "aptly",
+     "zh": "恰当地",
+     "breakdown": "apt+-ly"
+    }
+   ],
+   "example": {
+    "en": "Each block fits its slot so aptly that the board seems adapted to it.",
+    "zh": "每块木块都恰好放进槽里，仿佛木板是为它们量身而做的。"
+   },
+   "illustration": {
+    "scene": "A figure slides a carved key perfectly into a matching lock while a puzzle piece drops exactly into its slot",
+    "dominantHue": {
+     "name": "浅薰衣草紫 soft lavender",
+     "rationale": "锁与拼图的清淡紫；与 hex 区分明度"
+    },
+    "props": [
+     "key fitting a lock",
+     "puzzle piece fitting its slot",
+     "satisfied craftsperson"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/aptitude",
+    "https://www.etymonline.com/word/adapt",
+    "https://www.etymonline.com/word/inept",
+    "https://en.wiktionary.org/wiki/aptus",
+    "https://logeion.uchicago.edu/aptus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "fac"
+   ]
+  },
+  {
+   "rank": 375,
+   "id": "ferv",
+   "root": "ferv",
+   "forms": [
+    "ferv",
+    "ferm"
+   ],
+   "language": "Latin",
+   "sourceWord": "fervēre",
+   "meaning": {
+    "en": "to boil, be hot",
+    "zh": "沸腾、炽热"
+   },
+   "originStory": "拉丁语 fervēre 意为「沸腾、发热」。fervent 是「火热的、热烈的」，fervor 是「热情」，fervid 是「炽热的」。effervescent 是「冒泡往外（ex-）沸腾的」：起泡的、兴高采烈的，比如汽水。ferment 来自 fermentum「酵母」：让面团和酒「像煮沸一样冒泡」，于是是「发酵；骚动」，fermentation 是「发酵」。画面：一口青铜锅在火上剧烈沸腾，蒸汽上升，旁边一只罐子冒着泡沫——一看就是「沸腾」。",
+   "uncertainty": "ferment 与 fervēre 的关系是辞典通说（fermentum < *fervimentum），但细节仍有讨论。",
+   "derivedWords": [
+    {
+     "word": "fervent",
+     "zh": "热烈的",
+     "breakdown": "ferv+-ent"
+    },
+    {
+     "word": "fervor",
+     "zh": "热情",
+     "breakdown": "ferv+-or"
+    },
+    {
+     "word": "effervescent",
+     "zh": "起泡的；活泼的",
+     "breakdown": "ef-(ex)+ferv+-escent"
+    },
+    {
+     "word": "ferment",
+     "zh": "发酵；骚动",
+     "breakdown": "ferm(=ferv)+-ent"
+    },
+    {
+     "word": "fervid",
+     "zh": "炽热的",
+     "breakdown": "ferv+-id"
+    },
+    {
+     "word": "effervesce",
+     "zh": "冒泡",
+     "breakdown": "ef-+ferv+-esce"
+    },
+    {
+     "word": "fermentation",
+     "zh": "发酵",
+     "breakdown": "ferm+-entation"
+    },
+    {
+     "word": "perfervid",
+     "zh": "非常热烈的",
+     "breakdown": "per-+ferv+-id"
+    }
+   ],
+   "example": {
+    "en": "The fervent cook watched the pot boil and the jar effervesce.",
+    "zh": "热情的厨师看着锅里沸腾、罐子冒泡。"
+   },
+   "illustration": {
+    "scene": "A bronze cauldron boils furiously over a fire, bubbles and steam rising, a jar beside it fizzing with froth",
+    "dominantHue": {
+     "name": "蕨绿 fern green",
+     "rationale": "火光对面的冷绿；与 flam 区分"
+    },
+    "props": [
+     "boiling cauldron",
+     "rising bubbles and steam",
+     "fizzing frothy jar"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/fervent",
+    "https://www.etymonline.com/word/fervor",
+    "https://www.etymonline.com/word/effervescent",
+    "https://en.wiktionary.org/wiki/ferveo",
+    "https://logeion.uchicago.edu/ferveo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "flam"
+   ]
+  },
+  {
+   "rank": 376,
+   "id": "fil",
+   "root": "fil",
+   "forms": [
+    "fil"
+   ],
+   "language": "Latin",
+   "sourceWord": "fīlum",
+   "meaning": {
+    "en": "thread",
+    "zh": "线"
+   },
+   "originStory": "拉丁语 fīlum 意为「线」。filament 是「细丝」，如灯泡里发光的「灯丝」；filigree 是用细金银丝编成的「金银丝工艺」。file「档案」原指把文件穿在「线」上排好，后来才成为文件夹、电脑文件。profile 来自意大利语 profilare「用线勾出轮廓」：侧影、简介。fillet 原是「束发的小带子」，后来指一条条的「肉片、鱼片」。enfilade 是军事上「一线排开的纵射」。画面：纺纱人从纺杆抽出一根长线，线穿过针，一路绕到线轴上——一看就是「线」。",
+   "uncertainty": "file（档案）与 file（锉刀）是不同来源的同形词，只有前者来自 fīlum。",
+   "derivedWords": [
+    {
+     "word": "filament",
+     "zh": "细丝；灯丝",
+     "breakdown": "fil+-ament"
+    },
+    {
+     "word": "profile",
+     "zh": "侧影；简介",
+     "breakdown": "pro-+file"
+    },
+    {
+     "word": "file",
+     "zh": "档案；纵列",
+     "breakdown": "fil+-e"
+    },
+    {
+     "word": "fillet",
+     "zh": "鱼片；束带",
+     "breakdown": "fil+-let"
+    },
+    {
+     "word": "filigree",
+     "zh": "金银丝工艺",
+     "breakdown": "fil+i+gree(颗粒)"
+    },
+    {
+     "word": "filiform",
+     "zh": "丝状的",
+     "breakdown": "fil+i+form(形)"
+    },
+    {
+     "word": "enfilade",
+     "zh": "纵射",
+     "breakdown": "en-+fil+-ade"
+    }
+   ],
+   "example": {
+    "en": "A single filament ran from the distaff through the needle onto the spool.",
+    "zh": "一根细丝从纺杆穿过针眼，绕到线轴上。"
+   },
+   "illustration": {
+    "scene": "A spinner draws one long thread from a distaff that winds across the plinth through a needle and onto a spool",
+    "dominantHue": {
+     "name": "浅钢蓝 soft steel blue",
+     "rationale": "纺线的清淡蓝；与 text 区分"
+    },
+    "props": [
+     "distaff with wool",
+     "one long thread line",
+     "spool and needle"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/filament",
+    "https://www.etymonline.com/word/profile",
+    "https://www.etymonline.com/word/file",
+    "https://en.wiktionary.org/wiki/filum",
+    "https://logeion.uchicago.edu/filum",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "nect"
+   ]
+  },
+  {
+   "rank": 377,
+   "id": "fix",
+   "root": "fix",
+   "forms": [
+    "fix",
+    "fig"
+   ],
+   "language": "Latin",
+   "sourceWord": "fīgere, fīxum",
+   "meaning": {
+    "en": "to fasten, fix",
+    "zh": "固定、钉住"
+   },
+   "originStory": "拉丁语 fīgere 意为「钉住、固定」，过去分词 fīxum。fix 是「固定；修理」，fixture 是「固定装置」。语法里 prefix 是「固定在前面（pre-）」的前缀，suffix 是「固定在下面、后面（sub-）」的后缀，affix 是「附加（ad-）」的词缀，infix 是「中缀」。transfix 是「刺穿（trans-）」，引申为「使呆住」。fixate 是「死死盯住、执着于」。画面：工匠挥锤，把一根大木钉敲进去，把木板牢牢钉在柱上，旁边另一块木板已经钉好——一看就是「固定」。",
+   "uncertainty": "crucifix 收在 cruc 条；fixate 的心理学「固着」义来自弗洛伊德译名。",
+   "derivedWords": [
+    {
+     "word": "fix",
+     "zh": "固定；修理",
+     "breakdown": "fix"
+    },
+    {
+     "word": "prefix",
+     "zh": "前缀",
+     "breakdown": "pre-+fix"
+    },
+    {
+     "word": "suffix",
+     "zh": "后缀",
+     "breakdown": "suf-(sub)+fix"
+    },
+    {
+     "word": "affix",
+     "zh": "附加；词缀",
+     "breakdown": "af-(ad)+fix"
+    },
+    {
+     "word": "fixture",
+     "zh": "固定装置",
+     "breakdown": "fix+-ture"
+    },
+    {
+     "word": "fixation",
+     "zh": "固着；执念",
+     "breakdown": "fix+-ation"
+    },
+    {
+     "word": "transfix",
+     "zh": "刺穿；使呆住",
+     "breakdown": "trans-+fix"
+    },
+    {
+     "word": "fixate",
+     "zh": "执着于",
+     "breakdown": "fix+-ate"
+    },
+    {
+     "word": "infix",
+     "zh": "中缀",
+     "breakdown": "in-+fix"
+    },
+    {
+     "word": "fixative",
+     "zh": "固定剂",
+     "breakdown": "fix+-ative"
+    }
+   ],
+   "example": {
+    "en": "He fixed the plank with a peg, like a prefix fixed to a word.",
+    "zh": "他用木钉固定木板，就像把前缀固定在单词前面。"
+   },
+   "illustration": {
+    "scene": "A craftsman hammers a big wooden peg to fasten a plank firmly onto a post, a second plank already pinned in place",
+    "dominantHue": {
+     "name": "深莓灰 deep berry",
+     "rationale": "木作工坊的深莓；与 struct 区分"
+    },
+    "props": [
+     "hammer",
+     "wooden peg",
+     "plank fastened to a post"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/fix",
+    "https://www.etymonline.com/word/prefix",
+    "https://www.etymonline.com/word/suffix",
+    "https://en.wiktionary.org/wiki/figo",
+    "https://logeion.uchicago.edu/figo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "struct",
+    "pend"
+   ]
+  },
+  {
+   "rank": 378,
+   "id": "frater",
+   "root": "frater",
+   "forms": [
+    "frater",
+    "frat",
+    "fratr"
+   ],
+   "language": "Latin",
+   "sourceWord": "frāter",
+   "meaning": {
+    "en": "brother",
+    "zh": "兄弟"
+   },
+   "originStory": "拉丁语 frāter 意为「兄弟」，与英语 brother 同源（印欧语 *bʰréh₂tēr）。fraternal 是「兄弟的、兄弟般的」，fraternal twins 是「异卵双胞胎」。fraternity 是「兄弟情谊；（美国大学的）男生联谊会」，fraternize 是「亲善、称兄道弟」。friar「修士」来自古法语 frere（兄弟）——修会成员互称兄弟。confraternity 是「兄弟会」。画面：两兄弟穿着同样的短袍，并肩一起抬着一篮果子，门口的长辈看着他们——一看就是「兄弟」。",
+   "uncertainty": "fratricide（杀兄弟）已归 cid 条；frāter 与 brother 同源是印欧语比较的通说。",
+   "derivedWords": [
+    {
+     "word": "fraternal",
+     "zh": "兄弟的",
+     "breakdown": "frater+-nal"
+    },
+    {
+     "word": "fraternity",
+     "zh": "兄弟会；情谊",
+     "breakdown": "frater+-nity"
+    },
+    {
+     "word": "fraternize",
+     "zh": "亲善",
+     "breakdown": "frater+-nize"
+    },
+    {
+     "word": "friar",
+     "zh": "修士",
+     "breakdown": "friar(=frater)"
+    },
+    {
+     "word": "confraternity",
+     "zh": "兄弟会",
+     "breakdown": "con-+frater+-nity"
+    },
+    {
+     "word": "fraternization",
+     "zh": "亲善",
+     "breakdown": "frater+-nization"
+    },
+    {
+     "word": "fraternally",
+     "zh": "兄弟般地",
+     "breakdown": "frater+-nal+-ly"
+    }
+   ],
+   "example": {
+    "en": "The fraternal pair carried one basket together, a picture of fraternity.",
+    "zh": "这对兄弟一起抬着一只篮子，正是兄弟情谊的写照。"
+   },
+   "illustration": {
+    "scene": "Two young brothers in matching tunics, arm in arm, share one cloak and carry a basket together",
+    "dominantHue": {
+     "name": "浅玉绿 soft jade",
+     "rationale": "并肩兄弟的柔青；与 am 区分"
+    },
+    "props": [
+     "two brothers arm in arm",
+     "shared cloak",
+     "basket carried together"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/fraternal",
+    "https://www.etymonline.com/word/fraternity",
+    "https://www.etymonline.com/word/fraternize",
+    "https://en.wiktionary.org/wiki/frater",
+    "https://logeion.uchicago.edu/frater",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "am",
+    "soci"
+   ]
+  },
+  {
+   "rank": 379,
+   "id": "front",
+   "root": "front",
+   "forms": [
+    "front"
+   ],
+   "language": "Latin",
+   "sourceWord": "frōns, frontis",
+   "meaning": {
+    "en": "forehead, front",
+    "zh": "前额、正面"
+   },
+   "originStory": "拉丁语 frōns（属格 frontis）意为「前额」，引申为「正面」。front 是「前面」，frontal 是「额的；正面的」。frontier 原是「面对敌人的前沿」：边境、前沿领域。confront 是「额头对着额头（con-）」：面对、对抗；affront 是「当面（ad-）冒犯」：侮辱。effrontery 是「不知羞（ex- 去掉额头的羞红）」：厚颜无耻。frontispiece 是书的「卷首插画」。画面：两只公羊在低矮的边境木栅前用额头相顶，一人站在最前面——一看就是「额、前面」。",
+   "uncertainty": "effrontery 的构词解释（ex- + frōns，「没有羞红的额头」）是辞典通说；frontispiece 实来自 frontispicium（正面观），拼写受 piece 影响。",
+   "derivedWords": [
+    {
+     "word": "frontier",
+     "zh": "边境；前沿",
+     "breakdown": "front+-ier"
+    },
+    {
+     "word": "confront",
+     "zh": "面对；对抗",
+     "breakdown": "con-+front"
+    },
+    {
+     "word": "affront",
+     "zh": "冒犯",
+     "breakdown": "af-(ad)+front"
+    },
+    {
+     "word": "frontal",
+     "zh": "额的；正面的",
+     "breakdown": "front+-al"
+    },
+    {
+     "word": "frontage",
+     "zh": "临街面",
+     "breakdown": "front+-age"
+    },
+    {
+     "word": "frontispiece",
+     "zh": "卷首插画",
+     "breakdown": "front+is+piece"
+    },
+    {
+     "word": "effrontery",
+     "zh": "厚颜无耻",
+     "breakdown": "ef-(ex)+front+-ery"
+    },
+    {
+     "word": "confrontation",
+     "zh": "对抗",
+     "breakdown": "con-+front+-ation"
+    }
+   ],
+   "example": {
+    "en": "At the frontier, two rams confront each other forehead to forehead.",
+    "zh": "在边境上，两只公羊额头相顶，正面对抗。"
+   },
+   "illustration": {
+    "scene": "Two rams butt foreheads at a low frontier fence while a guard with a banner stands at the very front of the line",
+    "dominantHue": {
+     "name": "深长春花蓝紫 deep periwinkle",
+     "rationale": "边境暮色的深蓝紫；与 fin 区分"
+    },
+    "props": [
+     "two rams forehead to forehead",
+     "frontier fence",
+     "guard at the front"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/frontier",
+    "https://www.etymonline.com/word/confront",
+    "https://www.etymonline.com/word/affront",
+    "https://en.wiktionary.org/wiki/frons",
+    "https://logeion.uchicago.edu/frons",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "fin",
+    "cap"
+   ]
+  },
+  {
+   "rank": 380,
+   "id": "gran",
+   "root": "gran",
+   "forms": [
+    "gran",
+    "grain",
+    "gren"
+   ],
+   "language": "Latin",
+   "sourceWord": "grānum",
+   "meaning": {
+    "en": "grain, seed",
+    "zh": "谷粒、颗粒"
+   },
+   "originStory": "拉丁语 grānum 意为「谷粒、种子」，与英语 corn 同源。granary 是「粮仓」，granule 是「小颗粒」，granular 是「颗粒状的」。granite「花岗岩」因满是颗粒而得名。grain 是经古法语 grain 转来的同一个词。pomegranate 是「多籽的苹果」（pōmum 苹果 + grānātum 多籽的）；grenade「手榴弹」最初就因形似石榴而得名。ingrain 是「染入纤维」：根深蒂固的。画面：农夫把金色谷粒倒进圆形粮仓，旁边一袋谷子和一个裂开满是籽的石榴——一看就是「谷粒」。",
+   "uncertainty": "grenade 得名于石榴（法语 grenade）是辞典通说；granola 是 19 世纪的商标名，由 granum 衍生。",
+   "derivedWords": [
+    {
+     "word": "granary",
+     "zh": "粮仓",
+     "breakdown": "gran+-ary"
+    },
+    {
+     "word": "granule",
+     "zh": "小颗粒",
+     "breakdown": "gran+-ule"
+    },
+    {
+     "word": "granular",
+     "zh": "颗粒状的",
+     "breakdown": "gran+-ular"
+    },
+    {
+     "word": "granite",
+     "zh": "花岗岩",
+     "breakdown": "gran+-ite"
+    },
+    {
+     "word": "grain",
+     "zh": "谷物；颗粒",
+     "breakdown": "grain(=gran)"
+    },
+    {
+     "word": "pomegranate",
+     "zh": "石榴",
+     "breakdown": "pome(苹果)+gran+-ate"
+    },
+    {
+     "word": "grenade",
+     "zh": "手榴弹",
+     "breakdown": "gren(=gran)+-ade"
+    },
+    {
+     "word": "granola",
+     "zh": "燕麦卷",
+     "breakdown": "gran+-ola"
+    },
+    {
+     "word": "ingrained",
+     "zh": "根深蒂固的",
+     "breakdown": "in-+grain+-ed"
+    }
+   ],
+   "example": {
+    "en": "He poured grain into the granary beside a pomegranate full of seeds.",
+    "zh": "他把谷子倒进粮仓，旁边放着一个满是籽的石榴。"
+   },
+   "illustration": {
+    "scene": "A farmer pours a stream of golden grains into a round granary, a sack of grain beside it and a split pomegranate full of seeds",
+    "dominantHue": {
+     "name": "浅长春花蓝紫 soft periwinkle",
+     "rationale": "金色谷粒的互补蓝紫；与 agr 区分"
+    },
+    "props": [
+     "round granary",
+     "stream of grains",
+     "split pomegranate"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/granary",
+    "https://www.etymonline.com/word/granule",
+    "https://www.etymonline.com/word/granular",
+    "https://en.wiktionary.org/wiki/granum",
+    "https://logeion.uchicago.edu/granum",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "agr"
+   ]
+  },
+  {
+   "rank": 381,
+   "id": "centr",
+   "root": "centr",
+   "forms": [
+    "centr",
+    "center",
+    "centre"
+   ],
+   "language": "Latin",
+   "sourceWord": "centrum (< Greek κέντρον)",
+   "meaning": {
+    "en": "center, sharp point",
+    "zh": "中心"
+   },
+   "originStory": "拉丁语 centrum 借自希腊语 kéntron，原指「尖刺、刺棒」，后来指圆规那只「扎在中心的尖脚」，于是成了「圆心、中心」。central 是「中心的」，center 是「中心」。concentrate 是「聚向（con-）中心」：集中、专注；concentric 是「同心的」，eccentric 是「偏离（ec- = 出）中心的」，引申为「古怪的」。epicenter 是「震中」——震源正上方（epi-）的点。egocentric 是「以自我为中心的」。画面：巨大的圆规尖脚扎在地面正中心，周围画着同心圆，一人站在靶心上——一看就是「中心」。",
+   "uncertainty": "centrifugal 已归 fug 条；希腊 kéntron 的「刺」义到「圆心」义是经圆规尖脚引申，为辞典通说。",
+   "derivedWords": [
+    {
+     "word": "central",
+     "zh": "中心的",
+     "breakdown": "centr+-al"
+    },
+    {
+     "word": "center",
+     "zh": "中心",
+     "breakdown": "center"
+    },
+    {
+     "word": "concentrate",
+     "zh": "集中；专注",
+     "breakdown": "con-+centr+-ate"
+    },
+    {
+     "word": "concentric",
+     "zh": "同心的",
+     "breakdown": "con-+centr+-ic"
+    },
+    {
+     "word": "eccentric",
+     "zh": "古怪的；偏心的",
+     "breakdown": "ec-(出)+centr+-ic"
+    },
+    {
+     "word": "centralize",
+     "zh": "集中化",
+     "breakdown": "centr+-al+-ize"
+    },
+    {
+     "word": "epicenter",
+     "zh": "震中",
+     "breakdown": "epi-(上)+center"
+    },
+    {
+     "word": "centrist",
+     "zh": "中间派",
+     "breakdown": "centr+-ist"
+    },
+    {
+     "word": "decentralize",
+     "zh": "分散",
+     "breakdown": "de-+centr+-al+-ize"
+    },
+    {
+     "word": "egocentric",
+     "zh": "自我中心的",
+     "breakdown": "ego+centr+-ic"
+    }
+   ],
+   "example": {
+    "en": "Concentric circles spread from the central point of the compass.",
+    "zh": "同心圆从圆规的中心点一圈圈散开。"
+   },
+   "illustration": {
+    "scene": "A giant compass has its sharp point stuck in the exact centre of the floor, concentric circles drawn around it, a figure standing on the bullseye",
+    "dominantHue": {
+     "name": "深钢蓝 deep steel blue",
+     "rationale": "同心圆的沉稳蓝；与 circ 区分"
+    },
+    "props": [
+     "drafting compass with point at centre",
+     "concentric circles",
+     "figure on the centre spot"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/central",
+    "https://www.etymonline.com/word/center",
+    "https://www.etymonline.com/word/concentrate",
+    "https://en.wiktionary.org/wiki/centrum",
+    "https://logeion.uchicago.edu/centrum",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "circ",
+    "medi"
+   ]
+  },
+  {
+   "rank": 382,
+   "id": "insul",
+   "root": "insul",
+   "forms": [
+    "insul",
+    "isol",
+    "isle"
+   ],
+   "language": "Latin",
+   "sourceWord": "īnsula",
+   "meaning": {
+    "en": "island",
+    "zh": "岛"
+   },
+   "originStory": "拉丁语 īnsula 意为「岛」。peninsula 是「几乎（paene）是个岛」：半岛。insular 是「岛的」，引申为「狭隘封闭的」，因为岛民与外界隔绝。insulate 是「把……变成孤岛」：隔离、绝缘，insulation 是「绝缘材料、隔热层」。isolate 是经意大利语 isola（岛）转来的同一词根：孤立、隔离。insulin「胰岛素」得名于分泌它的「胰岛」（islets of Langerhans）。isle 是「小岛」。画面：平静的湖中一座只有一间小屋和一棵棕榈的小岛，一个船夫正朝它划去——一看就是「岛」。",
+   "uncertainty": "isle 经古法语 ile 转来；island 的 s 是受 isle 影响后加的，本身来自古英语 īegland，与 īnsula 无关。",
+   "derivedWords": [
+    {
+     "word": "insulate",
+     "zh": "隔离；绝缘",
+     "breakdown": "insul+-ate"
+    },
+    {
+     "word": "peninsula",
+     "zh": "半岛",
+     "breakdown": "pen(几乎)+insula"
+    },
+    {
+     "word": "insular",
+     "zh": "岛的；狭隘的",
+     "breakdown": "insul+-ar"
+    },
+    {
+     "word": "isolate",
+     "zh": "孤立",
+     "breakdown": "isol(=insul)+-ate"
+    },
+    {
+     "word": "insulation",
+     "zh": "绝缘；隔热",
+     "breakdown": "insul+-ation"
+    },
+    {
+     "word": "insularity",
+     "zh": "偏狭",
+     "breakdown": "insul+-arity"
+    },
+    {
+     "word": "insulin",
+     "zh": "胰岛素",
+     "breakdown": "insul+-in"
+    },
+    {
+     "word": "isle",
+     "zh": "小岛",
+     "breakdown": "isle(=insul)"
+    }
+   ],
+   "example": {
+    "en": "An insular islander lives isolated on a tiny isle.",
+    "zh": "一个岛民孤零零地住在小岛上，眼界也变得狭隘。"
+   },
+   "illustration": {
+    "scene": "A tiny island with one hut and palm stands alone in a calm lake on the plinth, a lone boatman rowing towards it",
+    "dominantHue": {
+     "name": "湖蓝 lake blue",
+     "rationale": "环岛湖水的清蓝；与 mar 区分"
+    },
+    "props": [
+     "small island in water",
+     "single hut",
+     "rowing boat"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/insulate",
+    "https://www.etymonline.com/word/peninsula",
+    "https://www.etymonline.com/word/insular",
+    "https://en.wiktionary.org/wiki/insula",
+    "https://logeion.uchicago.edu/insula",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "mar"
+   ]
+  },
+  {
+   "rank": 383,
+   "id": "acu",
+   "root": "acu",
+   "forms": [
+    "acu",
+    "ac",
+    "acer",
+    "acr"
+   ],
+   "language": "Latin",
+   "sourceWord": "acus / acuere / ācer",
+   "meaning": {
+    "en": "needle; sharp",
+    "zh": "针；尖锐"
+   },
+   "originStory": "拉丁语 acus 是「针」，动词 acuere 是「磨尖」，形容词 ācer 是「尖的、酸的」。acute 是「尖锐的、急性的」，acuity 是「敏锐」，acumen 是「敏锐的判断力」。acid 是「酸」——酸味就像尖刺扎舌；acrid 是「辛辣刺鼻的」，acerbic 是「尖刻的」。exacerbate 是「使更尖酸（ex- + acerbus）」：加剧。画面：磨刀人在磨石上磨刀，旁边放着一只切开的柠檬——尖与酸，一看就是「尖锐」。",
+   "uncertainty": "acupuncture 已归 punct 条；acid、acrid 来自同族 ācer，同属印欧词根 *ak-（尖）。",
+   "derivedWords": [
+    {
+     "word": "acute",
+     "zh": "尖锐的；急性的",
+     "breakdown": "acu+-te"
+    },
+    {
+     "word": "acid",
+     "zh": "酸",
+     "breakdown": "ac+-id"
+    },
+    {
+     "word": "acrid",
+     "zh": "刺鼻的",
+     "breakdown": "acr+-id"
+    },
+    {
+     "word": "acumen",
+     "zh": "敏锐",
+     "breakdown": "acu+-men"
+    },
+    {
+     "word": "exacerbate",
+     "zh": "加剧",
+     "breakdown": "ex-+acerb+-ate"
+    },
+    {
+     "word": "acuity",
+     "zh": "敏锐度",
+     "breakdown": "acu+-ity"
+    },
+    {
+     "word": "acerbic",
+     "zh": "尖刻的",
+     "breakdown": "acerb+-ic"
+    },
+    {
+     "word": "acidic",
+     "zh": "酸性的",
+     "breakdown": "ac+-id+-ic"
+    }
+   ],
+   "example": {
+    "en": "The blade's acute edge was as sharp as the lemon's acid.",
+    "zh": "刀刃尖锐，就像柠檬的酸味一样刺。"
+   },
+   "illustration": {
+    "scene": "A sharpener grinds a blade on a round whetstone until its edge sparkles, a fine needle and a cut lemon beside him",
+    "dominantHue": {
+     "name": "深玉绿 deep jade",
+     "rationale": "磨石冷光的深青；与 cruc 拉开亮度"
+    },
+    "props": [
+     "whetstone wheel",
+     "glinting sharp blade",
+     "needle and sour lemon"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/acute",
+    "https://www.etymonline.com/word/acid",
+    "https://www.etymonline.com/word/acrid",
+    "https://en.wiktionary.org/wiki/acus",
+    "https://logeion.uchicago.edu/acus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "punct"
+   ]
+  },
+  {
+   "rank": 384,
+   "id": "juven",
+   "root": "juven",
+   "forms": [
+    "juven",
+    "jun"
+   ],
+   "language": "Latin",
+   "sourceWord": "iuvenis",
+   "meaning": {
+    "en": "young",
+    "zh": "年轻的"
+   },
+   "originStory": "拉丁语 iuvenis 意为「年轻人、年轻的」，比较级 iūnior 是「更年轻的」。juvenile 是「青少年的；幼稚的」，juvenile court 是「少年法庭」。rejuvenate 是「使重新（re-）年轻」：使恢复活力，rejuvenation 是「返老还童」。junior 是「年少的、资历浅的」，与 senior 相对。juvenilia 是作家「少年时代的作品」。画面：老人站在泉池边，看着孩子们在水里嬉戏，旁边还有孩子在滚铁环——老少对照，一看就是「年轻」。",
+   "uncertainty": "画中「青春之泉」是借用的民间传说意象，不是这一词根的来源。",
+   "derivedWords": [
+    {
+     "word": "juvenile",
+     "zh": "青少年的；幼稚的",
+     "breakdown": "juven+-ile"
+    },
+    {
+     "word": "rejuvenate",
+     "zh": "使恢复活力",
+     "breakdown": "re-+juven+-ate"
+    },
+    {
+     "word": "junior",
+     "zh": "年少的；下级",
+     "breakdown": "jun+-ior"
+    },
+    {
+     "word": "juvenescence",
+     "zh": "青春",
+     "breakdown": "juven+-escence"
+    },
+    {
+     "word": "juvenilia",
+     "zh": "少作",
+     "breakdown": "juven+-ilia"
+    },
+    {
+     "word": "rejuvenation",
+     "zh": "返老还童",
+     "breakdown": "re-+juven+-ation"
+    },
+    {
+     "word": "juvenility",
+     "zh": "幼稚；年少",
+     "breakdown": "juven+-ility"
+    },
+    {
+     "word": "juvenescent",
+     "zh": "变年轻的",
+     "breakdown": "juven+-escent"
+    }
+   ],
+   "example": {
+    "en": "Watching the juveniles play in the fountain seemed to rejuvenate him.",
+    "zh": "看着孩子们在泉里玩耍，他仿佛也年轻了。"
+   },
+   "illustration": {
+    "scene": "An old man drinks from a fountain and his reflection in the water is a young boy, while children roll a hoop nearby",
+    "dominantHue": {
+     "name": "石板蓝 slate blue",
+     "rationale": "泉水倒影的灰蓝；与 nov 区分"
+    },
+    "props": [
+     "fountain",
+     "youthful reflection",
+     "children with a hoop"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/juvenile",
+    "https://www.etymonline.com/word/rejuvenate",
+    "https://www.etymonline.com/word/junior",
+    "https://en.wiktionary.org/wiki/iuvenis",
+    "https://logeion.uchicago.edu/iuvenis",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "nov",
+    "sen"
+   ]
+  },
+  {
+   "rank": 385,
+   "id": "later",
+   "root": "later",
+   "forms": [
+    "later",
+    "lateral"
+   ],
+   "language": "Latin",
+   "sourceWord": "latus, lateris",
+   "meaning": {
+    "en": "side",
+    "zh": "边、侧"
+   },
+   "originStory": "拉丁语 latus（属格 lateris）意为「侧、边」。lateral 是「侧面的、横向的」，lateral thinking 是「横向思维」。bilateral 是「双边的」，trilateral 是「三边的」；multilateral（多边的）、quadrilateral（四边形）也属同一家族，但已分别归在 mult、quadr 条。collateral 是「在旁边并行（col-）的」：附带的；collateral damage 是「附带损害」，在金融里指放在一旁作担保的「抵押品」。画面：一只螃蟹沿着墙横着走，旁边一间小屋两侧的门都敞开着——一看就是「侧、边」。",
+   "uncertainty": "unilateral 已归 uni 条，此处不重复。latus（侧）与 lātus（宽，见 latitude）是不同的拉丁词。",
+   "derivedWords": [
+    {
+     "word": "lateral",
+     "zh": "侧面的",
+     "breakdown": "later+-al"
+    },
+    {
+     "word": "bilateral",
+     "zh": "双边的",
+     "breakdown": "bi-+later+-al"
+    },
+    {
+     "word": "collateral",
+     "zh": "附带的；抵押品",
+     "breakdown": "col-+later+-al"
+    },
+    {
+     "word": "lateralization",
+     "zh": "偏侧化",
+     "breakdown": "later+-al+-ization"
+    },
+    {
+     "word": "laterally",
+     "zh": "横向地",
+     "breakdown": "later+-al+-ly"
+    },
+    {
+     "word": "trilateral",
+     "zh": "三边的",
+     "breakdown": "tri-+later+-al"
+    },
+    {
+     "word": "laterality",
+     "zh": "偏侧性",
+     "breakdown": "later+-ality"
+    }
+   ],
+   "example": {
+    "en": "The crab moves laterally, past doors open on both sides: a bilateral house.",
+    "zh": "螃蟹横着走，经过两侧都开门的小屋。"
+   },
+   "illustration": {
+    "scene": "A crab scuttles sideways along a wall while a small house has doors swung open on both of its sides",
+    "dominantHue": {
+     "name": "浅莓灰 soft berry",
+     "rationale": "墙边侧影的柔莓；与 fix 区分明度"
+    },
+    "props": [
+     "crab walking sideways",
+     "house with doors on both sides",
+     "side path"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/lateral",
+    "https://www.etymonline.com/word/bilateral",
+    "https://www.etymonline.com/word/collateral",
+    "https://en.wiktionary.org/wiki/latus",
+    "https://logeion.uchicago.edu/latus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "uni"
+   ]
+  },
+  {
+   "rank": 386,
+   "id": "lav",
+   "root": "lav",
+   "forms": [
+    "lav",
+    "lau",
+    "lu",
+    "lot"
+   ],
+   "language": "Latin",
+   "sourceWord": "lavāre / -luere",
+   "meaning": {
+    "en": "to wash",
+    "zh": "洗"
+   },
+   "originStory": "拉丁语 lavāre 意为「洗」。lavatory 原是「洗手的地方」，后来委婉地指「厕所」；lavish 原指「如洪水般倾泻的」，于是是「挥霍的、丰盛的」。laundry 经古法语 lavanderie 而来：「洗衣、待洗衣物」，launder 是「洗（衣服）；洗（钱）」。lotion 来自过去分词 lōtum：「洗剂、乳液」。复合词中 lavāre 弱化为 -luere：dilute 是「冲淡」，ablution 是「沐浴净身」，deluge 是「洗刷一切的洪水」。画面：洗衣妇在石盆里搓洗衣物，水从罐中倒下，干净的衣服晾在绳上——一看就是「洗」。",
+   "uncertainty": "lavish 的来源经古法语 lavasse（倾盆大雨），与 lavāre 的关系是辞典通说；lava 来自那不勒斯方言。",
+   "derivedWords": [
+    {
+     "word": "lavatory",
+     "zh": "厕所；盥洗室",
+     "breakdown": "lav+-atory"
+    },
+    {
+     "word": "lavish",
+     "zh": "丰盛的；挥霍的",
+     "breakdown": "lav+-ish"
+    },
+    {
+     "word": "laundry",
+     "zh": "洗衣；待洗衣物",
+     "breakdown": "laund(=lav)+-ry"
+    },
+    {
+     "word": "launder",
+     "zh": "洗（衣）；洗钱",
+     "breakdown": "laund+-er"
+    },
+    {
+     "word": "lotion",
+     "zh": "洗剂；乳液",
+     "breakdown": "lot+-ion"
+    },
+    {
+     "word": "dilute",
+     "zh": "冲淡",
+     "breakdown": "di-+lute(=lav)"
+    },
+    {
+     "word": "ablution",
+     "zh": "沐浴净身",
+     "breakdown": "ab-+lu+-tion"
+    },
+    {
+     "word": "deluge",
+     "zh": "洪水",
+     "breakdown": "de-+luge(=lav)"
+    },
+    {
+     "word": "lava",
+     "zh": "熔岩",
+     "breakdown": "lav+-a"
+    },
+    {
+     "word": "dilution",
+     "zh": "稀释",
+     "breakdown": "di-+lu+-tion"
+    }
+   ],
+   "example": {
+    "en": "She did the laundry in a stone basin and diluted the soap with water.",
+    "zh": "她在石盆里洗衣，用水把皂液冲淡。"
+   },
+   "illustration": {
+    "scene": "A washerwoman scrubs cloth in a stone basin while water pours from a jug and clean laundry hangs on a line",
+    "dominantHue": {
+     "name": "海青 sea teal",
+     "rationale": "清水与布的海青；与 pur 区分"
+    },
+    "props": [
+     "stone wash basin",
+     "water pouring from a jug",
+     "laundry line"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/lavatory",
+    "https://www.etymonline.com/word/lavish",
+    "https://www.etymonline.com/word/laundry",
+    "https://en.wiktionary.org/wiki/lavo",
+    "https://logeion.uchicago.edu/lavo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "pur",
+    "aqu"
+   ]
+  },
+  {
+   "rank": 387,
+   "id": "cant",
+   "root": "cant",
+   "forms": [
+    "cant",
+    "chant"
+   ],
+   "language": "Latin",
+   "sourceWord": "canere / cantāre",
+   "meaning": {
+    "en": "to sing",
+    "zh": "唱"
+   },
+   "originStory": "拉丁语 canere 意为「唱」，反复体 cantāre 是「不停地唱」。chant 经古法语 chanter 而来：「吟唱、反复呼喊」。enchant 是「对着（in-）唱咒语」：使着迷，incantation 是「咒语」——古人相信歌声有魔力。cantor 是犹太会堂或教堂的「领唱人」，canto 是长诗的「篇章」，cantata 是「康塔塔、清唱套曲」。recant 是「唱回去（re-）」：公开收回前言；descant 是旋律上方的「高音部」。画面：领唱人仰头张口歌唱，音符一样的彩带从嘴里飘出，迷住了三只绕着他飞的小鸟——一看就是「唱」。",
+   "uncertainty": "accent 来自 ad + cantus（「附在话语上的调子」），拼写已变为 cent，未收入；charm 来自 carmen（歌、咒），亦同族。",
+   "derivedWords": [
+    {
+     "word": "chant",
+     "zh": "吟唱",
+     "breakdown": "chant(=cant)"
+    },
+    {
+     "word": "enchant",
+     "zh": "使着迷",
+     "breakdown": "en-+chant"
+    },
+    {
+     "word": "incantation",
+     "zh": "咒语",
+     "breakdown": "in-+cant+-ation"
+    },
+    {
+     "word": "cantor",
+     "zh": "领唱人",
+     "breakdown": "cant+-or"
+    },
+    {
+     "word": "canto",
+     "zh": "（长诗的）篇章",
+     "breakdown": "cant+-o"
+    },
+    {
+     "word": "recant",
+     "zh": "公开收回",
+     "breakdown": "re-+cant"
+    },
+    {
+     "word": "descant",
+     "zh": "高音部",
+     "breakdown": "des-+cant"
+    },
+    {
+     "word": "cantata",
+     "zh": "康塔塔",
+     "breakdown": "cant+-ata"
+    },
+    {
+     "word": "enchantment",
+     "zh": "着迷；魔法",
+     "breakdown": "en-+chant+-ment"
+    }
+   ],
+   "example": {
+    "en": "The cantor's chant was an incantation that enchanted the birds.",
+    "zh": "领唱人的吟唱像一句咒语，把小鸟都迷住了。"
+   },
+   "illustration": {
+    "scene": "A cantor sings with head raised and mouth open, musical note-shaped ribbons flowing out and enchanting three birds to circle him",
+    "dominantHue": {
+     "name": "浅长春花蓝紫 soft periwinkle",
+     "rationale": "歌声飘动的柔蓝紫；与 son 区分"
+    },
+    "props": [
+     "singing cantor",
+     "flowing song ribbons",
+     "enchanted circling birds"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/chant",
+    "https://www.etymonline.com/word/enchant",
+    "https://www.etymonline.com/word/incantation",
+    "https://en.wiktionary.org/wiki/cano",
+    "https://logeion.uchicago.edu/cano",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "son",
+    "phon"
+   ]
+  },
+  {
+   "rank": 388,
+   "id": "misc",
+   "root": "misc",
+   "forms": [
+    "misc",
+    "mix",
+    "mixt"
+   ],
+   "language": "Latin",
+   "sourceWord": "miscēre, mixtum",
+   "meaning": {
+    "en": "to mix",
+    "zh": "混合"
+   },
+   "originStory": "拉丁语 miscēre 意为「混合」，过去分词 mixtum。mix 是从 mixt 反推出来的英语词，mixture 是「混合物」，admixture 是「掺入物」。miscellaneous 是「混杂的、各式各样的」，好比一个杂物篮。promiscuous 是「不加区分地混在一起（pro-）的」：杂乱的、滥交的。miscible 是「可混溶的」，immiscible 是「不相溶的」（油和水）。meddle「干涉」经古法语 medler（混合）而来：把手伸进别人的事里搅和。画面：厨师从两只罐里分别倒出蓝色和红色的液体，在一只碗里旋转交融，旁边放着一篮杂七杂八的东西——一看就是「混合」。",
+   "uncertainty": "mix 是 mixed 的逆构词；meddle 与 medley 经古法语 medler 演变而来，拼写已变。",
+   "derivedWords": [
+    {
+     "word": "mix",
+     "zh": "混合",
+     "breakdown": "mix(=misc)"
+    },
+    {
+     "word": "mixture",
+     "zh": "混合物",
+     "breakdown": "mixt+-ure"
+    },
+    {
+     "word": "miscellaneous",
+     "zh": "混杂的",
+     "breakdown": "misc+-ellaneous"
+    },
+    {
+     "word": "promiscuous",
+     "zh": "杂乱的；滥交的",
+     "breakdown": "pro-+misc+-uous"
+    },
+    {
+     "word": "admixture",
+     "zh": "掺入物",
+     "breakdown": "ad-+mixt+-ure"
+    },
+    {
+     "word": "miscible",
+     "zh": "可混溶的",
+     "breakdown": "misc+-ible"
+    },
+    {
+     "word": "immiscible",
+     "zh": "不相溶的",
+     "breakdown": "im-+misc+-ible"
+    },
+    {
+     "word": "meddle",
+     "zh": "干涉",
+     "breakdown": "meddle(=misc)"
+    },
+    {
+     "word": "miscellany",
+     "zh": "杂集",
+     "breakdown": "misc+-ellany"
+    }
+   ],
+   "example": {
+    "en": "Blue and red make a mixture beside a miscellaneous basket.",
+    "zh": "蓝和红在碗里混合，旁边一篮杂七杂八的东西。"
+   },
+   "illustration": {
+    "scene": "A cook pours a blue liquid and a red liquid from two jugs into one bowl where they swirl together, an assorted basket of odds and ends beside",
+    "dominantHue": {
+     "name": "苔绿 moss green",
+     "rationale": "厨房里的苔绿；与 fus 区分"
+    },
+    "props": [
+     "two pouring jugs",
+     "swirling mixed bowl",
+     "basket of assorted items"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/mix",
+    "https://www.etymonline.com/word/mixture",
+    "https://www.etymonline.com/word/miscellaneous",
+    "https://en.wiktionary.org/wiki/misceo",
+    "https://logeion.uchicago.edu/misceo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "fus"
+   ]
+  },
+  {
+   "rank": 389,
+   "id": "mor",
+   "root": "mor",
+   "forms": [
+    "mor",
+    "mores"
+   ],
+   "language": "Latin",
+   "sourceWord": "mōs, mōris",
+   "meaning": {
+    "en": "custom, manner",
+    "zh": "习俗、风尚"
+   },
+   "originStory": "拉丁语 mōs（属格 mōris，复数 mōrēs）意为「习俗、惯例、举止」。西塞罗译希腊语 ēthikos（伦理的）时，造了 mōrālis「关于习俗的」，于是有 moral「道德的」——道德原本就是群体共享的习惯。morality 是「道德」，immoral 是「不道德的」，amoral 是「无关道德的」。morale 是法语借词：「士气」；demoralize 是「使丧失士气」。mores 直接借自拉丁复数：「社会习俗、民德」。画面：门口一个孩子按规矩向长辈鞠躬，一家人在桌边给客人递上面包——一看就是「习俗、礼数」。",
+   "uncertainty": "mōrālis 由西塞罗为翻译希腊语 ēthikos 而造，是辞典通说；mor- 也见于 mortal（死），那是另一个词根，不要混淆。",
+   "derivedWords": [
+    {
+     "word": "moral",
+     "zh": "道德的",
+     "breakdown": "mor+-al"
+    },
+    {
+     "word": "morale",
+     "zh": "士气",
+     "breakdown": "mor+-ale"
+    },
+    {
+     "word": "mores",
+     "zh": "民德；习俗",
+     "breakdown": "mores"
+    },
+    {
+     "word": "morality",
+     "zh": "道德",
+     "breakdown": "mor+-ality"
+    },
+    {
+     "word": "immoral",
+     "zh": "不道德的",
+     "breakdown": "im-+mor+-al"
+    },
+    {
+     "word": "demoralize",
+     "zh": "使泄气",
+     "breakdown": "de-+mor+-al+-ize"
+    },
+    {
+     "word": "amoral",
+     "zh": "无关道德的",
+     "breakdown": "a-+mor+-al"
+    },
+    {
+     "word": "moralize",
+     "zh": "说教",
+     "breakdown": "mor+-al+-ize"
+    }
+   ],
+   "example": {
+    "en": "Good mores keep morale high: the child bows and the guest is fed.",
+    "zh": "良好的习俗让人心振奋：孩子鞠躬，客人得到款待。"
+   },
+   "illustration": {
+    "scene": "A child bows politely to an elder at a doorway following custom while a family offers bread to a guest at a table",
+    "dominantHue": {
+     "name": "浅钢蓝 soft steel blue",
+     "rationale": "家门礼数的清淡蓝；与 fil 拉开色相"
+    },
+    "props": [
+     "child bowing to elder",
+     "doorway",
+     "bread offered at a table"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/moral",
+    "https://www.etymonline.com/word/morale",
+    "https://www.etymonline.com/word/mores",
+    "https://en.wiktionary.org/wiki/mos",
+    "https://logeion.uchicago.edu/mos",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 390,
+   "id": "mur",
+   "root": "mur",
+   "forms": [
+    "mur"
+   ],
+   "language": "Latin",
+   "sourceWord": "mūrus",
+   "meaning": {
+    "en": "wall",
+    "zh": "墙"
+   },
+   "originStory": "拉丁语 mūrus 意为「墙、城墙」。mural 是「画在墙上的、壁画」，muralist 是「壁画家」。intramural 是「墙内的」：校内的（如校内赛），extramural 是「墙外的」：校外的、面向公众的。immure 是「砌进墙里（in-）」：监禁、封闭。画面：画家站在小脚手架上，在高高的石砌城墙上画壁画，旁边泥瓦匠正往上砌下一块墙石——一看就是「墙」。",
+   "uncertainty": "mūrus 的词族在英语中较小；murage（城墙税）等词已罕用，未收入。",
+   "derivedWords": [
+    {
+     "word": "mural",
+     "zh": "壁画；墙上的",
+     "breakdown": "mur+-al"
+    },
+    {
+     "word": "intramural",
+     "zh": "校内的",
+     "breakdown": "intra-+mur+-al"
+    },
+    {
+     "word": "extramural",
+     "zh": "校外的",
+     "breakdown": "extra-+mur+-al"
+    },
+    {
+     "word": "immure",
+     "zh": "监禁",
+     "breakdown": "im-+mur+-e"
+    },
+    {
+     "word": "muralist",
+     "zh": "壁画家",
+     "breakdown": "mur+-al+-ist"
+    },
+    {
+     "word": "immurement",
+     "zh": "监禁",
+     "breakdown": "im-+mur+-ement"
+    }
+   ],
+   "example": {
+    "en": "The muralist painted a mural on the city wall.",
+    "zh": "壁画家在城墙上画了一幅壁画。"
+   },
+   "illustration": {
+    "scene": "A painter on a small scaffold paints a mural on a tall stone city wall while a mason stacks the next wall stones",
+    "dominantHue": {
+     "name": "深梅紫 deep plum",
+     "rationale": "城墙阴面的深梅；与 circ 区分"
+    },
+    "props": [
+     "tall stone wall",
+     "painter painting a mural",
+     "mason stacking stones"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/mural",
+    "https://www.etymonline.com/word/intramural",
+    "https://www.etymonline.com/word/extramural",
+    "https://en.wiktionary.org/wiki/murus",
+    "https://logeion.uchicago.edu/murus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "pict"
+   ]
+  },
+  {
+   "rank": 391,
+   "id": "ego",
+   "root": "ego",
+   "forms": [
+    "ego"
+   ],
+   "language": "Latin",
+   "sourceWord": "ego",
+   "meaning": {
+    "en": "I, self",
+    "zh": "我、自我"
+   },
+   "originStory": "拉丁语 ego 就是「我」，与希腊语 egō 同形。19 世纪哲学家用它表示「自我」，弗洛伊德的英译者又用 ego 翻译德语 das Ich（「自我」），与 id（本我）、superego（超我）并列，于是 ego 进入日常英语，也指「自尊心、自负」。egoism 是「利己主义」，egotist 是「自负的人」，egomania 是「极端自我中心」。alter ego「另一个我」也常见（该词已归 ali 条）。画面：一个人站在自己的巨大雕像旁，对着大镜子欣赏自己，还指着自己胸口——一看就是「自我」。",
+   "uncertainty": "egocentric 收在 centr 条；ego 作为精神分析术语是英译者的选择，弗洛伊德原文用 das Ich。",
+   "derivedWords": [
+    {
+     "word": "ego",
+     "zh": "自我；自尊心",
+     "breakdown": "ego"
+    },
+    {
+     "word": "egoism",
+     "zh": "利己主义",
+     "breakdown": "ego+-ism"
+    },
+    {
+     "word": "egotist",
+     "zh": "自负者",
+     "breakdown": "ego+t+-ist"
+    },
+    {
+     "word": "superego",
+     "zh": "超我",
+     "breakdown": "super-+ego"
+    },
+    {
+     "word": "egomania",
+     "zh": "极端自负",
+     "breakdown": "ego+mania(狂)"
+    },
+    {
+     "word": "egotistical",
+     "zh": "自负的",
+     "breakdown": "ego+t+-istical"
+    },
+    {
+     "word": "egoistic",
+     "zh": "利己的",
+     "breakdown": "ego+-istic"
+    }
+   ],
+   "example": {
+    "en": "His ego was so big he built a statue of himself.",
+    "zh": "他自负到给自己立了一座雕像。"
+   },
+   "illustration": {
+    "scene": "A figure admires himself in a large mirror while standing beside a giant statue of himself, pointing to his own chest",
+    "dominantHue": {
+     "name": "浅玉绿 soft jade",
+     "rationale": "镜前雕像的柔青；与 frater 区分"
+    },
+    "props": [
+     "large mirror",
+     "giant self statue",
+     "figure pointing at himself"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/ego",
+    "https://www.etymonline.com/word/egoism",
+    "https://www.etymonline.com/word/egotist",
+    "https://en.wiktionary.org/wiki/ego",
+    "https://logeion.uchicago.edu/ego",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "auto",
+    "idio"
+   ]
+  },
+  {
+   "rank": 392,
+   "id": "ode",
+   "root": "ode",
+   "forms": [
+    "ode",
+    "ody"
+   ],
+   "language": "Greek",
+   "sourceWord": "ᾠδή (ōidḗ)",
+   "meaning": {
+    "en": "song",
+    "zh": "歌、颂歌"
+   },
+   "originStory": "希腊语 ōidḗ 意为「歌」，动词是 aeidein「唱」。ode 是「颂诗」，如济慈的《夜莺颂》。melody 加 melos（曲调）：「旋律」；rhapsody 是 rhaptein（缝）+ ōidē：把史诗片段「缝起来的唱段」，后指「狂想曲」。古希腊戏剧里 comedy 是 kōmos（狂欢游行）之歌，tragedy 据说是 tragos（山羊）之歌——为何与山羊有关至今说法不一。parody 是「旁边（para-）的歌」：仿拟、戏仿，prosody 是「配着（pros-）的歌」：韵律学。画面：小剧场舞台上歌手弹着里拉琴，两根柱子上挂着喜剧和悲剧面具——一看就是「歌」。",
+   "uncertainty": "tragedy「山羊之歌」的来由不明，或指以山羊为奖品，或指萨堤尔合唱队；故事中已用「据说」标明。",
+   "derivedWords": [
+    {
+     "word": "ode",
+     "zh": "颂诗",
+     "breakdown": "ode"
+    },
+    {
+     "word": "melody",
+     "zh": "旋律",
+     "breakdown": "mel(曲调)+ody"
+    },
+    {
+     "word": "parody",
+     "zh": "戏仿",
+     "breakdown": "par-(旁)+ody"
+    },
+    {
+     "word": "rhapsody",
+     "zh": "狂想曲",
+     "breakdown": "rhaps(缝)+ody"
+    },
+    {
+     "word": "comedy",
+     "zh": "喜剧",
+     "breakdown": "com(狂欢)+edy(=ody)"
+    },
+    {
+     "word": "tragedy",
+     "zh": "悲剧",
+     "breakdown": "trag(山羊)+edy"
+    },
+    {
+     "word": "prosody",
+     "zh": "韵律学",
+     "breakdown": "pros-+ody"
+    },
+    {
+     "word": "threnody",
+     "zh": "挽歌",
+     "breakdown": "thren(哀悼)+ody"
+    },
+    {
+     "word": "psalmody",
+     "zh": "赞美诗咏唱",
+     "breakdown": "psalm+ody"
+    },
+    {
+     "word": "melodious",
+     "zh": "悦耳的",
+     "breakdown": "mel+od+-ious"
+    }
+   ],
+   "example": {
+    "en": "Between comedy and tragedy, he sang an ode with a sweet melody.",
+    "zh": "在喜剧与悲剧之间，他唱了一首旋律甜美的颂歌。"
+   },
+   "illustration": {
+    "scene": "On a small theatre stage a singer plays a lyre while a comic mask and a tragic mask hang on the stage pillars",
+    "dominantHue": {
+     "name": "深长春花蓝紫 deep periwinkle",
+     "rationale": "剧场夜幕的蓝紫；与 cant 拉开明度"
+    },
+    "props": [
+     "lyre player singing",
+     "comic mask",
+     "tragic mask"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/ode",
+    "https://www.etymonline.com/word/melody",
+    "https://www.etymonline.com/word/parody",
+    "https://en.wiktionary.org/wiki/ᾠδή",
+    "https://logeion.uchicago.edu/ωδη",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "cant",
+    "phon"
+   ]
+  },
+  {
+   "rank": 393,
+   "id": "orn",
+   "root": "orn",
+   "forms": [
+    "orn"
+   ],
+   "language": "Latin",
+   "sourceWord": "ōrnāre",
+   "meaning": {
+    "en": "to decorate, equip",
+    "zh": "装饰"
+   },
+   "originStory": "拉丁语 ōrnāre 意为「装备、装饰」。ornament 是「装饰品」，ornamental 是「装饰性的」，ornate 是「华丽的、过度装饰的」。adorn 是「给（ad-）……装饰」：装点，adornment 是「装饰物」，unadorned 是「朴素无华的」。suborn 很特别：sub-（暗中）+ ōrnāre，「暗中装备」，于是是「收买（证人作伪证）」。画面：装饰工给一根朴素的柱子缠上花环、彩带和花冠，一半已经装点得富丽堂皇——一看就是「装饰」。",
+   "uncertainty": "ornithology 的 ornith（鸟）与 ōrnāre 无关，只是拼写相近。",
+   "derivedWords": [
+    {
+     "word": "ornament",
+     "zh": "装饰品",
+     "breakdown": "orn+-ament"
+    },
+    {
+     "word": "ornate",
+     "zh": "华丽的",
+     "breakdown": "orn+-ate"
+    },
+    {
+     "word": "adorn",
+     "zh": "装饰",
+     "breakdown": "ad-+orn"
+    },
+    {
+     "word": "ornamental",
+     "zh": "装饰性的",
+     "breakdown": "orn+-amental"
+    },
+    {
+     "word": "suborn",
+     "zh": "收买（作伪证）",
+     "breakdown": "sub-(暗)+orn"
+    },
+    {
+     "word": "adornment",
+     "zh": "装饰物",
+     "breakdown": "ad-+orn+-ment"
+    },
+    {
+     "word": "ornamentation",
+     "zh": "装饰",
+     "breakdown": "orn+-amentation"
+    },
+    {
+     "word": "unadorned",
+     "zh": "朴素的",
+     "breakdown": "un-+ad-+orn+-ed"
+    }
+   ],
+   "example": {
+    "en": "Half the column is ornate with ornaments; half is still unadorned.",
+    "zh": "柱子的一半挂满饰物，另一半依旧朴素无华。"
+   },
+   "illustration": {
+    "scene": "A decorator wraps garlands, ribbons and flower wreaths around a plain column, half of it already richly adorned",
+    "dominantHue": {
+     "name": "雾玫 muted rose",
+     "rationale": "花环的雾玫；与 di 拉开明度"
+    },
+    "props": [
+     "plain column half adorned",
+     "flower garland",
+     "ribbon and wreath"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/ornament",
+    "https://www.etymonline.com/word/ornate",
+    "https://www.etymonline.com/word/adorn",
+    "https://en.wiktionary.org/wiki/orno",
+    "https://logeion.uchicago.edu/orno",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": []
+  },
+  {
+   "rank": 394,
+   "id": "past",
+   "root": "past",
+   "forms": [
+    "past",
+    "pasc",
+    "pabul"
+   ],
+   "language": "Latin",
+   "sourceWord": "pāscere, pāstum",
+   "meaning": {
+    "en": "to feed, graze",
+    "zh": "喂养、放牧"
+   },
+   "originStory": "拉丁语 pāscere 意为「喂养、放牧」，过去分词 pāstum；pāstor 是「牧人」。pastor 在英语里是「牧师」——引领信众如牧人引羊。pasture 是「牧场」，pastoral 是「田园的、牧歌式的」，也指「牧师的」。repast 是「一餐」（re- + pāstus 进食）。意大利菜里的 antipasto 是「餐前小菜」（anti- = 之前）。画面：牧人拄着曲柄杖，领着羊群在青草地上吃草，走向饲料槽——一看就是「放牧、喂养」。",
+   "uncertainty": "pasta、paste（面团）来自希腊语 pastē（大麦粥），与 pāscere 无关，未收入。antipasto 中的 anti- 是意大利语 ante（前）。",
+   "derivedWords": [
+    {
+     "word": "pastor",
+     "zh": "牧师",
+     "breakdown": "past+-or"
+    },
+    {
+     "word": "pasture",
+     "zh": "牧场",
+     "breakdown": "past+-ure"
+    },
+    {
+     "word": "repast",
+     "zh": "一餐",
+     "breakdown": "re-+past"
+    },
+    {
+     "word": "pastoral",
+     "zh": "田园的；牧师的",
+     "breakdown": "past+-oral"
+    },
+    {
+     "word": "antipasto",
+     "zh": "开胃菜",
+     "breakdown": "anti(前)+pasto"
+    },
+    {
+     "word": "pastorate",
+     "zh": "牧师职位",
+     "breakdown": "past+-orate"
+    },
+    {
+     "word": "pasturage",
+     "zh": "牧场；放牧",
+     "breakdown": "past+-urage"
+    }
+   ],
+   "example": {
+    "en": "The pastor of the flock led his sheep to green pasture.",
+    "zh": "牧人领着羊群去青青牧场。"
+   },
+   "illustration": {
+    "scene": "A shepherd with a crook leads sheep grazing on a green pasture to a trough of feed",
+    "dominantHue": {
+     "name": "深苔绿 deep moss green",
+     "rationale": "牧场深草的苔绿；与 agr 拉开明度"
+    },
+    "props": [
+     "shepherd's crook",
+     "grazing sheep",
+     "feeding trough"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/pastor",
+    "https://www.etymonline.com/word/pasture",
+    "https://www.etymonline.com/word/repast",
+    "https://en.wiktionary.org/wiki/pasco",
+    "https://logeion.uchicago.edu/pasco",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "agr"
+   ]
+  },
+  {
+   "rank": 395,
+   "id": "pug",
+   "root": "pug",
+   "forms": [
+    "pug",
+    "pugn"
+   ],
+   "language": "Latin",
+   "sourceWord": "pugnus / pugnāre",
+   "meaning": {
+    "en": "fist; to fight",
+    "zh": "拳头；打斗"
+   },
+   "originStory": "拉丁语 pugnus 是「拳头」，pugil 是「拳击手」，动词 pugnāre 是「用拳打、战斗」。pugilist 是「拳击手」，pugnacious 是「好斗的」，pugnacity 是「好斗」。repugnant 是「反过来（re-）打」：令人反感的，repugnance 是「厌恶」。impugn 是「攻击（in-）」：质疑、指责（某人的说法或诚信）。oppugn 是「反驳」，inexpugnable 是「攻不破的」。画面：两名拳手手上缠着皮带，在围绳拳台里举拳对练——一看就是「拳、斗」。",
+   "uncertainty": "pug（哈巴狗）与 pugnus 无关；pugnus 与希腊语 pygmē（拳头）同源。",
+   "derivedWords": [
+    {
+     "word": "pugnacious",
+     "zh": "好斗的",
+     "breakdown": "pugn+-acious"
+    },
+    {
+     "word": "repugnant",
+     "zh": "令人反感的",
+     "breakdown": "re-+pugn+-ant"
+    },
+    {
+     "word": "impugn",
+     "zh": "质疑",
+     "breakdown": "im-+pugn"
+    },
+    {
+     "word": "pugilist",
+     "zh": "拳击手",
+     "breakdown": "pug+-ilist"
+    },
+    {
+     "word": "pugnacity",
+     "zh": "好斗",
+     "breakdown": "pugn+-acity"
+    },
+    {
+     "word": "repugnance",
+     "zh": "厌恶",
+     "breakdown": "re-+pugn+-ance"
+    },
+    {
+     "word": "oppugn",
+     "zh": "反驳",
+     "breakdown": "op-+pugn"
+    },
+    {
+     "word": "inexpugnable",
+     "zh": "攻不破的",
+     "breakdown": "in-+ex-+pugn+-able"
+    }
+   ],
+   "example": {
+    "en": "The pugnacious pugilists traded blows inside the ring.",
+    "zh": "两个好斗的拳手在拳台里互相出拳。"
+   },
+   "illustration": {
+    "scene": "Two boxers with leather-wrapped fists spar inside a roped ring, fists raised",
+    "dominantHue": {
+     "name": "薰衣草紫 lavender",
+     "rationale": "拳台的薰衣草紫；与 hex 区分明度"
+    },
+    "props": [
+     "two boxers",
+     "leather wrapped fists",
+     "roped ring"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/pugnacious",
+    "https://www.etymonline.com/word/repugnant",
+    "https://www.etymonline.com/word/impugn",
+    "https://en.wiktionary.org/wiki/pugnus",
+    "https://logeion.uchicago.edu/pugnus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "bell"
+   ]
+  },
+  {
+   "rank": 396,
+   "id": "pur",
+   "root": "pur",
+   "forms": [
+    "pur",
+    "purg"
+   ],
+   "language": "Latin",
+   "sourceWord": "pūrus / pūrgāre",
+   "meaning": {
+    "en": "pure, clean; to cleanse",
+    "zh": "纯净的；净化"
+   },
+   "originStory": "拉丁语 pūrus 意为「干净的、纯的」，pūrgāre（pūrus + agere 做）是「使干净」。pure 是「纯净的」，purity 是「纯度」，impurity 是「杂质」，purify 是「净化」，purist 是「纯粹主义者」。purge 是「清除、清洗」，expurgate 是「删去（书中不雅内容）」，purgatory 是天主教的「炼狱」——灵魂受净化的地方。Puritan「清教徒」主张把教会「净化」掉天主教仪式。画面：一人把浑水倒过布滤网，下面的碗里流出清澈闪亮的水，上面还是泥水——一看就是「纯净」。",
+   "uncertainty": "purgatory 是神学概念，此处只讲词义；Puritan 原是 16 世纪的贬称。",
+   "derivedWords": [
+    {
+     "word": "pure",
+     "zh": "纯净的",
+     "breakdown": "pur+-e"
+    },
+    {
+     "word": "purify",
+     "zh": "净化",
+     "breakdown": "pur+-ify"
+    },
+    {
+     "word": "purge",
+     "zh": "清除",
+     "breakdown": "purg+-e"
+    },
+    {
+     "word": "expurgate",
+     "zh": "删改",
+     "breakdown": "ex-+purg+-ate"
+    },
+    {
+     "word": "Puritan",
+     "zh": "清教徒",
+     "breakdown": "pur+-itan"
+    },
+    {
+     "word": "purgatory",
+     "zh": "炼狱",
+     "breakdown": "purg+-atory"
+    },
+    {
+     "word": "purity",
+     "zh": "纯度",
+     "breakdown": "pur+-ity"
+    },
+    {
+     "word": "impurity",
+     "zh": "杂质",
+     "breakdown": "im-+pur+-ity"
+    },
+    {
+     "word": "purist",
+     "zh": "纯粹主义者",
+     "breakdown": "pur+-ist"
+    }
+   ],
+   "example": {
+    "en": "The cloth filter purified the water, leaving every impurity above.",
+    "zh": "布滤网净化了水，杂质都留在上面。"
+   },
+   "illustration": {
+    "scene": "A figure pours muddy water through a cloth filter into a crystal-clear bowl, sparkling clean water below and muddy water above",
+    "dominantHue": {
+     "name": "深蕨绿 deep fern green",
+     "rationale": "清水下的深绿；与 lav 区分"
+    },
+    "props": [
+     "muddy jug",
+     "cloth filter",
+     "sparkling clear bowl"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/pure",
+    "https://www.etymonline.com/word/purify",
+    "https://www.etymonline.com/word/purge",
+    "https://en.wiktionary.org/wiki/purus",
+    "https://logeion.uchicago.edu/purus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "lav"
+   ]
+  },
+  {
+   "rank": 397,
+   "id": "quot",
+   "root": "quot",
+   "forms": [
+    "quot"
+   ],
+   "language": "Latin",
+   "sourceWord": "quot / quotus",
+   "meaning": {
+    "en": "how many; which in number",
+    "zh": "多少；第几"
+   },
+   "originStory": "拉丁语 quot 意为「多少」，quotus 是「第几个、多大份」。quota 来自 quota pars「多大的一份」：「定额、配额」。quotient 是「多少次」：除法的「商」。quote 原指中世纪抄写员在页边「标上第几（章节号）」，后来变成「引用」，商业上也指「报价」，quotation 是「引文、报价」。quotidian 是「每日的、平凡的」（quot + diēs，「天天」）。quotable 是「值得引用的」（aliquot「等分样品」也同源，已归 ali 条）。画面：书记员把谷子平均分成一份份，每个等着的人面前一碗，他边指边数——一看就是「多少、份额」。",
+   "uncertainty": "quote 的「引用」义来自抄写员标注章节编号的做法，是辞典通说；quotidian 实来自 cottīdiē（每天），其中 quot 的成分为辞典通说。",
+   "derivedWords": [
+    {
+     "word": "quota",
+     "zh": "定额",
+     "breakdown": "quot+-a"
+    },
+    {
+     "word": "quotient",
+     "zh": "商",
+     "breakdown": "quot+-ient"
+    },
+    {
+     "word": "quote",
+     "zh": "引用；报价",
+     "breakdown": "quot+-e"
+    },
+    {
+     "word": "quotidian",
+     "zh": "每日的；平凡的",
+     "breakdown": "quot+i+dian(日)"
+    },
+    {
+     "word": "quotation",
+     "zh": "引文；报价",
+     "breakdown": "quot+-ation"
+    },
+    {
+     "word": "quotable",
+     "zh": "值得引用的",
+     "breakdown": "quot+-able"
+    },
+    {
+     "word": "misquote",
+     "zh": "错误引用",
+     "breakdown": "mis-+quote"
+    }
+   ],
+   "example": {
+    "en": "Each person got an equal quota, so the quotient came out even.",
+    "zh": "每人分到等额的一份，商正好除尽。"
+   },
+   "illustration": {
+    "scene": "A clerk counts out grain into equal portions, one bowl for each waiting person, pointing as he counts",
+    "dominantHue": {
+     "name": "钢蓝 steel blue",
+     "rationale": "计数账簿的冷蓝；与 numer 区分"
+    },
+    "props": [
+     "equal bowls in a row",
+     "waiting people",
+     "counting gesture"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/quota",
+    "https://www.etymonline.com/word/quotient",
+    "https://www.etymonline.com/word/quote",
+    "https://en.wiktionary.org/wiki/quot",
+    "https://logeion.uchicago.edu/quot",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "numer"
+   ]
+  },
+  {
+   "rank": 398,
+   "id": "salv",
+   "root": "salv",
+   "forms": [
+    "salv",
+    "salu",
+    "saf"
+   ],
+   "language": "Latin",
+   "sourceWord": "salvus / salūs",
+   "meaning": {
+    "en": "safe, healthy",
+    "zh": "安全的、健康的"
+   },
+   "originStory": "拉丁语 salvus 意为「安全的、完好的」，salūs 是「健康、平安」。salvation 是「拯救、救赎」，salvage 是「海难救助、抢救（物品）」。salute 原是「祝你平安」的问候：致敬、敬礼，salutation 是「问候语」。salutary 是「有益的」，salubrious 是「有益健康的」。salvo 原是「致敬的礼炮齐鸣」，后来指「齐射」。safe 是 salvus 经古法语 sauf 转来的同族词。画面：救生员站在小木筏上，用救生圈把落水者从浪里安全拉上来——一看就是「救、安全」。",
+   "uncertainty": "safe 经古法语 sauf 转来；salvo 的「齐射」义来自意大利语 salva（礼炮致敬）。",
+   "derivedWords": [
+    {
+     "word": "salvation",
+     "zh": "拯救",
+     "breakdown": "salv+-ation"
+    },
+    {
+     "word": "salvage",
+     "zh": "抢救；救助",
+     "breakdown": "salv+-age"
+    },
+    {
+     "word": "salute",
+     "zh": "敬礼",
+     "breakdown": "salu+-te"
+    },
+    {
+     "word": "salutary",
+     "zh": "有益的",
+     "breakdown": "salu+-tary"
+    },
+    {
+     "word": "salubrious",
+     "zh": "有益健康的",
+     "breakdown": "salu+-brious"
+    },
+    {
+     "word": "salvo",
+     "zh": "齐射；礼炮",
+     "breakdown": "salv+-o"
+    },
+    {
+     "word": "safe",
+     "zh": "安全的",
+     "breakdown": "safe(=salv)"
+    },
+    {
+     "word": "salutation",
+     "zh": "问候语",
+     "breakdown": "salu+-tation"
+    }
+   ],
+   "example": {
+    "en": "The salvage crew brought salvation to the swimmer in the waves.",
+    "zh": "救援队给浪中的落水者带来了救赎。"
+   },
+   "illustration": {
+    "scene": "A rescuer on a small raft pulls a swimmer safely out of the waves with a ring float",
+    "dominantHue": {
+     "name": "浅梅紫 soft plum",
+     "rationale": "波浪间的柔梅；与 mur 拉开明度"
+    },
+    "props": [
+     "rescue raft",
+     "ring float",
+     "swimmer pulled to safety"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/salvation",
+    "https://www.etymonline.com/word/salvage",
+    "https://www.etymonline.com/word/salute",
+    "https://en.wiktionary.org/wiki/salvus",
+    "https://logeion.uchicago.edu/salvus",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "san"
+   ]
+  },
+  {
+   "rank": 399,
+   "id": "ambul",
+   "root": "ambul",
+   "forms": [
+    "ambul",
+    "amble"
+   ],
+   "language": "Latin",
+   "sourceWord": "ambulāre",
+   "meaning": {
+    "en": "to walk",
+    "zh": "走"
+   },
+   "originStory": "拉丁语 ambulāre 意为「走、散步」。ambulance 来自法语 hôpital ambulant「流动医院」——跟着军队「走」的战地医院，后来才指「救护车」。amble 是「漫步」，ambulatory 是「能走动的」，在医学上指「门诊的（非卧床）」。perambulate 是「走遍（per-）」：巡视，perambulator 缩写成 pram，是英式的「婴儿车」。preamble 是「走在前面（pre-）的」：序言。funambulist 是「走绳索（fūnis）的人」。画面：旅人拄着手杖，沿着一条长长的弯曲花园小路散步，身后留下一串脚印——一看就是「走」。",
+   "uncertainty": "somnambulist（梦游者）已归 somn 条，此处不重复。",
+   "derivedWords": [
+    {
+     "word": "ambulance",
+     "zh": "救护车",
+     "breakdown": "ambul+-ance"
+    },
+    {
+     "word": "amble",
+     "zh": "漫步",
+     "breakdown": "amble(=ambul)"
+    },
+    {
+     "word": "perambulate",
+     "zh": "巡视",
+     "breakdown": "per-+ambul+-ate"
+    },
+    {
+     "word": "preamble",
+     "zh": "序言",
+     "breakdown": "pre-+amble"
+    },
+    {
+     "word": "ambulatory",
+     "zh": "可走动的",
+     "breakdown": "ambul+-atory"
+    },
+    {
+     "word": "perambulator",
+     "zh": "婴儿车",
+     "breakdown": "per-+ambul+-ator"
+    },
+    {
+     "word": "circumambulate",
+     "zh": "绕行",
+     "breakdown": "circum-+ambul+-ate"
+    },
+    {
+     "word": "funambulist",
+     "zh": "走钢丝者",
+     "breakdown": "fun(绳)+ambul+-ist"
+    }
+   ],
+   "example": {
+    "en": "He ambled along the path, as slow as a preamble before the story.",
+    "zh": "他在小路上漫步，慢得像故事前的序言。"
+   },
+   "illustration": {
+    "scene": "A traveller with a walking stick strolls along a long winding garden path, footprints trailing behind",
+    "dominantHue": {
+     "name": "玉绿 jade",
+     "rationale": "园路草坪的玉绿；与 xen 拉开色相"
+    },
+    "props": [
+     "walking stick",
+     "winding path",
+     "trail of footprints"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/ambulance",
+    "https://www.etymonline.com/word/amble",
+    "https://www.etymonline.com/word/perambulate",
+    "https://en.wiktionary.org/wiki/ambulo",
+    "https://logeion.uchicago.edu/ambulo",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "ced"
+   ]
+  },
+  {
+   "rank": 400,
+   "id": "agr",
+   "root": "agr",
+   "forms": [
+    "agr",
+    "agri",
+    "agro",
+    "egr"
+   ],
+   "language": "Latin",
+   "sourceWord": "ager, agrī",
+   "meaning": {
+    "en": "field",
+    "zh": "田地"
+   },
+   "originStory": "拉丁语 ager（属格 agrī）意为「田地」，与希腊语 agros 同源。agrarian 是「土地的、农业的」，agribusiness 是「农业综合企业」，agritourism 是「农家乐旅游」，agroforestry 是「农林复合经营」。agrestic 是「乡野的、粗朴的」。peregrine 来自 per-（穿过）+ ager：「穿过田野来的」外乡人，于是 peregrine falcon 是「游隼」；pilgrim「朝圣者」也是由它演变而来。画面：农夫赶着两头牛犁出笔直的垄沟，后面一行行庄稼正冒芽——一看就是「田地」。",
+   "uncertainty": "agriculture 已归 cult 条，agronomy 已归 nomy 条；pilgrim 经古法语 pelegrin 演变，拼写中 agr 已变为 gr。",
+   "derivedWords": [
+    {
+     "word": "agrarian",
+     "zh": "土地的；农业的",
+     "breakdown": "agr+-arian"
+    },
+    {
+     "word": "agribusiness",
+     "zh": "农业综合企业",
+     "breakdown": "agri+business"
+    },
+    {
+     "word": "agritourism",
+     "zh": "农业旅游",
+     "breakdown": "agri+tourism"
+    },
+    {
+     "word": "agrestic",
+     "zh": "乡野的",
+     "breakdown": "agr+-estic"
+    },
+    {
+     "word": "peregrine",
+     "zh": "游隼；外来的",
+     "breakdown": "per-+egr(=agr)+-ine"
+    },
+    {
+     "word": "pilgrim",
+     "zh": "朝圣者",
+     "breakdown": "pil(per)+grim(=agr)"
+    },
+    {
+     "word": "agrochemical",
+     "zh": "农用化学品",
+     "breakdown": "agro+chemical"
+    },
+    {
+     "word": "agroforestry",
+     "zh": "农林复合经营",
+     "breakdown": "agro+forestry"
+    }
+   ],
+   "example": {
+    "en": "An agrarian life means oxen, furrows and fields.",
+    "zh": "农耕生活意味着耕牛、垄沟和田地。"
+   },
+   "illustration": {
+    "scene": "A farmer ploughs straight furrows across a field with two oxen, rows of sprouting crops behind",
+    "dominantHue": {
+     "name": "苔绿 moss green",
+     "rationale": "新垄的苔绿；与 past 拉开明度"
+    },
+    "props": [
+     "ox-drawn plough",
+     "straight furrows",
+     "sprouting crop rows"
+    ],
+    "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
+   },
+   "sources": [
+    "https://www.etymonline.com/word/agrarian",
+    "https://www.etymonline.com/word/agribusiness",
+    "https://www.etymonline.com/word/agritourism",
+    "https://en.wiktionary.org/wiki/ager",
+    "https://logeion.uchicago.edu/ager",
+    "https://en.wikipedia.org/wiki/List_of_Greek_and_Latin_roots_in_English"
+   ],
+   "inCurrentApp": false,
+   "tier": "full",
+   "similarInCatalog": [
+    "cult",
+    "past"
+   ]
   }
  ]
 }
