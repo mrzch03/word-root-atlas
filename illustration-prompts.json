@@ -2398,5 +2398,305 @@
     "root": "agr",
     "meaning": "field",
     "scene": "A farmer ploughs straight furrows across a field with two oxen, rows of sprouting crops behind"
+  },
+  {
+    "rootId": "cens",
+    "root": "cens",
+    "meaning": "to assess, to judge, to register",
+    "scene": "A census official at a table registers a line of people, a balance scale on the desk"
+  },
+  {
+    "rootId": "scal",
+    "root": "scal",
+    "meaning": "ladder; a climbing series",
+    "scene": "A person climbs a ladder of even steps built up the side of the plinth"
+  },
+  {
+    "rootId": "tut",
+    "root": "tut",
+    "meaning": "to watch, to guard, to teach",
+    "scene": "A tutor under a stone gateway teaches a child who holds a writing tablet"
+  },
+  {
+    "rootId": "ultim",
+    "root": "ultim",
+    "meaning": "last, farthest",
+    "scene": "A last milestone stands at the end of a path beside a spent hourglass"
+  },
+  {
+    "rootId": "celer",
+    "root": "celer",
+    "meaning": "swift, fast",
+    "scene": "A sprinter races forward while a tortoise crawls beside him on the plinth"
+  },
+  {
+    "rootId": "crimin",
+    "root": "crimin",
+    "meaning": "accusation, crime",
+    "scene": "One person accuses another beside a fallen, stolen-looking vase"
+  },
+  {
+    "rootId": "deb",
+    "root": "deb",
+    "meaning": "to owe",
+    "scene": "A person counts coins at a table beside a sealed debt tablet"
+  },
+  {
+    "rootId": "damn",
+    "root": "damn",
+    "meaning": "loss, harm; to condemn",
+    "scene": "A magistrate stands over a broken jar while a pile of indemnity coins is counted out"
+  },
+  {
+    "rootId": "copi",
+    "root": "copi",
+    "meaning": "plenty, abundance; a transcript",
+    "scene": "An overflowing cornucopia of fruit and grain sits beside a scribe making a copy"
+  },
+  {
+    "rootId": "cinct",
+    "root": "cinct",
+    "meaning": "to gird, to encircle",
+    "scene": "A person in a cinched belt stands inside a circular precinct wall"
+  },
+  {
+    "rootId": "avi",
+    "root": "avi",
+    "meaning": "bird",
+    "scene": "A keeper tends an aviary; a bird perches on the dome of the cage"
+  },
+  {
+    "rootId": "prec",
+    "root": "prec",
+    "meaning": "to pray, to entreat",
+    "scene": "A kneeling figure prays beside a smoking incense bowl; another person bows in entreaty"
+  },
+  {
+    "rootId": "vulg",
+    "root": "vulg",
+    "meaning": "the common people; common",
+    "scene": "A town crier unrolls a scroll and proclaims to a small crowd in a square"
+  },
+  {
+    "rootId": "angel",
+    "root": "angel",
+    "meaning": "messenger",
+    "scene": "A messenger in a winged cap carries a tablet toward a small temple among houses"
+  },
+  {
+    "rootId": "bar",
+    "root": "bar",
+    "meaning": "weight, pressure, heavy",
+    "scene": "A person sits on one pan of a balance, outweighed by a heavy mass on the other"
+  },
+  {
+    "rootId": "cephal",
+    "root": "cephal",
+    "meaning": "head",
+    "scene": "A sculpted human head-bust stands beside a small octopus, a cephalopod"
+  },
+  {
+    "rootId": "chlor",
+    "root": "chlor",
+    "meaning": "green, greenish yellow",
+    "scene": "A huge green leaf rises from the plinth beside a flask of green liquid and green crystals"
+  },
+  {
+    "rootId": "dram",
+    "root": "dram",
+    "meaning": "deed, action, play",
+    "scene": "An actor performs on a small stage before hanging masks and a few seated spectators"
+  },
+  {
+    "rootId": "gastr",
+    "root": "gastr",
+    "meaning": "stomach, belly",
+    "scene": "A person holds a swollen belly while a snail, a gastropod, creeps beside him"
+  },
+  {
+    "rootId": "icon",
+    "root": "icon",
+    "meaning": "image, likeness",
+    "scene": "A painter studies a seated sitter and paints a clear likeness on a panel"
+  },
+  {
+    "rootId": "macro",
+    "root": "macro",
+    "meaning": "long, large",
+    "scene": "A gigantic amphora towers over a tiny person who stands beside it like a cup"
+  },
+  {
+    "rootId": "necr",
+    "root": "necr",
+    "meaning": "dead, corpse",
+    "scene": "A stone tomb under a dead tree holds a withered wreath on the lid"
+  },
+  {
+    "rootId": "oste",
+    "root": "oste",
+    "meaning": "bone",
+    "scene": "A practitioner examines a large bone beside a wooden splint"
+  },
+  {
+    "rootId": "pharm",
+    "root": "pharm",
+    "meaning": "drug, medicine",
+    "scene": "A pharmacist grinds medicine in a mortar among labelled jars and flasks"
+  },
+  {
+    "rootId": "pneum",
+    "root": "pneum",
+    "meaning": "wind, breath, lung",
+    "scene": "Two people work a bellows while an air bag swells beside them"
+  },
+  {
+    "rootId": "pter",
+    "root": "pter",
+    "meaning": "wing, feather",
+    "scene": "A pterosaur glides above the plinth while a feathered archaeopteryx stands below"
+  },
+  {
+    "rootId": "seism",
+    "root": "seism",
+    "meaning": "earthquake, shaking",
+    "scene": "The plinth has cracked, columns tilt, and water ripples in a bowl during a quake"
+  },
+  {
+    "rootId": "stereo",
+    "root": "stereo",
+    "meaning": "solid, firm; three-dimensional",
+    "scene": "A person compares a solid cube with a flat tile set side by side"
+  },
+  {
+    "rootId": "therap",
+    "root": "therap",
+    "meaning": "to attend, to treat, healing",
+    "scene": "One person applies balm and a bandage to another's arm among small medicine pots"
+  },
+  {
+    "rootId": "tetra",
+    "root": "tetra",
+    "meaning": "four",
+    "scene": "A four-faced pyramid stands beside a four-legged animal on the plinth"
+  },
+  {
+    "rootId": "sept",
+    "root": "sept",
+    "meaning": "seven",
+    "scene": "Seven musicians stand in a ring, with seven columns behind them"
+  },
+  {
+    "rootId": "quint",
+    "root": "quint",
+    "meaning": "five, fifth",
+    "scene": "Five people gather around a small glowing flask, a living quintet"
+  },
+  {
+    "rootId": "sex",
+    "root": "sex",
+    "meaning": "six",
+    "scene": "Six columns stand under six stars, with a sextant on the floor"
+  },
+  {
+    "rootId": "calor",
+    "root": "calor",
+    "meaning": "heat, warmth",
+    "scene": "A person warms both hands over a brazier of glowing coals"
+  },
+  {
+    "rootId": "ident",
+    "root": "ident",
+    "meaning": "the same",
+    "scene": "Identical twins stand side by side, each holding a matching leaf-shaped seal"
+  },
+  {
+    "rootId": "lin",
+    "root": "lin",
+    "meaning": "flax, thread, line",
+    "scene": "A taut string stretches across the plinth beside a bundle of flax and a fold of linen"
+  },
+  {
+    "rootId": "stell",
+    "root": "stell",
+    "meaning": "star",
+    "scene": "A figure reaches toward a constellation whose stars are joined by lines; a starry cloak lies on the floor"
+  },
+  {
+    "rootId": "mania",
+    "root": "mania",
+    "meaning": "madness, frenzy, obsession",
+    "scene": "A frenzied figure is ringed by swirling papers while a calm person sits aside"
+  },
+  {
+    "rootId": "sper",
+    "root": "sper",
+    "meaning": "to hope",
+    "scene": "Light breaks through clouds onto a hopeful figure; a sprout rises from the floor"
+  },
+  {
+    "rootId": "aug",
+    "root": "aug",
+    "meaning": "to increase, to enlarge",
+    "scene": "A person stacks sacks higher and higher while plants grow taller beside the pile"
+  },
+  {
+    "rootId": "caus",
+    "root": "caus",
+    "meaning": "cause, reason, legal case",
+    "scene": "A chain of falling dominoes runs across the plinth while a person watches the cause play out"
+  },
+  {
+    "rootId": "fess",
+    "root": "fess",
+    "meaning": "to confess, to acknowledge",
+    "scene": "A person places a hand on the heart in open declaration while a listener sits facing them"
+  },
+  {
+    "rootId": "fict",
+    "root": "fict",
+    "meaning": "to shape, to invent, to feign",
+    "scene": "A sculptor shapes a lion by hand, with a small doll-like effigy at the feet"
+  },
+  {
+    "rootId": "herb",
+    "root": "herb",
+    "meaning": "grass, herb, plant",
+    "scene": "A gatherer kneels in a herb patch, a basket already full of green leaves"
+  },
+  {
+    "rootId": "fabul",
+    "root": "fabul",
+    "meaning": "story, tale",
+    "scene": "A storyteller sits with children; a fox and a crow with cheese act out a fable"
+  },
+  {
+    "rootId": "frig",
+    "root": "frig",
+    "meaning": "to be cold; cold",
+    "scene": "A shivering person stands beside a block of ice and a jar glazed with frost"
+  },
+  {
+    "rootId": "radi",
+    "root": "radi",
+    "meaning": "ray, spoke, staff",
+    "scene": "A person raises a hand toward a sunburst whose rays spread across the plinth"
+  },
+  {
+    "rootId": "ov",
+    "root": "ov",
+    "meaning": "egg",
+    "scene": "A nest of eggs sits on the plinth; one egg is cut to show the yolk, beside an oval shield"
+  },
+  {
+    "rootId": "fam",
+    "root": "fam",
+    "meaning": "report, fame, reputation",
+    "scene": "A herald places a laurel crown on a person standing on a small pedestal"
+  },
+  {
+    "rootId": "sider",
+    "root": "sider",
+    "meaning": "star, constellation; to watch the stars",
+    "scene": "Two people sit chin in hand, looking up at a few stars in the dark above them"
   }
 ]
