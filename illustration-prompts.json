@@ -2421,7 +2421,7 @@
     "rootId": "ultim",
     "root": "ultim",
     "meaning": "last, farthest",
-    "scene": "A last milestone stands at the end of a path beside a spent hourglass"
+    "scene": "A runner dashes toward the last wreath-crowned marker at the end of a path of three stepping stones"
   },
   {
     "rootId": "celer",
@@ -2499,7 +2499,7 @@
     "rootId": "chlor",
     "root": "chlor",
     "meaning": "green, greenish yellow",
-    "scene": "A huge green leaf rises from the plinth beside a flask of green liquid and green crystals"
+    "scene": "A huge green leaf rises beside a dish of green crystals and a classical green-glass bottle"
   },
   {
     "rootId": "dram",
@@ -2541,7 +2541,7 @@
     "rootId": "pharm",
     "root": "pharm",
     "meaning": "drug, medicine",
-    "scene": "A pharmacist grinds medicine in a mortar among labelled jars and flasks"
+    "scene": "A pharmacist grinds medicine in a stone mortar beside distinctive medicine vials and a bundle of herbs on a stone bench"
   },
   {
     "rootId": "pneum",
@@ -2559,7 +2559,7 @@
     "rootId": "seism",
     "root": "seism",
     "meaning": "earthquake, shaking",
-    "scene": "The plinth has cracked, columns tilt, and water ripples in a bowl during a quake"
+    "scene": "The plinth has cracked, columns tilt or have fallen, a figure staggers, and water ripples in a bowl"
   },
   {
     "rootId": "stereo",
@@ -2571,13 +2571,13 @@
     "rootId": "therap",
     "root": "therap",
     "meaning": "to attend, to treat, healing",
-    "scene": "One person applies balm and a bandage to another's arm among small medicine pots"
+    "scene": "A reclining patient rests a bandaged leg over a basin while a healer attends"
   },
   {
     "rootId": "tetra",
     "root": "tetra",
     "meaning": "four",
-    "scene": "A four-faced pyramid stands beside a four-legged animal on the plinth"
+    "scene": "Four identical amphorae stand in a two-by-two square while a person presents them"
   },
   {
     "rootId": "sept",
@@ -2589,13 +2589,13 @@
     "rootId": "quint",
     "root": "quint",
     "meaning": "five, fifth",
-    "scene": "Five people gather around a small glowing flask, a living quintet"
+    "scene": "Five musicians stand in an open arc around a classical oil lamp, a living quintet"
   },
   {
     "rootId": "sex",
     "root": "sex",
     "meaning": "six",
-    "scene": "Six columns stand under six stars, with a sextant on the floor"
+    "scene": "Six identical columns stand in two rows of three, with one person at the side"
   },
   {
     "rootId": "calor",
@@ -2643,19 +2643,19 @@
     "rootId": "caus",
     "root": "caus",
     "meaning": "cause, reason, legal case",
-    "scene": "A chain of falling dominoes runs across the plinth while a person watches the cause play out"
+    "scene": "A person tips a chain of thick limestone slabs so they fall in sequence"
   },
   {
     "rootId": "fess",
     "root": "fess",
     "meaning": "to confess, to acknowledge",
-    "scene": "A person places a hand on the heart in open declaration while a listener sits facing them"
+    "scene": "A standing speaker places a hand on the heart while a listener sits facing them, a scroll on the floor"
   },
   {
     "rootId": "fict",
     "root": "fict",
     "meaning": "to shape, to invent, to feign",
-    "scene": "A sculptor shapes a lion by hand, with a small doll-like effigy at the feet"
+    "scene": "A sculptor shapes a griffin, with a small effigy, a lump of clay, and a tool at the feet"
   },
   {
     "rootId": "herb",
@@ -2679,7 +2679,7 @@
     "rootId": "radi",
     "root": "radi",
     "meaning": "ray, spoke, staff",
-    "scene": "A person raises a hand toward a sunburst whose rays spread across the plinth"
+    "scene": "A chariot wheel stands upright, its spokes and gold rays spreading from the hub, while a person steadies the rim"
   },
   {
     "rootId": "ov",
@@ -2697,6 +2697,6 @@
     "rootId": "sider",
     "root": "sider",
     "meaning": "star, constellation; to watch the stars",
-    "scene": "Two people sit chin in hand, looking up at a few stars in the dark above them"
+    "scene": "Two people sit considering a solid dark star tablet studded with opaque gold stars and faint constellation lines"
   }
 ]

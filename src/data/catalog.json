@@ -51164,7 +51164,7 @@
     "en": "last, farthest",
     "zh": "最后的、最远的"
    },
-   "originStory": "拉丁语 ultimus 意为「最后的、最远的」，是 ultra（在更远处）的最高级。ultimate 是「最终的」，ultimately 是「归根结底」，ultimatum 是「最后通牒」。penultimate 来自 paene（几乎）+ ultimus，即「倒数第二」。书信里 ultimo 曾表示「上月」。画面：路的尽头立着最后一块里程碑，旁边是一只漏尽的沙漏——一看就是「最后」。",
+   "originStory": "拉丁语 ultimus 意为「最后的、最远的」，是 ultra（在更远处）的最高级。ultimate 是「最终的」，ultimately 是「归根结底」，ultimatum 是「最后通牒」。penultimate 来自 paene（几乎）+ ultimus，即「倒数第二」。书信里 ultimo 曾表示「上月」。画面：跑者冲向路尽头戴着花环的最后一块路标，沿途有三块小石头——一看就是「最后」。",
    "uncertainty": "ultra- 作为前缀尚未单独立条；ultramontane 等词暂不收入，以免与「在更远处」的前缀义相混。沙漏是为了让「最后」一眼可读，略有时代错位。",
    "derivedWords": [
     {
@@ -51203,14 +51203,15 @@
     "zh": "那封信是最后通牒，也是最终的警告。"
    },
    "illustration": {
-    "scene": "A last milestone stands at the end of a path beside a spent hourglass",
+    "scene": "A runner dashes toward the last wreath-crowned marker at the end of a path of three stepping stones",
     "dominantHue": {
      "name": "林绿 forest green",
-     "rationale": "终点路碑下的林绿地"
+     "rationale": "终点路标下的林绿地"
     },
     "props": [
-     "last milestone",
-     "hourglass"
+     "runner",
+     "last wreath-crowned marker",
+     "path stones"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -52234,7 +52235,7 @@
     "en": "green, greenish yellow",
     "zh": "绿色的"
    },
-   "originStory": "希腊语 chlōrós（χλωρός）意为「黄绿色的、嫩绿的」。chlorine 因气体呈黄绿色而得名，chloride 是「氯化物」，chloroform 是「氯仿」，hydrochloric 是「盐酸的」，chlorinate 是「氯化」。chlorophyll 是植物里的「叶绿素」，chloroplast 是「叶绿体」。画面：一片巨大的绿叶立在座上，旁边是绿色晶体与一瓶绿液——一看就是「绿」。",
+   "originStory": "希腊语 chlōrós（χλωρός）意为「黄绿色的、嫩绿的」。chlorine 因气体呈黄绿色而得名，chloride 是「氯化物」，chloroform 是「氯仿」，hydrochloric 是「盐酸的」，chlorinate 是「氯化」。chlorophyll 是植物里的「叶绿素」，chloroplast 是「叶绿体」。画面：一片巨大的绿叶立在座上，旁边是一碟绿色晶体和一只古典绿玻璃瓶——一看就是「绿」。",
    "uncertainty": "试剂瓶的造型略偏现代，为的是让「氯、绿」同时可读。",
    "derivedWords": [
     {
@@ -52278,15 +52279,15 @@
     "zh": "叶绿素让叶子变绿；氯是一种黄绿色气体。"
    },
    "illustration": {
-    "scene": "A huge green leaf rises from the plinth beside a flask of green liquid and green crystals",
+    "scene": "A huge green leaf rises beside a dish of green crystals and a classical green-glass bottle",
     "dominantHue": {
      "name": "青蓝 teal blue",
      "rationale": "绿叶旁的青蓝地面，避免与叶色撞成一片"
     },
     "props": [
      "huge green leaf",
-     "green flask",
-     "crystals"
+     "green crystals",
+     "classical green bottle"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -52815,7 +52816,7 @@
     "en": "drug, medicine",
     "zh": "药"
    },
-   "originStory": "希腊语 phármakon（φάρμακον）意为「药、药剂」，也可指毒药或魔药。pharmacy 是「药房、药剂学」，pharmacist 是「药剂师」，pharmaceutical 是「制药的；药品」。pharmacology 是「药理学」，pharmacopeia / pharmacopoeia 是「药典」。画面：药剂师在研钵里捣药，周围摆着药瓶与药罐——一看就是「药」。",
+   "originStory": "希腊语 phármakon（φάρμακον）意为「药、药剂」，也可指毒药或魔药。pharmacy 是「药房、药剂学」，pharmacist 是「药剂师」，pharmaceutical 是「制药的；药品」。pharmacology 是「药理学」，pharmacopeia / pharmacopoeia 是「药典」。画面：药剂师在石研钵里捣药，石台上摆着药瓶与一束药草——一看就是「药」。",
    "uncertainty": "研钵与药罐也可能被看成厨具，靠药瓶的排列来读「药房」。",
    "derivedWords": [
     {
@@ -52854,14 +52855,16 @@
     "zh": "药剂师对照药典核对了那味药品。"
    },
    "illustration": {
-    "scene": "A pharmacist grinds medicine in a mortar among labelled jars and flasks",
+    "scene": "A pharmacist grinds medicine in a stone mortar beside distinctive medicine vials and a bundle of herbs on a stone bench",
     "dominantHue": {
      "name": "青灰蓝 slate blue",
      "rationale": "药台下的青灰蓝地面"
     },
     "props": [
-     "mortar and pestle",
-     "medicine jars"
+     "stone mortar and pestle",
+     "medicine vials",
+     "herb bundle",
+     "stone bench"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -53059,7 +53062,7 @@
     "en": "earthquake, shaking",
     "zh": "地震、震动"
    },
-   "originStory": "希腊语 seismós（σεισμός）意为「震动、地震」。seismic 是「地震的；震撼的」，seismology 是「地震学」，seismologist 是「地震学家」。seismograph 与 seismogram 是「地震仪」和它画出的「地震谱」，seismometer 是「测震仪」。microseism 是「微震」。画面：底座地面裂开，柱子倾斜，碗里的水在打圈——一看就是「地震」。",
+   "originStory": "希腊语 seismós（σεισμός）意为「震动、地震」。seismic 是「地震的；震撼的」，seismology 是「地震学」，seismologist 是「地震学家」。seismograph 与 seismogram 是「地震仪」和它画出的「地震谱」，seismometer 是「测震仪」。microseism 是「微震」。画面：底座地面裂开，柱子倾斜或倒下，人站立不稳，碗里的水在打圈——一看就是「地震」。",
    "uncertainty": "画面里的鼓是为了让「震动」可听见，略有添笔。",
    "derivedWords": [
     {
@@ -53103,14 +53106,15 @@
     "zh": "地震仪把那次地震波记在一张地震谱上。"
    },
    "illustration": {
-    "scene": "The plinth has cracked, columns tilt, and water ripples in a bowl during a quake",
+    "scene": "The plinth has cracked, columns tilt or have fallen, a figure staggers, and water ripples in a bowl",
     "dominantHue": {
      "name": "岩蓝 slate indigo",
      "rationale": "裂地上的岩蓝地面"
     },
     "props": [
      "cracked floor",
-     "tilting columns",
+     "tilting and fallen columns",
+     "staggering figure",
      "rippling bowl"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
@@ -53222,7 +53226,7 @@
     "en": "to attend, to treat, healing",
     "zh": "照料、治疗"
    },
-   "originStory": "希腊语 therapeía（θεραπεία）意为「侍奉、照料、治疗」。therapy 是「治疗」，therapeutic 是「有疗效的」，therapist 是「治疗师」。chemotherapy 是「化疗」，radiotherapy 是「放疗」，aromatherapy 是「芳香疗法」，hydrotherapy 是「水疗」。画面：一人给同伴的手臂敷药、包扎——一看就是「治疗」。",
+   "originStory": "希腊语 therapeía（θεραπεία）意为「侍奉、照料、治疗」。therapy 是「治疗」，therapeutic 是「有疗效的」，therapist 是「治疗师」。chemotherapy 是「化疗」，radiotherapy 是「放疗」，aromatherapy 是「芳香疗法」，hydrotherapy 是「水疗」。画面：一人斜卧，伤腿搁在盆上包扎，治疗者在旁照料——一看就是「治疗」。",
    "uncertainty": "physiotherapy 已归 phys 条，psychotherapy 已归 psych 条。构图与 oste 的「照料伤处」接近，靠药瓶与药膏来区分。",
    "derivedWords": [
     {
@@ -53266,15 +53270,16 @@
     "zh": "治疗师选择了温和的治疗性按摩，而不是化疗。"
    },
    "illustration": {
-    "scene": "One person applies balm and a bandage to another's arm among small medicine pots",
+    "scene": "A reclining patient rests a bandaged leg over a basin while a healer attends",
     "dominantHue": {
      "name": "堇青 violet blue",
      "rationale": "疗伤场景下的堇青地面"
     },
     "props": [
-     "balm",
+     "reclining patient",
+     "basin",
      "bandage",
-     "medicine pots"
+     "healer"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -53306,7 +53311,7 @@
     "en": "four",
     "zh": "四"
    },
-   "originStory": "希腊语 téttares 意为「四」，词根常作 tetra-。tetrahedron 是「四面体」，tetragon 是「四边形」，tetrapod 是「四足动物」，tetralogy 是「四部曲」。tetrarch 是「四分领主」，tetrameter 是「四音步诗行」，tetracycline 是有四个环的「四环素」。画面：一座四面的金字塔立在座上，旁边站着一只四足的动物——一看就是「四」。",
+   "originStory": "希腊语 téttares 意为「四」，词根常作 tetra-。tetrahedron 是「四面体」，tetragon 是「四边形」，tetrapod 是「四足动物」，tetralogy 是「四部曲」。tetrarch 是「四分领主」，tetrameter 是「四音步诗行」，tetracycline 是有四个环的「四环素」。画面：四只一模一样的陶罐排成两行，一人在旁展示——一看就是「四」。",
    "uncertainty": "金字塔更易被看成埃及，四面不如正四面体那么一目了然，故列为 borderline。",
    "derivedWords": [
     {
@@ -53350,14 +53355,14 @@
     "zh": "四足动物有四条腿；四面体有四个面。"
    },
    "illustration": {
-    "scene": "A four-faced pyramid stands beside a four-legged animal on the plinth",
+    "scene": "Four identical amphorae stand in a two-by-two square while a person presents them",
     "dominantHue": {
      "name": "暗堇 dusky violet",
-     "rationale": "金字塔下的暗堇地面"
+     "rationale": "四只陶罐下的暗堇地面"
     },
     "props": [
-     "pyramid",
-     "four-legged animal"
+     "four identical amphorae",
+     "presenting figure"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -53470,7 +53475,7 @@
     "en": "five, fifth",
     "zh": "五、第五"
    },
-   "originStory": "拉丁语 quīnque 意为「五」，quīntus 是「第五」。quintet 是「五重奏、五人组」，quintuple 是「五倍的」，quintuplets 是「五胞胎」。quintessence 来自 quinta essentia，即「第五本质」，原指比四大元素更精纯的天界物质，后指「精髓」。quintessential 是「典型的、精髓的」。quintile 是「五分位数」。画面：五个人围在一盏灯旁，像一支小小的五重奏——一看就是「五」。",
+   "originStory": "拉丁语 quīnque 意为「五」，quīntus 是「第五」。quintet 是「五重奏、五人组」，quintuple 是「五倍的」，quintuplets 是「五胞胎」。quintessence 来自 quinta essentia，即「第五本质」，原指比四大元素更精纯的天界物质，后指「精髓」。quintessential 是「典型的、精髓的」。quintile 是「五分位数」。画面：五位乐手围成一弧，面前是一盏古典油灯——一看就是「五」。",
    "uncertainty": "quinquennial 已归 ann 条。与已有的希腊语 pent（五）并列，本条收拉丁语家族。画面中的小瓶略偏现代。",
    "derivedWords": [
     {
@@ -53509,14 +53514,14 @@
     "zh": "那支五重奏是室内乐的精髓。"
    },
    "illustration": {
-    "scene": "Five people gather around a small glowing flask, a living quintet",
+    "scene": "Five musicians stand in an open arc around a classical oil lamp, a living quintet",
     "dominantHue": {
      "name": "淡紫 pale violet",
-     "rationale": "五人围灯下的淡紫地面"
+     "rationale": "五人乐手下的淡紫地面"
     },
     "props": [
-     "five figures",
-     "glowing flask"
+     "five musicians",
+     "classical oil lamp"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -53549,7 +53554,7 @@
     "en": "six",
     "zh": "六"
    },
-   "originStory": "拉丁语 sex 意为「六」，sextus 是「第六」。sextet 是「六重奏」，sextuple 是「六倍的」，sextant 是把圆周分成六分之一的「六分仪」，sextile 是「六十度的星位相」。sexagenarian 是「六十多岁的人」。semester 来自 sex + mensis（月），本是「六个月」，后指定期学期；semestral 是「一学期的」。画面：六根柱子上各自一颗星，地上放着六分仪——一看就是「六」。",
+   "originStory": "拉丁语 sex 意为「六」，sextus 是「第六」。sextet 是「六重奏」，sextuple 是「六倍的」，sextant 是把圆周分成六分之一的「六分仪」，sextile 是「六十度的星位相」。sexagenarian 是「六十多岁的人」。semester 来自 sex + mensis（月），本是「六个月」，后指定期学期；semestral 是「一学期的」。画面：六根一模一样的柱子排成两行，旁边站着一个人——一看就是「六」。",
    "uncertainty": "英语 sex（性别、性）来自 sexus，可能与 secāre（切开）有关，与「六」不是同一词，本条不收。semester 虽含 mensis，但不归 mens 条（mens 是「测量」）。与已有的希腊语 hex（六）并列。搜索 sex 会因本条 id 打开「六」这张卡。",
    "derivedWords": [
     {
@@ -53593,15 +53598,14 @@
     "zh": "这支六重奏每个学期都聚一次，终曲里用六分仪来导航。"
    },
    "illustration": {
-    "scene": "Six columns stand under six stars, with a sextant on the floor",
+    "scene": "Six identical columns stand in two rows of three, with one person at the side",
     "dominantHue": {
      "name": "堇紫 iris violet",
      "rationale": "六柱下的堇紫地面"
     },
     "props": [
-     "six columns",
-     "six stars",
-     "sextant"
+     "six identical columns",
+     "standing figure"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -54238,7 +54242,7 @@
     "en": "cause, reason, legal case",
     "zh": "原因、理由、案件"
    },
-   "originStory": "拉丁语 causa 意为「原因、理由、诉讼」。cause 是「原因；事业」，because 是 by + cause「因为」。causation 是「因果关系」，causal 是「原因的」，causality 是「因果性」，causative 是「使役的」。accuse 来自 ad- + causa：把一件「案子」加到某人头上，即「控告」；accusation 是「指控」。excuse 来自 ex- + causa：从案子里开脱，即「原谅、借口」；excusable 是「可原谅的」。画面：一列多米诺骨牌依次倒下，一人在旁看着这串因果——一看就是「原因」。",
+   "originStory": "拉丁语 causa 意为「原因、理由、诉讼」。cause 是「原因；事业」，because 是 by + cause「因为」。causation 是「因果关系」，causal 是「原因的」，causality 是「因果性」，causative 是「使役的」。accuse 来自 ad- + causa：把一件「案子」加到某人头上，即「控告」；accusation 是「指控」。excuse 来自 ex- + causa：从案子里开脱，即「原谅、借口」；excusable 是「可原谅的」。画面：一人推倒一列厚石板，石板依次倒下——一看就是「原因」。",
    "uncertainty": "多米诺是为了让抽象的「因果」可看，略偏现代。",
    "derivedWords": [
     {
@@ -54297,14 +54301,14 @@
     "zh": "正因为那个原因，这一指控是可原谅的，并不残忍。"
    },
    "illustration": {
-    "scene": "A chain of falling dominoes runs across the plinth while a person watches the cause play out",
+    "scene": "A person tips a chain of thick limestone slabs so they fall in sequence",
     "dominantHue": {
      "name": "丁香 lilac",
-     "rationale": "骨牌下的丁香色地面"
+     "rationale": "石板连锁下的丁香色地面"
     },
     "props": [
-     "domino chain",
-     "watching figure"
+     "limestone slab chain",
+     "tipping figure"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -54335,7 +54339,7 @@
     "en": "to confess, to acknowledge",
     "zh": "承认、表白"
    },
-   "originStory": "拉丁语 fatērī 意为「承认、表白」，过去分词 confessus（来自 con- + fatērī）。confess 是「坦白、忏悔」，confession 是「供认、告解」，confessor 是「忏悔神父；告白者」。profess 是「公开声称」，profession 是「职业；声明」，professor 是「教授」（公开讲授的人），professional 是「专业的」。画面：一人把右手放在心口立誓表白，对面坐着一位倾听者——一看就是「承认、表白」。",
+   "originStory": "拉丁语 fatērī 意为「承认、表白」，过去分词 confessus（来自 con- + fatērī）。confess 是「坦白、忏悔」，confession 是「供认、告解」，confessor 是「忏悔神父；告白者」。profess 是「公开声称」，profession 是「职业；声明」，professor 是「教授」（公开讲授的人），professional 是「专业的」。画面：一人把手放在心口立誓表白，对面坐着一位倾听者，地上放着一卷轴——一看就是「承认、表白」。",
    "uncertainty": "preface、fate 来自 fārī / fātum（言说、命运），与 fatērī 是远亲，本条不收。构图与 prec（祈祷）接近，靠「手按心口的表白」来区分。",
    "derivedWords": [
     {
@@ -54379,14 +54383,15 @@
     "zh": "那位教授会承认，是这个职业塑造了他。"
    },
    "illustration": {
-    "scene": "A person places a hand on the heart in open declaration while a listener sits facing them",
+    "scene": "A standing speaker places a hand on the heart while a listener sits facing them, a scroll on the floor",
     "dominantHue": {
      "name": "玫瑰灰 dusty rose",
      "rationale": "表白场景下的玫瑰灰地面"
     },
     "props": [
      "hand on heart",
-     "listener"
+     "seated listener",
+     "scroll"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -54420,7 +54425,7 @@
     "en": "to shape, to invent, to feign",
     "zh": "塑造、虚构"
    },
-   "originStory": "拉丁语 fingere 意为「塑造、捏造」，过去分词 fictus。fiction 是「小说、虚构」，fictional 是「虚构的」，fictitious 是「假想的」，fictive 是「虚构的」。figment 是「臆造之物」，feign 是「佯装」，effigy 是「模拟像」。figure 原是「被塑出的形状」，后也指「人像、数字」。画面：匠人正在塑造一头狮子，脚边还放着一个小人偶——一看就是「塑造、虚构」。",
+   "originStory": "拉丁语 fingere 意为「塑造、捏造」，过去分词 fictus。fiction 是「小说、虚构」，fictional 是「虚构的」，fictitious 是「假想的」，fictive 是「虚构的」。figment 是「臆造之物」，feign 是「佯装」，effigy 是「模拟像」。figure 原是「被塑出的形状」，后也指「人像、数字」。画面：匠人正在塑造一只狮身鹰翼的格里芬，脚边放着小人偶与泥团——一看就是「塑造、虚构」。",
    "uncertainty": "不把 fig 收作异形（fix 条已占用）。configuration、transfigure 同出 fingere，暂不收录，以免与 fig 混淆。狮子不是典型的「虚构生物」，列为 borderline。",
    "derivedWords": [
     {
@@ -54469,14 +54474,14 @@
     "zh": "那篇小说是臆造，那尊模拟像却有人的形状。"
    },
    "illustration": {
-    "scene": "A sculptor shapes a lion by hand, with a small doll-like effigy at the feet",
+    "scene": "A sculptor shapes a griffin, with a small effigy, a lump of clay, and a tool at the feet",
     "dominantHue": {
      "name": "暗玫瑰 deep rose",
-     "rationale": "塑像前的暗玫瑰地面"
+     "rationale": "塑造格里芬前的暗玫瑰地面"
     },
     "props": [
      "sculptor",
-     "lion being shaped",
+     "griffin being shaped",
      "effigy"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
@@ -54763,7 +54768,7 @@
     "en": "ray, spoke, staff",
     "zh": "光线、辐条"
    },
-   "originStory": "拉丁语 radius 意为「光线、车轮的辐条、杖」。radius 在几何里是「半径」，radial 是「放射状的」。radiate 是「辐射、散发」，radiant 是「光辉的」，radiator 是「散热器」，irradiate 是「照射」。radio 本是「无线电」，由「辐射的电波」而来。radiation 等词已归 rad 条，本条不挪。画面：一人举手迎向一团放射的阳光，光线呈辐射状铺开——一看就是「光线、放射」。",
+   "originStory": "拉丁语 radius 意为「光线、车轮的辐条、杖」。radius 在几何里是「半径」，radial 是「放射状的」。radiate 是「辐射、散发」，radiant 是「光辉的」，radiator 是「散热器」，irradiate 是「照射」。radio 本是「无线电」，由「辐射的电波」而来。radiation 等词已归 rad 条，本条不挪。画面：一只立着的车轮，辐条分明，轮毂射出金线，一人扶着轮缘——一看就是「辐条、光线」。",
    "uncertainty": "radiation、radioactive、radiology、radical 已归 rad 条（本义是「根」radix，这几词的归属并不理想，但按归属规则不予挪走）。不把 rad 收作异形。画面没有画出车轮辐条，列为 borderline。",
    "derivedWords": [
     {
@@ -54807,15 +54812,15 @@
     "zh": "那辉煌的太阳仿佛沿着每一条半径向外辐射。"
    },
    "illustration": {
-    "scene": "A person raises a hand toward a sunburst whose rays spread across the plinth",
+    "scene": "A chariot wheel stands upright, its spokes and gold rays spreading from the hub, while a person steadies the rim",
     "dominantHue": {
      "name": "淡蔷薇 pale rose",
-     "rationale": "辐射光下的淡蔷薇地面"
+     "rationale": "车轮下的淡蔷薇地面"
     },
     "props": [
-     "sunburst",
-     "spreading rays",
-     "raised hand"
+     "chariot wheel",
+     "spokes",
+     "gold rays from the hub"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
@@ -55023,7 +55028,7 @@
     "en": "star, constellation; to watch the stars",
     "zh": "星宿；观星"
    },
-   "originStory": "拉丁语 sīdus（属格 sīderis）意为「星、星宿」。sidereal 是「恒星的、星辰的」。consider 来自 con- + sīdus，原是「仔细观星」，后指「考虑」；considerable 是「相当大的」，consideration 是「考虑、体谅」。desire 传统上追溯到 dē- + sīdus：感到星辰远离，即「渴望」；desirable 是「值得渴望的」，desideratum 是「渴望得到之物」，undesirable 是「不受欢迎的」。画面：两人手托下巴坐着，抬头端详天上的几颗星——一看就是「观星、考虑」。",
+   "originStory": "拉丁语 sīdus（属格 sīderis）意为「星、星宿」。sidereal 是「恒星的、星辰的」。consider 来自 con- + sīdus，原是「仔细观星」，后指「考虑」；considerable 是「相当大的」，consideration 是「考虑、体谅」。desire 传统上追溯到 dē- + sīdus：感到星辰远离，即「渴望」；desirable 是「值得渴望的」，desideratum 是「渴望得到之物」，undesirable 是「不受欢迎的」。画面：两人手托下巴坐着，端详一块深色星图碑，碑上镶着不透明的金色星点，其间有淡淡的星座连线——一看就是「星、观星」。",
    "uncertainty": "desire 是否一定来自 sīdus 仍有讨论，故事里用「传统上追溯」。reside、president 已归 sed 条（坐），故不把 sid 收作异形。星空光晕在深色底上会留下淡奶油边，列为 borderline。",
    "derivedWords": [
     {
@@ -55072,14 +55077,15 @@
     "zh": "经过长久考虑，他们最渴望的是一张星图。"
    },
    "illustration": {
-    "scene": "Two people sit chin in hand, looking up at a few stars in the dark above them",
+    "scene": "Two people sit considering a solid dark star tablet studded with opaque gold stars and faint constellation lines",
     "dominantHue": {
      "name": "尘粉 dusty pink",
-     "rationale": "观星人坐下的尘粉地面"
+     "rationale": "星图碑下的尘粉地面"
     },
     "props": [
-     "two thoughtful sitters",
-     "stars above"
+     "star tablet",
+     "opaque gold stars",
+     "two thoughtful sitters"
     ],
     "style": "isometric microworld diorama on a cut-away plinth (visible strata), soft studio light, transparent background with a soft contact shadow"
    },
