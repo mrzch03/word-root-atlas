@@ -142,3 +142,7 @@ Ranks 301–350 keep the same floor. The colour is a muted mid-chroma block, rea
 ## v12 — four hundred cards, transparent
 
 Ranks 351–400 are the first cards cut onto alpha. The cream behind the plinth is gone; the plinth, its pale bottom stratum and every light prop stay opaque, and the soft contact shadow is kept as a dark multiplicative layer (#14110E, alpha ≈ 1 − brightness ratio), so it reads as a shadow on cream, on a light page and on the warm near-black. Smoke, glows and pale props above the plinth's top edge are unmixed against the cream, never darkened. A muted floor meets the cream with a sharp edge, while a shadow fades softly; the cutout uses that gradient to keep low-chroma floors from leaking into the shadow. The generator collapsed several requested floors onto the same slate blue, sage and mauve, so the floor colour of each card was shifted in OKLab (shading kept) to an even spread over the non-brown hues, with three alternating lightness steps between neighbours.
+
+## v13 — four hundred and fifty cards
+
+Ranks 401–450 keep the transparent cut: the cream behind the plinth is gone, the contact shadow stays a dark multiplicative layer, and each floor was shifted in OKLab to a hue spread 130.6°→20.6° (a half-step offset from the 351–400 ramp) so neighbouring cards do not collapse onto the same sage, slate or mauve. A few night-sky cards (stell, sider) still show a faint cream halo around the glow when they sit on a dark page — an accepted borderline, not a reason to darken the glow itself.

@@ -13,11 +13,11 @@ const authored = illustrated.filter((root) => !batchIllustrated.has(root.id));
 const batch = illustrated.filter((root) => batchIllustrated.has(root.id));
 
 describe('dataset', () => {
-  it('ships 400 roots, all illustrated, with the original 42 still fully written', () => {
-    expect(roots.length).toBe(400);
-    expect(illustrated).toHaveLength(400);
+  it('ships 450 roots, all illustrated, with the original 42 still fully written', () => {
+    expect(roots.length).toBe(450);
+    expect(illustrated).toHaveLength(450);
     expect(authored).toHaveLength(42);
-    expect(batch).toHaveLength(358);
+    expect(batch).toHaveLength(408);
     expect(cream).toHaveLength(0);
     const words = roots.flatMap((root) => root.words.map((word) => word.word.toLowerCase()));
     expect(words.length).toBeGreaterThanOrEqual(300);
@@ -230,6 +230,38 @@ describe('lookup', () => {
     expect(lookup('xenophobia')).toMatchObject({ kind: 'word', hit: { root: { id: 'phob' } } });
     expect(lookup('mnemonic')).toMatchObject({ kind: 'word', hit: { word: 'mnemonic', root: { id: 'mem' } } });
     expect(lookup('mnemonics')).toMatchObject({ kind: 'word', hit: { word: 'mnemonics', root: { id: 'mnem' } } });
+
+    // Ranks 401–450. Compounds already kept by an earlier root stay there.
+    expect(lookup('census')).toMatchObject({ kind: 'word', hit: { word: 'census', root: { id: 'cens' } } });
+    expect(lookup('accelerate')).toMatchObject({ kind: 'word', hit: { word: 'accelerate', root: { id: 'celer' } } });
+    expect(lookup('debt')).toMatchObject({ kind: 'word', hit: { word: 'debt', root: { id: 'deb' } } });
+    expect(lookup('due')).toMatchObject({ kind: 'word', hit: { word: 'due', root: { id: 'deb' } } });
+    expect(lookup('copy')).toMatchObject({ kind: 'word', hit: { word: 'copy', root: { id: 'copi' } } });
+    expect(lookup('helicopter')).toMatchObject({ kind: 'word', hit: { word: 'helicopter', root: { id: 'pter' } } });
+    expect(lookup('semester')).toMatchObject({ kind: 'word', hit: { word: 'semester', root: { id: 'sex' } } });
+    expect(lookup('because')).toMatchObject({ kind: 'word', hit: { word: 'because', root: { id: 'caus' } } });
+    expect(lookup('professor')).toMatchObject({ kind: 'word', hit: { word: 'professor', root: { id: 'fess' } } });
+    expect(lookup('fiction')).toMatchObject({ kind: 'word', hit: { word: 'fiction', root: { id: 'fict' } } });
+    expect(lookup('consider')).toMatchObject({ kind: 'word', hit: { word: 'consider', root: { id: 'sider' } } });
+    expect(lookup('desire')).toMatchObject({ kind: 'word', hit: { word: 'desire', root: { id: 'sider' } } });
+    expect(lookup('author')).toMatchObject({ kind: 'word', hit: { word: 'author', root: { id: 'aug' } } });
+    expect(lookup('calorie')).toMatchObject({ kind: 'word', hit: { word: 'calorie', root: { id: 'calor' } } });
+    expect(lookup('identity')).toMatchObject({ kind: 'word', hit: { word: 'identity', root: { id: 'ident' } } });
+    expect(lookup('radiate')).toMatchObject({ kind: 'word', hit: { word: 'radiate', root: { id: 'radi' } } });
+    expect(lookup('barometer')).toMatchObject({ kind: 'word', hit: { root: { id: 'meter' } } });
+    expect(lookup('baritone')).toMatchObject({ kind: 'word', hit: { root: { id: 'ton' } } });
+    expect(lookup('escalator')).toMatchObject({ kind: 'word', hit: { root: { id: 'scend' } } });
+    expect(lookup('precious')).toMatchObject({ kind: 'word', hit: { root: { id: 'preci' } } });
+    expect(lookup('archangel')).toMatchObject({ kind: 'word', hit: { root: { id: 'arch' } } });
+    expect(lookup('stereotype')).toMatchObject({ kind: 'word', hit: { root: { id: 'typ' } } });
+    expect(lookup('herbivore')).toMatchObject({ kind: 'word', hit: { root: { id: 'vor' } } });
+    expect(lookup('radiation')).toMatchObject({ kind: 'word', hit: { root: { id: 'rad' } } });
+    expect(lookup('necropolis')).toMatchObject({ kind: 'word', hit: { root: { id: 'poli' } } });
+    expect(lookup('physiotherapy')).toMatchObject({ kind: 'word', hit: { root: { id: 'phys' } } });
+    expect(lookup('macroeconomics')).toMatchObject({ kind: 'word', hit: { root: { id: 'eco' } } });
+    expect(lookup('reside')).toMatchObject({ kind: 'word', hit: { root: { id: 'sed' } } });
+    expect(lookup('fig')).toMatchObject({ kind: 'root', root: { id: 'fix' } });
+    expect(lookup('du')).toMatchObject({ kind: 'root', root: { id: 'du' } });
   });
 
   it('suggests neighbours instead of dying', () => {
